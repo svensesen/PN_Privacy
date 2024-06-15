@@ -1,0 +1,47 @@
+# Places
+p start
+p p0
+p p1
+p p2
+p p3
+p p4
+p p5
+p end
+
+# Transitions
+t s(0) 1
+t x(0) 0.5
+t y(0) 0.5
+t z(0) 0.5
+t a(0) 0.75
+t b(0) 1
+t c(0) 0.25
+t e(0) 1
+
+# Arcs
+a start s(0) 1
+a s(0) p0
+a s(0) p1
+a p0 x(0) 
+a p0 z(0) 
+a p1 y(0) 
+a p1 z(0) 
+a x(0) p3
+a y(0) p2
+a z(0) p3
+a z(0) p2
+a p3 a(0)
+a p3 c(0) 
+a c(0) p5
+a a(0) p4
+a p4 b(0) 
+a b(0) p5
+a p2 e(0) 
+a p5 e(0) 
+a e(0) end 
+
+# Initial state
+i start 1
+
+# Deadlock states
+d end 1

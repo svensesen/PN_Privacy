@@ -1,0 +1,23 @@
+# x has happend and then t has happened
+
+# Labels
+l i j x y t e
+
+# States
+s q0
+s q1
+s q2
+
+# Arc
+# x, everything but x and everything
+a q0 q1 x
+a q0 q0 -x
+a q1 q2 y
+a q1 q1 -y
+a q2 q2 +
+
+# Initial state
+i q0
+
+# Final states
+f q2

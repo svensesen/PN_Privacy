@@ -1,0 +1,32 @@
+p p0
+p p1
+p p2
+p pyes
+p pno
+
+t top1(0)    0.66666
+t top2(0)    0.33333
+t p1yes(0)   0.25
+t p1no(0)    0.75
+t p2no(0)    1
+t noback(0) 1
+
+a p0 top1(0)
+a p0 top2(0)
+a top1(0) p1
+a top2(0) p2
+
+a p1 p1yes(0)
+a p1 p1no(0)
+a p2 p2no(0)
+
+a p1yes(0) pyes
+a p1no(0) pno
+a p2no(0) pno
+
+a pno noback(0)
+a noback(0) p2
+
+i p0 1
+
+d pyes 1

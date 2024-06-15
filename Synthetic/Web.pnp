@@ -1,0 +1,56 @@
+# Places
+p n0
+p n1
+p n2
+p n3
+p n4
+p n5
+p n6
+
+# Transitions
+t A(0) 0.6
+t B(0) 0.2
+t C(0) 0.2
+t D(0) 0.5
+t D(1) 1
+t E(0) 0.5
+t F(0) 0.4
+t F(1) 0.1
+t tau(0) 0.6
+t tau(1) 0.9
+t Z(0) 1
+
+# Arcs
+a n0 A(0)
+a A(0) n5
+a n0 B(0)
+a B(0) n1
+a n0 C(0)
+a C(0) n2
+
+a n1 E(0)
+a E(0) n3
+a n1 D(0)
+a D(0) n4
+
+a n2 D(1)
+a D(1) n4
+
+a n3 F(0)
+a F(0) n5
+a n3 tau(0)
+a tau(0) n5
+
+a n4 F(1)
+a F(1) n5
+a n4 tau(1)
+a tau(1) n5
+
+a n5 Z(0)
+a Z(0) n6
+
+# Initial
+i n0 1
+
+# Deadlock
+d n6 1

@@ -1,0 +1,49 @@
+# Places
+p start
+p p0
+p p1
+p p2
+p p3
+p end0
+p end1
+
+# Transitions
+t i(0) 0.5
+t j(0) 0.5
+t x(0) 0.25
+t x(1) 0.4
+t y(0) 0.75
+t y(1) 0.4
+t t(0) 0.2
+t t(1) 0.75
+t e(0) 1
+t e(1) 0.25
+
+# Arcs
+a start i(0)
+a start j(0)
+a i(0) p1
+a j(0) p0
+a p0 y(0) 
+a p0 x(0)
+a p1 t(0)
+a p1 x(1) 
+a p1 y(1)
+a x(0) p2
+a x(1) p2
+a y(0) p3
+a y(1) p3
+a p2 t(1) 
+a p2 e(1)
+a p3 e(0)
+a t(0) end0
+a t(1) end0
+a e(0) end1
+a e(1) end1
+
+# Initial state
+i start 1
+
+# Dealock states
+d end0 1
+d end1 1
