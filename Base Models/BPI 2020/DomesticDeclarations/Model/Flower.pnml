@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imported_1713189274.86892" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imported_1713189274.86892</text>
+    </name>
+    <page id="n0">
+      <place id="start">
+        <name>
+          <text>start</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="pistil">
+        <name>
+          <text>pistil</text>
+        </name>
+      </place>
+      <place id="end">
+        <name>
+          <text>end</text>
+        </name>
+      </place>
+      <transition id="Declaration REJECTED by PRE_APPROVER(0)">
+        <name>
+          <text>Declaration REJECTED by PRE_APPROVER</text>
+        </name>
+      </transition>
+      <transition id="Declaration APPROVED by BUDGET OWNER(0)">
+        <name>
+          <text>Declaration APPROVED by BUDGET OWNER</text>
+        </name>
+      </transition>
+      <transition id="Declaration SUBMITTED by EMPLOYEE(0)">
+        <name>
+          <text>Declaration SUBMITTED by EMPLOYEE</text>
+        </name>
+      </transition>
+      <transition id="Declaration APPROVED by PRE_APPROVER(0)">
+        <name>
+          <text>Declaration APPROVED by PRE_APPROVER</text>
+        </name>
+      </transition>
+      <transition id="Declaration REJECTED by ADMINISTRATION(0)">
+        <name>
+          <text>Declaration REJECTED by ADMINISTRATION</text>
+        </name>
+      </transition>
+      <transition id="Declaration FOR_APPROVAL by PRE_APPROVER(0)">
+        <name>
+          <text>Declaration FOR_APPROVAL by PRE_APPROVER</text>
+        </name>
+      </transition>
+      <transition id="Declaration REJECTED by SUPERVISOR(0)">
+        <name>
+          <text>Declaration REJECTED by SUPERVISOR</text>
+        </name>
+      </transition>
+      <transition id="Declaration REJECTED by EMPLOYEE(0)">
+        <name>
+          <text>Declaration REJECTED by EMPLOYEE</text>
+        </name>
+      </transition>
+      <transition id="Declaration REJECTED by MISSING(0)">
+        <name>
+          <text>Declaration REJECTED by MISSING</text>
+        </name>
+      </transition>
+      <transition id="Request Payment(0)">
+        <name>
+          <text>Request Payment</text>
+        </name>
+      </transition>
+      <transition id="Declaration FINAL_APPROVED by SUPERVISOR(0)">
+        <name>
+          <text>Declaration FINAL_APPROVED by SUPERVISOR</text>
+        </name>
+      </transition>
+      <transition id="tau(0)">
+        <name>
+          <text>tau</text>
+        </name>
+      </transition>
+      <transition id="Declaration APPROVED by ADMINISTRATION(0)">
+        <name>
+          <text>Declaration APPROVED by ADMINISTRATION</text>
+        </name>
+      </transition>
+      <transition id="Declaration SAVED by EMPLOYEE(0)">
+        <name>
+          <text>Declaration SAVED by EMPLOYEE</text>
+        </name>
+      </transition>
+      <transition id="Declaration REJECTED by BUDGET OWNER(0)">
+        <name>
+          <text>Declaration REJECTED by BUDGET OWNER</text>
+        </name>
+      </transition>
+      <transition id="tau(1)">
+        <name>
+          <text>tau</text>
+        </name>
+      </transition>
+      <transition id="Payment Handled(0)">
+        <name>
+          <text>Payment Handled</text>
+        </name>
+      </transition>
+      <transition id="Declaration FOR_APPROVAL by ADMINISTRATION(0)">
+        <name>
+          <text>Declaration FOR_APPROVAL by ADMINISTRATION</text>
+        </name>
+      </transition>
+      <transition id="Declaration FOR_APPROVAL by SUPERVISOR(0)">
+        <name>
+          <text>Declaration FOR_APPROVAL by SUPERVISOR</text>
+        </name>
+      </transition>
+      <arc id="2067169004032" source="pistil" target="Declaration REJECTED by BUDGET OWNER(0)"/>
+      <arc id="2067169004416" source="Declaration REJECTED by PRE_APPROVER(0)" target="pistil"/>
+      <arc id="2067169005184" source="Payment Handled(0)" target="pistil"/>
+      <arc id="2067169003648" source="Declaration FOR_APPROVAL by ADMINISTRATION(0)" target="pistil"/>
+      <arc id="2067169927568" source="Declaration APPROVED by PRE_APPROVER(0)" target="pistil"/>
+      <arc id="2067169929104" source="Declaration REJECTED by MISSING(0)" target="pistil"/>
+      <arc id="2067169928336" source="pistil" target="tau(1)"/>
+      <arc id="2067169005328" source="Declaration REJECTED by EMPLOYEE(0)" target="pistil"/>
+      <arc id="2067169003408" source="pistil" target="Declaration REJECTED by MISSING(0)"/>
+      <arc id="2067169004944" source="pistil" target="Declaration SAVED by EMPLOYEE(0)"/>
+      <arc id="2067169004320" source="Declaration FOR_APPROVAL by SUPERVISOR(0)" target="pistil"/>
+      <arc id="2067169005472" source="pistil" target="Declaration APPROVED by PRE_APPROVER(0)"/>
+      <arc id="2066136171808" source="Declaration REJECTED by SUPERVISOR(0)" target="pistil"/>
+      <arc id="2067169929776" source="pistil" target="Declaration APPROVED by ADMINISTRATION(0)"/>
+      <arc id="2067169929392" source="tau(1)" target="end"/>
+      <arc id="2067169928240" source="start" target="tau(0)"/>
+      <arc id="2067169003456" source="Declaration FINAL_APPROVED by SUPERVISOR(0)" target="pistil"/>
+      <arc id="2067169005376" source="Declaration REJECTED by BUDGET OWNER(0)" target="pistil"/>
+      <arc id="2067169004224" source="pistil" target="Request Payment(0)"/>
+      <arc id="2067169003840" source="Request Payment(0)" target="pistil"/>
+      <arc id="2067169928144" source="Declaration APPROVED by ADMINISTRATION(0)" target="pistil"/>
+      <arc id="2067169928912" source="pistil" target="Payment Handled(0)"/>
+      <arc id="2067169929296" source="tau(0)" target="pistil"/>
+      <arc id="2067169928528" source="pistil" target="Declaration REJECTED by ADMINISTRATION(0)"/>
+      <arc id="2067169929680" source="pistil" target="Declaration FOR_APPROVAL by PRE_APPROVER(0)"/>
+      <arc id="2067169005136" source="pistil" target="Declaration REJECTED by EMPLOYEE(0)"/>
+      <arc id="2067169004368" source="Declaration SAVED by EMPLOYEE(0)" target="pistil"/>
+      <arc id="2067169003744" source="Declaration REJECTED by ADMINISTRATION(0)" target="pistil"/>
+      <arc id="2067169928048" source="Declaration SUBMITTED by EMPLOYEE(0)" target="pistil"/>
+      <arc id="2067169929584" source="pistil" target="Declaration REJECTED by SUPERVISOR(0)"/>
+      <arc id="2067169929200" source="Declaration FOR_APPROVAL by PRE_APPROVER(0)" target="pistil"/>
+      <arc id="2067169928816" source="pistil" target="Declaration FOR_APPROVAL by SUPERVISOR(0)"/>
+      <arc id="2067169927280" source="Declaration APPROVED by BUDGET OWNER(0)" target="pistil"/>
+      <arc id="2067169004656" source="pistil" target="Declaration FOR_APPROVAL by ADMINISTRATION(0)"/>
+      <arc id="2067169005040" source="pistil" target="Declaration APPROVED by BUDGET OWNER(0)"/>
+      <arc id="2067169003504" source="pistil" target="Declaration REJECTED by PRE_APPROVER(0)"/>
+      <arc id="2067169005424" source="pistil" target="Declaration FINAL_APPROVED by SUPERVISOR(0)"/>
+      <arc id="2066136171376" source="pistil" target="Declaration SUBMITTED by EMPLOYEE(0)"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="end">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

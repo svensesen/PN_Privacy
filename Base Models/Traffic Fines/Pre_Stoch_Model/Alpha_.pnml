@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imported_1713189275.2105756" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imported_1713189275.2105756</text>
+    </name>
+    <page id="n0">
+      <place id="n5">
+        <name>
+          <text>([Send Fine],[Insert Fine Notification])</text>
+        </name>
+        <graphics>
+          <position x="194.75" y="119.0" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n7">
+        <name>
+          <text>([Insert Fine Notification],[Receive Result Appeal from Prefecture])</text>
+        </name>
+        <graphics>
+          <position x="282.25" y="109.0" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n2">
+        <name>
+          <text>([Appeal to Judge],[Send for Credit Collection])</text>
+        </name>
+        <graphics>
+          <position x="369.75" y="155.0" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n11">
+        <name>
+          <text>Start</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+        <graphics>
+          <position x="13.5" y="147.0" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n12">
+        <name>
+          <text>End</text>
+        </name>
+        <graphics>
+          <position x="457.25" y="80.0" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n4">
+        <name>
+          <text>([Insert Fine Notification, Create Fine],[Appeal to Judge])</text>
+        </name>
+        <graphics>
+          <position x="282.25" y="163.0" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n8">
+        <name>
+          <text>([Create Fine],[Send Fine])</text>
+        </name>
+        <graphics>
+          <position x="107.25" y="119.5" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n3">
+        <name>
+          <text>([Add penalty],[Send for Credit Collection])</text>
+        </name>
+        <graphics>
+          <position x="369.75" y="127.5" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n10">
+        <name>
+          <text>([Notify Result Appeal to Offender],[Send for Credit Collection])</text>
+        </name>
+        <graphics>
+          <position x="63.5" y="40.0" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n1">
+        <name>
+          <text>([Insert Fine Notification],[Add penalty])</text>
+        </name>
+        <graphics>
+          <position x="282.25" y="136.0" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n9">
+        <name>
+          <text>([Create Fine],[Insert Date Appeal to Prefecture])</text>
+        </name>
+        <graphics>
+          <position x="107.25" y="146.5" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n6">
+        <name>
+          <text>([Receive Result Appeal from Prefecture],[Send for Credit Collection])</text>
+        </name>
+        <graphics>
+          <position x="369.75" y="100.0" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <transition id="n16">
+        <name>
+          <text>Insert Date Appeal to Prefecture</text>
+        </name>
+        <graphics>
+          <position x="151.0" y="143.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n14">
+        <name>
+          <text>Appeal to Judge</text>
+        </name>
+        <graphics>
+          <position x="326.0" y="165.5" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n18">
+        <name>
+          <text>Notify Result Appeal to Offender</text>
+        </name>
+        <graphics>
+          <position x="13.5" y="29.5" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n15">
+        <name>
+          <text>Create Fine</text>
+        </name>
+        <graphics>
+          <position x="63.5" y="147.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n21">
+        <name>
+          <text>Send Appeal to Prefecture</text>
+        </name>
+        <graphics>
+          <position x="13.5" y="99.5" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n13">
+        <name>
+          <text>Add penalty</text>
+        </name>
+        <graphics>
+          <position x="326.0" y="130.5" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n22">
+        <name>
+          <text>Send Fine</text>
+        </name>
+        <graphics>
+          <position x="151.0" y="108.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n17">
+        <name>
+          <text>Insert Fine Notification</text>
+        </name>
+        <graphics>
+          <position x="238.5" y="131.5" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n19">
+        <name>
+          <text>Payment</text>
+        </name>
+        <graphics>
+          <position x="13.5" y="64.5" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n23">
+        <name>
+          <text>Send for Credit Collection</text>
+        </name>
+        <graphics>
+          <position x="413.5" y="120.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n20">
+        <name>
+          <text>Receive Result Appeal from Prefecture</text>
+        </name>
+        <graphics>
+          <position x="326.0" y="95.5" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <arc id="2067171919616" source="n7" target="n20" />
+      <arc id="2067171920000" source="n18" target="n12" />
+      <arc id="2067171921152" source="n17" target="n1" />
+      <arc id="2067171920384" source="n23" target="n12" />
+      <arc id="2067171920768" source="n8" target="n22" />
+      <arc id="2067171921536" source="n18" target="n10" />
+      <arc id="2067169739008" source="n20" target="n12" />
+      <arc id="2067171919520" source="n17" target="n7" />
+      <arc id="2067171919904" source="n13" target="n3" />
+      <arc id="2067171920288" source="n15" target="n8" />
+      <arc id="2067171921056" source="n1" target="n13" />
+      <arc id="2067171920672" source="n5" target="n17" />
+      <arc id="2067171921440" source="n20" target="n6" />
+      <arc id="2067171921824" source="n21" target="n12" />
+      <arc id="2067169738912" source="n3" target="n23" />
+      <arc id="2067171919424" source="n4" target="n14" />
+      <arc id="2067171919808" source="n6" target="n23" />
+      <arc id="2067171920192" source="n22" target="n5" />
+      <arc id="2067171920960" source="n15" target="n4" />
+      <arc id="2067171920576" source="n14" target="n12" />
+      <arc id="2067171921344" source="n9" target="n16" />
+      <arc id="2067171921728" source="n15" target="n9" />
+      <arc id="2067169738816" source="n19" target="n12" />
+      <arc id="2067171919712" source="n22" target="n12" />
+      <arc id="2067171920096" source="n17" target="n4" />
+      <arc id="2067171920864" source="n10" target="n23" />
+      <arc id="2067171920480" source="n14" target="n2" />
+      <arc id="2067171921248" source="n11" target="n15" />
+      <arc id="2067171921632" source="n2" target="n23" />
+    </page>
+    </net>
+<finalmarkings>
+      <marking>
+        <place idref="n12">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </pnml>

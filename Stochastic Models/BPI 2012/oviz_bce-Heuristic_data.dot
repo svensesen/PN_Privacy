@@ -1,0 +1,276 @@
+digraph G { 
+ranksep=".3"; fontsize="14"; remincross=true; margin="0.0,0.0"; fontname="Arial";rankdir="LR";
+edge [arrowsize="0.5"];
+node [height=".2",width=".2",fontname="Arial",fontsize="14"];
+ratio=0.4;
+id1 [shape="box",margin="0, 0.1",label="W_Nabellen incomplete dossiers\n\n1",style="filled"];
+id2 [shape="box",margin="0, 0.1",label="O_SENT\n\n1",style="filled"];
+id3 [shape="box",margin="0, 0.1",label="W_Afhandelen leads\n\n1",style="filled"];
+id4 [shape="box",margin="0, 0.1",label="A_ACCEPTED\n\n1",style="filled"];
+id5 [shape="box",margin="0, 0.1",color="black",fontcolor="white",label="n99\n\n0,167",style="filled"];
+id6 [shape="box",margin="0, 0.1",color="black",fontcolor="white",label="n114\n\n1",style="filled"];
+id7 [shape="box",margin="0, 0.1",color="black",fontcolor="white",label="n80\n\n1",style="filled"];
+id8 [shape="box",margin="0, 0.1",color="black",fontcolor="white",label="n82\n\n1",style="filled"];
+id9 [shape="box",margin="0, 0.1",color="black",fontcolor="white",label="n110\n\n0,200",style="filled"];
+id10 [shape="box",margin="0, 0.1",label="W_Beoordelen fraude\n\n1",style="filled"];
+id11 [shape="box",margin="0, 0.1",color="black",fontcolor="white",label="n84\n\n1",style="filled"];
+id12 [shape="box",margin="0, 0.1",color="black",fontcolor="white",label="n106\n\n0,250",style="filled"];
+id13 [shape="box",margin="0, 0.1",color="black",fontcolor="white",label="n86\n\n0,200",style="filled"];
+id14 [shape="box",margin="0, 0.1",label="W_Valideren aanvraag\n\n1",style="filled"];
+id15 [shape="box",margin="0, 0.1",label="W_Nabellen offertes\n\n1",style="filled"];
+id16 [shape="box",margin="0, 0.1",color="black",fontcolor="white",label="n107\n\n0,250",style="filled"];
+id17 [shape="box",margin="0, 0.1",color="black",fontcolor="white",label="n88\n\n0,167",style="filled"];
+id18 [shape="box",margin="0, 0.1",color="black",fontcolor="white",label="n116\n\n0,333",style="filled"];
+id19 [shape="box",margin="0, 0.1",color="black",fontcolor="white",label="n104\n\n0,250",style="filled"];
+id20 [shape="box",margin="0, 0.1",color="black",fontcolor="white",label="n90\n\n0,500",style="filled"];
+id21 [shape="box",margin="0, 0.1",label="A_ACTIVATED\n\n1",style="filled"];
+id22 [shape="box",margin="0, 0.1",color="black",fontcolor="white",label="n76\n\n0,200",style="filled"];
+id23 [shape="box",margin="0, 0.1",label="A_APPROVED\n\n1",style="filled"];
+id24 [shape="box",margin="0, 0.1",color="black",fontcolor="white",label="n112\n\n0,200",style="filled"];
+id25 [shape="box",margin="0, 0.1",color="black",fontcolor="white",label="n94\n\n0,200",style="filled"];
+id26 [shape="box",margin="0, 0.1",label="O_CREATED\n\n1",style="filled"];
+id27 [shape="box",margin="0, 0.1",color="black",fontcolor="white",label="n77\n\n0,200",style="filled"];
+id28 [shape="box",margin="0, 0.1",color="black",fontcolor="white",label="n100\n\n0,167",style="filled"];
+id29 [shape="box",margin="0, 0.1",label="A_SUBMITTED\n\n13087",style="filled"];
+id30 [shape="box",margin="0, 0.1",color="black",fontcolor="white",label="n97\n\n1",style="filled"];
+id31 [shape="box",margin="0, 0.1",color="black",fontcolor="white",label="n101\n\n0,167",style="filled"];
+id32 [shape="box",margin="0, 0.1",color="black",fontcolor="white",label="n98\n\n0,167",style="filled"];
+id33 [shape="box",margin="0, 0.1",color="black",fontcolor="white",label="n87\n\n0,333",style="filled"];
+id34 [shape="box",margin="0, 0.1",color="black",fontcolor="white",label="n91\n\n0,500",style="filled"];
+id35 [shape="box",margin="0, 0.1",color="black",fontcolor="white",label="n75\n\n0,200",style="filled"];
+id36 [shape="box",margin="0, 0.1",color="black",fontcolor="white",label="n103\n\n1",style="filled"];
+id37 [shape="box",margin="0, 0.1",color="black",fontcolor="white",label="n113\n\n0,200",style="filled"];
+id38 [shape="box",margin="0, 0.1",color="black",fontcolor="white",label="n92\n\n0,500",style="filled"];
+id39 [shape="box",margin="0, 0.1",color="black",fontcolor="white",label="n96\n\n0,200",style="filled"];
+id40 [shape="box",margin="0, 0.1",label="O_SENT_BACK\n\n1",style="filled"];
+id41 [shape="box",margin="0, 0.1",color="black",fontcolor="white",label="n89\n\n0,500",style="filled"];
+id42 [shape="box",margin="0, 0.1",color="black",fontcolor="white",label="n81\n\n1",style="filled"];
+id43 [shape="box",margin="0, 0.1",label="W_Completeren aanvraag\n\n1",style="filled"];
+id44 [shape="box",margin="0, 0.1",color="black",fontcolor="white",label="n111\n\n0,200",style="filled"];
+id45 [shape="box",margin="0, 0.1",color="black",fontcolor="white",label="n105\n\n0,250",style="filled"];
+id46 [shape="box",margin="0, 0.1",color="black",fontcolor="white",label="n95\n\n0,200",style="filled"];
+id47 [shape="box",margin="0, 0.1",color="black",fontcolor="white",label="n115\n\n0,500",style="filled"];
+id48 [shape="box",margin="0, 0.1",color="black",fontcolor="white",label="n117\n\n0,333",style="filled"];
+id49 [shape="box",margin="0, 0.1",label="A_CANCELLED\n\n1",style="filled"];
+id50 [shape="box",margin="0, 0.1",label="O_ACCEPTED\n\n1",style="filled"];
+id51 [shape="box",margin="0, 0.1",color="black",fontcolor="white",label="n102\n\n0,167",style="filled"];
+id52 [shape="box",margin="0, 0.1",label="A_PARTLYSUBMITTED\n\n1",style="filled"];
+id53 [shape="box",margin="0, 0.1",label="A_PREACCEPTED\n\n1",style="filled"];
+id54 [shape="box",margin="0, 0.1",color="black",fontcolor="white",label="n73\n\n0,200",style="filled"];
+id55 [shape="box",margin="0, 0.1",label="O_DECLINED\n\n1",style="filled"];
+id56 [shape="box",margin="0, 0.1",label="O_SELECTED\n\n1",style="filled"];
+id57 [shape="box",margin="0, 0.1",color="black",fontcolor="white",label="n120\n\n0,500",style="filled"];
+id58 [shape="box",margin="0, 0.1",color="black",fontcolor="white",label="n93\n\n0,200",style="filled"];
+id59 [shape="box",margin="0, 0.1",label="A_REGISTERED\n\n1",style="filled"];
+id60 [shape="box",margin="0, 0.1",color="black",fontcolor="white",label="n121\n\n0,500",style="filled"];
+id61 [shape="box",margin="0, 0.1",color="black",fontcolor="white",label="n109\n\n0,200",style="filled"];
+id62 [shape="box",margin="0, 0.1",color="black",fontcolor="white",label="n119\n\n0,500",style="filled"];
+id63 [shape="box",margin="0, 0.1",label="O_CANCELLED\n\n1",style="filled"];
+id64 [shape="box",margin="0, 0.1",color="black",fontcolor="white",label="n108\n\n1",style="filled"];
+id65 [shape="box",margin="0, 0.1",color="black",fontcolor="white",label="n74\n\n0,200",style="filled"];
+id66 [shape="box",margin="0, 0.1",color="black",fontcolor="white",label="n85\n\n1",style="filled"];
+id67 [shape="box",margin="0, 0.1",color="black",fontcolor="white",label="n83\n\n1",style="filled"];
+id68 [shape="box",margin="0, 0.1",color="black",fontcolor="white",label="n79\n\n1",style="filled"];
+id69 [shape="box",margin="0, 0.1",label="A_FINALIZED\n\n1",style="filled"];
+id70 [shape="box",margin="0, 0.1",label="A_DECLINED\n\n1",style="filled"];
+id71 [shape="box",margin="0, 0.1",color="black",fontcolor="white",label="n118\n\n1",style="filled"];
+id72 [shape="box",margin="0, 0.1",color="black",fontcolor="white",label="n78\n\n1",style="filled"];
+id73 [shape="box",margin="0, 0.1",label="W_Wijzigen contractgegevens\n\n1",style="filled"];
+id74 [shape="circle",label=""];
+id75 [shape="circle",label=""];
+id76 [shape="circle",label=""];
+id77 [shape="circle",label=""];
+id78 [shape="circle",label=""];
+id79 [shape="circle",label=""];
+id80 [shape="circle",label=""];
+id81 [shape="circle",label=""];
+id82 [shape="circle",label=""];
+id83 [shape="circle",label=""];
+id84 [shape="circle",label=""];
+id85 [shape="circle",label=""];
+id86 [shape="circle",label=""];
+id87 [shape="circle",label=""];
+id88 [shape="circle",label=""];
+id89 [shape="circle",label=""];
+id90 [shape="circle",label=""];
+id91 [shape="circle",label=""];
+id92 [shape="circle",label=""];
+id93 [shape="circle",label=""];
+id94 [shape="circle",label=""];
+id95 [shape="circle",label=""];
+id96 [shape="circle",label=""];
+id97 [shape="circle",label=""];
+id98 [shape="circle",label=""];
+id99 [shape="circle",label=""];
+id100 [shape="circle",label=""];
+id101 [shape="circle",label=""];
+id102 [shape="circle",label=""];
+id103 [shape="circle",label=""];
+id104 [shape="circle",label=""];
+id105 [shape="circle",label=""];
+id106 [shape="circle",label=""];
+id107 [shape="circle",label=""];
+id108 [shape="circle",label=""];
+id109 [shape="circle",label=""];
+id110 [shape="circle",label=""];
+id111 [shape="circle",label=""];
+id112 [shape="circle",label=""];
+id113 [shape="circle",label=""];
+id114 [shape="circle",label=""];
+id115 [shape="circle",label=""];
+id116 [shape="circle",label=""];
+id117 [shape="circle",label=""];
+id118 [shape="circle",label=""];
+id119 [shape="circle",label=""];
+id120 [shape="circle",label=""];
+id121 [shape="circle",label=""];
+id100 -> id32
+id77 -> id33
+id113 -> id60
+id61 -> id74
+id47 -> id106
+id17 -> id74
+id105 -> id23
+id95 -> id40
+id51 -> id108
+id67 -> id107
+id7 -> id120
+id65 -> id74
+id34 -> id83
+id24 -> id95
+id10 -> id115
+id88 -> id42
+id119 -> id41
+id70 -> id97
+id32 -> id108
+id77 -> id18
+id58 -> id109
+id57 -> id111
+id69 -> id87
+id18 -> id112
+id100 -> id17
+id82 -> id53
+id84 -> id6
+id91 -> id22
+id38 -> id102
+id110 -> id4
+id68 -> id96
+id27 -> id120
+id40 -> id86
+id75 -> id19
+id111 -> id59
+id56 -> id103
+id49 -> id76
+id66 -> id107
+id120 -> id63
+id91 -> id27
+id32 -> id90
+id85 -> id47
+id91 -> id65
+id100 -> id28
+id6 -> id106
+id86 -> id68
+id102 -> id10
+id46 -> id108
+id42 -> id121
+id12 -> id90
+id116 -> id9
+id96 -> id14
+id107 -> id26
+id73 -> id88
+id94 -> id30
+id77 -> id48
+id43 -> id118
+id118 -> id39
+id60 -> id101
+id113 -> id57
+id35 -> id105
+id116 -> id37
+id30 -> id109
+id3 -> id119
+id109 -> id43
+id75 -> id45
+id116 -> id44
+id48 -> id95
+id90 -> id70
+id11 -> id107
+id33 -> id74
+id72 -> id96
+id31 -> id108
+id103 -> id11
+id22 -> id96
+id55 -> id114
+id62 -> id112
+id99 -> id2
+id119 -> id34
+id71 -> id112
+id106 -> id1
+id112 -> id15
+id52 -> id75
+id19 -> id82
+id28 -> id78
+id92 -> id8
+id8 -> id99
+id87 -> id67
+id13 -> id74
+id16 -> id83
+id115 -> id20
+id100 -> id51
+id5 -> id90
+id91 -> id35
+id83 -> id3
+id117 -> id66
+id118 -> id25
+id53 -> id94
+id78 -> id49
+id81 -> id55
+id9 -> id106
+id20 -> id83
+id41 -> id82
+id91 -> id54
+id36 -> id101
+id118 -> id46
+id59 -> id84
+id23 -> id80
+id118 -> id58
+id21 -> id89
+id80 -> id36
+id54 -> id79
+id79 -> id50
+id76 -> id7
+id121 -> id73
+id45 -> id102
+id118 -> id13
+id85 -> id62
+id114 -> id71
+id100 -> id5
+id98 -> id52
+id39 -> id110
+id37 -> id121
+id63 -> id117
+id89 -> id72
+id64 -> id98
+id29 -> id93
+id93 -> id64
+id75 -> id12
+id108 -> id69
+id104 -> id29
+id101 -> id21
+id4 -> id100
+id115 -> id38
+id2 -> id85
+id116 -> id24
+id50 -> id113
+id75 -> id16
+id116 -> id61
+id51 -> id78
+id1 -> id116
+id25 -> id108
+id100 -> id31
+id14 -> id91
+id26 -> id92
+id44 -> id81
+id74 -> id56
+id15 -> id77
+id25 -> id110
+}

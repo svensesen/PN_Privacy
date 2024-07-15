@@ -1,0 +1,200 @@
+# Places
+p n4
+p n28
+p n6
+p n25
+p n30
+p n21
+p n13
+p n23
+p n24
+p n5
+p n29
+p n34
+p n1
+p n16
+p n15
+p n9
+p n31
+p n19
+p n27
+p n14
+p n18
+p n2
+p n22
+p n20
+p n8
+p n3
+p n12
+p n11
+p n10
+p n26
+p n32
+p n33
+p n7
+p n17
+
+# Transitions
+t n70(0) 1
+t Request█For█Payment█REJECTED█by█SUPERVISOR(0) 1
+t n45(0) 1
+t n36(0) 1
+t Permit█REJECTED█by█EMPLOYEE(0) 1
+t n42(0) 1
+t n39(0) 1
+t Permit█REJECTED█by█PRE_APPROVER(0) 1
+t Permit█FINAL_APPROVED█by█SUPERVISOR(0) 1
+t Permit█APPROVED█by█BUDGET█OWNER(0) 1
+t n61(0) 1
+t n48(0) 1
+t Permit█SUBMITTED█by█EMPLOYEE(0) 1
+t Permit█REJECTED█by█SUPERVISOR(0) 1
+t n56(0) 1
+t n59(0) 1
+t Request█For█Payment█FINAL_APPROVED█by█DIRECTOR(0) 1
+t Request█For█Payment█APPROVED█by█SUPERVISOR(0) 1
+t n50(0) 1
+t n35(0) 1
+t Request█For█Payment█APPROVED█by█PRE_APPROVER(0) 1
+t n47(0) 1
+t Request█For█Payment█APPROVED█by█ADMINISTRATION(0) 1
+t n67(0) 1
+t Request█For█Payment█REJECTED█by█BUDGET█OWNER(0) 1
+t Permit█REJECTED█by█BUDGET█OWNER(0) 1
+t Request█For█Payment█REJECTED█by█MISSING(0) 1
+t n37(0) 1
+t Request█For█Payment█FINAL_APPROVED█by█SUPERVISOR(0) 1
+t Permit█APPROVED█by█ADMINISTRATION(0) 1
+t Request█Payment(0) 1
+t Request█For█Payment█SUBMITTED█by█EMPLOYEE(0) 1
+t n63(0) 1
+t Request█For█Payment█APPROVED█by█BUDGET█OWNER(0) 1
+t Permit█REJECTED█by█ADMINISTRATION(0) 1
+t Request█For█Payment█REJECTED█by█PRE_APPROVER(0) 1
+t Request█For█Payment█SAVED█by█EMPLOYEE(0) 1
+t n65(0) 1
+t Permit█APPROVED█by█SUPERVISOR(0) 1
+t Permit█APPROVED█by█PRE_APPROVER(0) 1
+t Permit█REJECTED█by█MISSING(0) 1
+t Request█For█Payment█REJECTED█by█EMPLOYEE(0) 1
+t n43(0) 1
+t Permit█FINAL_APPROVED█by█DIRECTOR(0) 1
+t n53(0) 1
+t Payment█Handled(0) 1
+t n79(0) 1
+t n51(0) 1
+t Request█For█Payment█REJECTED█by█ADMINISTRATION(0) 1
+
+# Arcs
+a n79(0) n32
+a Permit█REJECTED█by█MISSING(0) n17
+a n50(0) n22
+a n16 Request█For█Payment█REJECTED█by█ADMINISTRATION(0)
+a n70(0) n6
+a n36(0) n3
+a n39(0) n7
+a n15 n42(0)
+a n16 n47(0)
+a Permit█REJECTED█by█ADMINISTRATION(0) n29
+a n43(0) n13
+a Permit█REJECTED█by█BUDGET█OWNER(0) n29
+a Permit█REJECTED█by█SUPERVISOR(0) n29
+a n3 Permit█REJECTED█by█PRE_APPROVER(0)
+a n26 n61(0)
+a n67(0) n15
+a n22 Request█For█Payment█SAVED█by█EMPLOYEE(0)
+a n22 n53(0)
+a Permit█APPROVED█by█SUPERVISOR(0) n27
+a n23 n51(0)
+a n51(0) n18
+a n27 n65(0)
+a Permit█APPROVED█by█ADMINISTRATION(0) n14
+a n13 n42(0)
+a Permit█REJECTED█by█PRE_APPROVER(0) n29
+a n53(0) n23
+a n10 Permit█APPROVED█by█ADMINISTRATION(0)
+a n5 n36(0)
+a n42(0) n11
+a n12 Permit█FINAL_APPROVED█by█SUPERVISOR(0)
+a n29 Permit█REJECTED█by█EMPLOYEE(0)
+a n18 Request█For█Payment█APPROVED█by█SUPERVISOR(0)
+a Request█For█Payment█REJECTED█by█ADMINISTRATION(0) n15
+a n35(0) n10
+a n50(0) n20
+a Permit█FINAL_APPROVED█by█DIRECTOR(0) n15
+a n24 Request█For█Payment█REJECTED█by█MISSING(0)
+a n12 n43(0)
+a n35(0) n4
+a n9 n39(0)
+a Request█Payment(0) n34
+a Permit█FINAL_APPROVED█by█SUPERVISOR(0) n13
+a n8 Permit█SUBMITTED█by█EMPLOYEE(0)
+a n3 Permit█REJECTED█by█SUPERVISOR(0)
+a n3 Permit█REJECTED█by█BUDGET█OWNER(0)
+a Request█For█Payment█REJECTED█by█EMPLOYEE(0) n5
+a n7 n70(0)
+a n48(0) n19
+a Request█For█Payment█REJECTED█by█SUPERVISOR(0) n28
+a Payment█Handled(0) n2
+a n31 Request█For█Payment█APPROVED█by█BUDGET█OWNER(0)
+a Permit█APPROVED█by█ADMINISTRATION(0) n12
+a n31 n79(0)
+a n19 n50(0)
+a n61(0) n17
+a n3 Permit█REJECTED█by█ADMINISTRATION(0)
+a n33 Request█Payment(0)
+a n32 Request█For█Payment█FINAL_APPROVED█by█SUPERVISOR(0)
+a Request█For█Payment█APPROVED█by█ADMINISTRATION(0) n31
+a n24 n59(0)
+a n18 n56(0)
+a Request█For█Payment█REJECTED█by█PRE_APPROVER(0) n6
+a Request█For█Payment█APPROVED█by█SUPERVISOR(0) n25
+a Request█For█Payment█SUBMITTED█by█EMPLOYEE(0) n30
+a n6 n36(0)
+a Permit█APPROVED█by█BUDGET█OWNER(0) n21
+a n28 Permit█FINAL_APPROVED█by█DIRECTOR(0)
+a Request█For█Payment█REJECTED█by█MISSING(0) n26
+a n7 Request█For█Payment█REJECTED█by█PRE_APPROVER(0)
+a n63(0) n27
+a n16 n48(0)
+a Permit█APPROVED█by█PRE_APPROVER(0) n16
+a n11 n39(0)
+a n59(0) n26
+a n35(0) n8
+a n16 Request█For█Payment█APPROVED█by█PRE_APPROVER(0)
+a n17 Permit█APPROVED█by█SUPERVISOR(0)
+a Request█For█Payment█APPROVED█by█BUDGET█OWNER(0) n32
+a Request█For█Payment█FINAL_APPROVED█by█SUPERVISOR(0) n33
+a n4 Request█For█Payment█REJECTED█by█EMPLOYEE(0)
+a n1 n35(0)
+a n45(0) n16
+a n4 n37(0)
+a n65(0) n28
+a n26 Permit█REJECTED█by█MISSING(0)
+a n21 n51(0)
+a Request█For█Payment█APPROVED█by█PRE_APPROVER(0) n18
+a n34 Payment█Handled(0)
+a n20 Permit█APPROVED█by█BUDGET█OWNER(0)
+a n17 n63(0)
+a n14 n45(0)
+a n3 Request█For█Payment█SUBMITTED█by█EMPLOYEE(0)
+a n28 n67(0)
+a Request█For█Payment█SAVED█by█EMPLOYEE(0) n23
+a Request█For█Payment█FINAL_APPROVED█by█DIRECTOR(0) n24
+a n37(0) n5
+a n14 Permit█APPROVED█by█PRE_APPROVER(0)
+a Permit█REJECTED█by█EMPLOYEE(0) n1
+a Request█For█Payment█REJECTED█by█BUDGET█OWNER(0) n19
+a n25 Request█For█Payment█FINAL_APPROVED█by█DIRECTOR(0)
+a n30 Request█For█Payment█APPROVED█by█ADMINISTRATION(0)
+a n56(0) n24
+a n27 Request█For█Payment█REJECTED█by█SUPERVISOR(0)
+a n16 Request█For█Payment█REJECTED█by█BUDGET█OWNER(0)
+a n47(0) n17
+a Permit█SUBMITTED█by█EMPLOYEE(0) n9
+
+# Initial State
+i n1 1
+
+# Deadlock States
+f n2 1

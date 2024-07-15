@@ -1,0 +1,103 @@
+# Places
+p n25
+p n26
+p n27
+p n28
+p n29
+p n30
+p n31
+p n32
+p n33
+p n34
+p n35
+p n36
+p n37
+p n38
+p n39
+p n40
+
+# Transitions
+t tau(0) 0.9998780933804705
+t Declaration_APPROVED_by_ADMINISTRATION(0) 8201.00012190662
+t Declaration_REJECTED_by_PRE_APPROVER(0) 0.06461307287753569
+t Declaration_APPROVED_by_BUDGET_OWNER(0) 2819.000354484225
+t tau(1) 0.010869565217391304
+t tau(2) 1.0
+t Declaration_SUBMITTED_by_EMPLOYEE(0) 1081.0
+t Declaration_REJECTED_by_BUDGET_OWNER(0) 0.9365079365079365
+t tau(3) 0.015873015873015872
+t Payment_Handled(0) 10037.0
+t Request_Payment(0) 10038.0
+t tau(4) 77.20588235294117
+t Declaration_FOR_APPROVAL_by_PRE_APPROVER(0) 0.015873015873015872
+t Declaration_REJECTED_by_ADMINISTRATION(0) 0.7152516904583021
+t Declaration_APPROVED_by_PRE_APPROVER(0) 0.9985422740524781
+t tau(5) 0.0014577259475218659
+t Declaration_REJECTED_by_MISSING(0) 0.9891304347826086
+t Declaration_REJECTED_by_SUPERVISOR(0) 0.2201352366641623
+t Declaration_SAVED_by_EMPLOYEE(0) 10422.79411764706
+t Declaration_FINAL_APPROVED_by_SUPERVISOR(0) 2788.0
+t tau(6) 0.9996455157745481
+t tau(7) 0.015873015873015872
+t Declaration_FOR_APPROVAL_by_SUPERVISOR(0) 0.015873015873015872
+t Declaration_REJECTED_by_EMPLOYEE(0) 1299.0
+t tau(8) 2.0
+
+# Arcs
+a tau(5) n35
+a tau(2) n40
+a n28 tau(6)
+a n32 tau(2)
+a Declaration_FINAL_APPROVED_by_SUPERVISOR(0) n30
+a n27 Declaration_APPROVED_by_ADMINISTRATION(0)
+a n34 Declaration_FINAL_APPROVED_by_SUPERVISOR(0)
+a n36 tau(3)
+a n38 Declaration_SUBMITTED_by_EMPLOYEE(0)
+a n33 Declaration_REJECTED_by_ADMINISTRATION(0)
+a Declaration_REJECTED_by_ADMINISTRATION(0) n37
+a tau(8) n33
+a n33 Declaration_REJECTED_by_SUPERVISOR(0)
+a n27 tau(0)
+a n35 tau(8)
+a Request_Payment(0) n26
+a n36 tau(7)
+a Declaration_REJECTED_by_PRE_APPROVER(0) n37
+a tau(1) n31
+a Declaration_APPROVED_by_PRE_APPROVER(0) n35
+a tau(7) n38
+a Declaration_APPROVED_by_ADMINISTRATION(0) n28
+a n33 Declaration_REJECTED_by_PRE_APPROVER(0)
+a n25 Declaration_APPROVED_by_PRE_APPROVER(0)
+a n25 tau(5)
+a n36 Declaration_REJECTED_by_BUDGET_OWNER(0)
+a Payment_Handled(0) n29
+a Declaration_REJECTED_by_MISSING(0) n31
+a Declaration_REJECTED_by_SUPERVISOR(0) n37
+a n39 tau(4)
+a Declaration_APPROVED_by_BUDGET_OWNER(0) n34
+a tau(6) n34
+a n28 Declaration_APPROVED_by_BUDGET_OWNER(0)
+a n40 Declaration_REJECTED_by_MISSING(0)
+a Declaration_FOR_APPROVAL_by_SUPERVISOR(0) n32
+a Declaration_FOR_APPROVAL_by_PRE_APPROVER(0) n32
+a tau(4) n36
+a tau(0) n34
+a Declaration_SAVED_by_EMPLOYEE(0) n36
+a n39 Declaration_SAVED_by_EMPLOYEE(0)
+a Declaration_REJECTED_by_EMPLOYEE(0) n38
+a tau(2) n25
+a Declaration_SUBMITTED_by_EMPLOYEE(0) n27
+a n37 Declaration_REJECTED_by_EMPLOYEE(0)
+a n26 Payment_Handled(0)
+a Declaration_REJECTED_by_BUDGET_OWNER(0) n32
+a n36 Declaration_FOR_APPROVAL_by_SUPERVISOR(0)
+a n30 Request_Payment(0)
+a n31 tau(8)
+a n36 Declaration_FOR_APPROVAL_by_PRE_APPROVER(0)
+a n40 tau(1)
+a tau(3) n32
+
+# Initial State
+i n39 1
+
+# Deadlock States Not Recorded

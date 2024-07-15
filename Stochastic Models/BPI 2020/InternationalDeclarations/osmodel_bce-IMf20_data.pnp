@@ -1,0 +1,243 @@
+# Places
+p n57
+p n58
+p n59
+p n60
+p n61
+p n62
+p n63
+p n64
+p n65
+p n66
+p n67
+p n68
+p n69
+p n70
+p n71
+p n72
+p n73
+p n74
+p n75
+p n76
+p n77
+p n78
+p n79
+p n80
+p n81
+p n82
+p n83
+p n84
+p n85
+p n86
+p n87
+p n88
+p n89
+p n90
+p n91
+p n92
+p n93
+p n94
+p n95
+p n96
+p n97
+p n98
+p n99
+p n100
+
+# Transitions
+t Start_trip(0) 4206.0
+t tau(0) 0.0016313213703099511
+t Declaration_REJECTED_by_MISSING(0) 0.9903846153846154
+t tau(1) 0.18421052631578946
+t Declaration_APPROVED_by_BUDGET_OWNER(0) 1814.0108991825614
+t tau(2) 0.989100817438692
+t tau(3) 1.0
+t tau(4) 0.001557632398753894
+t Permit_REJECTED_by_BUDGET_OWNER(0) 0.045925925925925926
+t Permit_REJECTED_by_EMPLOYEE(0) 222.0
+t Declaration_REJECTED_by_EMPLOYEE(0) 1.0
+t Permit_APPROVED_by_PRE_APPROVER(0) 0.7911111111111111
+t Permit_SUBMITTED_by_EMPLOYEE(0) 19.0
+t tau(5) 6449.0
+t Declaration_SAVED_by_EMPLOYEE(0) 13.81578947368421
+t tau(6) 0.5
+t Permit_APPROVED_by_ADMINISTRATION(0) 0.9997933884297521
+t tau(7) 1.984914648670107E-4
+t Declaration_REJECTED_by_PRE_APPROVER(0) 0.4846153846153846
+t Permit_APPROVED_by_BUDGET_OWNER(0) 0.9994331065759637
+t tau(8) 0.0014814814814814814
+t tau(9) 0.003952569169960474
+t Payment_Handled(0) 6149.0
+t Permit_REJECTED_by_MISSING(0) 0.9772727272727273
+t Request_Payment(0) 5918.0
+t Declaration_REJECTED_by_SUPERVISOR(0) 0.9921259842519685
+t tau(10) 0.07526881720430108
+t Send_Reminder(0) 2.503846153846154
+t Permit_REJECTED_by_SUPERVISOR(0) 6.924731182795699
+t Declaration_SUBMITTED_by_EMPLOYEE(0) 4591.0
+t Declaration_APPROVED_by_ADMINISTRATION(0) 0.9998015085351329
+t tau(11) 0.009615384615384616
+t tau(12) 0.0038910505836575876
+t tau(13) 0.022727272727272728
+t tau(14) 0.0057692307692307696
+t tau(15) 0.007874015748031496
+t Declaration_FINAL_APPROVED_by_DIRECTOR(0) 0.9960474308300395
+t Permit_REJECTED_by_PRE_APPROVER(0) 0.037037037037037035
+t tau(16) 1.0
+t Declaration_APPROVED_by_PRE_APPROVER(0) 0.99836867862969
+t Permit_FINAL_APPROVED_by_DIRECTOR(0) 0.9984399375975039
+t tau(17) 0.0015600624024961
+t tau(18) 2.0
+t tau(19) 5.668934240362812E-4
+t Permit_REJECTED_by_ADMINISTRATION(0) 0.12296296296296297
+t Declaration_FINAL_APPROVED_by_SUPERVISOR(0) 1746.0
+t End_trip(0) 5784.0
+t tau(20) 5.0
+t tau(21) 0.0057692307692307696
+t Declaration_APPROVED_by_SUPERVISOR(0) 0.9961089494163424
+t tau(22) 0.0014814814814814814
+t Permit_APPROVED_by_SUPERVISOR(0) 0.9984423676012462
+t Permit_FINAL_APPROVED_by_SUPERVISOR(0) 3979.0
+t tau(23) 2.0
+t Declaration_REJECTED_by_ADMINISTRATION(0) 1.0
+t tau(24) 0.5
+t tau(25) 2.0661157024793388E-4
+
+# Arcs
+a tau(3) n64
+a n58 tau(20)
+a Send_Reminder(0) n62
+a Permit_REJECTED_by_SUPERVISOR(0) n87
+a Declaration_REJECTED_by_EMPLOYEE(0) n73
+a n70 tau(21)
+a n62 tau(1)
+a n62 Declaration_SAVED_by_EMPLOYEE(0)
+a n100 tau(6)
+a n63 tau(2)
+a n83 Permit_APPROVED_by_PRE_APPROVER(0)
+a tau(14) n62
+a Permit_REJECTED_by_PRE_APPROVER(0) n87
+a n64 tau(11)
+a n95 tau(10)
+a tau(20) n65
+a n79 Declaration_APPROVED_by_SUPERVISOR(0)
+a n91 tau(17)
+a Permit_APPROVED_by_ADMINISTRATION(0) n96
+a Payment_Handled(0) n71
+a tau(4) n85
+a n98 Permit_FINAL_APPROVED_by_SUPERVISOR(0)
+a tau(17) n70
+a Declaration_REJECTED_by_MISSING(0) n97
+a tau(19) n98
+a Permit_REJECTED_by_MISSING(0) n66
+a Declaration_APPROVED_by_ADMINISTRATION(0) n63
+a tau(23) n80
+a n90 tau(0)
+a n92 Start_trip(0)
+a n77 tau(19)
+a n60 Declaration_REJECTED_by_ADMINISTRATION(0)
+a tau(16) n68
+a n78 tau(18)
+a n57 tau(5)
+a n83 Permit_REJECTED_by_ADMINISTRATION(0)
+a n96 Permit_FINAL_APPROVED_by_SUPERVISOR(0)
+a Permit_REJECTED_by_ADMINISTRATION(0) n87
+a tau(6) n75
+a tau(2) n94
+a n94 Declaration_FINAL_APPROVED_by_SUPERVISOR(0)
+a tau(5) n83
+a n74 Payment_Handled(0)
+a tau(6) n60
+a Permit_FINAL_APPROVED_by_DIRECTOR(0) n70
+a tau(7) n63
+a tau(22) n67
+a tau(11) n97
+a tau(3) n79
+a n69 End_trip(0)
+a tau(9) n58
+a tau(5) n99
+a n86 tau(15)
+a tau(3) n86
+a n82 tau(20)
+a Permit_APPROVED_by_PRE_APPROVER(0) n95
+a tau(5) n81
+a n93 tau(9)
+a tau(13) n66
+a n61 tau(23)
+a Permit_FINAL_APPROVED_by_SUPERVISOR(0) n92
+a Permit_REJECTED_by_EMPLOYEE(0) n67
+a tau(21) n89
+a n90 Declaration_APPROVED_by_PRE_APPROVER(0)
+a tau(3) n90
+a n68 Permit_REJECTED_by_MISSING(0)
+a Request_Payment(0) n74
+a Declaration_APPROVED_by_PRE_APPROVER(0) n82
+a n64 Declaration_REJECTED_by_MISSING(0)
+a n83 Permit_REJECTED_by_BUDGET_OWNER(0)
+a n70 tau(14)
+a Declaration_REJECTED_by_ADMINISTRATION(0) n78
+a n99 Permit_APPROVED_by_ADMINISTRATION(0)
+a n80 Declaration_APPROVED_by_ADMINISTRATION(0)
+a n97 tau(20)
+a n83 tau(22)
+a n70 Send_Reminder(0)
+a tau(24) n84
+a Permit_SUBMITTED_by_EMPLOYEE(0) n77
+a n70 Declaration_REJECTED_by_PRE_APPROVER(0)
+a n88 Declaration_SUBMITTED_by_EMPLOYEE(0)
+a n63 Declaration_APPROVED_by_BUDGET_OWNER(0)
+a n59 Request_Payment(0)
+a tau(18) n84
+a n99 tau(25)
+a tau(8) n95
+a tau(10) n87
+a n65 Permit_SUBMITTED_by_EMPLOYEE(0)
+a n80 tau(7)
+a n72 tau(20)
+a Permit_REJECTED_by_BUDGET_OWNER(0) n87
+a n83 tau(8)
+a n95 Permit_REJECTED_by_SUPERVISOR(0)
+a tau(3) n93
+a n100 tau(24)
+a tau(0) n82
+a n85 Permit_FINAL_APPROVED_by_SUPERVISOR(0)
+a Declaration_FINAL_APPROVED_by_DIRECTOR(0) n58
+a n86 Declaration_REJECTED_by_SUPERVISOR(0)
+a n93 Declaration_FINAL_APPROVED_by_DIRECTOR(0)
+a n83 Permit_REJECTED_by_PRE_APPROVER(0)
+a tau(15) n76
+a End_trip(0) n100
+a n67 tau(16)
+a n84 tau(23)
+a n68 tau(13)
+a n89 tau(3)
+a Start_trip(0) n69
+a Declaration_APPROVED_by_BUDGET_OWNER(0) n94
+a Declaration_APPROVED_by_SUPERVISOR(0) n72
+a n81 Permit_APPROVED_by_SUPERVISOR(0)
+a Declaration_SUBMITTED_by_EMPLOYEE(0) n61
+a Permit_APPROVED_by_SUPERVISOR(0) n85
+a Declaration_FINAL_APPROVED_by_SUPERVISOR(0) n59
+a n79 tau(12)
+a tau(16) n91
+a Permit_APPROVED_by_BUDGET_OWNER(0) n98
+a End_trip(0) n88
+a tau(12) n72
+a n77 Permit_APPROVED_by_BUDGET_OWNER(0)
+a tau(1) n65
+a n87 Permit_REJECTED_by_EMPLOYEE(0)
+a Declaration_REJECTED_by_PRE_APPROVER(0) n89
+a Declaration_SAVED_by_EMPLOYEE(0) n65
+a n66 Permit_SUBMITTED_by_EMPLOYEE(0)
+a n91 Permit_FINAL_APPROVED_by_DIRECTOR(0)
+a n81 tau(4)
+a Declaration_REJECTED_by_SUPERVISOR(0) n76
+a n73 tau(18)
+a tau(25) n96
+a n76 tau(20)
+a n75 Declaration_REJECTED_by_EMPLOYEE(0)
+
+# Initial State
+i n57 1
+
+# Deadlock States Not Recorded

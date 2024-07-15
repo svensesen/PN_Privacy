@@ -1,0 +1,104 @@
+# Places
+p n16
+p n12
+p n6
+p n5
+p n9
+p n4
+p n1
+p n11
+p n8
+p n7
+p n10
+p n14
+p n3
+p n13
+p n2
+p n15
+
+# Transitions
+t Declaration█REJECTED█by█SUPERVISOR(0) 1
+t Declaration█REJECTED█by█PRE_APPROVER(0) 1
+t Declaration█REJECTED█by█MISSING(0) 1
+t n20(0) 1
+t n25(0) 1
+t Payment█Handled(0) 1
+t n28(0) 1
+t n24(0) 1
+t Declaration█APPROVED█by█ADMINISTRATION(0) 1
+t Declaration█SUBMITTED█by█EMPLOYEE(0) 1
+t Declaration█REJECTED█by█BUDGET█OWNER(0) 1
+t Declaration█APPROVED█by█BUDGET█OWNER(0) 1
+t Declaration█FOR_APPROVAL█by█PRE_APPROVER(0) 1
+t Declaration█FINAL_APPROVED█by█SUPERVISOR(0) 1
+t n17(0) 1
+t Declaration█REJECTED█by█EMPLOYEE(0) 1
+t n35(0) 1
+t Declaration█APPROVED█by█PRE_APPROVER(0) 1
+t Declaration█REJECTED█by█ADMINISTRATION(0) 1
+t Declaration█SAVED█by█EMPLOYEE(0) 1
+t Request█Payment(0) 1
+t n26(0) 1
+t Declaration█FOR_APPROVAL█by█SUPERVISOR(0) 1
+t n37(0) 1
+t n19(0) 1
+
+# Arcs
+a n15 Request█Payment(0)
+a n3 n19(0)
+a n24(0) n9
+a Declaration█APPROVED█by█PRE_APPROVER(0) n10
+a Declaration█APPROVED█by█BUDGET█OWNER(0) n13
+a Declaration█REJECTED█by█MISSING(0) n8
+a n25(0) n6
+a n10 n25(0)
+a Declaration█FOR_APPROVAL█by█PRE_APPROVER(0) n5
+a n28(0) n10
+a Declaration█REJECTED█by█PRE_APPROVER(0) n11
+a Request█Payment(0) n16
+a Declaration█REJECTED█by█ADMINISTRATION(0) n11
+a n14 Declaration█APPROVED█by█BUDGET█OWNER(0)
+a Declaration█SUBMITTED█by█EMPLOYEE(0) n12
+a Declaration█FINAL_APPROVED█by█SUPERVISOR(0) n15
+a n1 Declaration█SAVED█by█EMPLOYEE(0)
+a Declaration█FOR_APPROVAL█by█SUPERVISOR(0) n5
+a n12 Declaration█APPROVED█by█ADMINISTRATION(0)
+a n6 Declaration█REJECTED█by█SUPERVISOR(0)
+a Payment█Handled(0) n2
+a n9 n28(0)
+a n37(0) n13
+a n20(0) n5
+a Declaration█APPROVED█by█ADMINISTRATION(0) n14
+a n11 Declaration█REJECTED█by█EMPLOYEE(0)
+a n12 n35(0)
+a n13 Declaration█FINAL_APPROVED█by█SUPERVISOR(0)
+a n35(0) n13
+a n26(0) n8
+a n3 Declaration█REJECTED█by█BUDGET█OWNER(0)
+a n5 n24(0)
+a n14 n37(0)
+a n3 Declaration█FOR_APPROVAL█by█SUPERVISOR(0)
+a n1 n17(0)
+a n17(0) n3
+a n3 n20(0)
+a n7 n26(0)
+a n6 Declaration█REJECTED█by█PRE_APPROVER(0)
+a n3 Declaration█FOR_APPROVAL█by█PRE_APPROVER(0)
+a n4 Declaration█SUBMITTED█by█EMPLOYEE(0)
+a n24(0) n7
+a n8 n25(0)
+a n19(0) n4
+a n16 Payment█Handled(0)
+a Declaration█REJECTED█by█SUPERVISOR(0) n11
+a Declaration█REJECTED█by█EMPLOYEE(0) n4
+a Declaration█REJECTED█by█BUDGET█OWNER(0) n5
+a Declaration█SAVED█by█EMPLOYEE(0) n3
+a n6 Declaration█REJECTED█by█ADMINISTRATION(0)
+a n7 Declaration█REJECTED█by█MISSING(0)
+a n9 Declaration█APPROVED█by█PRE_APPROVER(0)
+
+# Initial State
+i n1 1
+
+# Deadlock States
+f n2 1

@@ -1,0 +1,130 @@
+# Places
+p n31
+p n32
+p n33
+p n34
+p n35
+p n36
+p n37
+p n38
+p n39
+p n40
+p n41
+p n42
+p n43
+p n44
+p n45
+p n46
+p n47
+p n48
+p n49
+p n50
+p n51
+p n52
+
+# Transitions
+t tau(0) 0.0
+t tau(1) 0.0
+t Insert_Fine_Notification(0) 0.0
+t tau(2) 0.0
+t tau(3) 0.0
+t tau(4) 0.0
+t Appeal_to_Judge(0) 0.0
+t tau(5) 0.0
+t tau(6) 0.0
+t tau(7) 0.0
+t Send_Fine(0) 0.0
+t tau(8) 0.0
+t Create_Fine(0) 0.0
+t tau(9) 0.0
+t tau(10) 0.0
+t tau(11) 0.0
+t tau(12) 0.0
+t tau(13) 0.0
+t Notify_Result_Appeal_to_Offender(0) 0.0
+t Insert_Date_Appeal_to_Prefecture(0) 0.0
+t tau(14) 0.0
+t Receive_Result_Appeal_from_Prefecture(0) 0.0
+t Send_Appeal_to_Prefecture(0) 0.0
+t tau(15) 0.0
+t tau(16) 0.0
+t Add_penalty(0) 0.0
+t tau(17) 0.0
+t Send_for_Credit_Collection(0) 0.0
+t Payment(0) 0.0
+t tau(18) 0.0
+t tau(19) 0.0
+
+# Arcs
+a tau(2) n39
+a tau(1) n44
+a Send_Appeal_to_Prefecture(0) n40
+a n31 tau(18)
+a n38 Send_for_Credit_Collection(0)
+a Send_Fine(0) n47
+a Add_penalty(0) n31
+a n42 Notify_Result_Appeal_to_Offender(0)
+a tau(6) n35
+a n37 tau(1)
+a tau(5) n45
+a Appeal_to_Judge(0) n50
+a n45 Add_penalty(0)
+a n34 Create_Fine(0)
+a tau(9) n38
+a n47 tau(7)
+a n41 tau(14)
+a n35 Receive_Result_Appeal_from_Prefecture(0)
+a n52 tau(19)
+a n39 Send_Appeal_to_Prefecture(0)
+a n41 tau(12)
+a n51 tau(16)
+a n46 tau(4)
+a tau(3) n45
+a n37 tau(9)
+a n43 tau(15)
+a tau(0) n44
+a n43 tau(3)
+a tau(3) n32
+a tau(19) n38
+a Insert_Fine_Notification(0) n43
+a n43 tau(10)
+a n36 Send_Fine(0)
+a n49 tau(2)
+a n43 tau(17)
+a tau(12) n36
+a tau(17) n32
+a tau(11) n44
+a n40 tau(6)
+a n50 tau(8)
+a Payment(0) n37
+a Receive_Result_Appeal_from_Prefecture(0) n46
+a n48 Insert_Fine_Notification(0)
+a tau(10) n45
+a tau(10) n33
+a n32 Appeal_to_Judge(0)
+a Notify_Result_Appeal_to_Offender(0) n52
+a Send_for_Credit_Collection(0) n51
+a n33 Insert_Date_Appeal_to_Prefecture(0)
+a tau(17) n33
+a n52 tau(11)
+a Insert_Date_Appeal_to_Prefecture(0) n49
+a tau(7) n48
+a n43 tau(5)
+a tau(14) n44
+a tau(17) n45
+a tau(16) n39
+a tau(13) n36
+a tau(4) n42
+a n50 tau(0)
+a n44 Payment(0)
+a tau(18) n38
+a tau(12) n33
+a Create_Fine(0) n41
+a n41 tau(13)
+a tau(8) n38
+a tau(15) n44
+
+# Initial State
+i n34 1
+
+# Deadlock States Not Recorded

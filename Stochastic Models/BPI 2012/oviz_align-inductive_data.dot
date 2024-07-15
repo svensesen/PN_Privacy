@@ -1,0 +1,140 @@
+digraph G { 
+ranksep=".3"; fontsize="14"; remincross=true; margin="0.0,0.0"; fontname="Arial";rankdir="LR";
+edge [arrowsize="0.5"];
+node [height=".2",width=".2",fontname="Arial",fontsize="14"];
+ratio=0.4;
+id1 [shape="box",label="A_SUBMITTED\n",style="filled"];
+id2 [shape="box",label="A_PARTLYSUBMITTED\n",style="filled"];
+id3 [shape="box",label="W_Afhandelen leads\n",style="filled"];
+id4 [shape="box",label="A_PREACCEPTED\n",style="filled"];
+id5 [shape="box",label="W_Beoordelen fraude\n",style="filled"];
+id6 [shape="box",color="black",fontcolor="white",label="tau from tree\n",style="filled"];
+id7 [shape="box",label="A_ACCEPTED\n",style="filled"];
+id8 [shape="box",label="O_SELECTED\n",style="filled"];
+id9 [shape="box",label="O_DECLINED\n",style="filled"];
+id10 [shape="box",label="A_FINALIZED\n",style="filled"];
+id11 [shape="box",label="A_CANCELLED\n",style="filled"];
+id12 [shape="box",color="black",fontcolor="white",label="tau from tree\n",style="filled"];
+id13 [shape="box",label="O_SENT_BACK\n",style="filled"];
+id14 [shape="box",color="black",fontcolor="white",label="tau from tree\n",style="filled"];
+id15 [shape="box",label="W_Valideren aanvraag\n",style="filled"];
+id16 [shape="box",label="W_Nabellen incomplete dossiers\n",style="filled"];
+id17 [shape="box",color="black",fontcolor="white",label="tau split\n",style="filled"];
+id18 [shape="box",color="black",fontcolor="white",label="tau join\n",style="filled"];
+id19 [shape="box",label="A_ACTIVATED\n",style="filled"];
+id20 [shape="box",label="O_ACCEPTED\n",style="filled"];
+id21 [shape="box",label="A_APPROVED\n",style="filled"];
+id22 [shape="box",label="A_REGISTERED\n",style="filled"];
+id23 [shape="box",color="black",fontcolor="white",label="tau from tree\n",style="filled"];
+id24 [shape="box",label="O_CANCELLED\n",style="filled"];
+id25 [shape="box",label="W_Wijzigen contractgegevens\n",style="filled"];
+id26 [shape="box",color="black",fontcolor="white",label="tau from tree\n",style="filled"];
+id27 [shape="box",color="black",fontcolor="white",label="tau from tree\n",style="filled"];
+id28 [shape="box",color="black",fontcolor="white",label="tau from tree\n",style="filled"];
+id29 [shape="box",color="black",fontcolor="white",label="tau from tree\n",style="filled"];
+id30 [shape="box",label="W_Nabellen offertes\n",style="filled"];
+id31 [shape="box",label="O_CREATED\n",style="filled"];
+id32 [shape="box",label="O_SENT\n",style="filled"];
+id33 [shape="box",label="A_DECLINED\n",style="filled"];
+id34 [shape="box",color="black",fontcolor="white",label="tau start\n",style="filled"];
+id35 [shape="box",label="W_Completeren aanvraag\n",style="filled"];
+id36 [shape="box",color="black",fontcolor="white",label="tau from tree\n",style="filled"];
+id37 [shape="circle",label=""];
+id38 [shape="circle",label=""];
+id39 [shape="circle",label=""];
+id40 [shape="circle",label=""];
+id41 [shape="circle",label=""];
+id42 [shape="circle",label=""];
+id43 [shape="circle",label=""];
+id44 [shape="circle",label=""];
+id45 [shape="circle",label=""];
+id46 [shape="circle",label=""];
+id47 [shape="circle",label=""];
+id48 [shape="circle",label=""];
+id49 [shape="circle",label=""];
+id50 [shape="circle",label=""];
+id51 [shape="circle",label=""];
+id52 [shape="circle",label=""];
+id53 [shape="circle",label=""];
+id54 [shape="circle",label=""];
+id55 [shape="circle",label=""];
+id56 [shape="circle",label=""];
+id22 -> id54
+id55 -> id30
+id30 -> id55
+id44 -> id24
+id6 -> id41
+id36 -> id40
+id17 -> id51
+id55 -> id31
+id40 -> id6
+id1 -> id39
+id40 -> id4
+id44 -> id14
+id49 -> id20
+id41 -> id7
+id53 -> id22
+id56 -> id32
+id43 -> id12
+id16 -> id45
+id46 -> id16
+id51 -> id21
+id25 -> id42
+id50 -> id18
+id44 -> id25
+id10 -> id44
+id28 -> id55
+id21 -> id52
+id3 -> id41
+id48 -> id18
+id9 -> id44
+id12 -> id44
+id38 -> id36
+id33 -> id55
+id38 -> id35
+id40 -> id3
+id32 -> id55
+id18 -> id46
+id11 -> id44
+id52 -> id18
+id44 -> id13
+id7 -> id43
+id17 -> id53
+id23 -> id44
+id14 -> id46
+id19 -> id48
+id40 -> id5
+id45 -> id23
+id43 -> id8
+id15 -> id45
+id55 -> id34
+id44 -> id26
+id43 -> id11
+id5 -> id41
+id27 -> id43
+id34 -> id38
+id47 -> id19
+id55 -> id33
+id35 -> id38
+id8 -> id44
+id2 -> id40
+id54 -> id18
+id39 -> id2
+id24 -> id44
+id29 -> id55
+id42 -> id28
+id4 -> id41
+id31 -> id56
+id26 -> id42
+id13 -> id46
+id20 -> id50
+id43 -> id9
+id41 -> id29
+id46 -> id15
+id42 -> id27
+id17 -> id49
+id43 -> id10
+id45 -> id17
+id17 -> id47
+id37 -> id1
+}

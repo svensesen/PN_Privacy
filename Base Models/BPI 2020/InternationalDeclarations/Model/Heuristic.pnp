@@ -1,0 +1,382 @@
+# Places
+p n66
+p n24
+p n40
+p n4
+p n64
+p n56
+p n29
+p n23
+p n17
+p n33
+p n27
+p n28
+p n35
+p n32
+p n63
+p n39
+p n41
+p n14
+p n43
+p n16
+p n34
+p n19
+p n21
+p n67
+p n6
+p n38
+p n13
+p n3
+p n10
+p n68
+p n11
+p n45
+p n47
+p n42
+p n31
+p n48
+p n7
+p n44
+p n1
+p n61
+p n30
+p n58
+p n12
+p n5
+p n2
+p n26
+p n65
+p n46
+p n22
+p n8
+p n25
+p n52
+p n55
+p n9
+p n15
+p n59
+p n49
+p n18
+p n20
+p n60
+p n53
+p n51
+p n36
+p n50
+p n62
+p n57
+p n37
+p n54
+
+# Transitions
+t n154(0) 1
+t n127(0) 1
+t n169(0) 1
+t n135(0) 1
+t Declaration█REJECTED█by█ADMINISTRATION(0) 1
+t Permit█REJECTED█by█EMPLOYEE(0) 1
+t Permit█REJECTED█by█MISSING(0) 1
+t Permit█REJECTED█by█SUPERVISOR(0) 1
+t n128(0) 1
+t n129(0) 1
+t n104(0) 1
+t n143(0) 1
+t End█trip(0) 1
+t Start█trip(0) 1
+t n106(0) 1
+t n159(0) 1
+t Declaration█REJECTED█by█DIRECTOR(0) 1
+t n153(0) 1
+t n118(0) 1
+t Declaration█FINAL_APPROVED█by█SUPERVISOR(0) 1
+t Send█Reminder(0) 1
+t n120(0) 1
+t n150(0) 1
+t Permit█APPROVED█by█SUPERVISOR(0) 1
+t n146(0) 1
+t n105(0) 1
+t n107(0) 1
+t Permit█REJECTED█by█DIRECTOR(0) 1
+t n116(0) 1
+t Declaration█APPROVED█by█ADMINISTRATION(0) 1
+t Permit█REJECTED█by█ADMINISTRATION(0) 1
+t n166(0) 1
+t n163(0) 1
+t n137(0) 1
+t n144(0) 1
+t n141(0) 1
+t n158(0) 1
+t n139(0) 1
+t n147(0) 1
+t n122(0) 1
+t n108(0) 1
+t Declaration█FINAL_APPROVED█by█DIRECTOR(0) 1
+t n126(0) 1
+t Request█Payment(0) 1
+t Declaration█REJECTED█by█EMPLOYEE(0) 1
+t n113(0) 1
+t n130(0) 1
+t Permit█APPROVED█by█PRE_APPROVER(0) 1
+t n149(0) 1
+t Declaration█SUBMITTED█by█EMPLOYEE(0) 1
+t Permit█SUBMITTED█by█EMPLOYEE(0) 1
+t Permit█REJECTED█by█BUDGET█OWNER(0) 1
+t n152(0) 1
+t n136(0) 1
+t n131(0) 1
+t Declaration█SAVED█by█EMPLOYEE(0) 1
+t n133(0) 1
+t Permit█REJECTED█by█PRE_APPROVER(0) 1
+t n134(0) 1
+t Declaration█APPROVED█by█PRE_APPROVER(0) 1
+t Declaration█REJECTED█by█BUDGET█OWNER(0) 1
+t n160(0) 1
+t n109(0) 1
+t n115(0) 1
+t n165(0) 1
+t n112(0) 1
+t Permit█FINAL_APPROVED█by█SUPERVISOR(0) 1
+t n164(0) 1
+t n114(0) 1
+t n121(0) 1
+t n103(0) 1
+t n157(0) 1
+t n168(0) 1
+t Declaration█APPROVED█by█SUPERVISOR(0) 1
+t Declaration█REJECTED█by█PRE_APPROVER(0) 1
+t n167(0) 1
+t Declaration█REJECTED█by█MISSING(0) 1
+t n145(0) 1
+t Declaration█APPROVED█by█BUDGET█OWNER(0) 1
+t n110(0) 1
+t n140(0) 1
+t Permit█APPROVED█by█BUDGET█OWNER(0) 1
+t n111(0) 1
+t Payment█Handled(0) 1
+t n125(0) 1
+t Permit█APPROVED█by█ADMINISTRATION(0) 1
+t n148(0) 1
+t n161(0) 1
+t n155(0) 1
+t n162(0) 1
+t n151(0) 1
+t n119(0) 1
+t n138(0) 1
+t n124(0) 1
+t Declaration█REJECTED█by█SUPERVISOR(0) 1
+t n123(0) 1
+t n156(0) 1
+t n142(0) 1
+t Permit█FINAL_APPROVED█by█DIRECTOR(0) 1
+t n132(0) 1
+t n117(0) 1
+
+# Arcs
+a n34 n129(0)
+a Declaration█FINAL_APPROVED█by█DIRECTOR(0) n54
+a n37 Payment█Handled(0)
+a n24 n139(0)
+a n31 Declaration█SAVED█by█EMPLOYEE(0)
+a n48 n155(0)
+a n161(0) n55
+a n27 Start█trip(0)
+a n18 n114(0)
+a n64 n136(0)
+a Permit█REJECTED█by█MISSING(0) n12
+a n63 Declaration█REJECTED█by█EMPLOYEE(0)
+a n24 n122(0)
+a Permit█SUBMITTED█by█EMPLOYEE(0) n18
+a n104(0) n1
+a Permit█REJECTED█by█DIRECTOR(0) n8
+a n11 Permit█REJECTED█by█MISSING(0)
+a n40 n143(0)
+a n155(0) n29
+a n65 Permit█APPROVED█by█SUPERVISOR(0)
+a n151(0) n47
+a n50 n161(0)
+a n44 n105(0)
+a n56 n158(0)
+a Declaration█FINAL_APPROVED█by█SUPERVISOR(0) n56
+a n46 n153(0)
+a n14 n107(0)
+a n59 Declaration█REJECTED█by█BUDGET█OWNER(0)
+a Declaration█REJECTED█by█SUPERVISOR(0) n30
+a n18 n116(0)
+a n153(0) n29
+a n129(0) n25
+a n134(0) n33
+a n12 n111(0)
+a n58 n135(0)
+a n166(0) n63
+a n141(0) n17
+a n62 n166(0)
+a Declaration█REJECTED█by█BUDGET█OWNER(0) n60
+a n137(0) n33
+a n51 Declaration█APPROVED█by█SUPERVISOR(0)
+a n110(0) n9
+a n163(0) n63
+a n48 n160(0)
+a n55 Declaration█FINAL_APPROVED█by█SUPERVISOR(0)
+a n66 n167(0)
+a n109(0) n9
+a n18 n112(0)
+a n54 n120(0)
+a Declaration█APPROVED█by█PRE_APPROVER(0) n50
+a n107(0) n9
+a n61 Declaration█REJECTED█by█DIRECTOR(0)
+a n148(0) n15
+a Request█Payment(0) n20
+a n66 n168(0)
+a n160(0) n55
+a Declaration█REJECTED█by█EMPLOYEE(0) n64
+a n121(0) n23
+a n40 n145(0)
+a n158(0) n19
+a n60 n162(0)
+a n30 n165(0)
+a n34 n128(0)
+a n124(0) n27
+a n26 n163(0)
+a n2 n134(0)
+a n142(0) n37
+a n16 n109(0)
+a Declaration█SUBMITTED█by█EMPLOYEE(0) n34
+a Permit█APPROVED█by█ADMINISTRATION(0) n40
+a Declaration█REJECTED█by█DIRECTOR(0) n62
+a n147(0) n1
+a n7 Permit█REJECTED█by█DIRECTOR(0)
+a n10 n119(0)
+a Permit█REJECTED█by█EMPLOYEE(0) n10
+a Permit█APPROVED█by█SUPERVISOR(0) n66
+a n52 n157(0)
+a n52 n156(0)
+a n49 Declaration█APPROVED█by█PRE_APPROVER(0)
+a n18 n115(0)
+a Permit█REJECTED█by█BUDGET█OWNER(0) n6
+a n36 n140(0)
+a n15 Permit█REJECTED█by█SUPERVISOR(0)
+a n20 n142(0)
+a n41 Permit█APPROVED█by█BUDGET█OWNER(0)
+a n168(0) n67
+a n3 Permit█REJECTED█by█ADMINISTRATION(0)
+a n56 n159(0)
+a n144(0) n5
+a n18 n117(0)
+a n157(0) n53
+a n128(0) n55
+a n4 n108(0)
+a n117(0) n3
+a n115(0) n39
+a Declaration█APPROVED█by█ADMINISTRATION(0) n46
+a n108(0) n9
+a n150(0) n59
+a n162(0) n63
+a Declaration█REJECTED█by█MISSING(0) n22
+a n40 n148(0)
+a n118(0) n17
+a Declaration█APPROVED█by█SUPERVISOR(0) n52
+a n28 n123(0)
+a n123(0) n35
+a n46 n151(0)
+a n67 Permit█FINAL_APPROVED█by█DIRECTOR(0)
+a Permit█REJECTED█by█SUPERVISOR(0) n16
+a n25 Declaration█REJECTED█by█PRE_APPROVER(0)
+a n48 n154(0)
+a n106(0) n9
+a n135(0) n33
+a n105(0) n1
+a n5 Permit█REJECTED█by█BUDGET█OWNER(0)
+a n53 Declaration█FINAL_APPROVED█by█DIRECTOR(0)
+a n23 Send█Reminder(0)
+a n43 Permit█APPROVED█by█PRE_APPROVER(0)
+a n47 Declaration█APPROVED█by█BUDGET█OWNER(0)
+a n40 n147(0)
+a n46 n150(0)
+a n45 Declaration█APPROVED█by█ADMINISTRATION(0)
+a n131(0) n51
+a n159(0) n21
+a Permit█FINAL_APPROVED█by█DIRECTOR(0) n68
+a n68 n138(0)
+a n29 Declaration█REJECTED█by█SUPERVISOR(0)
+a n136(0) n33
+a n21 Declaration█REJECTED█by█MISSING(0)
+a n34 n127(0)
+a n42 n169(0)
+a n34 n131(0)
+a n114(0) n13
+a Declaration█REJECTED█by█ADMINISTRATION(0) n58
+a n12 n118(0)
+a n154(0) n51
+a n143(0) n65
+a n6 n106(0)
+a n149(0) n51
+a Declaration█APPROVED█by█BUDGET█OWNER(0) n48
+a Permit█APPROVED█by█BUDGET█OWNER(0) n42
+a Start█trip(0) n28
+a n164(0) n63
+a n33 Declaration█SUBMITTED█by█EMPLOYEE(0)
+a n103(0) n11
+a n132(0) n57
+a n35 End█trip(0)
+a n24 n121(0)
+a n42 n104(0)
+a Payment█Handled(0) n38
+a n8 n110(0)
+a n39 Permit█APPROVED█by█ADMINISTRATION(0)
+a n36 n141(0)
+a n112(0) n43
+a n119(0) n17
+a n167(0) n7
+a n44 n125(0)
+a n146(0) n41
+a n120(0) n19
+a n113(0) n1
+a n17 Permit█SUBMITTED█by█EMPLOYEE(0)
+a n145(0) n27
+a Permit█FINAL_APPROVED█by█SUPERVISOR(0) n2
+a n57 Declaration█REJECTED█by█ADMINISTRATION(0)
+a Permit█APPROVED█by█PRE_APPROVER(0) n44
+a Permit█REJECTED█by█ADMINISTRATION(0) n4
+a n156(0) n61
+a n2 n103(0)
+a n138(0) n33
+a n1 Permit█FINAL_APPROVED█by█SUPERVISOR(0)
+a n140(0) n23
+a Send█Reminder(0) n24
+a n40 n144(0)
+a n46 n152(0)
+a n36 n133(0)
+a n126(0) n27
+a Permit█REJECTED█by█PRE_APPROVER(0) n14
+a End█trip(0) n36
+a n13 Permit█REJECTED█by█PRE_APPROVER(0)
+a n22 n137(0)
+a n125(0) n27
+a n127(0) n49
+a n34 n130(0)
+a n122(0) n31
+a n34 n132(0)
+a n116(0) n65
+a n111(0) n37
+a n139(0) n33
+a n18 n113(0)
+a n133(0) n33
+a n46 n149(0)
+a Declaration█REJECTED█by█PRE_APPROVER(0) n26
+a n169(0) n65
+a n40 n146(0)
+a n9 Permit█REJECTED█by█EMPLOYEE(0)
+a n152(0) n55
+a n165(0) n63
+a n58 n164(0)
+a n130(0) n45
+a n38 n124(0)
+a n32 n126(0)
+a Declaration█SAVED█by█EMPLOYEE(0) n32
+a n19 Request█Payment(0)
+
+# Initial State
+i
+
+# Deadlock States
+# No Deadlock States Found

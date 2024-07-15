@@ -1,0 +1,452 @@
+digraph G { 
+ranksep=".3"; fontsize="14"; remincross=true; margin="0.0,0.0"; fontname="Arial";rankdir="LR";
+edge [arrowsize="0.5"];
+node [height=".2",width=".2",fontname="Arial",fontsize="14"];
+ratio=0.4;
+id1 [shape="box",label="A_ACCEPTED+COMPLETE\n",style="filled"];
+id2 [shape="box",label="A_ACTIVATED+COMPLETE\n",style="filled"];
+id3 [shape="box",label="A_APPROVED+COMPLETE\n",style="filled"];
+id4 [shape="box",label="A_CANCELLED+COMPLETE\n",style="filled"];
+id5 [shape="box",label="A_DECLINED+COMPLETE\n",style="filled"];
+id6 [shape="box",label="A_FINALIZED+COMPLETE\n",style="filled"];
+id7 [shape="box",label="A_PARTLYSUBMITTED+COMPLETE\n",style="filled"];
+id8 [shape="box",label="A_PREACCEPTED+COMPLETE\n",style="filled"];
+id9 [shape="box",label="A_REGISTERED+COMPLETE\n",style="filled"];
+id10 [shape="box",label="A_SUBMITTED+COMPLETE\n",style="filled"];
+id11 [shape="box",label="O_ACCEPTED+COMPLETE\n",style="filled"];
+id12 [shape="box",label="O_CANCELLED+COMPLETE\n",style="filled"];
+id13 [shape="box",label="O_CREATED+COMPLETE\n",style="filled"];
+id14 [shape="box",label="O_DECLINED+COMPLETE\n",style="filled"];
+id15 [shape="box",label="O_SELECTED+COMPLETE\n",style="filled"];
+id16 [shape="box",label="O_SENT+COMPLETE\n",style="filled"];
+id17 [shape="box",label="O_SENT_BACK+COMPLETE\n",style="filled"];
+id18 [shape="box",label="W_Afhandelen leads+COMPLETE\n",style="filled"];
+id19 [shape="box",label="W_Afhandelen leads+SCHEDULE\n",style="filled"];
+id20 [shape="box",label="W_Afhandelen leads+START\n",style="filled"];
+id21 [shape="box",label="W_Beoordelen fraude+COMPLETE\n",style="filled"];
+id22 [shape="box",label="W_Beoordelen fraude+SCHEDULE\n",style="filled"];
+id23 [shape="box",label="W_Beoordelen fraude+START\n",style="filled"];
+id24 [shape="box",label="W_Completeren aanvraag+COMPLETE\n",style="filled"];
+id25 [shape="box",label="W_Completeren aanvraag+SCHEDULE\n",style="filled"];
+id26 [shape="box",label="W_Completeren aanvraag+START\n",style="filled"];
+id27 [shape="box",label="W_Nabellen incomplete dossiers+COMPLETE\n",style="filled"];
+id28 [shape="box",label="W_Nabellen incomplete dossiers+SCHEDULE\n",style="filled"];
+id29 [shape="box",label="W_Nabellen incomplete dossiers+START\n",style="filled"];
+id30 [shape="box",label="W_Nabellen offertes+COMPLETE\n",style="filled"];
+id31 [shape="box",label="W_Nabellen offertes+SCHEDULE\n",style="filled"];
+id32 [shape="box",label="W_Nabellen offertes+START\n",style="filled"];
+id33 [shape="box",label="W_Valideren aanvraag+COMPLETE\n",style="filled"];
+id34 [shape="box",label="W_Valideren aanvraag+SCHEDULE\n",style="filled"];
+id35 [shape="box",label="W_Valideren aanvraag+START\n",style="filled"];
+id36 [shape="box",label="W_Wijzigen contractgegevens+SCHEDULE\n",style="filled"];
+id37 [shape="circle",label=""];
+id38 [shape="circle",label=""];
+id39 [shape="circle",label=""];
+id40 [shape="circle",label=""];
+id41 [shape="circle",label=""];
+id42 [shape="circle",label=""];
+id43 [shape="circle",label=""];
+id44 [shape="circle",label=""];
+id45 [shape="circle",label=""];
+id46 [shape="circle",label=""];
+id47 [shape="circle",label=""];
+id48 [shape="circle",label=""];
+id49 [shape="circle",label=""];
+id50 [shape="circle",label=""];
+id51 [shape="circle",label=""];
+id52 [shape="circle",label=""];
+id53 [shape="circle",label=""];
+id54 [shape="circle",label=""];
+id55 [shape="circle",label=""];
+id56 [shape="circle",label=""];
+id57 [shape="circle",label=""];
+id58 [shape="circle",label=""];
+id59 [shape="circle",label=""];
+id60 [shape="circle",label=""];
+id61 [shape="circle",label=""];
+id62 [shape="circle",label=""];
+id63 [shape="circle",label=""];
+id64 [shape="circle",label=""];
+id65 [shape="circle",label=""];
+id66 [shape="circle",label=""];
+id67 [shape="circle",label=""];
+id68 [shape="circle",label=""];
+id69 [shape="circle",label=""];
+id70 [shape="circle",label=""];
+id71 [shape="circle",label=""];
+id72 [shape="circle",label=""];
+id73 [shape="circle",label=""];
+id74 [shape="circle",label=""];
+id75 [shape="circle",label=""];
+id76 [shape="circle",label=""];
+id77 [shape="circle",label=""];
+id78 [shape="circle",label=""];
+id79 [shape="circle",label=""];
+id80 [shape="circle",label=""];
+id81 [shape="circle",label=""];
+id82 [shape="circle",label=""];
+id83 [shape="circle",label=""];
+id84 [shape="circle",label=""];
+id85 [shape="circle",label=""];
+id86 [shape="circle",label=""];
+id87 [shape="circle",label=""];
+id88 [shape="circle",label=""];
+id89 [shape="circle",label=""];
+id90 [shape="circle",label=""];
+id91 [shape="circle",label=""];
+id92 [shape="circle",label=""];
+id93 [shape="circle",label=""];
+id94 [shape="circle",label=""];
+id95 [shape="circle",label=""];
+id96 [shape="circle",label=""];
+id97 [shape="circle",label=""];
+id98 [shape="circle",label=""];
+id99 [shape="circle",label=""];
+id100 [shape="circle",label=""];
+id101 [shape="circle",label=""];
+id102 [shape="circle",label=""];
+id103 [shape="circle",label=""];
+id104 [shape="circle",label=""];
+id105 [shape="circle",label=""];
+id106 [shape="circle",label=""];
+id107 [shape="circle",label=""];
+id108 [shape="circle",label=""];
+id109 [shape="circle",label=""];
+id110 [shape="circle",label=""];
+id111 [shape="circle",label=""];
+id103 -> id15
+id7 -> id91
+id20 -> id87
+id98 -> id3
+id17 -> id54
+id75 -> id14
+id74 -> id17
+id23 -> id52
+id79 -> id34
+id31 -> id59
+id51 -> id28
+id94 -> id17
+id6 -> id56
+id73 -> id35
+id28 -> id94
+id20 -> id107
+id28 -> id68
+id88 -> id19
+id63 -> id34
+id101 -> id15
+id92 -> id5
+id72 -> id22
+id80 -> id17
+id90 -> id15
+id65 -> id19
+id97 -> id4
+id56 -> id13
+id84 -> id34
+id28 -> id106
+id41 -> id21
+id71 -> id9
+id77 -> id5
+id103 -> id9
+id96 -> id2
+id80 -> id2
+id28 -> id78
+id73 -> id1
+id16 -> id51
+id94 -> id14
+id69 -> id14
+id77 -> id17
+id15 -> id49
+id62 -> id34
+id67 -> id11
+id76 -> id12
+id57 -> id17
+id99 -> id15
+id43 -> id12
+id83 -> id5
+id23 -> id37
+id31 -> id45
+id1 -> id95
+id32 -> id57
+id7 -> id109
+id96 -> id5
+id78 -> id34
+id10 -> id40
+id1 -> id105
+id50 -> id28
+id1 -> id100
+id28 -> id83
+id31 -> id46
+id28 -> id63
+id77 -> id12
+id31 -> id42
+id25 -> id83
+id66 -> id14
+id25 -> id59
+id61 -> id19
+id20 -> id91
+id13 -> id39
+id69 -> id11
+id28 -> id84
+id32 -> id111
+id74 -> id3
+id108 -> id15
+id28 -> id76
+id74 -> id14
+id20 -> id109
+id94 -> id2
+id96 -> id4
+id76 -> id14
+id48 -> id23
+id7 -> id89
+id97 -> id5
+id66 -> id17
+id82 -> id5
+id28 -> id81
+id108 -> id9
+id21 -> id73
+id18 -> id111
+id35 -> id91
+id104 -> id15
+id80 -> id5
+id73 -> id20
+id28 -> id59
+id31 -> id93
+id1 -> id102
+id28 -> id75
+id77 -> id3
+id28 -> id96
+id15 -> id38
+id24 -> id111
+id76 -> id2
+id87 -> id5
+id70 -> id6
+id105 -> id5
+id32 -> id66
+id34 -> id64
+id53 -> id28
+id61 -> id34
+id35 -> id105
+id79 -> id15
+id35 -> id50
+id76 -> id17
+id88 -> id5
+id22 -> id48
+id67 -> id17
+id85 -> id9
+id68 -> id14
+id88 -> id8
+id31 -> id55
+id80 -> id12
+id27 -> id111
+id102 -> id4
+id92 -> id15
+id81 -> id17
+id31 -> id58
+id73 -> id23
+id25 -> id89
+id20 -> id93
+id23 -> id65
+id98 -> id15
+id38 -> id13
+id7 -> id88
+id74 -> id12
+id88 -> id22
+id86 -> id15
+id69 -> id34
+id23 -> id54
+id23 -> id61
+id58 -> id4
+id53 -> id32
+id104 -> id14
+id71 -> id17
+id51 -> id31
+id20 -> id106
+id1 -> id109
+id90 -> id17
+id1 -> id93
+id28 -> id67
+id28 -> id104
+id31 -> id102
+id40 -> id7
+id99 -> id17
+id36 -> id111
+id98 -> id17
+id101 -> id5
+id94 -> id4
+id86 -> id2
+id23 -> id105
+id47 -> id22
+id68 -> id9
+id67 -> id12
+id75 -> id34
+id68 -> id15
+id28 -> id109
+id46 -> id13
+id63 -> id5
+id33 -> id111
+id28 -> id103
+id28 -> id71
+id25 -> id47
+id107 -> id4
+id89 -> id22
+id82 -> id11
+id28 -> id79
+id91 -> id22
+id20 -> id105
+id108 -> id5
+id54 -> id34
+id30 -> id111
+id72 -> id5
+id81 -> id12
+id49 -> id31
+id97 -> id15
+id37 -> id21
+id8 -> id52
+id70 -> id4
+id60 -> id4
+id20 -> id95
+id28 -> id57
+id35 -> id58
+id25 -> id58
+id35 -> id93
+id12 -> id111
+id35 -> id72
+id71 -> id12
+id106 -> id4
+id16 -> id50
+id32 -> id83
+id78 -> id5
+id95 -> id4
+id69 -> id15
+id25 -> id72
+id23 -> id109
+id85 -> id5
+id28 -> id74
+id106 -> id5
+id34 -> id43
+id99 -> id14
+id109 -> id5
+id28 -> id77
+id28 -> id85
+id5 -> id111
+id100 -> id5
+id79 -> id14
+id1 -> id107
+id28 -> id69
+id46 -> id4
+id6 -> id55
+id81 -> id11
+id28 -> id100
+id1 -> id97
+id31 -> id95
+id25 -> id60
+id28 -> id102
+id70 -> id5
+id28 -> id90
+id84 -> id5
+id39 -> id16
+id55 -> id13
+id87 -> id8
+id103 -> id14
+id28 -> id60
+id62 -> id19
+id72 -> id4
+id75 -> id15
+id1 -> id106
+id104 -> id11
+id82 -> id34
+id1 -> id92
+id101 -> id11
+id78 -> id3
+id31 -> id44
+id12 -> id56
+id64 -> id4
+id16 -> id49
+id60 -> id5
+id86 -> id34
+id44 -> id12
+id107 -> id5
+id47 -> id1
+id101 -> id4
+id28 -> id99
+id4 -> id111
+id103 -> id17
+id61 -> id5
+id28 -> id101
+id21 -> id48
+id32 -> id92
+id28 -> id82
+id85 -> id12
+id28 -> id44
+id23 -> id62
+id85 -> id17
+id79 -> id2
+id34 -> id95
+id99 -> id4
+id100 -> id4
+id98 -> id4
+id96 -> id15
+id28 -> id98
+id68 -> id34
+id59 -> id4
+id28 -> id92
+id99 -> id3
+id32 -> id109
+id104 -> id4
+id87 -> id22
+id5 -> id41
+id7 -> id65
+id28 -> id66
+id20 -> id102
+id91 -> id5
+id65 -> id5
+id35 -> id89
+id110 -> id10
+id78 -> id15
+id35 -> id111
+id45 -> id13
+id7 -> id105
+id108 -> id4
+id28 -> id80
+id67 -> id14
+id21 -> id111
+id86 -> id5
+id89 -> id5
+id98 -> id5
+id84 -> id15
+id75 -> id3
+id57 -> id35
+id100 -> id15
+id81 -> id5
+id84 -> id9
+id108 -> id17
+id62 -> id25
+id16 -> id53
+id32 -> id90
+id35 -> id107
+id31 -> id64
+id25 -> id64
+id45 -> id32
+id96 -> id17
+id104 -> id17
+id28 -> id86
+id9 -> id111
+id90 -> id5
+id7 -> id87
+id52 -> id25
+id94 -> id15
+id1 -> id70
+id93 -> id4
+id35 -> id97
+id42 -> id12
+id31 -> id43
+id82 -> id15
+id101 -> id17
+id23 -> id63
+id66 -> id15
+id35 -> id42
+id71 -> id14
+id103 -> id4
+id7 -> id83
+id28 -> id108
+}

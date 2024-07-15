@@ -1,0 +1,456 @@
+# Places
+p n36
+p n37
+p n38
+p n39
+p n40
+p n41
+p n42
+p n43
+p n44
+p n45
+p n46
+p n47
+p n48
+p n49
+p n50
+p n51
+p n52
+p n53
+p n54
+p n55
+p n56
+p n57
+p n58
+p n59
+p n60
+p n61
+p n62
+p n63
+p n64
+p n65
+p n66
+p n67
+p n68
+p n69
+p n70
+p n71
+p n72
+p n73
+p n74
+p n75
+p n76
+p n77
+p n78
+p n79
+p n80
+p n81
+p n82
+p n83
+p n84
+p n85
+p n86
+p n87
+p n88
+p n89
+p n90
+p n91
+p n92
+p n93
+p n94
+p n95
+p n96
+p n97
+p n98
+p n99
+p n100
+p n101
+p n102
+p n103
+p n104
+p n105
+p n106
+p n107
+p n108
+p n109
+p n110
+
+# Transitions
+t A_ACTIVATED+COMPLETE(0) 0.0
+t W_Afhandelen_leads+SCHEDULE(0) 0.0
+t A_CANCELLED+COMPLETE(0) 0.0
+t W_Valideren_aanvraag+START(0) 0.0
+t W_Valideren_aanvraag+SCHEDULE(0) 0.0
+t W_Valideren_aanvraag+COMPLETE(0) 0.0
+t W_Beoordelen_fraude+SCHEDULE(0) 0.0
+t O_SELECTED+COMPLETE(0) 0.0
+t A_REGISTERED+COMPLETE(0) 0.0
+t W_Beoordelen_fraude+START(0) 0.0
+t W_Wijzigen_contractgegevens+SCHEDULE(0) 0.0
+t A_APPROVED+COMPLETE(0) 0.0
+t A_FINALIZED+COMPLETE(0) 0.0
+t W_Completeren_aanvraag+COMPLETE(0) 0.0
+t W_Completeren_aanvraag+SCHEDULE(0) 0.0
+t O_CANCELLED+COMPLETE(0) 0.0
+t W_Nabellen_incomplete_dossiers+SCHEDULE(0) 0.0
+t O_SENT+COMPLETE(0) 0.0
+t A_PARTLYSUBMITTED+COMPLETE(0) 0.0
+t A_ACCEPTED+COMPLETE(0) 0.0
+t O_ACCEPTED+COMPLETE(0) 0.0
+t W_Afhandelen_leads+START(0) 0.0
+t O_CREATED+COMPLETE(0) 0.0
+t W_Nabellen_incomplete_dossiers+START(0) 0.0
+t W_Nabellen_offertes+SCHEDULE(0) 0.0
+t W_Beoordelen_fraude+COMPLETE(0) 0.0
+t W_Nabellen_incomplete_dossiers+COMPLETE(0) 0.0
+t W_Completeren_aanvraag+START(0) 0.0
+t A_PREACCEPTED+COMPLETE(0) 0.0
+t O_DECLINED+COMPLETE(0) 0.0
+t W_Nabellen_offertes+START(0) 0.0
+t A_DECLINED+COMPLETE(0) 0.0
+t W_Nabellen_offertes+COMPLETE(0) 0.0
+t W_Afhandelen_leads+COMPLETE(0) 0.0
+t A_SUBMITTED+COMPLETE(0) 0.0
+t O_SENT_BACK+COMPLETE(0) 0.0
+
+# Arcs
+a A_ACCEPTED+COMPLETE(0) n75
+a n62 O_SENT_BACK+COMPLETE(0)
+a n77 A_APPROVED+COMPLETE(0)
+a A_ACCEPTED+COMPLETE(0) n61
+a W_Nabellen_offertes+SCHEDULE(0) n52
+a n72 A_DECLINED+COMPLETE(0)
+a n75 A_FINALIZED+COMPLETE(0)
+a n37 A_CANCELLED+COMPLETE(0)
+a A_PARTLYSUBMITTED+COMPLETE(0) n66
+a W_Beoordelen_fraude+START(0) n94
+a n65 A_REGISTERED+COMPLETE(0)
+a O_SENT_BACK+COMPLETE(0) n49
+a W_Completeren_aanvraag+COMPLETE(0) n81
+a n64 A_DECLINED+COMPLETE(0)
+a A_PARTLYSUBMITTED+COMPLETE(0) n94
+a n39 O_SELECTED+COMPLETE(0)
+a W_Nabellen_offertes+START(0) n102
+a n74 W_Beoordelen_fraude+COMPLETE(0)
+a n103 W_Valideren_aanvraag+SCHEDULE(0)
+a W_Nabellen_offertes+SCHEDULE(0) n106
+a n48 O_SENT_BACK+COMPLETE(0)
+a n76 A_DECLINED+COMPLETE(0)
+a n106 A_CANCELLED+COMPLETE(0)
+a W_Nabellen_offertes+START(0) n73
+a n103 A_DECLINED+COMPLETE(0)
+a W_Valideren_aanvraag+START(0) n70
+a n93 A_PARTLYSUBMITTED+COMPLETE(0)
+a n63 O_CREATED+COMPLETE(0)
+a W_Nabellen_incomplete_dossiers+SCHEDULE(0) n40
+a n102 A_DECLINED+COMPLETE(0)
+a n94 W_Afhandelen_leads+SCHEDULE(0)
+a n71 O_DECLINED+COMPLETE(0)
+a n77 O_SELECTED+COMPLETE(0)
+a W_Nabellen_offertes+SCHEDULE(0) n36
+a n98 W_Valideren_aanvraag+SCHEDULE(0)
+a W_Completeren_aanvraag+SCHEDULE(0) n52
+a n101 A_DECLINED+COMPLETE(0)
+a n84 O_SELECTED+COMPLETE(0)
+a n92 O_ACCEPTED+COMPLETE(0)
+a n95 A_DECLINED+COMPLETE(0)
+a W_Nabellen_offertes+START(0) n62
+a W_Valideren_aanvraag+COMPLETE(0) n81
+a W_Beoordelen_fraude+COMPLETE(0) n81
+a W_Valideren_aanvraag+SCHEDULE(0) n107
+a n98 O_ACCEPTED+COMPLETE(0)
+a n46 O_ACCEPTED+COMPLETE(0)
+a O_SENT+COMPLETE(0) n96
+a W_Afhandelen_leads+START(0) n61
+a n99 W_Afhandelen_leads+START(0)
+a n46 O_DECLINED+COMPLETE(0)
+a W_Nabellen_incomplete_dossiers+SCHEDULE(0) n89
+a n89 A_ACTIVATED+COMPLETE(0)
+a A_ACCEPTED+COMPLETE(0) n44
+a n53 A_ACTIVATED+COMPLETE(0)
+a n100 O_SELECTED+COMPLETE(0)
+a W_Valideren_aanvraag+START(0) n82
+a n44 O_SELECTED+COMPLETE(0)
+a n67 W_Valideren_aanvraag+SCHEDULE(0)
+a W_Nabellen_offertes+START(0) n84
+a n42 W_Beoordelen_fraude+SCHEDULE(0)
+a n62 W_Valideren_aanvraag+START(0)
+a W_Completeren_aanvraag+SCHEDULE(0) n85
+a n89 O_CANCELLED+COMPLETE(0)
+a W_Beoordelen_fraude+START(0) n38
+a n92 W_Valideren_aanvraag+SCHEDULE(0)
+a n65 W_Valideren_aanvraag+SCHEDULE(0)
+a W_Valideren_aanvraag+SCHEDULE(0) n91
+a n51 A_APPROVED+COMPLETE(0)
+a W_Nabellen_incomplete_dossiers+COMPLETE(0) n81
+a n110 A_DECLINED+COMPLETE(0)
+a n90 W_Nabellen_incomplete_dossiers+SCHEDULE(0)
+a W_Nabellen_offertes+SCHEDULE(0) n88
+a n57 A_DECLINED+COMPLETE(0)
+a A_ACCEPTED+COMPLETE(0) n73
+a n39 A_APPROVED+COMPLETE(0)
+a W_Afhandelen_leads+START(0) n66
+a W_Beoordelen_fraude+START(0) n95
+a W_Completeren_aanvraag+SCHEDULE(0) n76
+a W_Nabellen_incomplete_dossiers+SCHEDULE(0) n78
+a W_Nabellen_incomplete_dossiers+SCHEDULE(0) n110
+a n110 A_CANCELLED+COMPLETE(0)
+a n70 O_CANCELLED+COMPLETE(0)
+a n91 A_CANCELLED+COMPLETE(0)
+a n107 O_CANCELLED+COMPLETE(0)
+a n100 A_CANCELLED+COMPLETE(0)
+a n101 O_SENT_BACK+COMPLETE(0)
+a n47 W_Completeren_aanvraag+SCHEDULE(0)
+a n44 A_CANCELLED+COMPLETE(0)
+a n54 O_CANCELLED+COMPLETE(0)
+a W_Afhandelen_leads+START(0) n60
+a W_Beoordelen_fraude+START(0) n74
+a W_Valideren_aanvraag+START(0) n57
+a A_CANCELLED+COMPLETE(0) n81
+a n92 O_DECLINED+COMPLETE(0)
+a n49 W_Valideren_aanvraag+SCHEDULE(0)
+a n103 W_Afhandelen_leads+SCHEDULE(0)
+a n40 A_CANCELLED+COMPLETE(0)
+a n83 W_Beoordelen_fraude+COMPLETE(0)
+a W_Afhandelen_leads+START(0) n37
+a n79 A_DECLINED+COMPLETE(0)
+a W_Nabellen_offertes+SCHEDULE(0) n107
+a A_DECLINED+COMPLETE(0) n83
+a W_Nabellen_offertes+SCHEDULE(0) n70
+a W_Valideren_aanvraag+START(0) n109
+a n85 A_ACCEPTED+COMPLETE(0)
+a n54 O_ACCEPTED+COMPLETE(0)
+a n59 O_SENT_BACK+COMPLETE(0)
+a W_Nabellen_incomplete_dossiers+SCHEDULE(0) n79
+a A_FINALIZED+COMPLETE(0) n41
+a W_Nabellen_incomplete_dossiers+SCHEDULE(0) n54
+a A_ACCEPTED+COMPLETE(0) n106
+a W_Nabellen_incomplete_dossiers+SCHEDULE(0) n69
+a n99 A_ACCEPTED+COMPLETE(0)
+a n94 A_DECLINED+COMPLETE(0)
+a W_Nabellen_incomplete_dossiers+SCHEDULE(0) n53
+a W_Nabellen_incomplete_dossiers+SCHEDULE(0) n101
+a n67 O_DECLINED+COMPLETE(0)
+a n53 W_Valideren_aanvraag+SCHEDULE(0)
+a A_PARTLYSUBMITTED+COMPLETE(0) n87
+a n46 O_SENT_BACK+COMPLETE(0)
+a n104 O_SENT_BACK+COMPLETE(0)
+a n60 A_DECLINED+COMPLETE(0)
+a A_PARTLYSUBMITTED+COMPLETE(0) n50
+a n99 W_Valideren_aanvraag+START(0)
+a A_DECLINED+COMPLETE(0) n81
+a n79 A_APPROVED+COMPLETE(0)
+a n68 W_Beoordelen_fraude+START(0)
+a n48 A_APPROVED+COMPLETE(0)
+a n88 O_CREATED+COMPLETE(0)
+a W_Nabellen_incomplete_dossiers+SCHEDULE(0) n59
+a W_Afhandelen_leads+START(0) n106
+a n38 W_Completeren_aanvraag+SCHEDULE(0)
+a n39 A_CANCELLED+COMPLETE(0)
+a W_Nabellen_incomplete_dossiers+SCHEDULE(0) n84
+a n50 W_Afhandelen_leads+SCHEDULE(0)
+a W_Nabellen_offertes+START(0) n76
+a n40 A_REGISTERED+COMPLETE(0)
+a n47 W_Valideren_aanvraag+SCHEDULE(0)
+a n48 O_DECLINED+COMPLETE(0)
+a A_PARTLYSUBMITTED+COMPLETE(0) n108
+a W_Valideren_aanvraag+START(0) n90
+a A_ACCEPTED+COMPLETE(0) n72
+a O_SELECTED+COMPLETE(0) n43
+a W_Nabellen_incomplete_dossiers+SCHEDULE(0) n104
+a n51 O_DECLINED+COMPLETE(0)
+a n58 O_DECLINED+COMPLETE(0)
+a A_ACCEPTED+COMPLETE(0) n60
+a W_Nabellen_offertes+COMPLETE(0) n81
+a n54 O_SENT_BACK+COMPLETE(0)
+a n88 W_Nabellen_offertes+START(0)
+a A_PREACCEPTED+COMPLETE(0) n38
+a n36 O_CANCELLED+COMPLETE(0)
+a n47 W_Afhandelen_leads+SCHEDULE(0)
+a W_Nabellen_incomplete_dossiers+SCHEDULE(0) n97
+a A_ACCEPTED+COMPLETE(0) n110
+a A_ACCEPTED+COMPLETE(0) n37
+a W_Nabellen_incomplete_dossiers+SCHEDULE(0) n76
+a W_Nabellen_incomplete_dossiers+SCHEDULE(0) n48
+a n96 W_Nabellen_offertes+START(0)
+a n95 W_Valideren_aanvraag+SCHEDULE(0)
+a n53 O_SELECTED+COMPLETE(0)
+a n98 A_DECLINED+COMPLETE(0)
+a W_Nabellen_offertes+SCHEDULE(0) n109
+a A_ACCEPTED+COMPLETE(0) n66
+a W_Nabellen_incomplete_dossiers+SCHEDULE(0) n73
+a W_Valideren_aanvraag+SCHEDULE(0) n106
+a n40 O_DECLINED+COMPLETE(0)
+a n89 O_SENT_BACK+COMPLETE(0)
+a O_CANCELLED+COMPLETE(0) n41
+a W_Nabellen_incomplete_dossiers+SCHEDULE(0) n39
+a n53 A_DECLINED+COMPLETE(0)
+a n98 O_SELECTED+COMPLETE(0)
+a n41 O_CREATED+COMPLETE(0)
+a n82 A_CANCELLED+COMPLETE(0)
+a W_Nabellen_incomplete_dossiers+SCHEDULE(0) n51
+a n87 W_Beoordelen_fraude+SCHEDULE(0)
+a W_Nabellen_incomplete_dossiers+SCHEDULE(0) n46
+a n108 W_Beoordelen_fraude+SCHEDULE(0)
+a W_Nabellen_incomplete_dossiers+SCHEDULE(0) n92
+a W_Nabellen_incomplete_dossiers+SCHEDULE(0) n95
+a n55 O_CREATED+COMPLETE(0)
+a n43 O_CREATED+COMPLETE(0)
+a n102 O_SENT_BACK+COMPLETE(0)
+a W_Afhandelen_leads+START(0) n108
+a A_PARTLYSUBMITTED+COMPLETE(0) n42
+a n40 O_SELECTED+COMPLETE(0)
+a W_Valideren_aanvraag+START(0) n81
+a n65 O_DECLINED+COMPLETE(0)
+a W_Beoordelen_fraude+START(0) n47
+a n51 O_SENT_BACK+COMPLETE(0)
+a n100 O_SENT_BACK+COMPLETE(0)
+a n57 W_Beoordelen_fraude+SCHEDULE(0)
+a n67 O_SELECTED+COMPLETE(0)
+a W_Nabellen_incomplete_dossiers+SCHEDULE(0) n52
+a W_Nabellen_incomplete_dossiers+SCHEDULE(0) n77
+a n39 A_DECLINED+COMPLETE(0)
+a n50 A_DECLINED+COMPLETE(0)
+a n59 O_CANCELLED+COMPLETE(0)
+a W_Beoordelen_fraude+SCHEDULE(0) n68
+a n97 O_CANCELLED+COMPLETE(0)
+a n72 O_SELECTED+COMPLETE(0)
+a n45 W_Nabellen_offertes+SCHEDULE(0)
+a n58 O_CANCELLED+COMPLETE(0)
+a W_Nabellen_incomplete_dossiers+SCHEDULE(0) n62
+a n87 A_PREACCEPTED+COMPLETE(0)
+a n78 A_REGISTERED+COMPLETE(0)
+a W_Nabellen_incomplete_dossiers+SCHEDULE(0) n66
+a W_Nabellen_incomplete_dossiers+SCHEDULE(0) n36
+a n42 A_DECLINED+COMPLETE(0)
+a n50 A_PREACCEPTED+COMPLETE(0)
+a n105 W_Valideren_aanvraag+SCHEDULE(0)
+a n85 W_Beoordelen_fraude+SCHEDULE(0)
+a n92 O_SELECTED+COMPLETE(0)
+a n101 O_SELECTED+COMPLETE(0)
+a n69 O_SENT_BACK+COMPLETE(0)
+a n61 A_CANCELLED+COMPLETE(0)
+a n97 O_DECLINED+COMPLETE(0)
+a W_Nabellen_incomplete_dossiers+SCHEDULE(0) n98
+a n66 A_DECLINED+COMPLETE(0)
+a W_Afhandelen_leads+START(0) n110
+a n102 O_SELECTED+COMPLETE(0)
+a W_Nabellen_offertes+START(0) n81
+a n77 A_DECLINED+COMPLETE(0)
+a n84 O_SENT_BACK+COMPLETE(0)
+a W_Beoordelen_fraude+START(0) n49
+a n75 A_CANCELLED+COMPLETE(0)
+a n79 O_CANCELLED+COMPLETE(0)
+a n87 A_DECLINED+COMPLETE(0)
+a A_PARTLYSUBMITTED+COMPLETE(0) n60
+a n39 O_SENT_BACK+COMPLETE(0)
+a W_Beoordelen_fraude+COMPLETE(0) n68
+a n104 A_ACTIVATED+COMPLETE(0)
+a W_Nabellen_incomplete_dossiers+SCHEDULE(0) n100
+a n71 O_SELECTED+COMPLETE(0)
+a A_SUBMITTED+COMPLETE(0) n93
+a W_Completeren_aanvraag+SCHEDULE(0) n57
+a n100 A_DECLINED+COMPLETE(0)
+a n44 A_DECLINED+COMPLETE(0)
+a n75 A_DECLINED+COMPLETE(0)
+a W_Wijzigen_contractgegevens+SCHEDULE(0) n81
+a n48 A_CANCELLED+COMPLETE(0)
+a n59 O_DECLINED+COMPLETE(0)
+a n48 O_SELECTED+COMPLETE(0)
+a n78 W_Valideren_aanvraag+SCHEDULE(0)
+a W_Completeren_aanvraag+SCHEDULE(0) n82
+a n69 A_REGISTERED+COMPLETE(0)
+a n57 A_CANCELLED+COMPLETE(0)
+a W_Nabellen_incomplete_dossiers+SCHEDULE(0) n105
+a W_Afhandelen_leads+START(0) n87
+a n96 W_Nabellen_incomplete_dossiers+SCHEDULE(0)
+a O_SENT+COMPLETE(0) n56
+a n37 A_DECLINED+COMPLETE(0)
+a n69 A_DECLINED+COMPLETE(0)
+a W_Nabellen_offertes+SCHEDULE(0) n82
+a W_Completeren_aanvraag+SCHEDULE(0) n64
+a W_Nabellen_incomplete_dossiers+SCHEDULE(0) n71
+a n45 W_Nabellen_incomplete_dossiers+SCHEDULE(0)
+a n109 A_CANCELLED+COMPLETE(0)
+a W_Nabellen_incomplete_dossiers+SCHEDULE(0) n67
+a W_Nabellen_offertes+SCHEDULE(0) n55
+a n71 O_SENT_BACK+COMPLETE(0)
+a n105 O_DECLINED+COMPLETE(0)
+a n64 A_CANCELLED+COMPLETE(0)
+a W_Nabellen_incomplete_dossiers+SCHEDULE(0) n61
+a n56 W_Nabellen_offertes+SCHEDULE(0)
+a n86 O_SENT+COMPLETE(0)
+a n51 O_CANCELLED+COMPLETE(0)
+a W_Completeren_aanvraag+SCHEDULE(0) n91
+a n58 O_SENT_BACK+COMPLETE(0)
+a n72 A_CANCELLED+COMPLETE(0)
+a n63 A_CANCELLED+COMPLETE(0)
+a O_CREATED+COMPLETE(0) n86
+a n54 A_DECLINED+COMPLETE(0)
+a W_Nabellen_offertes+SCHEDULE(0) n61
+a n69 O_CANCELLED+COMPLETE(0)
+a n101 A_REGISTERED+COMPLETE(0)
+a n46 A_CANCELLED+COMPLETE(0)
+a n71 A_ACTIVATED+COMPLETE(0)
+a n50 W_Beoordelen_fraude+SCHEDULE(0)
+a n101 A_CANCELLED+COMPLETE(0)
+a n78 O_SELECTED+COMPLETE(0)
+a W_Afhandelen_leads+COMPLETE(0) n81
+a O_SELECTED+COMPLETE(0) n56
+a n73 O_SELECTED+COMPLETE(0)
+a W_Completeren_aanvraag+SCHEDULE(0) n42
+a W_Valideren_aanvraag+START(0) n42
+a W_Nabellen_offertes+SCHEDULE(0) n91
+a n65 O_SELECTED+COMPLETE(0)
+a W_Afhandelen_leads+START(0) n109
+a W_Beoordelen_fraude+START(0) n103
+a n71 A_CANCELLED+COMPLETE(0)
+a n99 W_Beoordelen_fraude+START(0)
+a n84 O_DECLINED+COMPLETE(0)
+a W_Nabellen_offertes+START(0) n66
+a n73 A_DECLINED+COMPLETE(0)
+a n97 A_ACTIVATED+COMPLETE(0)
+a W_Valideren_aanvraag+START(0) n108
+a W_Nabellen_incomplete_dossiers+SCHEDULE(0) n102
+a n78 A_DECLINED+COMPLETE(0)
+a W_Beoordelen_fraude+COMPLETE(0) n99
+a W_Valideren_aanvraag+START(0) n60
+a W_Nabellen_incomplete_dossiers+SCHEDULE(0) n65
+a n89 A_DECLINED+COMPLETE(0)
+a n79 O_SENT_BACK+COMPLETE(0)
+a W_Nabellen_incomplete_dossiers+SCHEDULE(0) n58
+a W_Nabellen_incomplete_dossiers+SCHEDULE(0) n64
+a n108 A_DECLINED+COMPLETE(0)
+a O_SENT+COMPLETE(0) n90
+a W_Valideren_aanvraag+START(0) n37
+a A_PARTLYSUBMITTED+COMPLETE(0) n76
+a A_FINALIZED+COMPLETE(0) n55
+a W_Nabellen_incomplete_dossiers+SCHEDULE(0) n44
+a O_SENT+COMPLETE(0) n45
+a n40 O_SENT_BACK+COMPLETE(0)
+a n100 O_ACCEPTED+COMPLETE(0)
+a O_CANCELLED+COMPLETE(0) n81
+a W_Beoordelen_fraude+START(0) n60
+a W_Valideren_aanvraag+START(0) n72
+a n58 O_ACCEPTED+COMPLETE(0)
+a A_REGISTERED+COMPLETE(0) n81
+a n104 O_SELECTED+COMPLETE(0)
+a n46 O_SELECTED+COMPLETE(0)
+a n104 A_CANCELLED+COMPLETE(0)
+a A_ACCEPTED+COMPLETE(0) n109
+a n59 A_REGISTERED+COMPLETE(0)
+a n67 A_ACTIVATED+COMPLETE(0)
+a n105 O_SELECTED+COMPLETE(0)
+a n80 A_SUBMITTED+COMPLETE(0)
+a n52 A_CANCELLED+COMPLETE(0)
+a n104 A_DECLINED+COMPLETE(0)
+a n97 O_SENT_BACK+COMPLETE(0)
+a n77 W_Valideren_aanvraag+SCHEDULE(0)
+a n105 A_APPROVED+COMPLETE(0)
+a W_Beoordelen_fraude+START(0) n66
+a W_Nabellen_offertes+SCHEDULE(0) n63
+
+# Initial State
+i n80 1
+
+# Deadlock States Not Recorded

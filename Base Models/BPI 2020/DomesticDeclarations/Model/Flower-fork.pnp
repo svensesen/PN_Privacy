@@ -1,0 +1,70 @@
+# Places
+p start
+p pistil
+p end
+
+# Transitions
+t tau(0) 10500.0
+t tau(1) 0.05555555555555555
+t Declaration█SUBMITTED█by█EMPLOYEE(0) 0.058631921824104226
+t Declaration█FINAL_APPROVED█by█SUPERVISOR(0) 0.06205711590508384
+t Request█Payment(0) 0.06589245408198578
+t Payment█Handled(0) 0.07021418180952647
+t Declaration█APPROVED█by█PRE_APPROVER(0) 0.0751182103585377
+t Declaration█REJECTED█by█MISSING(0) 0.08072673800578552
+t Declaration█REJECTED█by█PRE_APPROVER(0) 0.0871976712395633
+t Declaration█REJECTED█by█EMPLOYEE(0) 0.09473829345700514
+t Declaration█SAVED█by█EMPLOYEE(0) 0.10362552400947479
+t Declaration█REJECTED█by█SUPERVISOR(0) 0.11423665563142935
+t Declaration█APPROVED█by█ADMINISTRATION(0) 0.12709719390866375
+t Declaration█APPROVED█by█BUDGET█OWNER(0) 0.14295738629625823
+t Declaration█FOR_APPROVAL█by█SUPERVISOR(0) 0.1629182197718636
+t Declaration█REJECTED█by█ADMINISTRATION(0) 0.18864482216409117
+t Declaration█FOR_APPROVAL█by█PRE_APPROVER(0) 0.2227363995973421
+t Declaration█REJECTED█by█BUDGET█OWNER(0) 0.2693712732318327
+t Declaration█FOR_APPROVAL█by█ADMINISTRATION(0) 0.3353769396523854
+
+# Arcs
+a start tau(0)
+a pistil tau(1)
+a pistil Declaration█SUBMITTED█by█EMPLOYEE(0)
+a pistil Declaration█FINAL_APPROVED█by█SUPERVISOR(0)
+a pistil Request█Payment(0)
+a pistil Payment█Handled(0)
+a pistil Declaration█APPROVED█by█PRE_APPROVER(0)
+a pistil Declaration█REJECTED█by█MISSING(0)
+a pistil Declaration█REJECTED█by█PRE_APPROVER(0)
+a pistil Declaration█REJECTED█by█EMPLOYEE(0)
+a pistil Declaration█SAVED█by█EMPLOYEE(0)
+a pistil Declaration█REJECTED█by█SUPERVISOR(0)
+a pistil Declaration█APPROVED█by█ADMINISTRATION(0)
+a pistil Declaration█APPROVED█by█BUDGET█OWNER(0)
+a pistil Declaration█FOR_APPROVAL█by█SUPERVISOR(0)
+a pistil Declaration█REJECTED█by█ADMINISTRATION(0)
+a pistil Declaration█FOR_APPROVAL█by█PRE_APPROVER(0)
+a pistil Declaration█REJECTED█by█BUDGET█OWNER(0)
+a pistil Declaration█FOR_APPROVAL█by█ADMINISTRATION(0)
+a tau(0) pistil
+a tau(1) end
+a Declaration█SUBMITTED█by█EMPLOYEE(0) pistil
+a Declaration█FINAL_APPROVED█by█SUPERVISOR(0) pistil
+a Request█Payment(0) pistil
+a Payment█Handled(0) pistil
+a Declaration█APPROVED█by█PRE_APPROVER(0) pistil
+a Declaration█REJECTED█by█MISSING(0) pistil
+a Declaration█REJECTED█by█PRE_APPROVER(0) pistil
+a Declaration█REJECTED█by█EMPLOYEE(0) pistil
+a Declaration█SAVED█by█EMPLOYEE(0) pistil
+a Declaration█REJECTED█by█SUPERVISOR(0) pistil
+a Declaration█APPROVED█by█ADMINISTRATION(0) pistil
+a Declaration█APPROVED█by█BUDGET█OWNER(0) pistil
+a Declaration█FOR_APPROVAL█by█SUPERVISOR(0) pistil
+a Declaration█REJECTED█by█ADMINISTRATION(0) pistil
+a Declaration█FOR_APPROVAL█by█PRE_APPROVER(0) pistil
+a Declaration█REJECTED█by█BUDGET█OWNER(0) pistil
+a Declaration█FOR_APPROVAL█by█ADMINISTRATION(0) pistil
+
+# Initial State
+i start 1
+
+# Deadlock States Not Recorded

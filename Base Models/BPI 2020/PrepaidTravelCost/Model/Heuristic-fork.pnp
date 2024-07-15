@@ -1,0 +1,308 @@
+# Places
+p n1
+p n2
+p n3
+p n4
+p n5
+p n6
+p n7
+p n8
+p n9
+p n10
+p n11
+p n12
+p n13
+p n14
+p n15
+p n16
+p n17
+p n18
+p n19
+p n20
+p n21
+p n22
+p n23
+p n24
+p n25
+p n26
+p n27
+p n28
+p n29
+p n30
+p n31
+p n32
+p n33
+p n34
+p n35
+p n36
+p n37
+p n38
+p n39
+p n40
+p n41
+p n42
+p n43
+p n44
+p n45
+p n46
+p n47
+p n48
+p n49
+p n50
+p n51
+p n52
+p n53
+p n54
+p n55
+p n56
+p n57
+p n58
+
+# Transitions
+t Request█For█Payment█REJECTED█by█EMPLOYEE(0) 1.0
+t Request█For█Payment█REJECTED█by█MISSING(0) 1.0
+t Request█For█Payment█REJECTED█by█PRE_APPROVER(0) 1.0
+t Request█For█Payment█REJECTED█by█SUPERVISOR(0) 1.0
+t Request█For█Payment█SAVED█by█EMPLOYEE(0) 1.0
+t Request█For█Payment█SUBMITTED█by█EMPLOYEE(0) 1.0
+t Request█Payment(0) 1.0
+t Permit█REJECTED█by█MISSING(0) 1.0
+t Permit█REJECTED█by█PRE_APPROVER(0) 1.0
+t Permit█REJECTED█by█SUPERVISOR(0) 1.0
+t Permit█SUBMITTED█by█EMPLOYEE(0) 1.0
+t Request█For█Payment█APPROVED█by█ADMINISTRATION(0) 1.0
+t Request█For█Payment█APPROVED█by█BUDGET█OWNER(0) 1.0
+t Request█For█Payment█APPROVED█by█PRE_APPROVER(0) 1.0
+t Request█For█Payment█APPROVED█by█SUPERVISOR(0) 1.0
+t Request█For█Payment█FINAL_APPROVED█by█DIRECTOR(0) 1.0
+t Request█For█Payment█FINAL_APPROVED█by█SUPERVISOR(0) 1.0
+t Payment█Handled(0) 1.0
+t Permit█APPROVED█by█ADMINISTRATION(0) 1.0
+t Permit█APPROVED█by█BUDGET█OWNER(0) 1.0
+t Permit█APPROVED█by█PRE_APPROVER(0) 1.0
+t Permit█APPROVED█by█SUPERVISOR(0) 1.0
+t Permit█FINAL_APPROVED█by█DIRECTOR(0) 1.0
+t Permit█FINAL_APPROVED█by█SUPERVISOR(0) 1.0
+t Permit█REJECTED█by█ADMINISTRATION(0) 1.0
+t Permit█REJECTED█by█BUDGET█OWNER(0) 1.0
+t Permit█REJECTED█by█EMPLOYEE(0) 1.0
+t Request█For█Payment█REJECTED█by█ADMINISTRATION(0) 1.0
+t Request█For█Payment█REJECTED█by█BUDGET█OWNER(0) 1.0
+t tau(0) 1.0
+t tau(1) 1.0
+t tau(2) 1.0
+t tau(3) 1.0
+t tau(4) 0.2
+t tau(5) 0.23809523809523808
+t tau(6) 0.29085872576177285
+t tau(7) 0.36644077300103434
+t tau(8) 0.4772370486619896
+t tau(9) 1.0
+t tau(10) 1.0
+t tau(11) 0.5
+t tau(12) 1.0
+t tau(13) 1.0
+t tau(14) 1.0
+t tau(15) 1.0
+t tau(16) 0.16666666666666666
+t tau(17) 0.1935483870967742
+t tau(18) 0.22934648581997533
+t tau(19) 0.2785855567518852
+t tau(20) 0.34865715265361513
+t tau(21) 0.45109982104017515
+t tau(22) 1.0
+t tau(23) 1.0
+t tau(24) 0.2
+t tau(25) 0.23809523809523808
+t tau(26) 0.29085872576177285
+t tau(27) 0.36644077300103434
+t tau(28) 0.4772370486619896
+t tau(29) 1.0
+t tau(30) 0.5
+t tau(31) 0.6666666666666666
+t tau(32) 1.0
+t tau(33) 1.0
+t tau(34) 0.16666666666666666
+t tau(35) 0.1935483870967742
+t tau(36) 0.22934648581997533
+t tau(37) 0.2785855567518851
+t tau(38) 0.3486571526536151
+t tau(39) 0.45109982104017515
+t tau(40) 1.0
+t tau(41) 1.0
+t tau(42) 0.5
+t tau(43) 0.5
+t tau(44) 0.6666666666666666
+t tau(45) 0.6666666666666666
+t tau(46) 0.6666666666666666
+t tau(47) 1.0
+t tau(48) 1.0
+t tau(49) 1.0
+t tau(50) 1.0
+
+# Arcs
+a n1 Request█For█Payment█REJECTED█by█EMPLOYEE(0)
+a n2 tau(10)
+a n3 Request█For█Payment█REJECTED█by█MISSING(0)
+a n4 tau(14)
+a n5 Request█For█Payment█REJECTED█by█PRE_APPROVER(0)
+a n6 tau(3)
+a n7 Request█For█Payment█REJECTED█by█SUPERVISOR(0)
+a n8 tau(0)
+a n9 Request█For█Payment█SAVED█by█EMPLOYEE(0)
+a n10 tau(40)
+a n11 Request█For█Payment█SUBMITTED█by█EMPLOYEE(0)
+a n12 tau(7)
+a n12 tau(4)
+a n12 tau(5)
+a n12 tau(8)
+a n12 tau(6)
+a n13 Request█Payment(0)
+a n14 tau(12)
+a n15 Permit█REJECTED█by█MISSING(0)
+a n16 tau(22)
+a n17 Permit█REJECTED█by█PRE_APPROVER(0)
+a n18 tau(50)
+a n19 Permit█REJECTED█by█SUPERVISOR(0)
+a n20 tau(47)
+a n21 Permit█SUBMITTED█by█EMPLOYEE(0)
+a n22 tau(19)
+a n22 tau(20)
+a n22 tau(18)
+a n22 tau(21)
+a n22 tau(16)
+a n22 tau(17)
+a n23 Request█For█Payment█APPROVED█by█ADMINISTRATION(0)
+a n24 tau(25)
+a n24 tau(28)
+a n24 tau(27)
+a n24 tau(26)
+a n24 tau(24)
+a n25 Request█For█Payment█APPROVED█by█BUDGET█OWNER(0)
+a n26 tau(32)
+a n27 Request█For█Payment█APPROVED█by█PRE_APPROVER(0)
+a n28 tau(33)
+a n29 Request█For█Payment█APPROVED█by█SUPERVISOR(0)
+a n30 tau(29)
+a n31 Request█For█Payment█FINAL_APPROVED█by█DIRECTOR(0)
+a n32 tau(13)
+a n33 Request█For█Payment█FINAL_APPROVED█by█SUPERVISOR(0)
+a n34 tau(31)
+a n34 tau(30)
+a n35 Payment█Handled(0)
+a n36 tau(15)
+a n37 Permit█APPROVED█by█ADMINISTRATION(0)
+a n38 tau(39)
+a n38 tau(35)
+a n38 tau(36)
+a n38 tau(37)
+a n38 tau(38)
+a n38 tau(34)
+a n39 Permit█APPROVED█by█BUDGET█OWNER(0)
+a n40 tau(45)
+a n40 tau(42)
+a n41 Permit█APPROVED█by█PRE_APPROVER(0)
+a n42 tau(43)
+a n42 tau(46)
+a n43 Permit█APPROVED█by█SUPERVISOR(0)
+a n44 tau(41)
+a n45 Permit█FINAL_APPROVED█by█DIRECTOR(0)
+a n46 tau(9)
+a n47 Permit█FINAL_APPROVED█by█SUPERVISOR(0)
+a n48 tau(11)
+a n48 tau(44)
+a n49 Permit█REJECTED█by█ADMINISTRATION(0)
+a n50 tau(49)
+a n51 Permit█REJECTED█by█BUDGET█OWNER(0)
+a n52 tau(48)
+a n53 Permit█REJECTED█by█EMPLOYEE(0)
+a n54 tau(23)
+a n55 Request█For█Payment█REJECTED█by█ADMINISTRATION(0)
+a n56 tau(2)
+a n57 Request█For█Payment█REJECTED█by█BUDGET█OWNER(0)
+a n58 tau(1)
+a Request█For█Payment█REJECTED█by█EMPLOYEE(0) n2
+a Request█For█Payment█REJECTED█by█MISSING(0) n4
+a Request█For█Payment█REJECTED█by█PRE_APPROVER(0) n6
+a Request█For█Payment█REJECTED█by█SUPERVISOR(0) n8
+a Request█For█Payment█SAVED█by█EMPLOYEE(0) n10
+a Request█For█Payment█SUBMITTED█by█EMPLOYEE(0) n12
+a Request█Payment(0) n14
+a Permit█REJECTED█by█MISSING(0) n16
+a Permit█REJECTED█by█PRE_APPROVER(0) n18
+a Permit█REJECTED█by█SUPERVISOR(0) n20
+a Permit█SUBMITTED█by█EMPLOYEE(0) n22
+a Request█For█Payment█APPROVED█by█ADMINISTRATION(0) n24
+a Request█For█Payment█APPROVED█by█BUDGET█OWNER(0) n26
+a Request█For█Payment█APPROVED█by█PRE_APPROVER(0) n28
+a Request█For█Payment█APPROVED█by█SUPERVISOR(0) n30
+a Request█For█Payment█FINAL_APPROVED█by█DIRECTOR(0) n32
+a Request█For█Payment█FINAL_APPROVED█by█SUPERVISOR(0) n34
+a Payment█Handled(0) n36
+a Permit█APPROVED█by█ADMINISTRATION(0) n38
+a Permit█APPROVED█by█BUDGET█OWNER(0) n40
+a Permit█APPROVED█by█PRE_APPROVER(0) n42
+a Permit█APPROVED█by█SUPERVISOR(0) n44
+a Permit█FINAL_APPROVED█by█DIRECTOR(0) n46
+a Permit█FINAL_APPROVED█by█SUPERVISOR(0) n48
+a Permit█REJECTED█by█ADMINISTRATION(0) n50
+a Permit█REJECTED█by█BUDGET█OWNER(0) n52
+a Permit█REJECTED█by█EMPLOYEE(0) n54
+a Request█For█Payment█REJECTED█by█ADMINISTRATION(0) n56
+a Request█For█Payment█REJECTED█by█BUDGET█OWNER(0) n58
+a tau(0) n1
+a tau(1) n1
+a tau(2) n1
+a tau(3) n1
+a tau(4) n27
+a tau(5) n55
+a tau(6) n23
+a tau(7) n33
+a tau(8) n5
+a tau(9) n11
+a tau(10) n11
+a tau(11) n11
+a tau(12) n35
+a tau(13) n13
+a tau(14) n15
+a tau(15) n15
+a tau(16) n41
+a tau(17) n47
+a tau(18) n17
+a tau(19) n37
+a tau(20) n43
+a tau(21) n49
+a tau(22) n21
+a tau(23) n21
+a tau(24) n29
+a tau(25) n57
+a tau(26) n25
+a tau(27) n33
+a tau(28) n7
+a tau(29) n31
+a tau(30) n13
+a tau(31) n3
+a tau(32) n33
+a tau(33) n33
+a tau(34) n43
+a tau(35) n11
+a tau(36) n51
+a tau(37) n39
+a tau(38) n47
+a tau(39) n19
+a tau(40) n39
+a tau(41) n45
+a tau(42) n43
+a tau(43) n43
+a tau(44) n9
+a tau(45) n47
+a tau(46) n47
+a tau(47) n53
+a tau(48) n53
+a tau(49) n53
+a tau(50) n53
+
+# Initial State
+i
+
+# Deadlock States Not Recorded

@@ -1,0 +1,299 @@
+# Places
+p n26
+p n3
+p n25
+p n44
+p n21
+p n39
+p n38
+p n13
+p n23
+p n5
+p n9
+p n22
+p n36
+p n16
+p n49
+p n10
+p n1
+p n45
+p n48
+p n19
+p n20
+p n4
+p n42
+p n11
+p n41
+p n31
+p n24
+p n7
+p n28
+p n33
+p n15
+p n27
+p n6
+p n43
+p n8
+p n18
+p n30
+p n46
+p n37
+p n29
+p n40
+p n34
+p n17
+p n2
+p n14
+p n35
+p n32
+p n47
+p n12
+
+# Transitions
+t Declaration█REJECTED█by█SUPERVISOR+(0) 1
+t Declaration█REJECTED█by█DIRECTOR+(0) 1
+t Permit█APPROVED█by█SUPERVISOR+(0) 1
+t Permit█SUBMITTED█by█EMPLOYEE+(0) 1
+t Declaration█REJECTED█by█ADMINISTRATION+(0) 1
+t Declaration█REJECTED█by█PRE_APPROVER+(0) 1
+t Permit█REJECTED█by█ADMINISTRATION+(0) 1
+t Start█trip+(0) 1
+t Declaration█APPROVED█by█SUPERVISOR+(0) 1
+t Payment█Handled+(0) 1
+t Permit█FINAL_APPROVED█by█DIRECTOR+(0) 1
+t Permit█FINAL_APPROVED█by█SUPERVISOR+(0) 1
+t Declaration█APPROVED█by█PRE_APPROVER+(0) 1
+t Declaration█APPROVED█by█BUDGET█OWNER+(0) 1
+t Permit█REJECTED█by█PRE_APPROVER+(0) 1
+t Permit█REJECTED█by█SUPERVISOR+(0) 1
+t Declaration█FINAL_APPROVED█by█DIRECTOR+(0) 1
+t Declaration█SAVED█by█EMPLOYEE+(0) 1
+t Permit█REJECTED█by█BUDGET█OWNER+(0) 1
+t Send█Reminder+(0) 1
+t Permit█APPROVED█by█ADMINISTRATION+(0) 1
+t Declaration█REJECTED█by█BUDGET█OWNER+(0) 1
+t Declaration█REJECTED█by█MISSING+(0) 1
+t Declaration█REJECTED█by█EMPLOYEE+(0) 1
+t Permit█REJECTED█by█DIRECTOR+(0) 1
+t Permit█APPROVED█by█PRE_APPROVER+(0) 1
+t End█trip+(0) 1
+t Declaration█SUBMITTED█by█EMPLOYEE+(0) 1
+t Permit█REJECTED█by█EMPLOYEE+(0) 1
+t Declaration█FINAL_APPROVED█by█SUPERVISOR+(0) 1
+t Permit█APPROVED█by█BUDGET█OWNER+(0) 1
+t Declaration█APPROVED█by█ADMINISTRATION+(0) 1
+t Permit█REJECTED█by█MISSING+(0) 1
+t Request█Payment+(0) 1
+
+# Arcs
+a n4 Permit█REJECTED█by█BUDGET█OWNER+(0)
+a Declaration█REJECTED█by█EMPLOYEE+(0) n27
+a Declaration█FINAL_APPROVED█by█SUPERVISOR+(0) n49
+a n21 Permit█REJECTED█by█MISSING+(0)
+a n34 Declaration█REJECTED█by█PRE_APPROVER+(0)
+a Declaration█SAVED█by█EMPLOYEE+(0) n39
+a n26 Permit█REJECTED█by█SUPERVISOR+(0)
+a n43 Declaration█REJECTED█by█BUDGET█OWNER+(0)
+a Permit█SUBMITTED█by█EMPLOYEE+(0) n15
+a n37 Declaration█APPROVED█by█ADMINISTRATION+(0)
+a Permit█APPROVED█by█BUDGET█OWNER+(0) n25
+a Start█trip+(0) n7
+a Declaration█APPROVED█by█ADMINISTRATION+(0) n46
+a Declaration█SUBMITTED█by█EMPLOYEE+(0) n22
+a n27 Declaration█SAVED█by█EMPLOYEE+(0)
+a n34 Declaration█REJECTED█by█ADMINISTRATION+(0)
+a n33 Permit█FINAL_APPROVED█by█SUPERVISOR+(0)
+a Declaration█REJECTED█by█BUDGET█OWNER+(0) n44
+a n21 Declaration█REJECTED█by█ADMINISTRATION+(0)
+a n15 Permit█REJECTED█by█PRE_APPROVER+(0)
+a n47 Declaration█REJECTED█by█SUPERVISOR+(0)
+a n40 Declaration█FINAL_APPROVED█by█SUPERVISOR+(0)
+a Permit█FINAL_APPROVED█by█SUPERVISOR+(0) n35
+a n24 Permit█REJECTED█by█SUPERVISOR+(0)
+a n11 Start█trip+(0)
+a Declaration█APPROVED█by█ADMINISTRATION+(0) n45
+a n9 Request█Payment+(0)
+a Permit█REJECTED█by█MISSING+(0) n49
+a n45 Declaration█FINAL_APPROVED█by█SUPERVISOR+(0)
+a n48 Declaration█SUBMITTED█by█EMPLOYEE+(0)
+a n38 Declaration█APPROVED█by█ADMINISTRATION+(0)
+a n9 Declaration█REJECTED█by█DIRECTOR+(0)
+a Permit█REJECTED█by█MISSING+(0) n3
+a n35 Declaration█SUBMITTED█by█EMPLOYEE+(0)
+a Permit█REJECTED█by█BUDGET█OWNER+(0) n41
+a Permit█FINAL_APPROVED█by█SUPERVISOR+(0) n20
+a n14 Permit█APPROVED█by█SUPERVISOR+(0)
+a Declaration█REJECTED█by█MISSING+(0) n36
+a n21 Declaration█FINAL_APPROVED█by█DIRECTOR+(0)
+a n30 Declaration█APPROVED█by█BUDGET█OWNER+(0)
+a Declaration█REJECTED█by█SUPERVISOR+(0) n49
+a Declaration█SAVED█by█EMPLOYEE+(0) n5
+a n24 Permit█FINAL_APPROVED█by█SUPERVISOR+(0)
+a n10 Permit█REJECTED█by█MISSING+(0)
+a Declaration█SUBMITTED█by█EMPLOYEE+(0) n21
+a n47 Declaration█FINAL_APPROVED█by█SUPERVISOR+(0)
+a n30 Declaration█REJECTED█by█BUDGET█OWNER+(0)
+a n1 Permit█REJECTED█by█DIRECTOR+(0)
+a n16 Request█Payment+(0)
+a Permit█REJECTED█by█ADMINISTRATION+(0) n41
+a Permit█REJECTED█by█SUPERVISOR+(0) n41
+a n10 Declaration█APPROVED█by█PRE_APPROVER+(0)
+a n3 Permit█SUBMITTED█by█EMPLOYEE+(0)
+a Permit█SUBMITTED█by█EMPLOYEE+(0) n14
+a Declaration█REJECTED█by█SUPERVISOR+(0) n44
+a n19 Permit█REJECTED█by█BUDGET█OWNER+(0)
+a Declaration█REJECTED█by█BUDGET█OWNER+(0) n7
+a Declaration█APPROVED█by█SUPERVISOR+(0) n9
+a n44 Declaration█REJECTED█by█EMPLOYEE+(0)
+a n8 Declaration█SAVED█by█EMPLOYEE+(0)
+a Permit█APPROVED█by█BUDGET█OWNER+(0) n18
+a Permit█FINAL_APPROVED█by█SUPERVISOR+(0) n46
+a n43 Declaration█REJECTED█by█SUPERVISOR+(0)
+a Declaration█APPROVED█by█PRE_APPROVER+(0) n47
+a Declaration█REJECTED█by█BUDGET█OWNER+(0) n6
+a Declaration█APPROVED█by█ADMINISTRATION+(0) n43
+a n38 Declaration█REJECTED█by█PRE_APPROVER+(0)
+a n13 Start█trip+(0)
+a n22 Declaration█APPROVED█by█PRE_APPROVER+(0)
+a Permit█APPROVED█by█PRE_APPROVER+(0) n25
+a Permit█FINAL_APPROVED█by█SUPERVISOR+(0) n10
+a n36 Start█trip+(0)
+a End█trip+(0) n49
+a Declaration█REJECTED█by█MISSING+(0) n46
+a Permit█SUBMITTED█by█EMPLOYEE+(0) n23
+a Declaration█FINAL_APPROVED█by█SUPERVISOR+(0) n12
+a n12 Payment█Handled+(0)
+a Declaration█APPROVED█by█ADMINISTRATION+(0) n30
+a n25 Permit█APPROVED█by█SUPERVISOR+(0)
+a n15 Permit█APPROVED█by█ADMINISTRATION+(0)
+a Declaration█SUBMITTED█by█EMPLOYEE+(0) n34
+a Declaration█SAVED█by█EMPLOYEE+(0) n49
+a n45 Declaration█REJECTED█by█SUPERVISOR+(0)
+a n11 Declaration█FINAL_APPROVED█by█DIRECTOR+(0)
+a n5 Permit█REJECTED█by█MISSING+(0)
+a n14 Permit█FINAL_APPROVED█by█SUPERVISOR+(0)
+a n12 Declaration█REJECTED█by█MISSING+(0)
+a n32 Declaration█REJECTED█by█ADMINISTRATION+(0)
+a n37 Declaration█FINAL_APPROVED█by█DIRECTOR+(0)
+a n46 Permit█REJECTED█by█MISSING+(0)
+a n20 Declaration█SAVED█by█EMPLOYEE+(0)
+a Request█Payment+(0) n49
+a Permit█APPROVED█by█ADMINISTRATION+(0) n26
+a n31 Declaration█FINAL_APPROVED█by█SUPERVISOR+(0)
+a n33 Permit█REJECTED█by█BUDGET█OWNER+(0)
+a Declaration█REJECTED█by█ADMINISTRATION+(0) n44
+a Declaration█APPROVED█by█BUDGET█OWNER+(0) n31
+a n23 Permit█FINAL_APPROVED█by█SUPERVISOR+(0)
+a Declaration█SUBMITTED█by█EMPLOYEE+(0) n38
+a n32 Permit█REJECTED█by█MISSING+(0)
+a n39 Permit█REJECTED█by█MISSING+(0)
+a n26 Permit█APPROVED█by█SUPERVISOR+(0)
+a n38 Declaration█REJECTED█by█ADMINISTRATION+(0)
+a n48 Declaration█SAVED█by█EMPLOYEE+(0)
+a n15 Permit█APPROVED█by█PRE_APPROVER+(0)
+a n3 Payment█Handled+(0)
+a n30 Permit█REJECTED█by█MISSING+(0)
+a n43 Permit█REJECTED█by█MISSING+(0)
+a Declaration█FINAL_APPROVED█by█SUPERVISOR+(0) n28
+a n47 Declaration█APPROVED█by█SUPERVISOR+(0)
+a Declaration█FINAL_APPROVED█by█SUPERVISOR+(0) n16
+a n19 Permit█REJECTED█by█MISSING+(0)
+a n43 Declaration█APPROVED█by█SUPERVISOR+(0)
+a Permit█APPROVED█by█BUDGET█OWNER+(0) n17
+a Permit█FINAL_APPROVED█by█DIRECTOR+(0) n20
+a Declaration█REJECTED█by█MISSING+(0) n49
+a n24 Permit█APPROVED█by█SUPERVISOR+(0)
+a n22 Declaration█REJECTED█by█ADMINISTRATION+(0)
+a Declaration█REJECTED█by█MISSING+(0) n35
+a n40 Declaration█APPROVED█by█SUPERVISOR+(0)
+a n28 Declaration█REJECTED█by█MISSING+(0)
+a Declaration█REJECTED█by█PRE_APPROVER+(0) n44
+a Permit█APPROVED█by█PRE_APPROVER+(0) n17
+a n32 Declaration█APPROVED█by█SUPERVISOR+(0)
+a n33 Permit█REJECTED█by█SUPERVISOR+(0)
+a Declaration█SUBMITTED█by█EMPLOYEE+(0) n31
+a n37 Declaration█REJECTED█by█ADMINISTRATION+(0)
+a n6 End█trip+(0)
+a n42 Declaration█REJECTED█by█ADMINISTRATION+(0)
+a n4 Permit█APPROVED█by█BUDGET█OWNER+(0)
+a Permit█APPROVED█by█BUDGET█OWNER+(0) n24
+a n20 Declaration█SUBMITTED█by█EMPLOYEE+(0)
+a n19 Declaration█APPROVED█by█SUPERVISOR+(0)
+a n25 Permit█REJECTED█by█SUPERVISOR+(0)
+a Declaration█REJECTED█by█SUPERVISOR+(0) n6
+a Permit█APPROVED█by█SUPERVISOR+(0) n1
+a Declaration█APPROVED█by█ADMINISTRATION+(0) n39
+a n8 Declaration█APPROVED█by█PRE_APPROVER+(0)
+a Permit█REJECTED█by█ADMINISTRATION+(0) n36
+a n13 Declaration█APPROVED█by█SUPERVISOR+(0)
+a n17 Permit█FINAL_APPROVED█by█DIRECTOR+(0)
+a n18 Permit█FINAL_APPROVED█by█SUPERVISOR+(0)
+a n45 Declaration█REJECTED█by█BUDGET█OWNER+(0)
+a Declaration█REJECTED█by█EMPLOYEE+(0) n49
+a Declaration█SUBMITTED█by█EMPLOYEE+(0) n5
+a Declaration█SUBMITTED█by█EMPLOYEE+(0) n37
+a n33 Permit█APPROVED█by█SUPERVISOR+(0)
+a n34 Declaration█FINAL_APPROVED█by█DIRECTOR+(0)
+a n38 Declaration█APPROVED█by█PRE_APPROVER+(0)
+a Permit█APPROVED█by█PRE_APPROVER+(0) n36
+a Declaration█REJECTED█by█MISSING+(0) n39
+a Declaration█APPROVED█by█PRE_APPROVER+(0) n36
+a n18 Permit█REJECTED█by█SUPERVISOR+(0)
+a Permit█FINAL_APPROVED█by█SUPERVISOR+(0) n27
+a Permit█APPROVED█by█PRE_APPROVER+(0) n26
+a Permit█FINAL_APPROVED█by█DIRECTOR+(0) n46
+a Permit█APPROVED█by█BUDGET█OWNER+(0) n23
+a n48 Start█trip+(0)
+a Declaration█APPROVED█by█PRE_APPROVER+(0) n11
+a Permit█FINAL_APPROVED█by█DIRECTOR+(0) n35
+a n28 Request█Payment+(0)
+a Declaration█FINAL_APPROVED█by█DIRECTOR+(0) n28
+a Declaration█REJECTED█by█PRE_APPROVER+(0) n46
+a n17 Permit█REJECTED█by█SUPERVISOR+(0)
+a n2 Declaration█REJECTED█by█PRE_APPROVER+(0)
+a n29 Declaration█FINAL_APPROVED█by█SUPERVISOR+(0)
+a Declaration█APPROVED█by█SUPERVISOR+(0) n16
+a n34 Declaration█FINAL_APPROVED█by█SUPERVISOR+(0)
+a Send█Reminder+(0) n49
+a Declaration█APPROVED█by█PRE_APPROVER+(0) n13
+a Payment█Handled+(0) n49
+a n41 Permit█REJECTED█by█EMPLOYEE+(0)
+a n18 Permit█FINAL_APPROVED█by█DIRECTOR+(0)
+a n23 Permit█APPROVED█by█SUPERVISOR+(0)
+a n37 Declaration█REJECTED█by█PRE_APPROVER+(0)
+a Permit█REJECTED█by█DIRECTOR+(0) n41
+a n45 Declaration█APPROVED█by█SUPERVISOR+(0)
+a Permit█APPROVED█by█ADMINISTRATION+(0) n4
+a n42 Declaration█APPROVED█by█SUPERVISOR+(0)
+a n7 End█trip+(0)
+a n22 Permit█REJECTED█by█MISSING+(0)
+a Declaration█SUBMITTED█by█EMPLOYEE+(0) n42
+a n2 Declaration█REJECTED█by█SUPERVISOR+(0)
+a Permit█FINAL_APPROVED█by█SUPERVISOR+(0) n8
+a Permit█REJECTED█by█PRE_APPROVER+(0) n41
+a Start█trip+(0) n2
+a End█trip+(0) n19
+a n48 Permit█SUBMITTED█by█EMPLOYEE+(0)
+a Declaration█APPROVED█by█PRE_APPROVER+(0) n40
+a n29 Declaration█FINAL_APPROVED█by█DIRECTOR+(0)
+a n40 Declaration█REJECTED█by█SUPERVISOR+(0)
+a Permit█APPROVED█by█ADMINISTRATION+(0) n33
+a Declaration█SUBMITTED█by█EMPLOYEE+(0) n32
+a n42 Declaration█FINAL_APPROVED█by█SUPERVISOR+(0)
+a Declaration█APPROVED█by█BUDGET█OWNER+(0) n40
+a Declaration█APPROVED█by█ADMINISTRATION+(0) n47
+a n31 Declaration█APPROVED█by█SUPERVISOR+(0)
+a Declaration█APPROVED█by█PRE_APPROVER+(0) n29
+a Permit█FINAL_APPROVED█by█DIRECTOR+(0) n27
+a Declaration█REJECTED█by█PRE_APPROVER+(0) n39
+a n42 Declaration█REJECTED█by█PRE_APPROVER+(0)
+a n29 Declaration█REJECTED█by█SUPERVISOR+(0)
+a Declaration█REJECTED█by█ADMINISTRATION+(0) n35
+a Declaration█REJECTED█by█DIRECTOR+(0) n44
+a n14 Permit█REJECTED█by█PRE_APPROVER+(0)
+
+# Initial State
+i n48 1
+
+# Deadlock States
+f n49 1

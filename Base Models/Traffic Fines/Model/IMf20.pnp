@@ -1,0 +1,97 @@
+# Places
+p n7
+p n3
+p n5
+p n8
+p n9
+p n11
+p n1
+p n4
+p n16
+p n2
+p n10
+p n6
+p n12
+p n13
+p n14
+p n15
+p n17
+
+# Transitions
+t Send█Fine(0) 1
+t n37(0) 1
+t Create█Fine(0) 1
+t Appeal█to█Judge(0) 1
+t n20(0) 1
+t n22(0) 1
+t Send█for█Credit█Collection(0) 1
+t Insert█Date█Appeal█to█Prefecture(0) 1
+t n21(0) 1
+t Payment(0) 1
+t n28(0) 1
+t Notify█Result█Appeal█to█Offender(0) 1
+t Send█Appeal█to█Prefecture(0) 1
+t Insert█Fine█Notification(0) 1
+t n24(0) 1
+t n31(0) 1
+t Receive█Result█Appeal█from█Prefecture(0) 1
+t n33(0) 1
+t n19(0) 1
+t Add█penalty(0) 1
+t n35(0) 1
+
+# Arcs
+a n24(0) n7
+a n1 Create█Fine(0)
+a n8 Notify█Result█Appeal█to█Offender(0)
+a n14 n22(0)
+a n3 n21(0)
+a n28(0) n14
+a n6 Insert█Date█Appeal█to█Prefecture(0)
+a Create█Fine(0) n3
+a n13 Appeal█to█Judge(0)
+a n15 Insert█Fine█Notification(0)
+a n16 Payment(0)
+a Add█penalty(0) n16
+a n17 Send█for█Credit█Collection(0)
+a Insert█Fine█Notification(0) n4
+a Payment(0) n17
+a Send█Appeal█to█Prefecture(0) n10
+a Notify█Result█Appeal█to█Offender(0) n7
+a n20(0) n5
+a n13 n28(0)
+a n3 n20(0)
+a n22(0) n5
+a n21(0) n11
+a n15 n31(0)
+a n35(0) n17
+a n11 Receive█Result█Appeal█from█Prefecture(0)
+a n3 n19(0)
+a n9 Send█Appeal█to█Prefecture(0)
+a n21(0) n6
+a n12 n22(0)
+a n4 n33(0)
+a n31(0) n4
+a Insert█Date█Appeal█to█Prefecture(0) n8
+a Receive█Result█Appeal█from█Prefecture(0) n12
+a Send█for█Credit█Collection(0) n2
+a n21(0) n9
+a n16 n35(0)
+a n4 Add█penalty(0)
+a n10 n22(0)
+a n7 n22(0)
+a Send█Fine(0) n15
+a n5 Send█Fine(0)
+a n19(0) n4
+a n37(0) n2
+a n21(0) n13
+a n33(0) n16
+a n8 n24(0)
+a Appeal█to█Judge(0) n14
+a n17 n37(0)
+
+# Initial State
+i n1 1
+
+# Deadlock States
+f n2 1

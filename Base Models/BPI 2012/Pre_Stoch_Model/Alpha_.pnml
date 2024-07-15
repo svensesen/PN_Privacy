@@ -1,0 +1,908 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imported_1713189276.0497587" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imported_1713189276.0497587</text>
+    </name>
+    <page id="n0">
+      <place id="n6">
+        <name>
+          <text>([O_CREATED+COMPLETE],[O_SENT+COMPLETE])</text>
+        </name>
+        <graphics>
+          <position x="731.25" y="641.5" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n5">
+        <name>
+          <text>([A_DECLINED+COMPLETE],[W_Beoordelen fraude+COMPLETE])</text>
+        </name>
+        <graphics>
+          <position x="643.75" y="489.0" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n20">
+        <name>
+          <text>([W_Valideren aanvraag+START],[O_CANCELLED+COMPLETE, W_Beoordelen fraude+SCHEDULE, A_ACTIVATED+COMPLETE, O_DECLINED+COMPLETE])</text>
+        </name>
+        <graphics>
+          <position x="556.25" y="136.5" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n10">
+        <name>
+          <text>([O_SELECTED+COMPLETE, O_SENT+COMPLETE],[W_Nabellen offertes+SCHEDULE])</text>
+        </name>
+        <graphics>
+          <position x="818.75" y="745.5" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n19">
+        <name>
+          <text>([W_Valideren aanvraag+START],[O_CANCELLED+COMPLETE, O_ACCEPTED+COMPLETE, W_Beoordelen fraude+SCHEDULE, A_DECLINED+COMPLETE])</text>
+        </name>
+        <graphics>
+          <position x="556.25" y="236.5" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n32">
+        <name>
+          <text>([W_Valideren aanvraag+START],[O_SELECTED+COMPLETE, A_CANCELLED+COMPLETE, W_Beoordelen fraude+SCHEDULE, A_ACTIVATED+COMPLETE, A_DECLINED+COMPLETE])</text>
+        </name>
+        <graphics>
+          <position x="556.25" y="574.0" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n31">
+        <name>
+          <text>([W_Valideren aanvraag+START],[O_SELECTED+COMPLETE, A_REGISTERED+COMPLETE, A_CANCELLED+COMPLETE, W_Beoordelen fraude+SCHEDULE, A_DECLINED+COMPLETE])</text>
+        </name>
+        <graphics>
+          <position x="556.25" y="546.5" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n14">
+        <name>
+          <text>([W_Nabellen offertes+START, W_Valideren aanvraag+START],[O_CANCELLED+COMPLETE, A_DECLINED+COMPLETE])</text>
+        </name>
+        <graphics>
+          <position x="556.25" y="491.5" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n33">
+        <name>
+          <text>([W_Valideren aanvraag+START],[O_SELECTED+COMPLETE, A_CANCELLED+COMPLETE, W_Beoordelen fraude+SCHEDULE, A_ACTIVATED+COMPLETE, O_DECLINED+COMPLETE])</text>
+        </name>
+        <graphics>
+          <position x="556.25" y="381.5" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n22">
+        <name>
+          <text>([W_Nabellen offertes+START],[O_SELECTED+COMPLETE, A_CANCELLED+COMPLETE, O_SENT_BACK+COMPLETE, A_DECLINED+COMPLETE])</text>
+        </name>
+        <graphics>
+          <position x="62.5" y="547.5" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n2">
+        <name>
+          <text>([W_Beoordelen fraude+SCHEDULE],[W_Beoordelen fraude+START])</text>
+        </name>
+        <graphics>
+          <position x="293.75" y="258.5" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n21">
+        <name>
+          <text>([W_Valideren aanvraag+START],[O_CANCELLED+COMPLETE, W_Beoordelen fraude+SCHEDULE, A_ACTIVATED+COMPLETE, A_DECLINED+COMPLETE])</text>
+        </name>
+        <graphics>
+          <position x="556.25" y="209.0" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n35">
+        <name>
+          <text>([W_Valideren aanvraag+START],[O_SELECTED+COMPLETE, O_ACCEPTED+COMPLETE, A_CANCELLED+COMPLETE, W_Beoordelen fraude+SCHEDULE, A_DECLINED+COMPLETE])</text>
+        </name>
+        <graphics>
+          <position x="556.25" y="601.5" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n11">
+        <name>
+          <text>([O_SENT+COMPLETE],[W_Nabellen incomplete dossiers+SCHEDULE, W_Nabellen offertes+SCHEDULE])</text>
+        </name>
+        <graphics>
+          <position x="818.75" y="718.5" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n25">
+        <name>
+          <text>([W_Valideren aanvraag+START],[O_CANCELLED+COMPLETE, O_ACCEPTED+COMPLETE, W_Beoordelen fraude+SCHEDULE, O_DECLINED+COMPLETE])</text>
+        </name>
+        <graphics>
+          <position x="556.25" y="109.0" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n8">
+        <name>
+          <text>([W_Beoordelen fraude+START, O_SENT_BACK+COMPLETE],[W_Valideren aanvraag+SCHEDULE])</text>
+        </name>
+        <graphics>
+          <position x="381.25" y="519.5" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n28">
+        <name>
+          <text>([A_PARTLYSUBMITTED+COMPLETE],[W_Afhandelen leads+SCHEDULE, A_PREACCEPTED+COMPLETE, W_Beoordelen fraude+SCHEDULE, A_DECLINED+COMPLETE])</text>
+        </name>
+        <graphics>
+          <position x="206.25" y="237.5" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n34">
+        <name>
+          <text>([W_Nabellen offertes+START, W_Valideren aanvraag+START],[O_SELECTED+COMPLETE, A_CANCELLED+COMPLETE, O_DECLINED+COMPLETE])</text>
+        </name>
+        <graphics>
+          <position x="556.25" y="674.0" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n3">
+        <name>
+          <text>([O_SELECTED+COMPLETE],[O_CREATED+COMPLETE])</text>
+        </name>
+        <graphics>
+          <position x="643.75" y="601.5" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n39">
+        <name>
+          <text>([W_Nabellen offertes+START, A_ACCEPTED+COMPLETE, W_Valideren aanvraag+START],[O_SELECTED+COMPLETE, A_CANCELLED+COMPLETE, A_DECLINED+COMPLETE])</text>
+        </name>
+        <graphics>
+          <position x="556.25" y="701.5" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n37">
+        <name>
+          <text>([W_Afhandelen leads+START, A_PARTLYSUBMITTED+COMPLETE],[A_PREACCEPTED+COMPLETE, W_Beoordelen fraude+SCHEDULE, A_DECLINED+COMPLETE])</text>
+        </name>
+        <graphics>
+          <position x="818.75" y="443.5" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n18">
+        <name>
+          <text>([W_Valideren aanvraag+START],[O_CANCELLED+COMPLETE, A_REGISTERED+COMPLETE, W_Beoordelen fraude+SCHEDULE, A_DECLINED+COMPLETE])</text>
+        </name>
+        <graphics>
+          <position x="556.25" y="464.0" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n40">
+        <name>
+          <text>([W_Afhandelen leads+START, W_Beoordelen fraude+START, A_PARTLYSUBMITTED+COMPLETE, W_Nabellen offertes+START, A_ACCEPTED+COMPLETE, W_Valideren aanvraag+START],[A_DECLINED+COMPLETE])</text>
+        </name>
+        <graphics>
+          <position x="818.75" y="555.5" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n29">
+        <name>
+          <text>([W_Valideren aanvraag+START],[O_SELECTED+COMPLETE, A_REGISTERED+COMPLETE, A_CANCELLED+COMPLETE, W_Beoordelen fraude+SCHEDULE, O_DECLINED+COMPLETE])</text>
+        </name>
+        <graphics>
+          <position x="556.25" y="519.0" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n13">
+        <name>
+          <text>([W_Nabellen offertes+START],[O_CANCELLED+COMPLETE, O_SENT_BACK+COMPLETE, A_DECLINED+COMPLETE])</text>
+        </name>
+        <graphics>
+          <position x="62.5" y="728.5" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n38">
+        <name>
+          <text>([W_Afhandelen leads+START, A_PARTLYSUBMITTED+COMPLETE, W_Valideren aanvraag+START],[W_Beoordelen fraude+SCHEDULE, A_DECLINED+COMPLETE])</text>
+        </name>
+        <graphics>
+          <position x="206.25" y="147.0" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n24">
+        <name>
+          <text>([W_Nabellen offertes+START, W_Valideren aanvraag+START],[O_CANCELLED+COMPLETE, O_DECLINED+COMPLETE])</text>
+        </name>
+        <graphics>
+          <position x="556.25" y="409.0" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n17">
+        <name>
+          <text>([A_ACCEPTED+COMPLETE],[A_FINALIZED+COMPLETE, A_CANCELLED+COMPLETE, A_DECLINED+COMPLETE])</text>
+        </name>
+        <graphics>
+          <position x="62.5" y="334.5" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n30">
+        <name>
+          <text>([W_Valideren aanvraag+START],[O_SELECTED+COMPLETE, O_ACCEPTED+COMPLETE, A_CANCELLED+COMPLETE, W_Beoordelen fraude+SCHEDULE, O_DECLINED+COMPLETE])</text>
+        </name>
+        <graphics>
+          <position x="556.25" y="309.0" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n4">
+        <name>
+          <text>([A_SUBMITTED+COMPLETE],[A_PARTLYSUBMITTED+COMPLETE])</text>
+        </name>
+        <graphics>
+          <position x="112.5" y="134.0" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n16">
+        <name>
+          <text>([O_CANCELLED+COMPLETE, A_FINALIZED+COMPLETE, W_Nabellen offertes+SCHEDULE],[O_CREATED+COMPLETE])</text>
+        </name>
+        <graphics>
+          <position x="906.25" y="738.5" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n7">
+        <name>
+          <text>([W_Beoordelen fraude+COMPLETE],[W_Afhandelen leads+START, W_Valideren aanvraag+START])</text>
+        </name>
+        <graphics>
+          <position x="731.25" y="288.5" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n26">
+        <name>
+          <text>([W_Beoordelen fraude+START],[W_Afhandelen leads+SCHEDULE, W_Valideren aanvraag+SCHEDULE, W_Completeren aanvraag+SCHEDULE, A_DECLINED+COMPLETE])</text>
+        </name>
+        <graphics>
+          <position x="381.25" y="302.5" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n9">
+        <name>
+          <text>([W_Afhandelen leads+SCHEDULE, W_Completeren aanvraag+SCHEDULE],[W_Afhandelen leads+START])</text>
+        </name>
+        <graphics>
+          <position x="993.75" y="395.0" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n1">
+        <name>
+          <text>([W_Valideren aanvraag+SCHEDULE],[W_Valideren aanvraag+START])</text>
+        </name>
+        <graphics>
+          <position x="468.75" y="476.0" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n15">
+        <name>
+          <text>([W_Beoordelen fraude+START, A_PARTLYSUBMITTED+COMPLETE],[W_Afhandelen leads+SCHEDULE, A_DECLINED+COMPLETE])</text>
+        </name>
+        <graphics>
+          <position x="381.25" y="147.5" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n36">
+        <name>
+          <text>([W_Nabellen offertes+START],[O_SELECTED+COMPLETE, A_CANCELLED+COMPLETE, O_SENT_BACK+COMPLETE, O_DECLINED+COMPLETE])</text>
+        </name>
+        <graphics>
+          <position x="62.5" y="826.0" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n27">
+        <name>
+          <text>([W_Valideren aanvraag+START],[O_CANCELLED+COMPLETE, A_REGISTERED+COMPLETE, W_Beoordelen fraude+SCHEDULE, O_DECLINED+COMPLETE])</text>
+        </name>
+        <graphics>
+          <position x="556.25" y="436.5" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n42">
+        <name>
+          <text>End</text>
+        </name>
+        <graphics>
+          <position x="731.25" y="695.0" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n41">
+        <name>
+          <text>Start</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+        <graphics>
+          <position x="12.5" y="135.0" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n23">
+        <name>
+          <text>([W_Nabellen offertes+START],[O_CANCELLED+COMPLETE, O_SENT_BACK+COMPLETE, O_DECLINED+COMPLETE])</text>
+        </name>
+        <graphics>
+          <position x="62.5" y="639.0" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n12">
+        <name>
+          <text>([W_Beoordelen fraude+START, A_PREACCEPTED+COMPLETE],[W_Completeren aanvraag+SCHEDULE])</text>
+        </name>
+        <graphics>
+          <position x="906.25" y="405.5" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <transition id="n62">
+        <name>
+          <text>W_Afhandelen leads+START</text>
+        </name>
+        <graphics>
+          <position x="775.0" y="303.5" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n74">
+        <name>
+          <text>W_Nabellen offertes+START</text>
+        </name>
+        <graphics>
+          <position x="12.5" y="715.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n76">
+        <name>
+          <text>W_Valideren aanvraag+SCHEDULE</text>
+        </name>
+        <graphics>
+          <position x="425.0" y="471.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n78">
+        <name>
+          <text>W_Wijzigen contractgegevens+SCHEDULE</text>
+        </name>
+        <graphics>
+          <position x="12.5" y="236.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n55">
+        <name>
+          <text>O_CREATED+COMPLETE</text>
+        </name>
+        <graphics>
+          <position x="687.5" y="595.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n50">
+        <name>
+          <text>A_PREACCEPTED+COMPLETE</text>
+        </name>
+        <graphics>
+          <position x="862.5" y="538.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n48">
+        <name>
+          <text>A_FINALIZED+COMPLETE</text>
+        </name>
+        <graphics>
+          <position x="112.5" y="376.5" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n63">
+        <name>
+          <text>W_Beoordelen fraude+COMPLETE</text>
+        </name>
+        <graphics>
+          <position x="687.5" y="476.5" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n73">
+        <name>
+          <text>W_Nabellen offertes+SCHEDULE</text>
+        </name>
+        <graphics>
+          <position x="862.5" y="769.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n61">
+        <name>
+          <text>W_Afhandelen leads+SCHEDULE</text>
+        </name>
+        <graphics>
+          <position x="425.0" y="323.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n77">
+        <name>
+          <text>W_Valideren aanvraag+START</text>
+        </name>
+        <graphics>
+          <position x="512.5" y="361.5" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n60">
+        <name>
+          <text>W_Afhandelen leads+COMPLETE</text>
+        </name>
+        <graphics>
+          <position x="12.5" y="66.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n53">
+        <name>
+          <text>O_ACCEPTED+COMPLETE</text>
+        </name>
+        <graphics>
+          <position x="600.0" y="218.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n65">
+        <name>
+          <text>W_Beoordelen fraude+START</text>
+        </name>
+        <graphics>
+          <position x="337.5" y="270.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n70">
+        <name>
+          <text>W_Nabellen incomplete dossiers+SCHEDULE</text>
+        </name>
+        <graphics>
+          <position x="862.5" y="734.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n44">
+        <name>
+          <text>A_ACTIVATED+COMPLETE</text>
+        </name>
+        <graphics>
+          <position x="600.0" y="266.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n54">
+        <name>
+          <text>O_CANCELLED+COMPLETE</text>
+        </name>
+        <graphics>
+          <position x="600.0" y="422.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n46">
+        <name>
+          <text>A_CANCELLED+COMPLETE</text>
+        </name>
+        <graphics>
+          <position x="600.0" y="626.5" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n64">
+        <name>
+          <text>W_Beoordelen fraude+SCHEDULE</text>
+        </name>
+        <graphics>
+          <position x="250.0" y="239.5" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n43">
+        <name>
+          <text>A_ACCEPTED+COMPLETE</text>
+        </name>
+        <graphics>
+          <position x="12.5" y="285.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n58">
+        <name>
+          <text>O_SENT+COMPLETE</text>
+        </name>
+        <graphics>
+          <position x="775.0" y="688.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n75">
+        <name>
+          <text>W_Valideren aanvraag+COMPLETE</text>
+        </name>
+        <graphics>
+          <position x="12.5" y="976.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n45">
+        <name>
+          <text>A_APPROVED+COMPLETE</text>
+        </name>
+        <graphics>
+          <position x="12.5" y="1178.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n68">
+        <name>
+          <text>W_Completeren aanvraag+START</text>
+        </name>
+        <graphics>
+          <position x="12.5" y="1078.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n71">
+        <name>
+          <text>W_Nabellen incomplete dossiers+START</text>
+        </name>
+        <graphics>
+          <position x="12.5" y="1128.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n59">
+        <name>
+          <text>O_SENT_BACK+COMPLETE</text>
+        </name>
+        <graphics>
+          <position x="112.5" y="660.5" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n69">
+        <name>
+          <text>W_Nabellen incomplete dossiers+COMPLETE</text>
+        </name>
+        <graphics>
+          <position x="12.5" y="1014.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n67">
+        <name>
+          <text>W_Completeren aanvraag+SCHEDULE</text>
+        </name>
+        <graphics>
+          <position x="950.0" y="395.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n56">
+        <name>
+          <text>O_DECLINED+COMPLETE</text>
+        </name>
+        <graphics>
+          <position x="600.0" y="457.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n47">
+        <name>
+          <text>A_DECLINED+COMPLETE</text>
+        </name>
+        <graphics>
+          <position x="600.0" y="541.5" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n66">
+        <name>
+          <text>W_Completeren aanvraag+COMPLETE</text>
+        </name>
+        <graphics>
+          <position x="12.5" y="201.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n72">
+        <name>
+          <text>W_Nabellen offertes+COMPLETE</text>
+        </name>
+        <graphics>
+          <position x="12.5" y="166.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n52">
+        <name>
+          <text>A_SUBMITTED+COMPLETE</text>
+        </name>
+        <graphics>
+          <position x="62.5" y="135.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n51">
+        <name>
+          <text>A_REGISTERED+COMPLETE</text>
+        </name>
+        <graphics>
+          <position x="600.0" y="492.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n49">
+        <name>
+          <text>A_PARTLYSUBMITTED+COMPLETE</text>
+        </name>
+        <graphics>
+          <position x="162.5" y="142.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n57">
+        <name>
+          <text>O_SELECTED+COMPLETE</text>
+        </name>
+        <graphics>
+          <position x="600.0" y="591.5" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <arc id="2067174217712" source="n25" target="n64" />
+      <arc id="2067174219728" source="n30" target="n57" />
+      <arc id="2067174241808" source="n10" target="n73" />
+      <arc id="2067174839824" source="n36" target="n56" />
+      <arc id="2067174841360" source="n31" target="n57" />
+      <arc id="2067174243344" source="n67" target="n9" />
+      <arc id="2067174114832" source="n11" target="n70" />
+      <arc id="2067174116368" source="n77" target="n35" />
+      <arc id="2067174217232" source="n16" target="n55" />
+      <arc id="2067174218768" source="n77" target="n30" />
+      <arc id="2067174073872" source="n62" target="n37" />
+      <arc id="2067174218000" source="n18" target="n64" />
+      <arc id="2067174219632" source="n73" target="n16" />
+      <arc id="2067174073296" source="n21" target="n44" />
+      <arc id="2067174241328" source="n4" target="n49" />
+      <arc id="2067174839344" source="n29" target="n57" />
+      <arc id="2067174840880" source="n77" target="n18" />
+      <arc id="2067174242864" source="n63" target="n42" />
+      <arc id="2067174114352" source="n34" target="n46" />
+      <arc id="2067174115888" source="n57" target="n10" />
+      <arc id="2067174216752" source="n17" target="n46" />
+      <arc id="2067174217904" source="n29" target="n51" />
+      <arc id="2067174218288" source="n77" target="n21" />
+      <arc id="2067174073392" source="n77" target="n24" />
+      <arc id="2067174219536" source="n60" target="n42" />
+      <arc id="2067174073200" source="n74" target="n34" />
+      <arc id="2067174841936" source="n27" target="n56" />
+      <arc id="2067174240848" source="n49" target="n37" />
+      <arc id="2067174838864" source="n6" target="n58" />
+      <arc id="2067174840400" source="n65" target="n15" />
+      <arc id="2067174242384" source="n43" target="n17" />
+      <arc id="2067174243920" source="n32" target="n44" />
+      <arc id="2067174113872" source="n29" target="n64" />
+      <arc id="2067174115408" source="n65" target="n40" />
+      <arc id="2067174116944" source="n18" target="n47" />
+      <arc id="2067174216272" source="n77" target="n42" />
+      <arc id="2067174217808" source="n32" target="n46" />
+      <arc id="2067174219440" source="n31" target="n51" />
+      <arc id="2067174073104" source="n59" target="n8" />
+      <arc id="2067174243440" source="n35" target="n64" />
+      <arc id="2067174240368" source="n11" target="n73" />
+      <arc id="2067174241904" source="n32" target="n47" />
+      <arc id="2067174839920" source="n25" target="n53" />
+      <arc id="2067174838384" source="n58" target="n10" />
+      <arc id="2067174841456" source="n38" target="n47" />
+      <arc id="2067174113392" source="n26" target="n67" />
+      <arc id="2067174114928" source="n24" target="n54" />
+      <arc id="2067174116464" source="n33" target="n46" />
+      <arc id="2067174215792" source="n75" target="n42" />
+      <arc id="2067174219344" source="n32" target="n64" />
+      <arc id="2067174073008" source="n33" target="n64" />
+      <arc id="2067174217616" source="n49" target="n40" />
+      <arc id="2067174839440" source="n33" target="n56" />
+      <arc id="2067174840976" source="n31" target="n64" />
+      <arc id="2067174242960" source="n65" target="n26" />
+      <arc id="2067174241424" source="n58" target="n11" />
+      <arc id="2067174114448" source="n77" target="n31" />
+      <arc id="2067174115984" source="n5" target="n63" />
+      <arc id="2067174216848" source="n77" target="n20" />
+      <arc id="2067174218384" source="n77" target="n32" />
+      <arc id="2067174073488" source="n39" target="n57" />
+      <arc id="2067174219248" source="n29" target="n46" />
+      <arc id="2067174072912" source="n17" target="n47" />
+      <arc id="2067174217520" source="n23" target="n59" />
+      <arc id="2067174240944" source="n49" target="n28" />
+      <arc id="2067174838960" source="n74" target="n42" />
+      <arc id="2067174840496" source="n20" target="n56" />
+      <arc id="2067174842032" source="n39" target="n46" />
+      <arc id="2067174242480" source="n74" target="n40" />
+      <arc id="2067174244016" source="n21" target="n64" />
+      <arc id="2067174113968" source="n77" target="n39" />
+      <arc id="2067174115504" source="n26" target="n47" />
+      <arc id="2067174117040" source="n77" target="n33" />
+      <arc id="2067174216368" source="n76" target="n1" />
+      <arc id="2067174219152" source="n61" target="n9" />
+      <arc id="2067174072816" source="n14" target="n47" />
+      <arc id="2067174217424" source="n63" target="n7" />
+      <arc id="2067174240464" source="n13" target="n54" />
+      <arc id="2067174243536" source="n37" target="n47" />
+      <arc id="2067174242000" source="n19" target="n47" />
+      <arc id="2067174840016" source="n30" target="n56" />
+      <arc id="2067174838480" source="n20" target="n54" />
+      <arc id="2067174841552" source="n50" target="n12" />
+      <arc id="2067174113488" source="n64" target="n2" />
+      <arc id="2067174115024" source="n22" target="n57" />
+      <arc id="2067174116560" source="n77" target="n27" />
+      <arc id="2067174215888" source="n46" target="n42" />
+      <arc id="2067174219056" source="n22" target="n47" />
+      <arc id="2067174072720" source="n41" target="n52" />
+      <arc id="2067174217328" source="n34" target="n56" />
+      <arc id="2067174243056" source="n7" target="n77" />
+      <arc id="2067174241520" source="n29" target="n56" />
+      <arc id="2067174839536" source="n35" target="n53" />
+      <arc id="2067174841072" source="n35" target="n46" />
+      <arc id="2067174114544" source="n69" target="n42" />
+      <arc id="2067174116080" source="n77" target="n14" />
+      <arc id="2067174216944" source="n13" target="n59" />
+      <arc id="2067174218480" source="n36" target="n57" />
+      <arc id="2067174218960" source="n78" target="n42" />
+      <arc id="2067174073584" source="n18" target="n51" />
+      <arc id="2067174072624" source="n1" target="n77" />
+      <arc id="2067174839056" source="n26" target="n61" />
+      <arc id="2067174840592" source="n77" target="n38" />
+      <arc id="2067174842128" source="n28" target="n47" />
+      <arc id="2067174242576" source="n62" target="n40" />
+      <arc id="2067174241040" source="n19" target="n53" />
+      <arc id="2067174244112" source="n27" target="n64" />
+      <arc id="2067174114064" source="n24" target="n56" />
+      <arc id="2067174115600" source="n74" target="n14" />
+      <arc id="2067174117136" source="n65" target="n8" />
+      <arc id="2067174216464" source="n14" target="n54" />
+      <arc id="2067174218864" source="n74" target="n23" />
+      <arc id="2067174072528" source="n37" target="n50" />
+      <arc id="2067174242096" source="n20" target="n64" />
+      <arc id="2067174838576" source="n27" target="n51" />
+      <arc id="2067174840112" source="n28" target="n50" />
+      <arc id="2067174841648" source="n49" target="n38" />
+      <arc id="2067174240560" source="n57" target="n3" />
+      <arc id="2067174243632" source="n39" target="n47" />
+      <arc id="2067174113584" source="n18" target="n54" />
+      <arc id="2067174115120" source="n9" target="n62" />
+      <arc id="2067174116656" source="n43" target="n40" />
+      <arc id="2067174215984" source="n38" target="n64" />
+      <arc id="2067174072432" source="n54" target="n16" />
+      <arc id="2067174241616" source="n28" target="n64" />
+      <arc id="2067174839632" source="n30" target="n64" />
+      <arc id="2067174841168" source="n13" target="n47" />
+      <arc id="2067174243152" source="n34" target="n57" />
+      <arc id="2067174114640" source="n36" target="n59" />
+      <arc id="2067174116176" source="n33" target="n44" />
+      <arc id="2067174217040" source="n30" target="n46" />
+      <arc id="2067174218576" source="n23" target="n54" />
+      <arc id="2067174073680" source="n21" target="n54" />
+      <arc id="2067174073968" source="n25" target="n54" />
+      <arc id="2067174842224" source="n77" target="n25" />
+      <arc id="2067174241136" source="n47" target="n5" />
+      <arc id="2067174839152" source="n2" target="n65" />
+      <arc id="2067174840688" source="n19" target="n54" />
+      <arc id="2067174242672" source="n22" target="n59" />
+      <arc id="2067174244208" source="n49" target="n15" />
+      <arc id="2067174114160" source="n23" target="n56" />
+      <arc id="2067174115696" source="n77" target="n34" />
+      <arc id="2067174117232" source="n15" target="n47" />
+      <arc id="2067174216560" source="n74" target="n13" />
+      <arc id="2067174242192" source="n77" target="n19" />
+      <arc id="2067174838672" source="n22" target="n46" />
+      <arc id="2067174840208" source="n17" target="n48" />
+      <arc id="2067174841744" source="n21" target="n47" />
+      <arc id="2067174240656" source="n65" target="n12" />
+      <arc id="2067174243728" source="n25" target="n56" />
+      <arc id="2067174113680" source="n74" target="n36" />
+      <arc id="2067174115216" source="n55" target="n6" />
+      <arc id="2067174116752" source="n72" target="n42" />
+      <arc id="2067174216080" source="n33" target="n57" />
+      <arc id="2067174216656" source="n52" target="n4" />
+      <arc id="2067174241712" source="n35" target="n57" />
+      <arc id="2067174839728" source="n74" target="n39" />
+      <arc id="2067174841264" source="n40" target="n47" />
+      <arc id="2067174243248" source="n66" target="n42" />
+      <arc id="2067174114736" source="n43" target="n39" />
+      <arc id="2067174116272" source="n51" target="n42" />
+      <arc id="2067174217136" source="n36" target="n46" />
+      <arc id="2067174218672" source="n3" target="n55" />
+      <arc id="2067174073776" source="n35" target="n47" />
+      <arc id="2067174842320" source="n28" target="n61" />
+      <arc id="2067174241232" source="n32" target="n57" />
+      <arc id="2067174839248" source="n31" target="n47" />
+      <arc id="2067174686672" source="n19" target="n64" />
+      <arc id="2067174840784" source="n12" target="n67" />
+      <arc id="2067174242768" source="n74" target="n24" />
+      <arc id="2067174244304" source="n7" target="n62" />
+      <arc id="2067174114256" source="n74" target="n22" />
+      <arc id="2067174115792" source="n15" target="n61" />
+      <arc id="2067174117328" source="n37" target="n64" />
+      <arc id="2067174218192" source="n20" target="n44" />
+      <arc id="2067174242288" source="n54" target="n42" />
+      <arc id="2067174240752" source="n30" target="n53" />
+      <arc id="2067174838768" source="n8" target="n76" />
+      <arc id="2067174840304" source="n31" target="n46" />
+      <arc id="2067174841840" source="n48" target="n16" />
+      <arc id="2067174243824" source="n62" target="n38" />
+      <arc id="2067174113776" source="n77" target="n40" />
+      <arc id="2067174115312" source="n27" target="n54" />
+      <arc id="2067174116848" source="n77" target="n29" />
+      <arc id="2067174216176" source="n26" target="n76" />
+      <arc id="2067174218096" source="n47" target="n42" />
+    </page>
+    </net>
+<finalmarkings>
+      <marking>
+        <place idref="n42">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </pnml>

@@ -1,0 +1,67 @@
+# Places
+p start
+p pistil
+p end
+
+# Transitions
+t tau(0) 1
+t tau(1) 1
+t ER█Registration(0) 1
+t Leucocytes(0) 2720
+t CRP(0) 2433
+t LacticAcid(0) 1076
+t ER█Triage(0) 1
+t ER█Sepsis█Triage(0) 1
+t IV█Liquid(0) 1
+t IV█Antibiotics(0) 1
+t Admission█NC(0) 1
+t Release█A(0) 1
+t Return█ER(0) 1
+t Admission█IC(0) 1
+t Release█B(0) 1
+t Release█C(0) 1
+t Release█D(0) 1
+t Release█E(0) 1
+
+# Arcs
+a start tau(0)
+a pistil tau(1)
+a pistil ER█Registration(0)
+a pistil Leucocytes(0)
+a pistil CRP(0)
+a pistil LacticAcid(0)
+a pistil ER█Triage(0)
+a pistil ER█Sepsis█Triage(0)
+a pistil IV█Liquid(0)
+a pistil IV█Antibiotics(0)
+a pistil Admission█NC(0)
+a pistil Release█A(0)
+a pistil Return█ER(0)
+a pistil Admission█IC(0)
+a pistil Release█B(0)
+a pistil Release█C(0)
+a pistil Release█D(0)
+a pistil Release█E(0)
+a tau(0) pistil
+a tau(1) end
+a ER█Registration(0) pistil
+a Leucocytes(0) pistil
+a CRP(0) pistil
+a LacticAcid(0) pistil
+a ER█Triage(0) pistil
+a ER█Sepsis█Triage(0) pistil
+a IV█Liquid(0) pistil
+a IV█Antibiotics(0) pistil
+a Admission█NC(0) pistil
+a Release█A(0) pistil
+a Return█ER(0) pistil
+a Admission█IC(0) pistil
+a Release█B(0) pistil
+a Release█C(0) pistil
+a Release█D(0) pistil
+a Release█E(0) pistil
+
+# Initial State
+i start 1
+
+# Deadlock States Not Recorded

@@ -1,0 +1,62 @@
+# Places
+p n1
+p n2
+p n3
+p n4
+p n5
+p n6
+p n7
+p n8
+p n9
+p n10
+p n11
+p n12
+
+# Transitions
+t Add█penalty(0) 1.0
+t Appeal█to█Judge(0) 1.0
+t Create█Fine(0) 150370.0
+t Insert█Date█Appeal█to█Prefecture(0) 1.0
+t Insert█Fine█Notification(0) 1.0
+t Notify█Result█Appeal█to█Offender(0) 0
+t Payment(0) 0
+t Receive█Result█Appeal█from█Prefecture(0) 1.0
+t Send█Appeal█to█Prefecture(0) 0
+t Send█Fine(0) 1.0
+t Send█for█Credit█Collection(0) 4.0
+
+# Arcs
+a n1 Insert█Fine█Notification(0)
+a n2 Receive█Result█Appeal█from█Prefecture(0)
+a n3 Send█Fine(0)
+a n4 Send█for█Credit█Collection(0)
+a n5 Send█for█Credit█Collection(0)
+a n6 Appeal█to█Judge(0)
+a n7 Send█for█Credit█Collection(0)
+a n8 Send█for█Credit█Collection(0)
+a n9 Add█penalty(0)
+a n10 Insert█Date█Appeal█to█Prefecture(0)
+a n11 Create█Fine(0)
+a Add█penalty(0) n5
+a Appeal█to█Judge(0) n12
+a Appeal█to█Judge(0) n4
+a Create█Fine(0) n10
+a Create█Fine(0) n6
+a Create█Fine(0) n3
+a Insert█Fine█Notification(0) n2
+a Insert█Fine█Notification(0) n9
+a Insert█Fine█Notification(0) n6
+a Notify█Result█Appeal█to█Offender(0) n12
+a Notify█Result█Appeal█to█Offender(0) n8
+a Payment(0) n12
+a Receive█Result█Appeal█from█Prefecture(0) n12
+a Receive█Result█Appeal█from█Prefecture(0) n7
+a Send█Appeal█to█Prefecture(0) n12
+a Send█Fine(0) n1
+a Send█Fine(0) n12
+a Send█for█Credit█Collection(0) n12
+
+# Initial State
+i n11 1
+
+# Deadlock States Not Recorded

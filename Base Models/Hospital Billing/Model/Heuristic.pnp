@@ -1,0 +1,271 @@
+# Places
+p n18
+p n8
+p n34
+p n2
+p n6
+p n24
+p n3
+p n7
+p n16
+p n28
+p n17
+p n11
+p n19
+p n32
+p n1
+p n20
+p n33
+p n27
+p n5
+p n21
+p n29
+p n12
+p n23
+p n14
+p n25
+p n15
+p n36
+p n13
+p n30
+p n35
+p n31
+p n22
+p n26
+p n10
+p n4
+p n9
+
+# Transitions
+t n68(0) 1
+t n88(0) 1
+t n106(0) 1
+t SET█STATUS(0) 1
+t n77(0) 1
+t n71(0) 1
+t DELETE(0) 1
+t n73(0) 1
+t NEW(0) 1
+t n63(0) 1
+t n98(0) 1
+t CHANGE█DIAGN(0) 1
+t n96(0) 1
+t n89(0) 1
+t MANUAL(0) 1
+t n110(0) 1
+t CODE█OK(0) 1
+t n62(0) 1
+t n84(0) 1
+t CODE█ERROR(0) 1
+t n64(0) 1
+t n80(0) 1
+t n87(0) 1
+t n101(0) 1
+t n102(0) 1
+t n60(0) 1
+t n100(0) 1
+t n107(0) 1
+t n108(0) 1
+t n55(0) 1
+t n66(0) 1
+t STORNO(0) 1
+t n65(0) 1
+t n83(0) 1
+t n61(0) 1
+t n67(0) 1
+t n91(0) 1
+t n76(0) 1
+t BILLED(0) 1
+t n75(0) 1
+t n93(0) 1
+t EMPTY(0) 1
+t n95(0) 1
+t n92(0) 1
+t REJECT(0) 1
+t n70(0) 1
+t n56(0) 1
+t n74(0) 1
+t n94(0) 1
+t n86(0) 1
+t n85(0) 1
+t n81(0) 1
+t n69(0) 1
+t n99(0) 1
+t FIN(0) 1
+t CHANGE█END(0) 1
+t n82(0) 1
+t n90(0) 1
+t n58(0) 1
+t n109(0) 1
+t n57(0) 1
+t REOPEN(0) 1
+t CODE█NOK(0) 1
+t RELEASE(0) 1
+t n72(0) 1
+t n59(0) 1
+t ZDBC_BEHAN(0) 1
+t n97(0) 1
+t n105(0) 1
+t n103(0) 1
+t JOIN-PAT(0) 1
+t n78(0) 1
+t n104(0) 1
+t n79(0) 1
+
+# Arcs
+a n94(0) n27
+a n24 n87(0)
+a n86(0) n23
+a n7 REOPEN(0)
+a n70(0) n15
+a n12 n74(0)
+a n4 n61(0)
+a n24 n85(0)
+a EMPTY(0) n30
+a n35 MANUAL(0)
+a n2 n60(0)
+a n23 CODE█NOK(0)
+a n2 n101(0)
+a n69(0) n13
+a n60(0) n33
+a n22 n80(0)
+a n104(0) n5
+a n75(0) n9
+a ZDBC_BEHAN(0) n14
+a n99(0) n27
+a n89(0) n29
+a n2 n56(0)
+a n25 CODE█OK(0)
+a n32 n105(0)
+a n12 n76(0)
+a n82(0) n17
+a n34 n109(0)
+a n98(0) n27
+a n84(0) n7
+a n88(0) n9
+a n6 n72(0)
+a n33 JOIN-PAT(0)
+a n1 NEW(0)
+a n2 n58(0)
+a n56(0) n1
+a n4 n63(0)
+a n103(0) n27
+a CODE█NOK(0) n24
+a n97(0) n27
+a n18 n106(0)
+a n28 n108(0)
+a JOIN-PAT(0) n34
+a n4 n81(0)
+a n100(0) n27
+a n24 n89(0)
+a n66(0) n25
+a n62(0) n5
+a n20 n96(0)
+a n92(0) n11
+a n36 n110(0)
+a n36 n93(0)
+a n79(0) n15
+a n6 n67(0)
+a n32 n99(0)
+a n106(0) n31
+a n59(0) n17
+a n26 n78(0)
+a MANUAL(0) n36
+a n102(0) n27
+a n8 n83(0)
+a n10 n95(0)
+a n24 n88(0)
+a n83(0) n17
+a CHANGE█END(0) n20
+a n9 SET█STATUS(0)
+a n2 n57(0)
+a n18 n82(0)
+a n68(0) n5
+a n81(0) n15
+a BILLED(0) n16
+a n107(0) n31
+a n27 DELETE(0)
+a n6 n94(0)
+a n4 n64(0)
+a DELETE(0) n28
+a n108(0) n33
+a n30 n100(0)
+a n16 n79(0)
+a n64(0) n3
+a n67(0) n23
+a n8 n103(0)
+a n17 CHANGE█DIAGN(0)
+a REJECT(0) n4
+a n57(0) n19
+a n26 n91(0)
+a n76(0) n3
+a n78(0) n15
+a n15 BILLED(0)
+a n10 n75(0)
+a n93(0) n27
+a n5 RELEASE(0)
+a n87(0) n25
+a n29 EMPTY(0)
+a n58(0) n19
+a n22 n73(0)
+a STORNO(0) n12
+a n110(0) n35
+a n6 n69(0)
+a n6 n66(0)
+a n12 n77(0)
+a n24 n86(0)
+a n11 STORNO(0)
+a n95(0) n27
+a n58(0) n17
+a n2 n55(0)
+a n57(0) n31
+a n34 n107(0)
+a n72(0) n21
+a FIN(0) n32
+a REOPEN(0) n8
+a CODE█ERROR(0) n22
+a n77(0) n11
+a n85(0) n15
+a n96(0) n27
+a n101(0) n27
+a n3 REJECT(0)
+a CHANGE█DIAGN(0) n18
+a n2 n59(0)
+a n63(0) n9
+a n55(0) n31
+a n91(0) n7
+a n31 FIN(0)
+a n4 n65(0)
+a n6 n71(0)
+a SET█STATUS(0) n10
+a n24 n98(0)
+a n24 n84(0)
+a n32 n104(0)
+a n73(0) n7
+a n61(0) n35
+a n90(0) n25
+a RELEASE(0) n6
+a n26 n90(0)
+a n74(0) n9
+a n19 CHANGE█END(0)
+a n80(0) n15
+a n6 n70(0)
+a n21 CODE█ERROR(0)
+a n71(0) n7
+a n26 n92(0)
+a n109(0) n33
+a NEW(0) n2
+a n105(0) n31
+a n65(0) n7
+a n13 ZDBC_BEHAN(0)
+a n6 n68(0)
+a CODE█OK(0) n26
+a n18 n97(0)
+a n4 n62(0)
+a n26 n102(0)
+
+# Initial State
+i
+
+# Deadlock States
+f n14 1

@@ -1,0 +1,199 @@
+# Places
+p n49
+p n50
+p n51
+p n52
+p n53
+p n54
+p n55
+p n56
+p n57
+p n58
+p n59
+p n60
+p n61
+p n62
+p n63
+p n64
+p n65
+p n66
+p n67
+p n68
+p n69
+p n70
+p n71
+p n72
+p n73
+p n74
+p n75
+p n76
+p n77
+p n78
+p n79
+p n80
+p n81
+p n82
+
+# Transitions
+t Permit_REJECTED_by_MISSING(0) 1.9130434782608696
+t Permit_REJECTED_by_PRE_APPROVER(0) 0.006771053745239103
+t tau(0) 2.0
+t Request_For_Payment_APPROVED_by_ADMINISTRATION(0) 1718.0
+t Payment_Handled(0) 1969.0
+t Request_For_Payment_APPROVED_by_PRE_APPROVER(0) 0.40100250626566414
+t Permit_APPROVED_by_SUPERVISOR(0) 0.9974424552429667
+t Permit_SUBMITTED_by_EMPLOYEE(0) 1.0
+t tau(1) 2.0
+t Request_For_Payment_REJECTED_by_PRE_APPROVER(0) 0.9473684210526315
+t tau(2) 0.04
+t Permit_FINAL_APPROVED_by_DIRECTOR(0) 0.9974424552429667
+t tau(3) 0.07142857142857142
+t tau(4) 0.0025575447570332483
+t Request_For_Payment_REJECTED_by_SUPERVISOR(0) 0.96
+t Request_For_Payment_REJECTED_by_MISSING(0) 0.9
+t tau(5) 0.003676470588235294
+t tau(6) 0.9192634560906515
+t tau(7) 0.0025575447570332483
+t Permit_APPROVED_by_PRE_APPROVER(0) 0.9937106918238994
+t Permit_APPROVED_by_ADMINISTRATION(0) 1.0
+t tau(8) 0.04
+t Request_For_Payment_FINAL_APPROVED_by_SUPERVISOR(0) 626.0
+t Request_For_Payment_REJECTED_by_ADMINISTRATION(0) 0.5764411027568922
+t tau(9) 0.002506265664160401
+t tau(10) 0.1
+t tau(11) 0.08695652173913043
+t tau(12) 0.002506265664160401
+t Permit_FINAL_APPROVED_by_SUPERVISOR(0) 685.5361730899256
+t Request_For_Payment_FINAL_APPROVED_by_DIRECTOR(0) 38.0
+t tau(13) 0.05263157894736842
+t Permit_REJECTED_by_EMPLOYEE(0) 74.0
+t Request_For_Payment_REJECTED_by_EMPLOYEE(0) 0.9963235294117647
+t Permit_REJECTED_by_BUDGET_OWNER(0) 0.007194244604316547
+t tau(14) 0.006289308176100629
+t tau(15) 1.0
+t Permit_APPROVED_by_BUDGET_OWNER(0) 1.0
+t Request_For_Payment_REJECTED_by_BUDGET_OWNER(0) 0.017543859649122806
+t tau(16) 0.4638269100743746
+t Request_For_Payment_APPROVED_by_BUDGET_OWNER(0) 648.0807365439093
+t Permit_REJECTED_by_ADMINISTRATION(0) 0.006347862886161659
+t tau(17) 2.0
+t Request_Payment(0) 1905.0
+t Request_For_Payment_APPROVED_by_SUPERVISOR(0) 2.9285714285714284
+t tau(18) 2.0
+t tau(19) 1.0
+t Request_For_Payment_SAVED_by_EMPLOYEE(0) 0.96
+t Permit_REJECTED_by_SUPERVISOR(0) 0.01523487092678798
+t Request_For_Payment_SUBMITTED_by_EMPLOYEE(0) 0.9644519678374948
+
+# Arcs
+a n49 Permit_REJECTED_by_ADMINISTRATION(0)
+a tau(0) n57
+a n64 tau(18)
+a tau(18) n75
+a n78 Permit_APPROVED_by_ADMINISTRATION(0)
+a n75 Request_For_Payment_APPROVED_by_SUPERVISOR(0)
+a Permit_APPROVED_by_BUDGET_OWNER(0) n79
+a n82 tau(5)
+a n73 tau(16)
+a Permit_REJECTED_by_SUPERVISOR(0) n56
+a Request_For_Payment_APPROVED_by_SUPERVISOR(0) n60
+a Permit_APPROVED_by_ADMINISTRATION(0) n76
+a Payment_Handled(0) n69
+a tau(7) n62
+a Permit_SUBMITTED_by_EMPLOYEE(0) n65
+a tau(15) n82
+a Request_For_Payment_APPROVED_by_ADMINISTRATION(0) n52
+a n72 tau(4)
+a tau(5) n70
+a Request_For_Payment_REJECTED_by_EMPLOYEE(0) n70
+a Permit_APPROVED_by_PRE_APPROVER(0) n51
+a n75 tau(3)
+a tau(15) n78
+a tau(13) n58
+a n49 Permit_REJECTED_by_SUPERVISOR(0)
+a n70 tau(1)
+a Request_For_Payment_REJECTED_by_BUDGET_OWNER(0) n61
+a n62 tau(17)
+a n51 Request_For_Payment_APPROVED_by_PRE_APPROVER(0)
+a tau(19) n53
+a tau(3) n54
+a n63 Request_For_Payment_REJECTED_by_SUPERVISOR(0)
+a n61 tau(19)
+a Request_For_Payment_REJECTED_by_MISSING(0) n81
+a Permit_REJECTED_by_ADMINISTRATION(0) n56
+a Permit_REJECTED_by_MISSING(0) n72
+a n60 Request_For_Payment_FINAL_APPROVED_by_DIRECTOR(0)
+a n52 Request_For_Payment_APPROVED_by_BUDGET_OWNER(0)
+a n76 Permit_APPROVED_by_PRE_APPROVER(0)
+a Request_For_Payment_REJECTED_by_SUPERVISOR(0) n74
+a n54 Request_For_Payment_REJECTED_by_MISSING(0)
+a n73 Permit_FINAL_APPROVED_by_SUPERVISOR(0)
+a n51 tau(9)
+a tau(12) n61
+a tau(15) n55
+a n51 tau(12)
+a n58 tau(1)
+a n53 Permit_APPROVED_by_BUDGET_OWNER(0)
+a n68 Payment_Handled(0)
+a Permit_REJECTED_by_EMPLOYEE(0) n71
+a tau(8) n64
+a tau(10) n81
+a tau(6) n59
+a tau(9) n72
+a Request_For_Payment_APPROVED_by_BUDGET_OWNER(0) n59
+a n81 Permit_REJECTED_by_MISSING(0)
+a Request_Payment(0) n68
+a Request_For_Payment_SAVED_by_EMPLOYEE(0) n64
+a n52 tau(6)
+a n56 Permit_REJECTED_by_EMPLOYEE(0)
+a n65 tau(0)
+a tau(11) n72
+a n49 Permit_REJECTED_by_BUDGET_OWNER(0)
+a n67 tau(0)
+a n55 Permit_SUBMITTED_by_EMPLOYEE(0)
+a n72 Permit_APPROVED_by_SUPERVISOR(0)
+a n51 Request_For_Payment_REJECTED_by_BUDGET_OWNER(0)
+a tau(2) n74
+a n82 Request_For_Payment_REJECTED_by_EMPLOYEE(0)
+a n49 Request_For_Payment_SUBMITTED_by_EMPLOYEE(0)
+a n80 Request_For_Payment_SAVED_by_EMPLOYEE(0)
+a n63 tau(2)
+a tau(14) n51
+a Request_For_Payment_SUBMITTED_by_EMPLOYEE(0) n77
+a Permit_APPROVED_by_ADMINISTRATION(0) n73
+a n74 tau(7)
+a n74 Permit_FINAL_APPROVED_by_DIRECTOR(0)
+a Request_For_Payment_FINAL_APPROVED_by_DIRECTOR(0) n54
+a n59 Request_For_Payment_FINAL_APPROVED_by_SUPERVISOR(0)
+a n79 tau(18)
+a Permit_REJECTED_by_PRE_APPROVER(0) n56
+a n66 tau(17)
+a Permit_FINAL_APPROVED_by_DIRECTOR(0) n62
+a tau(17) n67
+a Permit_FINAL_APPROVED_by_SUPERVISOR(0) n66
+a Permit_REJECTED_by_BUDGET_OWNER(0) n56
+a n71 tau(15)
+a n57 Request_For_Payment_REJECTED_by_PRE_APPROVER(0)
+a n80 tau(8)
+a n57 tau(13)
+a n81 tau(11)
+a n54 tau(10)
+a tau(4) n63
+a n51 Request_For_Payment_REJECTED_by_ADMINISTRATION(0)
+a Request_For_Payment_APPROVED_by_PRE_APPROVER(0) n75
+a Request_For_Payment_REJECTED_by_ADMINISTRATION(0) n62
+a n77 Request_For_Payment_APPROVED_by_ADMINISTRATION(0)
+a Request_For_Payment_FINAL_APPROVED_by_SUPERVISOR(0) n50
+a tau(19) n80
+a tau(16) n66
+a n49 Permit_REJECTED_by_PRE_APPROVER(0)
+a tau(1) n49
+a Permit_APPROVED_by_SUPERVISOR(0) n63
+a Request_For_Payment_REJECTED_by_PRE_APPROVER(0) n58
+a n50 Request_Payment(0)
+a n76 tau(14)
+
+# Initial State
+i n71 1
+
+# Deadlock States Not Recorded

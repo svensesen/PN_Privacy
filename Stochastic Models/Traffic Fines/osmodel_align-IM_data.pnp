@@ -1,0 +1,149 @@
+# Places
+p n32
+p n33
+p n34
+p n35
+p n36
+p n37
+p n38
+p n39
+p n40
+p n41
+p n42
+p n43
+p n44
+p n45
+p n46
+p n47
+p n48
+p n49
+p n50
+p n51
+p n52
+p n53
+p n54
+p n55
+p n56
+p n57
+p n58
+p n59
+p n60
+
+# Transitions
+t Receive_Result_Appeal_from_Prefecture(0) 999.0
+t Payment(0) 77601.0
+t tau(0) 146229.0
+t tau(1) 80655.0
+t Notify_Result_Appeal_to_Offender(0) 896.0
+t tau(2) 150370.0
+t tau(3) 103432.0
+t Send_Fine(0) 103987.0
+t tau(4) 91357.0
+t Insert_Date_Appeal_to_Prefecture(0) 4188.0
+t Add_penalty(0) 79860.0
+t tau(5) 78964.0
+t tau(6) 103987.0
+t tau(7) 46383.0
+t tau(8) 69715.0
+t tau(9) 102988.0
+t tau(10) 24127.0
+t tau(11) 103987.0
+t Insert_Fine_Notification(0) 79860.0
+t tau(12) 79860.0
+t Send_Appeal_to_Prefecture(0) 4141.0
+t Create_Fine(0) 150370.0
+t Appeal_to_Judge(0) 555.0
+t tau(13) 103987.0
+t tau(14) 24127.0
+t tau(15) 99799.0
+t tau(16) 7886.0
+t tau(17) 150370.0
+t tau(18) 103987.0
+t tau(19) 69715.0
+t tau(20) 79860.0
+t Send_for_Credit_Collection(0) 59013.0
+
+# Arcs
+a Payment(0) n50
+a n58 tau(17)
+a n44 tau(13)
+a Send_Fine(0) n38
+a n34 tau(18)
+a n47 tau(20)
+a Create_Fine(0) n60
+a n55 Insert_Fine_Notification(0)
+a n39 tau(6)
+a tau(16) n40
+a tau(11) n55
+a n54 Notify_Result_Appeal_to_Offender(0)
+a tau(12) n54
+a n42 Send_Fine(0)
+a tau(11) n56
+a n43 tau(7)
+a Add_penalty(0) n47
+a tau(14) n44
+a tau(20) n44
+a tau(4) n51
+a Insert_Fine_Notification(0) n34
+a n38 tau(6)
+a tau(1) n58
+a n37 tau(20)
+a n52 Add_penalty(0)
+a tau(11) n42
+a tau(2) n57
+a n35 tau(1)
+a tau(17) n46
+a tau(6) n59
+a tau(19) n40
+a Create_Fine(0) n43
+a n50 tau(8)
+a n54 tau(5)
+a tau(15) n33
+a n60 tau(0)
+a Appeal_to_Judge(0) n36
+a n49 tau(13)
+a tau(12) n52
+a n45 tau(3)
+a tau(18) n45
+a n55 tau(10)
+a tau(3) n36
+a tau(7) n59
+a tau(18) n48
+a tau(18) n32
+a Receive_Result_Appeal_from_Prefecture(0) n49
+a n51 tau(2)
+a n46 tau(4)
+a tau(5) n37
+a n36 tau(13)
+a n53 Create_Fine(0)
+a n56 tau(15)
+a n50 tau(16)
+a n60 Send_Appeal_to_Prefecture(0)
+a n48 tau(14)
+a tau(10) n34
+a Send_Appeal_to_Prefecture(0) n41
+a n32 tau(9)
+a Send_for_Credit_Collection(0) n51
+a n45 Appeal_to_Judge(0)
+a tau(13) n39
+a n40 Payment(0)
+a n43 tau(11)
+a n46 Send_for_Credit_Collection(0)
+a Insert_Date_Appeal_to_Prefecture(0) n33
+a n59 tau(17)
+a n32 Receive_Result_Appeal_from_Prefecture(0)
+a n56 Insert_Date_Appeal_to_Prefecture(0)
+a Create_Fine(0) n35
+a tau(9) n49
+a n35 tau(19)
+a tau(8) n58
+a n33 tau(6)
+a n41 tau(2)
+a tau(0) n41
+a n48 tau(12)
+a Notify_Result_Appeal_to_Offender(0) n37
+
+# Initial State
+i n53 1
+
+# Deadlock States Not Recorded

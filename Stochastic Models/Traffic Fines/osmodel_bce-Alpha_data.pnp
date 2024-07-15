@@ -1,0 +1,62 @@
+# Places
+p n11
+p n12
+p n13
+p n14
+p n15
+p n16
+p n17
+p n18
+p n19
+p n20
+p n21
+p n22
+
+# Transitions
+t Insert_Date_Appeal_to_Prefecture(0) 22.0
+t Appeal_to_Judge(0) 294.0
+t Notify_Result_Appeal_to_Offender(0) 0.0
+t Create_Fine(0) 150370.0
+t Send_Appeal_to_Prefecture(0) 0.0
+t Add_penalty(0) 72334.0
+t Send_Fine(0) 103392.0
+t Insert_Fine_Notification(0) 79757.0
+t Payment(0) 0.0
+t Send_for_Credit_Collection(0) 57472.0
+t Receive_Result_Appeal_from_Prefecture(0) 2.0
+
+# Arcs
+a Send_Appeal_to_Prefecture(0) n15
+a n22 Send_for_Credit_Collection(0)
+a Notify_Result_Appeal_to_Offender(0) n19
+a Add_penalty(0) n18
+a n11 Insert_Fine_Notification(0)
+a n20 Add_penalty(0)
+a Create_Fine(0) n16
+a Appeal_to_Judge(0) n15
+a Send_for_Credit_Collection(0) n15
+a Send_Fine(0) n15
+a Insert_Fine_Notification(0) n12
+a n14 Create_Fine(0)
+a n21 Insert_Date_Appeal_to_Prefecture(0)
+a Notify_Result_Appeal_to_Offender(0) n15
+a Insert_Fine_Notification(0) n20
+a n13 Send_for_Credit_Collection(0)
+a n12 Receive_Result_Appeal_from_Prefecture(0)
+a Send_Fine(0) n11
+a n18 Send_for_Credit_Collection(0)
+a Create_Fine(0) n17
+a n16 Appeal_to_Judge(0)
+a Insert_Fine_Notification(0) n16
+a Receive_Result_Appeal_from_Prefecture(0) n22
+a Payment(0) n15
+a n17 Send_Fine(0)
+a n19 Send_for_Credit_Collection(0)
+a Appeal_to_Judge(0) n13
+a Receive_Result_Appeal_from_Prefecture(0) n15
+a Create_Fine(0) n21
+
+# Initial State
+i n14 1
+
+# Deadlock States Not Recorded

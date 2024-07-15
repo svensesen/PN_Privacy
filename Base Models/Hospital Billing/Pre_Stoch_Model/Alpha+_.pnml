@@ -1,0 +1,215 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imported_1713189275.3601146" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imported_1713189275.3601146</text>
+    </name>
+    <page id="n0">
+      <place id="n1">
+        <name>
+          <text>Start</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+        <graphics>
+          <position x="12.5" y="364.0" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n2">
+        <name>
+          <text>End</text>
+        </name>
+        <graphics>
+          <position x="106.25" y="277.0" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <transition id="n9">
+        <name>
+          <text>DELETE</text>
+        </name>
+        <graphics>
+          <position x="12.5" y="263.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n13">
+        <name>
+          <text>MANUAL</text>
+        </name>
+        <graphics>
+          <position x="12.5" y="88.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n11">
+        <name>
+          <text>FIN</text>
+        </name>
+        <graphics>
+          <position x="12.5" y="193.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n17">
+        <name>
+          <text>REOPEN</text>
+        </name>
+        <graphics>
+          <position x="12.5" y="550.5" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n19">
+        <name>
+          <text>STORNO</text>
+        </name>
+        <graphics>
+          <position x="12.5" y="465.5" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n15">
+        <name>
+          <text>REJECT</text>
+        </name>
+        <graphics>
+          <position x="12.5" y="298.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n12">
+        <name>
+          <text>JOIN-PAT</text>
+        </name>
+        <graphics>
+          <position x="12.5" y="333.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n20">
+        <name>
+          <text>ZDBC_BEHAN</text>
+        </name>
+        <graphics>
+          <position x="12.5" y="600.5" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n10">
+        <name>
+          <text>EMPTY</text>
+        </name>
+        <graphics>
+          <position x="12.5" y="228.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n8">
+        <name>
+          <text>CODE OK</text>
+        </name>
+        <graphics>
+          <position x="12.5" y="500.5" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n7">
+        <name>
+          <text>CODE NOK</text>
+        </name>
+        <graphics>
+          <position x="12.5" y="395.5" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n3">
+        <name>
+          <text>BILLED</text>
+        </name>
+        <graphics>
+          <position x="12.5" y="123.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n16">
+        <name>
+          <text>RELEASE</text>
+        </name>
+        <graphics>
+          <position x="12.5" y="430.5" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n5">
+        <name>
+          <text>CHANGE END</text>
+        </name>
+        <graphics>
+          <position x="12.5" y="650.5" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n4">
+        <name>
+          <text>CHANGE DIAGN</text>
+        </name>
+        <graphics>
+          <position x="12.5" y="53.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n6">
+        <name>
+          <text>CODE ERROR</text>
+        </name>
+        <graphics>
+          <position x="12.5" y="700.5" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n18">
+        <name>
+          <text>SET STATUS</text>
+        </name>
+        <graphics>
+          <position x="12.5" y="158.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n14">
+        <name>
+          <text>NEW</text>
+        </name>
+        <graphics>
+          <position x="62.5" y="324.5" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <arc id="2067170432768" source="n11" target="n2" />
+      <arc id="2067170434496" source="n7" target="n2" />
+      <arc id="2067170432864" source="n12" target="n2" />
+      <arc id="2067170431424" source="n10" target="n2" />
+      <arc id="2067170433536" source="n3" target="n2" />
+      <arc id="2067170432192" source="n1" target="n14" />
+      <arc id="2067170433056" source="n9" target="n2" />
+      <arc id="2067170431904" source="n14" target="n2" />
+      <arc id="2067170433152" source="n18" target="n2" />
+      <arc id="2067170432672" source="n13" target="n2" />
+      <arc id="2067170432000" source="n19" target="n2" />
+      <arc id="2067170432288" source="n8" target="n2" />
+      <arc id="2067170434160" source="n16" target="n2" />
+      <arc id="2067170431760" source="n15" target="n2" />
+      <arc id="2067170434256" source="n4" target="n2" />
+    </page>
+    </net>
+<finalmarkings>
+      <marking>
+        <place idref="n2">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </pnml>

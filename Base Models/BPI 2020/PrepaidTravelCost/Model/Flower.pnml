@@ -1,0 +1,252 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imported_1713189276.018805" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imported_1713189276.018805</text>
+    </name>
+    <page id="n0">
+      <place id="start">
+        <name>
+          <text>start</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="end">
+        <name>
+          <text>end</text>
+        </name>
+      </place>
+      <place id="pistil">
+        <name>
+          <text>pistil</text>
+        </name>
+      </place>
+      <transition id="Request For Payment APPROVED by SUPERVISOR(0)">
+        <name>
+          <text>Request For Payment APPROVED by SUPERVISOR</text>
+        </name>
+      </transition>
+      <transition id="Request For Payment FINAL_APPROVED by SUPERVISOR(0)">
+        <name>
+          <text>Request For Payment FINAL_APPROVED by SUPERVISOR</text>
+        </name>
+      </transition>
+      <transition id="Request For Payment FINAL_APPROVED by DIRECTOR(0)">
+        <name>
+          <text>Request For Payment FINAL_APPROVED by DIRECTOR</text>
+        </name>
+      </transition>
+      <transition id="Request For Payment REJECTED by BUDGET OWNER(0)">
+        <name>
+          <text>Request For Payment REJECTED by BUDGET OWNER</text>
+        </name>
+      </transition>
+      <transition id="tau(0)">
+        <name>
+          <text>tau</text>
+        </name>
+      </transition>
+      <transition id="Permit REJECTED by EMPLOYEE(0)">
+        <name>
+          <text>Permit REJECTED by EMPLOYEE</text>
+        </name>
+      </transition>
+      <transition id="tau(1)">
+        <name>
+          <text>tau</text>
+        </name>
+      </transition>
+      <transition id="Request For Payment REJECTED by PRE_APPROVER(0)">
+        <name>
+          <text>Request For Payment REJECTED by PRE_APPROVER</text>
+        </name>
+      </transition>
+      <transition id="Permit FINAL_APPROVED by DIRECTOR(0)">
+        <name>
+          <text>Permit FINAL_APPROVED by DIRECTOR</text>
+        </name>
+      </transition>
+      <transition id="Request For Payment REJECTED by ADMINISTRATION(0)">
+        <name>
+          <text>Request For Payment REJECTED by ADMINISTRATION</text>
+        </name>
+      </transition>
+      <transition id="Permit APPROVED by SUPERVISOR(0)">
+        <name>
+          <text>Permit APPROVED by SUPERVISOR</text>
+        </name>
+      </transition>
+      <transition id="Permit REJECTED by ADMINISTRATION(0)">
+        <name>
+          <text>Permit REJECTED by ADMINISTRATION</text>
+        </name>
+      </transition>
+      <transition id="Request For Payment REJECTED by EMPLOYEE(0)">
+        <name>
+          <text>Request For Payment REJECTED by EMPLOYEE</text>
+        </name>
+      </transition>
+      <transition id="Request For Payment SUBMITTED by EMPLOYEE(0)">
+        <name>
+          <text>Request For Payment SUBMITTED by EMPLOYEE</text>
+        </name>
+      </transition>
+      <transition id="Permit REJECTED by MISSING(0)">
+        <name>
+          <text>Permit REJECTED by MISSING</text>
+        </name>
+      </transition>
+      <transition id="Permit REJECTED by BUDGET OWNER(0)">
+        <name>
+          <text>Permit REJECTED by BUDGET OWNER</text>
+        </name>
+      </transition>
+      <transition id="Request For Payment APPROVED by PRE_APPROVER(0)">
+        <name>
+          <text>Request For Payment APPROVED by PRE_APPROVER</text>
+        </name>
+      </transition>
+      <transition id="Request For Payment APPROVED by BUDGET OWNER(0)">
+        <name>
+          <text>Request For Payment APPROVED by BUDGET OWNER</text>
+        </name>
+      </transition>
+      <transition id="Permit REJECTED by SUPERVISOR(0)">
+        <name>
+          <text>Permit REJECTED by SUPERVISOR</text>
+        </name>
+      </transition>
+      <transition id="Payment Handled(0)">
+        <name>
+          <text>Payment Handled</text>
+        </name>
+      </transition>
+      <transition id="Permit APPROVED by BUDGET OWNER(0)">
+        <name>
+          <text>Permit APPROVED by BUDGET OWNER</text>
+        </name>
+      </transition>
+      <transition id="Permit REJECTED by PRE_APPROVER(0)">
+        <name>
+          <text>Permit REJECTED by PRE_APPROVER</text>
+        </name>
+      </transition>
+      <transition id="Permit APPROVED by ADMINISTRATION(0)">
+        <name>
+          <text>Permit APPROVED by ADMINISTRATION</text>
+        </name>
+      </transition>
+      <transition id="Permit FINAL_APPROVED by SUPERVISOR(0)">
+        <name>
+          <text>Permit FINAL_APPROVED by SUPERVISOR</text>
+        </name>
+      </transition>
+      <transition id="Request For Payment REJECTED by SUPERVISOR(0)">
+        <name>
+          <text>Request For Payment REJECTED by SUPERVISOR</text>
+        </name>
+      </transition>
+      <transition id="Permit APPROVED by PRE_APPROVER(0)">
+        <name>
+          <text>Permit APPROVED by PRE_APPROVER</text>
+        </name>
+      </transition>
+      <transition id="Request Payment(0)">
+        <name>
+          <text>Request Payment</text>
+        </name>
+      </transition>
+      <transition id="Request For Payment REJECTED by MISSING(0)">
+        <name>
+          <text>Request For Payment REJECTED by MISSING</text>
+        </name>
+      </transition>
+      <transition id="Request For Payment APPROVED by ADMINISTRATION(0)">
+        <name>
+          <text>Request For Payment APPROVED by ADMINISTRATION</text>
+        </name>
+      </transition>
+      <transition id="Permit SUBMITTED by EMPLOYEE(0)">
+        <name>
+          <text>Permit SUBMITTED by EMPLOYEE</text>
+        </name>
+      </transition>
+      <transition id="Request For Payment SAVED by EMPLOYEE(0)">
+        <name>
+          <text>Request For Payment SAVED by EMPLOYEE</text>
+        </name>
+      </transition>
+      <arc id="2067174600272" source="pistil" target="tau(1)"/>
+      <arc id="2067174599408" source="pistil" target="Permit APPROVED by ADMINISTRATION(0)"/>
+      <arc id="2067174600656" source="pistil" target="Request For Payment REJECTED by ADMINISTRATION(0)"/>
+      <arc id="2067173691152" source="Request For Payment FINAL_APPROVED by SUPERVISOR(0)" target="pistil"/>
+      <arc id="2067173690000" source="Permit APPROVED by BUDGET OWNER(0)" target="pistil"/>
+      <arc id="2067173690384" source="pistil" target="Request For Payment APPROVED by SUPERVISOR(0)"/>
+      <arc id="2067173690768" source="pistil" target="Request For Payment REJECTED by SUPERVISOR(0)"/>
+      <arc id="2067174597008" source="Permit REJECTED by BUDGET OWNER(0)" target="pistil"/>
+      <arc id="2067174597392" source="pistil" target="Permit REJECTED by MISSING(0)"/>
+      <arc id="2067174597776" source="pistil" target="Request For Payment APPROVED by ADMINISTRATION(0)"/>
+      <arc id="2067174598160" source="Request Payment(0)" target="pistil"/>
+      <arc id="2067174598544" source="Request For Payment REJECTED by BUDGET OWNER(0)" target="pistil"/>
+      <arc id="2067174598928" source="start" target="tau(0)"/>
+      <arc id="2067174599792" source="Request For Payment REJECTED by EMPLOYEE(0)" target="pistil"/>
+      <arc id="2067174224080" source="Permit SUBMITTED by EMPLOYEE(0)" target="pistil"/>
+      <arc id="2067174599888" source="Permit REJECTED by ADMINISTRATION(0)" target="pistil"/>
+      <arc id="2067174600176" source="pistil" target="Request For Payment FINAL_APPROVED by DIRECTOR(0)"/>
+      <arc id="2067174599312" source="pistil" target="Request For Payment SAVED by EMPLOYEE(0)"/>
+      <arc id="2067174600560" source="pistil" target="Permit REJECTED by SUPERVISOR(0)"/>
+      <arc id="2067173691056" source="tau(1)" target="end"/>
+      <arc id="2067174596912" source="Request For Payment FINAL_APPROVED by DIRECTOR(0)" target="pistil"/>
+      <arc id="2067173690288" source="Permit FINAL_APPROVED by DIRECTOR(0)" target="pistil"/>
+      <arc id="2067173690672" source="pistil" target="Request For Payment APPROVED by PRE_APPROVER(0)"/>
+      <arc id="2067174597296" source="pistil" target="Permit FINAL_APPROVED by SUPERVISOR(0)"/>
+      <arc id="2067174597680" source="pistil" target="Permit REJECTED by EMPLOYEE(0)"/>
+      <arc id="2067174598064" source="Request For Payment SUBMITTED by EMPLOYEE(0)" target="pistil"/>
+      <arc id="2067174598448" source="Request For Payment APPROVED by SUPERVISOR(0)" target="pistil"/>
+      <arc id="2067174598832" source="pistil" target="Permit APPROVED by SUPERVISOR(0)"/>
+      <arc id="2067174599216" source="pistil" target="Request For Payment REJECTED by PRE_APPROVER(0)"/>
+      <arc id="2067174599696" source="Request For Payment APPROVED by BUDGET OWNER(0)" target="pistil"/>
+      <arc id="2067174223984" source="pistil" target="Request For Payment REJECTED by BUDGET OWNER(0)"/>
+      <arc id="2067174600080" source="pistil" target="Permit APPROVED by PRE_APPROVER(0)"/>
+      <arc id="2067174224368" source="Request For Payment APPROVED by ADMINISTRATION(0)" target="pistil"/>
+      <arc id="2067174600464" source="pistil" target="Payment Handled(0)"/>
+      <arc id="2067174599600" source="Permit FINAL_APPROVED by SUPERVISOR(0)" target="pistil"/>
+      <arc id="2067173690960" source="pistil" target="Permit REJECTED by ADMINISTRATION(0)"/>
+      <arc id="2067173691344" source="Permit APPROVED by PRE_APPROVER(0)" target="pistil"/>
+      <arc id="2067173690192" source="Permit REJECTED by PRE_APPROVER(0)" target="pistil"/>
+      <arc id="2067173690576" source="pistil" target="Request Payment(0)"/>
+      <arc id="2067174596816" source="Permit APPROVED by ADMINISTRATION(0)" target="pistil"/>
+      <arc id="2067174597200" source="Permit REJECTED by SUPERVISOR(0)" target="pistil"/>
+      <arc id="2067174597584" source="pistil" target="Request For Payment REJECTED by EMPLOYEE(0)"/>
+      <arc id="2067174597968" source="tau(0)" target="pistil"/>
+      <arc id="2067174598352" source="Request For Payment REJECTED by ADMINISTRATION(0)" target="pistil"/>
+      <arc id="2067174598736" source="pistil" target="Permit REJECTED by PRE_APPROVER(0)"/>
+      <arc id="2067174599984" source="Permit REJECTED by EMPLOYEE(0)" target="pistil"/>
+      <arc id="2067174224272" source="Request For Payment REJECTED by PRE_APPROVER(0)" target="pistil"/>
+      <arc id="2067174599120" source="pistil" target="Request For Payment REJECTED by MISSING(0)"/>
+      <arc id="2067174600368" source="pistil" target="Request For Payment FINAL_APPROVED by SUPERVISOR(0)"/>
+      <arc id="2067174599504" source="pistil" target="Permit REJECTED by BUDGET OWNER(0)"/>
+      <arc id="2067173691248" source="Payment Handled(0)" target="pistil"/>
+      <arc id="2067173690096" source="Permit REJECTED by MISSING(0)" target="pistil"/>
+      <arc id="2067173690480" source="pistil" target="Request For Payment SUBMITTED by EMPLOYEE(0)"/>
+      <arc id="2067173690864" source="pistil" target="Request For Payment APPROVED by BUDGET OWNER(0)"/>
+      <arc id="2067174596720" source="Request For Payment SAVED by EMPLOYEE(0)" target="pistil"/>
+      <arc id="2067174597104" source="Permit APPROVED by SUPERVISOR(0)" target="pistil"/>
+      <arc id="2067174597488" source="pistil" target="Permit FINAL_APPROVED by DIRECTOR(0)"/>
+      <arc id="2067174597872" source="pistil" target="Permit APPROVED by BUDGET OWNER(0)"/>
+      <arc id="2067174598256" source="Request For Payment APPROVED by PRE_APPROVER(0)" target="pistil"/>
+      <arc id="2067174598640" source="Request For Payment REJECTED by SUPERVISOR(0)" target="pistil"/>
+      <arc id="2067174224176" source="Request For Payment REJECTED by MISSING(0)" target="pistil"/>
+      <arc id="2067174599024" source="pistil" target="Permit SUBMITTED by EMPLOYEE(0)"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="end">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

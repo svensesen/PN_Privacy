@@ -1,0 +1,270 @@
+# Places
+p n1
+p n2
+p n3
+p n4
+p n5
+p n6
+p n7
+p n8
+p n9
+p n10
+p n11
+p n12
+p n13
+p n14
+p n15
+p n16
+p n17
+p n18
+p n19
+p n20
+p n21
+p n22
+p n23
+p n24
+p n25
+p n26
+p n27
+p n28
+p n29
+p n30
+p n31
+p n32
+p n33
+p n34
+p n35
+p n36
+
+# Transitions
+t NEW(0) 20.068544107905236
+t REJECT(0) 0.0006557972700223105
+t RELEASE(0) 0.017542576973096805
+t REOPEN(0) 1
+t SET█STATUS(0) 1
+t STORNO(0) 0.00016394931750557761
+t ZDBC_BEHAN(0) 1
+t BILLED(0) 10.410453762969167
+t CHANGE█DIAGN(0) 1
+t CHANGE█END(0) 1
+t CODE█ERROR(0) 1
+t CODE█NOK(0) 1
+t CODE█OK(0) 1
+t DELETE(0) 1.34684364330832
+t EMPTY(0) 0.07279349697247646
+t FIN(0) 0.5920209855126407
+t JOIN-PAT(0) 0.007705617922762148
+t MANUAL(0) 0.013935691987974097
+t tau(0) 1
+t tau(1) 1
+t tau(2) 1
+t tau(3) 1
+t tau(4) 1
+t tau(5) 1
+t tau(6) 1
+t tau(7) 1
+t tau(8) 1
+t tau(9) 1
+t tau(10) 1
+t tau(11) 1
+t tau(12) 1
+t tau(13) 1
+t tau(14) 1
+t tau(15) 1
+t tau(16) 1
+t tau(17) 1
+t tau(18) 1
+t tau(19) 1
+t tau(20) 1
+t tau(21) 1
+t tau(22) 1
+t tau(23) 1
+t tau(24) 1
+t tau(25) 1
+t tau(26) 1
+t tau(27) 1
+t tau(28) 1
+t tau(29) 1
+t tau(30) 1
+t tau(31) 1
+t tau(32) 1
+t tau(33) 1
+t tau(34) 1
+t tau(35) 1
+t tau(36) 1
+t tau(37) 1
+t tau(38) 1
+t tau(39) 1
+t tau(40) 1
+t tau(41) 1
+t tau(42) 1
+t tau(43) 1
+t tau(44) 1
+t tau(45) 1
+t tau(46) 1
+t tau(47) 1
+t tau(48) 1
+t tau(49) 1
+t tau(50) 1
+t tau(51) 1
+t tau(52) 1
+t tau(53) 1
+t tau(54) 1
+t tau(55) 1
+
+# Arcs
+a n1 NEW(0)
+a n2 tau(2)
+a n2 tau(46)
+a n2 tau(1)
+a n2 tau(3)
+a n2 tau(0)
+a n2 tau(5)
+a n2 tau(4)
+a n3 REJECT(0)
+a n4 tau(9)
+a n4 tau(7)
+a n4 tau(10)
+a n4 tau(6)
+a n4 tau(26)
+a n4 tau(8)
+a n5 RELEASE(0)
+a n6 tau(13)
+a n6 tau(15)
+a n6 tau(17)
+a n6 tau(14)
+a n6 tau(12)
+a n6 tau(16)
+a n6 tau(39)
+a n6 tau(11)
+a n7 REOPEN(0)
+a n8 tau(28)
+a n8 tau(48)
+a n9 SET█STATUS(0)
+a n10 tau(20)
+a n10 tau(40)
+a n11 STORNO(0)
+a n12 tau(19)
+a n12 tau(22)
+a n12 tau(21)
+a n13 ZDBC_BEHAN(0)
+a n15 BILLED(0)
+a n16 tau(24)
+a n17 CHANGE█DIAGN(0)
+a n18 tau(27)
+a n18 tau(51)
+a n18 tau(42)
+a n19 CHANGE█END(0)
+a n20 tau(41)
+a n21 CODE█ERROR(0)
+a n22 tau(18)
+a n22 tau(25)
+a n23 CODE█NOK(0)
+a n24 tau(43)
+a n24 tau(30)
+a n24 tau(29)
+a n24 tau(31)
+a n24 tau(33)
+a n24 tau(32)
+a n24 tau(34)
+a n25 CODE█OK(0)
+a n26 tau(37)
+a n26 tau(47)
+a n26 tau(35)
+a n26 tau(36)
+a n26 tau(23)
+a n27 DELETE(0)
+a n28 tau(53)
+a n29 EMPTY(0)
+a n30 tau(45)
+a n31 FIN(0)
+a n32 tau(49)
+a n32 tau(50)
+a n32 tau(44)
+a n33 JOIN-PAT(0)
+a n34 tau(52)
+a n34 tau(54)
+a n35 MANUAL(0)
+a n36 tau(55)
+a n36 tau(38)
+a NEW(0) n2
+a REJECT(0) n4
+a RELEASE(0) n6
+a REOPEN(0) n8
+a SET█STATUS(0) n10
+a STORNO(0) n12
+a ZDBC_BEHAN(0) n14
+a BILLED(0) n16
+a CHANGE█DIAGN(0) n18
+a CHANGE█END(0) n20
+a CODE█ERROR(0) n22
+a CODE█NOK(0) n24
+a CODE█OK(0) n26
+a DELETE(0) n28
+a EMPTY(0) n30
+a FIN(0) n32
+a JOIN-PAT(0) n34
+a MANUAL(0) n36
+a tau(0) n31
+a tau(1) n1
+a tau(2) n19
+a tau(2) n31
+a tau(3) n17
+a tau(3) n19
+a tau(4) n17
+a tau(5) n33
+a tau(6) n35
+a tau(7) n5
+a tau(8) n9
+a tau(9) n3
+a tau(10) n7
+a tau(11) n25
+a tau(12) n23
+a tau(13) n5
+a tau(14) n13
+a tau(15) n15
+a tau(16) n7
+a tau(17) n21
+a tau(18) n7
+a tau(19) n9
+a tau(20) n9
+a tau(21) n3
+a tau(22) n11
+a tau(23) n15
+a tau(24) n15
+a tau(25) n15
+a tau(26) n15
+a tau(27) n17
+a tau(28) n17
+a tau(29) n7
+a tau(30) n15
+a tau(31) n23
+a tau(32) n25
+a tau(33) n9
+a tau(34) n29
+a tau(35) n25
+a tau(36) n7
+a tau(37) n11
+a tau(38) n27
+a tau(39) n27
+a tau(40) n27
+a tau(41) n27
+a tau(42) n27
+a tau(43) n27
+a tau(44) n27
+a tau(45) n27
+a tau(46) n27
+a tau(47) n27
+a tau(48) n27
+a tau(49) n5
+a tau(50) n31
+a tau(51) n31
+a tau(52) n31
+a tau(53) n33
+a tau(54) n33
+a tau(55) n35
+
+# Initial State
+i
+
+# Deadlock States Not Recorded

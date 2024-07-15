@@ -1,0 +1,45 @@
+# Places
+p n1
+p n2
+
+# Transitions
+t BILLED(0) 67448
+t CHANGE█DIAGN(0) 1
+t CHANGE█END(0) 1
+t CODE█ERROR(0) 1
+t CODE█NOK(0) 1
+t CODE█OK(0) 1
+t DELETE(0) 8225
+t EMPTY(0) 449
+t FIN(0) 74738
+t JOIN-PAT(0) 358
+t MANUAL(0) 372
+t NEW(0) 101289
+t REJECT(0) 2016
+t RELEASE(0) 70926
+t REOPEN(0) 4669
+t SET█STATUS(0) 1
+t STORNO(0) 2973
+t ZDBC_BEHAN(0) 1
+
+# Arcs
+a n1 NEW(0)
+a BILLED(0) n2
+a CHANGE█DIAGN(0) n2
+a CODE█NOK(0) n2
+a CODE█OK(0) n2
+a DELETE(0) n2
+a EMPTY(0) n2
+a FIN(0) n2
+a JOIN-PAT(0) n2
+a MANUAL(0) n2
+a NEW(0) n2
+a REJECT(0) n2
+a RELEASE(0) n2
+a SET█STATUS(0) n2
+a STORNO(0) n2
+
+# Initial State
+i n1 1
+
+# Deadlock States Not Recorded

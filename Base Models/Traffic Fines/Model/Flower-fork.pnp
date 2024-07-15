@@ -1,0 +1,52 @@
+# Places
+p start
+p pistil
+p end
+
+# Transitions
+t tau(0) 150370.0
+t tau(1) 0.05548111116837602
+t Create█Fine(0) 0.055481786368025705
+t Send█Fine(0) 0.05548246158362711
+t Insert█Fine█Notification(0) 0.055483136815180814
+t Add█penalty(0) 0.05548381206268736
+t Send█for█Credit█Collection(0) 0.05548448732614729
+t Payment(0) 4305.704103354153
+t Insert█Date█Appeal█to█Prefecture(0) 0.9988316035911308
+t Send█Appeal█to█Prefecture(0) 0.9988318742989848
+t Receive█Result█Appeal█from█Prefecture(0) 0.9988321449442648
+t Notify█Result█Appeal█to█Offender(0) 0.998832415526985
+t Appeal█to█Judge(0) 0.9988326860471597
+
+# Arcs
+a start tau(0)
+a pistil tau(1)
+a pistil Create█Fine(0)
+a pistil Send█Fine(0)
+a pistil Insert█Fine█Notification(0)
+a pistil Add█penalty(0)
+a pistil Send█for█Credit█Collection(0)
+a pistil Payment(0)
+a pistil Insert█Date█Appeal█to█Prefecture(0)
+a pistil Send█Appeal█to█Prefecture(0)
+a pistil Receive█Result█Appeal█from█Prefecture(0)
+a pistil Notify█Result█Appeal█to█Offender(0)
+a pistil Appeal█to█Judge(0)
+a tau(0) pistil
+a tau(1) end
+a Create█Fine(0) pistil
+a Send█Fine(0) pistil
+a Insert█Fine█Notification(0) pistil
+a Add█penalty(0) pistil
+a Send█for█Credit█Collection(0) pistil
+a Payment(0) pistil
+a Insert█Date█Appeal█to█Prefecture(0) pistil
+a Send█Appeal█to█Prefecture(0) pistil
+a Receive█Result█Appeal█from█Prefecture(0) pistil
+a Notify█Result█Appeal█to█Offender(0) pistil
+a Appeal█to█Judge(0) pistil
+
+# Initial State
+i start 1
+
+# Deadlock States Not Recorded

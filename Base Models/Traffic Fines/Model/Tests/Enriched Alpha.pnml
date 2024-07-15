@@ -1,0 +1,409 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+   <net id="Petrinet" type="http://www.pnml.org/version-2009/grammar/ptnet">
+      <toolspecific tool="StochasticPetriNet" version="0.2">
+         <property key="executionPolicy">global preselection</property>
+         <property key="timeUnit">nanoseconds</property>
+      </toolspecific>
+      <page id="p1">
+         <transition id="n0">
+            <graphics>
+               <position x="282.0" y="125.0"/>
+               <dimension x="20.0" y="20.0"/>
+            </graphics>
+            <toolspecific tool="StochasticPetriNet" version="0.2">
+               <property key="distributionType">UNIFORM</property>
+               <property key="trainingData"></property>
+               <property key="weight">1.0</property>
+               <property key="invisible">true</property>
+               <property key="distributionParameters">0.0;200.0</property>
+               <property key="priority">0</property>
+            </toolspecific>
+            <name>
+               <text>Add penalty</text>
+            </name>
+         </transition>
+         <transition id="n1">
+            <graphics>
+               <position x="282.0" y="160.0"/>
+               <dimension x="20.0" y="20.0"/>
+            </graphics>
+            <toolspecific tool="StochasticPetriNet" version="0.2">
+               <property key="distributionType">UNIFORM</property>
+               <property key="trainingData"></property>
+               <property key="weight">1.0</property>
+               <property key="invisible">true</property>
+               <property key="distributionParameters">0.0;200.0</property>
+               <property key="priority">0</property>
+            </toolspecific>
+            <name>
+               <text>Appeal to Judge</text>
+            </name>
+         </transition>
+         <transition id="n2">
+            <graphics>
+               <position x="50.0" y="117.0"/>
+               <dimension x="20.0" y="20.0"/>
+            </graphics>
+            <toolspecific tool="StochasticPetriNet" version="0.2">
+               <property key="distributionType">UNIFORM</property>
+               <property key="trainingData"></property>
+               <property key="weight">1.0</property>
+               <property key="invisible">true</property>
+               <property key="distributionParameters">0.0;200.0</property>
+               <property key="priority">0</property>
+            </toolspecific>
+            <name>
+               <text>Create Fine</text>
+            </name>
+         </transition>
+         <transition id="n3">
+            <graphics>
+               <position x="127.0" y="118.0"/>
+               <dimension x="20.0" y="20.0"/>
+            </graphics>
+            <toolspecific tool="StochasticPetriNet" version="0.2">
+               <property key="distributionType">UNIFORM</property>
+               <property key="trainingData"></property>
+               <property key="weight">1.0</property>
+               <property key="invisible">true</property>
+               <property key="distributionParameters">0.0;200.0</property>
+               <property key="priority">0</property>
+            </toolspecific>
+            <name>
+               <text>Insert Date Appeal to Prefecture</text>
+            </name>
+         </transition>
+         <transition id="n4">
+            <graphics>
+               <position x="205.0" y="119.0"/>
+               <dimension x="20.0" y="20.0"/>
+            </graphics>
+            <toolspecific tool="StochasticPetriNet" version="0.2">
+               <property key="distributionType">UNIFORM</property>
+               <property key="trainingData"></property>
+               <property key="weight">1.0</property>
+               <property key="invisible">true</property>
+               <property key="distributionParameters">0.0;200.0</property>
+               <property key="priority">0</property>
+            </toolspecific>
+            <name>
+               <text>Insert Fine Notification</text>
+            </name>
+         </transition>
+         <transition id="n5">
+            <graphics>
+               <position x="10.0" y="165.0"/>
+               <dimension x="20.0" y="20.0"/>
+            </graphics>
+            <toolspecific tool="StochasticPetriNet" version="0.2">
+               <property key="distributionType">UNIFORM</property>
+               <property key="trainingData"></property>
+               <property key="weight">1.0</property>
+               <property key="invisible">true</property>
+               <property key="distributionParameters">0.0;200.0</property>
+               <property key="priority">0</property>
+            </toolspecific>
+            <name>
+               <text>Notify Result Appeal to Offender</text>
+            </name>
+         </transition>
+         <transition id="n6">
+            <graphics>
+               <position x="10.0" y="208.0"/>
+               <dimension x="20.0" y="20.0"/>
+            </graphics>
+            <toolspecific tool="StochasticPetriNet" version="0.2">
+               <property key="distributionType">UNIFORM</property>
+               <property key="trainingData"></property>
+               <property key="weight">1.0</property>
+               <property key="invisible">true</property>
+               <property key="distributionParameters">0.0;200.0</property>
+               <property key="priority">0</property>
+            </toolspecific>
+            <name>
+               <text>Payment</text>
+            </name>
+         </transition>
+         <transition id="n7">
+            <graphics>
+               <position x="282.0" y="91.0"/>
+               <dimension x="20.0" y="20.0"/>
+            </graphics>
+            <toolspecific tool="StochasticPetriNet" version="0.2">
+               <property key="distributionType">UNIFORM</property>
+               <property key="trainingData"></property>
+               <property key="weight">1.0</property>
+               <property key="invisible">true</property>
+               <property key="distributionParameters">0.0;200.0</property>
+               <property key="priority">0</property>
+            </toolspecific>
+            <name>
+               <text>Receive Result Appeal from Prefecture</text>
+            </name>
+         </transition>
+         <transition id="n8">
+            <graphics>
+               <position x="10.0" y="59.0"/>
+               <dimension x="20.0" y="20.0"/>
+            </graphics>
+            <toolspecific tool="StochasticPetriNet" version="0.2">
+               <property key="distributionType">UNIFORM</property>
+               <property key="trainingData"></property>
+               <property key="weight">1.0</property>
+               <property key="invisible">true</property>
+               <property key="distributionParameters">0.0;200.0</property>
+               <property key="priority">0</property>
+            </toolspecific>
+            <name>
+               <text>Send Appeal to Prefecture</text>
+            </name>
+         </transition>
+         <transition id="n9">
+            <graphics>
+               <position x="127.0" y="88.0"/>
+               <dimension x="20.0" y="20.0"/>
+            </graphics>
+            <toolspecific tool="StochasticPetriNet" version="0.2">
+               <property key="distributionType">UNIFORM</property>
+               <property key="trainingData"></property>
+               <property key="weight">1.0</property>
+               <property key="invisible">true</property>
+               <property key="distributionParameters">0.0;200.0</property>
+               <property key="priority">0</property>
+            </toolspecific>
+            <name>
+               <text>Send Fine</text>
+            </name>
+         </transition>
+         <transition id="n10">
+            <graphics>
+               <position x="360.0" y="138.0"/>
+               <dimension x="20.0" y="20.0"/>
+            </graphics>
+            <toolspecific tool="StochasticPetriNet" version="0.2">
+               <property key="distributionType">UNIFORM</property>
+               <property key="trainingData"></property>
+               <property key="weight">1.0</property>
+               <property key="invisible">true</property>
+               <property key="distributionParameters">0.0;200.0</property>
+               <property key="priority">0</property>
+            </toolspecific>
+            <name>
+               <text>Send for Credit Collection</text>
+            </name>
+         </transition>
+         <place id="n11">
+            <graphics>
+               <position x="245.0" y="126.0"/>
+               <dimension x="20.0" y="20.0"/>
+            </graphics>
+            <name>
+               <text>([Insert Fine Notification],[Add penalty])</text>
+            </name>
+         </place>
+         <place id="n12">
+            <graphics>
+               <position x="322.0" y="155.0"/>
+               <dimension x="20.0" y="20.0"/>
+            </graphics>
+            <name>
+               <text>([Appeal to Judge],[Send for Credit Collection])</text>
+            </name>
+         </place>
+         <place id="n13">
+            <graphics>
+               <position x="322.0" y="127.0"/>
+               <dimension x="20.0" y="20.0"/>
+            </graphics>
+            <name>
+               <text>([Add penalty],[Send for Credit Collection])</text>
+            </name>
+         </place>
+         <place id="n14">
+            <graphics>
+               <position x="245.0" y="153.0"/>
+               <dimension x="20.0" y="20.0"/>
+            </graphics>
+            <name>
+               <text>([Insert Fine Notification, Create Fine],[Appeal to Judge])</text>
+            </name>
+         </place>
+         <place id="n15">
+            <graphics>
+               <position x="167.0" y="104.0"/>
+               <dimension x="20.0" y="20.0"/>
+            </graphics>
+            <name>
+               <text>([Send Fine],[Insert Fine Notification])</text>
+            </name>
+         </place>
+         <place id="n16">
+            <graphics>
+               <position x="322.0" y="100.0"/>
+               <dimension x="20.0" y="20.0"/>
+            </graphics>
+            <name>
+               <text>([Receive Result Appeal from Prefecture],[Send for Credit Collection])</text>
+            </name>
+         </place>
+         <place id="n17">
+            <graphics>
+               <position x="245.0" y="99.0"/>
+               <dimension x="20.0" y="20.0"/>
+            </graphics>
+            <name>
+               <text>([Insert Fine Notification],[Receive Result Appeal from Prefecture])</text>
+            </name>
+         </place>
+         <place id="n18">
+            <graphics>
+               <position x="90.0" y="92.0"/>
+               <dimension x="20.0" y="20.0"/>
+            </graphics>
+            <name>
+               <text>([Create Fine],[Send Fine])</text>
+            </name>
+         </place>
+         <place id="n19">
+            <graphics>
+               <position x="90.0" y="119.0"/>
+               <dimension x="20.0" y="20.0"/>
+            </graphics>
+            <name>
+               <text>([Create Fine],[Insert Date Appeal to Prefecture])</text>
+            </name>
+         </place>
+         <place id="n20">
+            <graphics>
+               <position x="51.0" y="156.0"/>
+               <dimension x="20.0" y="20.0"/>
+            </graphics>
+            <name>
+               <text>([Notify Result Appeal to Offender],[Send for Credit Collection])</text>
+            </name>
+         </place>
+         <place id="n21">
+            <graphics>
+               <position x="11.0" y="118.0"/>
+               <dimension x="20.0" y="20.0"/>
+            </graphics>
+            <name>
+               <text>Start</text>
+            </name>
+            <initialMarking>
+               <text>1</text>
+            </initialMarking>
+         </place>
+         <place id="n22">
+            <graphics>
+               <position x="400.0" y="139.0"/>
+               <dimension x="20.0" y="20.0"/>
+            </graphics>
+            <name>
+               <text>End</text>
+            </name>
+         </place>
+         <arc id="a0" source="n8" target="n22">
+            <graphics>
+               <position x="48.0" y="46.0"/>
+               <position x="87.0" y="46.0"/>
+               <position x="125.0" y="46.0"/>
+               <position x="164.0" y="46.0"/>
+               <position x="203.0" y="46.0"/>
+               <position x="242.0" y="46.0"/>
+               <position x="280.0" y="46.0"/>
+               <position x="319.0" y="46.0"/>
+               <position x="358.0" y="46.0"/>
+            </graphics>
+         </arc>
+         <arc id="a1" source="n6" target="n22">
+            <graphics>
+               <position x="48.0" y="218.0"/>
+               <position x="87.0" y="218.0"/>
+               <position x="125.0" y="218.0"/>
+               <position x="164.0" y="218.0"/>
+               <position x="203.0" y="218.0"/>
+               <position x="242.0" y="218.0"/>
+               <position x="280.0" y="218.0"/>
+               <position x="319.0" y="218.0"/>
+               <position x="358.0" y="218.0"/>
+            </graphics>
+         </arc>
+         <arc id="a2" source="n2" target="n18"/>
+         <arc id="a3" source="n4" target="n14"/>
+         <arc id="a4" source="n14" target="n1"/>
+         <arc id="a5" source="n15" target="n4"/>
+         <arc id="a6" source="n9" target="n22">
+            <graphics>
+               <position x="164.0" y="61.0"/>
+               <position x="203.0" y="61.0"/>
+               <position x="242.0" y="61.0"/>
+               <position x="280.0" y="61.0"/>
+               <position x="319.0" y="61.0"/>
+               <position x="358.0" y="61.0"/>
+            </graphics>
+         </arc>
+         <arc id="a7" source="n4" target="n17"/>
+         <arc id="a8" source="n13" target="n10"/>
+         <arc id="a9" source="n7" target="n22">
+            <graphics>
+               <position x="319.0" y="76.0"/>
+               <position x="358.0" y="76.0"/>
+            </graphics>
+         </arc>
+         <arc id="a10" source="n9" target="n15"/>
+         <arc id="a11" source="n1" target="n12"/>
+         <arc id="a12" source="n2" target="n14">
+            <graphics>
+               <position x="87.0" y="144.0"/>
+               <position x="125.0" y="144.0"/>
+               <position x="164.0" y="144.0"/>
+               <position x="203.0" y="144.0"/>
+            </graphics>
+         </arc>
+         <arc id="a13" source="n20" target="n10">
+            <graphics>
+               <position x="87.0" y="188.0"/>
+               <position x="125.0" y="188.0"/>
+               <position x="164.0" y="188.0"/>
+               <position x="203.0" y="188.0"/>
+               <position x="242.0" y="188.0"/>
+               <position x="280.0" y="188.0"/>
+               <position x="319.0" y="188.0"/>
+            </graphics>
+         </arc>
+         <arc id="a14" source="n19" target="n3"/>
+         <arc id="a15" source="n5" target="n20"/>
+         <arc id="a16" source="n17" target="n7"/>
+         <arc id="a17" source="n4" target="n11"/>
+         <arc id="a18" source="n7" target="n16"/>
+         <arc id="a19" source="n1" target="n22">
+            <graphics>
+               <position x="319.0" y="173.0"/>
+               <position x="358.0" y="173.0"/>
+            </graphics>
+         </arc>
+         <arc id="a20" source="n16" target="n10"/>
+         <arc id="a21" source="n2" target="n19"/>
+         <arc id="a22" source="n10" target="n22"/>
+         <arc id="a23" source="n18" target="n9"/>
+         <arc id="a24" source="n21" target="n2"/>
+         <arc id="a25" source="n5" target="n22">
+            <graphics>
+               <position x="48.0" y="203.0"/>
+               <position x="87.0" y="203.0"/>
+               <position x="125.0" y="203.0"/>
+               <position x="164.0" y="203.0"/>
+               <position x="203.0" y="203.0"/>
+               <position x="242.0" y="203.0"/>
+               <position x="280.0" y="203.0"/>
+               <position x="319.0" y="203.0"/>
+               <position x="358.0" y="203.0"/>
+            </graphics>
+         </arc>
+         <arc id="a26" source="n0" target="n13"/>
+         <arc id="a27" source="n12" target="n10"/>
+         <arc id="a28" source="n11" target="n0"/>
+      </page>
+   </net>
+</pnml>

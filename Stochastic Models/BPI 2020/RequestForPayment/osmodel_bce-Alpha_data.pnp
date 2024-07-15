@@ -1,0 +1,124 @@
+# Places
+p n19
+p n20
+p n21
+p n22
+p n23
+p n24
+p n25
+p n26
+p n27
+p n28
+p n29
+p n30
+p n31
+p n32
+p n33
+p n34
+p n35
+p n36
+p n37
+
+# Transitions
+t Request_For_Payment_SUBMITTED_by_EMPLOYEE+(0) 3444.0
+t Request_For_Payment_REJECTED_by_BUDGET_OWNER+(0) 0.41666666666666663
+t Request_For_Payment_FINAL_APPROVED_by_BUDGET_OWNER+(0) 0.41666666666666663
+t Request_For_Payment_SAVED_by_EMPLOYEE+(0) 3444.0
+t Request_For_Payment_REJECTED_by_ADMINISTRATION+(0) 0.0
+t Request_For_Payment_REJECTED_by_SUPERVISOR+(0) 1.8333333333333333
+t Request_For_Payment_APPROVED_by_SUPERVISOR+(0) 1.1666666666666665
+t Request_For_Payment_FINAL_APPROVED_by_DIRECTOR+(0) 0.3333333333333333
+t Request_For_Payment_REJECTED_by_EMPLOYEE+(0) 1.0
+t Request_For_Payment_REJECTED_by_PRE_APPROVER+(0) 1.0
+t Request_For_Payment_REJECTED_by_MISSING+(0) 1.5
+t Payment_Handled+(0) 1.5
+t Request_Payment+(0) 2.0
+t Request_For_Payment_FOR_APPROVAL_by_SUPERVISOR+(0) 0.41666666666666663
+t Request_For_Payment_FOR_APPROVAL_by_ADMINISTRATION+(0) 0.0
+t Request_For_Payment_APPROVED_by_PRE_APPROVER+(0) 0.6666666666666666
+t Request_For_Payment_FINAL_APPROVED_by_SUPERVISOR+(0) 2.1666666666666665
+t Request_For_Payment_APPROVED_by_ADMINISTRATION+(0) 0.3333333333333333
+t Request_For_Payment_APPROVED_by_BUDGET_OWNER+(0) 0.25
+
+# Arcs
+a Request_Payment+(0) n24
+a Request_For_Payment_SUBMITTED_by_EMPLOYEE+(0) n28
+a n23 Request_For_Payment_REJECTED_by_BUDGET_OWNER+(0)
+a n32 Request_For_Payment_REJECTED_by_PRE_APPROVER+(0)
+a n30 Request_For_Payment_REJECTED_by_EMPLOYEE+(0)
+a n22 Request_Payment+(0)
+a Request_For_Payment_REJECTED_by_MISSING+(0) n24
+a Request_For_Payment_SUBMITTED_by_EMPLOYEE+(0) n27
+a n26 Request_For_Payment_REJECTED_by_MISSING+(0)
+a Request_For_Payment_REJECTED_by_EMPLOYEE+(0) n24
+a n36 Request_For_Payment_FOR_APPROVAL_by_SUPERVISOR+(0)
+a Request_For_Payment_FOR_APPROVAL_by_SUPERVISOR+(0) n24
+a Request_For_Payment_APPROVED_by_ADMINISTRATION+(0) n29
+a n32 Request_For_Payment_APPROVED_by_SUPERVISOR+(0)
+a Request_For_Payment_FINAL_APPROVED_by_SUPERVISOR+(0) n22
+a n25 Request_Payment+(0)
+a n35 Request_For_Payment_SAVED_by_EMPLOYEE+(0)
+a Request_For_Payment_FINAL_APPROVED_by_SUPERVISOR+(0) n33
+a n28 Request_For_Payment_REJECTED_by_PRE_APPROVER+(0)
+a Request_For_Payment_REJECTED_by_PRE_APPROVER+(0) n30
+a Request_For_Payment_REJECTED_by_SUPERVISOR+(0) n30
+a n19 Payment_Handled+(0)
+a Request_For_Payment_REJECTED_by_ADMINISTRATION+(0) n24
+a n33 Payment_Handled+(0)
+a Request_For_Payment_SUBMITTED_by_EMPLOYEE+(0) n32
+a Request_For_Payment_APPROVED_by_PRE_APPROVER+(0) n29
+a n23 Request_For_Payment_APPROVED_by_SUPERVISOR+(0)
+a Request_For_Payment_APPROVED_by_BUDGET_OWNER+(0) n37
+a Request_For_Payment_FINAL_APPROVED_by_DIRECTOR+(0) n24
+a Request_For_Payment_FINAL_APPROVED_by_SUPERVISOR+(0) n24
+a Request_For_Payment_APPROVED_by_ADMINISTRATION+(0) n23
+a Request_Payment+(0) n26
+a Payment_Handled+(0) n24
+a n36 Request_For_Payment_FINAL_APPROVED_by_BUDGET_OWNER+(0)
+a n27 Request_For_Payment_APPROVED_by_SUPERVISOR+(0)
+a n34 Request_For_Payment_FINAL_APPROVED_by_DIRECTOR+(0)
+a n20 Request_For_Payment_APPROVED_by_SUPERVISOR+(0)
+a Request_For_Payment_FINAL_APPROVED_by_SUPERVISOR+(0) n19
+a n20 Request_For_Payment_FINAL_APPROVED_by_SUPERVISOR+(0)
+a n23 Request_For_Payment_FOR_APPROVAL_by_SUPERVISOR+(0)
+a Request_For_Payment_REJECTED_by_EMPLOYEE+(0) n35
+a n23 Request_For_Payment_FINAL_APPROVED_by_BUDGET_OWNER+(0)
+a n34 Request_For_Payment_REJECTED_by_SUPERVISOR+(0)
+a Request_For_Payment_FINAL_APPROVED_by_DIRECTOR+(0) n22
+a Request_For_Payment_SAVED_by_EMPLOYEE+(0) n24
+a n28 Request_For_Payment_APPROVED_by_PRE_APPROVER+(0)
+a Request_For_Payment_APPROVED_by_BUDGET_OWNER+(0) n31
+a Request_For_Payment_APPROVED_by_SUPERVISOR+(0) n25
+a n29 Request_For_Payment_FINAL_APPROVED_by_SUPERVISOR+(0)
+a Request_For_Payment_REJECTED_by_ADMINISTRATION+(0) n30
+a Request_For_Payment_APPROVED_by_BUDGET_OWNER+(0) n20
+a Request_For_Payment_APPROVED_by_PRE_APPROVER+(0) n34
+a n21 Request_For_Payment_SUBMITTED_by_EMPLOYEE+(0)
+a Request_For_Payment_APPROVED_by_ADMINISTRATION+(0) n36
+a Request_For_Payment_FINAL_APPROVED_by_BUDGET_OWNER+(0) n33
+a Request_For_Payment_REJECTED_by_SUPERVISOR+(0) n24
+a Request_For_Payment_APPROVED_by_PRE_APPROVER+(0) n31
+a n34 Request_For_Payment_FINAL_APPROVED_by_SUPERVISOR+(0)
+a n27 Request_For_Payment_REJECTED_by_PRE_APPROVER+(0)
+a Request_For_Payment_REJECTED_by_MISSING+(0) n37
+a n29 Request_For_Payment_REJECTED_by_SUPERVISOR+(0)
+a n23 Request_For_Payment_FINAL_APPROVED_by_SUPERVISOR+(0)
+a n32 Request_For_Payment_APPROVED_by_PRE_APPROVER+(0)
+a n36 Request_For_Payment_APPROVED_by_BUDGET_OWNER+(0)
+a Request_For_Payment_FINAL_APPROVED_by_SUPERVISOR+(0) n25
+a n36 Request_For_Payment_REJECTED_by_BUDGET_OWNER+(0)
+a n23 Request_For_Payment_REJECTED_by_SUPERVISOR+(0)
+a n20 Request_For_Payment_REJECTED_by_SUPERVISOR+(0)
+a n31 Request_For_Payment_REJECTED_by_SUPERVISOR+(0)
+a n21 Request_For_Payment_SAVED_by_EMPLOYEE+(0)
+a n19 Request_For_Payment_REJECTED_by_MISSING+(0)
+a n37 Request_For_Payment_SUBMITTED_by_EMPLOYEE+(0)
+a n28 Request_For_Payment_APPROVED_by_ADMINISTRATION+(0)
+a Request_For_Payment_REJECTED_by_BUDGET_OWNER+(0) n30
+a n31 Request_For_Payment_FINAL_APPROVED_by_SUPERVISOR+(0)
+a n27 Request_For_Payment_FINAL_APPROVED_by_SUPERVISOR+(0)
+
+# Initial State
+i n21 1
+
+# Deadlock States Not Recorded

@@ -1,0 +1,394 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imported_1712938082.4068859" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imported_1712938082.4068859</text>
+    </name>
+    <page id="n0">
+      <place id="n3">
+        <name>
+          <text>([Declaration REJECTED by SUPERVISOR+],[Request Payment+, Declaration REJECTED by EMPLOYEE+])</text>
+        </name>
+        <graphics>
+          <position x="631.25" y="238.5" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n12">
+        <name>
+          <text>([Declaration SUBMITTED by EMPLOYEE+],[Declaration REJECTED by ADMINISTRATION+, Declaration APPROVED by PRE_APPROVER+, Declaration FOR_APPROVAL by SUPERVISOR+, Declaration FOR_APPROVAL by PRE_APPROVER+, Declaration APPROVED by ADMINISTRATION+])</text>
+        </name>
+        <graphics>
+          <position x="368.75" y="223.0" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n17">
+        <name>
+          <text>End</text>
+        </name>
+        <graphics>
+          <position x="806.25" y="247.5" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n2">
+        <name>
+          <text>([Declaration FINAL_APPROVED by SUPERVISOR+],[Declaration REJECTED by MISSING+, Payment Handled+])</text>
+        </name>
+        <graphics>
+          <position x="631.25" y="297.0" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n5">
+        <name>
+          <text>([Declaration APPROVED by ADMINISTRATION+],[Declaration REJECTED by BUDGET OWNER+, Declaration APPROVED by BUDGET OWNER+])</text>
+        </name>
+        <graphics>
+          <position x="456.25" y="204.5" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n6">
+        <name>
+          <text>([Declaration REJECTED by ADMINISTRATION+, Declaration REJECTED by BUDGET OWNER+, Declaration REJECTED by MISSING+],[Declaration SUBMITTED by EMPLOYEE+])</text>
+        </name>
+        <graphics>
+          <position x="281.25" y="207.0" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n11">
+        <name>
+          <text>([Declaration SUBMITTED by EMPLOYEE+],[Declaration REJECTED by ADMINISTRATION+, Declaration FOR_APPROVAL by SUPERVISOR+, Declaration FOR_APPROVAL by PRE_APPROVER+, Declaration FINAL_APPROVED by SUPERVISOR+])</text>
+        </name>
+        <graphics>
+          <position x="368.75" y="153.0" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n8">
+        <name>
+          <text>([Declaration FOR_APPROVAL by SUPERVISOR+, Request Payment+, Declaration FOR_APPROVAL by PRE_APPROVER+],[Declaration REJECTED by MISSING+])</text>
+        </name>
+        <graphics>
+          <position x="456.25" y="67.0" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n14">
+        <name>
+          <text>([Declaration REJECTED by SUPERVISOR+, Declaration REJECTED by ADMINISTRATION+, Declaration REJECTED by BUDGET OWNER+, Declaration REJECTED by PRE_APPROVER+, Payment Handled+],[Declaration REJECTED by EMPLOYEE+])</text>
+        </name>
+        <graphics>
+          <position x="718.75" y="140.0" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n13">
+        <name>
+          <text>([Declaration APPROVED by PRE_APPROVER+, Declaration APPROVED by BUDGET OWNER+],[Declaration REJECTED by SUPERVISOR+, Declaration FINAL_APPROVED by SUPERVISOR+])</text>
+        </name>
+        <graphics>
+          <position x="543.75" y="249.0" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n7">
+        <name>
+          <text>([Declaration REJECTED by SUPERVISOR+, Declaration FINAL_APPROVED by SUPERVISOR+, Declaration SAVED by EMPLOYEE+],[Request Payment+])</text>
+        </name>
+        <graphics>
+          <position x="106.25" y="270.0" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n10">
+        <name>
+          <text>([Declaration APPROVED by ADMINISTRATION+],[Declaration REJECTED by SUPERVISOR+, Declaration REJECTED by BUDGET OWNER+, Declaration FINAL_APPROVED by SUPERVISOR+])</text>
+        </name>
+        <graphics>
+          <position x="456.25" y="235.5" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n4">
+        <name>
+          <text>([Declaration SUBMITTED by EMPLOYEE+, Declaration APPROVED by BUDGET OWNER+],[Declaration FINAL_APPROVED by SUPERVISOR+])</text>
+        </name>
+        <graphics>
+          <position x="543.75" y="187.5" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n9">
+        <name>
+          <text>([Declaration FOR_APPROVAL by SUPERVISOR+, Declaration FOR_APPROVAL by PRE_APPROVER+, Declaration FINAL_APPROVED by SUPERVISOR+],[Declaration REJECTED by MISSING+])</text>
+        </name>
+        <graphics>
+          <position x="631.25" y="82.0" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n15">
+        <name>
+          <text>([Declaration APPROVED by PRE_APPROVER+, Declaration APPROVED by ADMINISTRATION+],[Declaration REJECTED by SUPERVISOR+, Declaration FINAL_APPROVED by SUPERVISOR+])</text>
+        </name>
+        <graphics>
+          <position x="456.25" y="262.5" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n16">
+        <name>
+          <text>Start</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+        <graphics>
+          <position x="12.5" y="249.0" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n1">
+        <name>
+          <text>([Request Payment+],[Declaration REJECTED by MISSING+, Payment Handled+])</text>
+        </name>
+        <graphics>
+          <position x="193.75" y="265.5" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <transition id="n22">
+        <name>
+          <text>Declaration FOR_APPROVAL by ADMINISTRATION+</text>
+        </name>
+        <graphics>
+          <position x="12.5" y="453.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n27">
+        <name>
+          <text>Declaration REJECTED by EMPLOYEE+</text>
+        </name>
+        <graphics>
+          <position x="762.5" y="170.5" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n25">
+        <name>
+          <text>Declaration REJECTED by ADMINISTRATION+</text>
+        </name>
+        <graphics>
+          <position x="412.5" y="298.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n34">
+        <name>
+          <text>Request Payment+</text>
+        </name>
+        <graphics>
+          <position x="150.0" y="266.5" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n20">
+        <name>
+          <text>Declaration APPROVED by PRE_APPROVER+</text>
+        </name>
+        <graphics>
+          <position x="412.5" y="263.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n26">
+        <name>
+          <text>Declaration REJECTED by BUDGET OWNER+</text>
+        </name>
+        <graphics>
+          <position x="500.0" y="147.5" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n23">
+        <name>
+          <text>Declaration FOR_APPROVAL by PRE_APPROVER+</text>
+        </name>
+        <graphics>
+          <position x="412.5" y="133.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n32">
+        <name>
+          <text>Declaration SUBMITTED by EMPLOYEE+</text>
+        </name>
+        <graphics>
+          <position x="325.0" y="176.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n33">
+        <name>
+          <text>Payment Handled+</text>
+        </name>
+        <graphics>
+          <position x="675.0" y="285.5" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n30">
+        <name>
+          <text>Declaration REJECTED by SUPERVISOR+</text>
+        </name>
+        <graphics>
+          <position x="587.5" y="259.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n24">
+        <name>
+          <text>Declaration FOR_APPROVAL by SUPERVISOR+</text>
+        </name>
+        <graphics>
+          <position x="412.5" y="98.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n18">
+        <name>
+          <text>Declaration APPROVED by ADMINISTRATION+</text>
+        </name>
+        <graphics>
+          <position x="412.5" y="228.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n29">
+        <name>
+          <text>Declaration REJECTED by PRE_APPROVER+</text>
+        </name>
+        <graphics>
+          <position x="12.5" y="218.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n21">
+        <name>
+          <text>Declaration FINAL_APPROVED by SUPERVISOR+</text>
+        </name>
+        <graphics>
+          <position x="587.5" y="197.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n19">
+        <name>
+          <text>Declaration APPROVED by BUDGET OWNER+</text>
+        </name>
+        <graphics>
+          <position x="500.0" y="214.5" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n31">
+        <name>
+          <text>Declaration SAVED by EMPLOYEE+</text>
+        </name>
+        <graphics>
+          <position x="62.5" y="281.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n28">
+        <name>
+          <text>Declaration REJECTED by MISSING+</text>
+        </name>
+        <graphics>
+          <position x="237.5" y="217.5" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <arc id="1817228253312" source="n21" target="n7" />
+      <arc id="1817228499840" source="n18" target="n15" />
+      <arc id="1817228127104" source="n14" target="n27" />
+      <arc id="1817228127488" source="n30" target="n3" />
+      <arc id="1817228231296" source="n11" target="n25" />
+      <arc id="1817228232448" source="n5" target="n26" />
+      <arc id="1817228233600" source="n28" target="n17" />
+      <arc id="1817228233984" source="n20" target="n15" />
+      <arc id="1817228880144" source="n34" target="n1" />
+      <arc id="1817228499984" source="n8" target="n28" />
+      <arc id="1817228127248" source="n18" target="n10" />
+      <arc id="1817228126096" source="n30" target="n7" />
+      <arc id="1817228125328" source="n5" target="n19" />
+      <arc id="1817228128016" source="n28" target="n6" />
+      <arc id="1817228231440" source="n9" target="n28" />
+      <arc id="1817228232592" source="n7" target="n34" />
+      <arc id="1817228232976" source="n10" target="n21" />
+      <arc id="1817228500896" source="n12" target="n24" />
+      <arc id="1817228500128" source="n11" target="n23" />
+      <arc id="1817228500512" source="n27" target="n17" />
+      <arc id="1817228125472" source="n1" target="n28" />
+      <arc id="1817228231968" source="n24" target="n8" />
+      <arc id="1817228231200" source="n12" target="n20" />
+      <arc id="1817228234272" source="n21" target="n2" />
+      <arc id="1817228500656" source="n23" target="n9" />
+      <arc id="1817228127152" source="n13" target="n30" />
+      <arc id="1817228125616" source="n32" target="n11" />
+      <arc id="1817228234032" source="n2" target="n33" />
+      <arc id="1817228230960" source="n24" target="n9" />
+      <arc id="1817228231728" source="n10" target="n26" />
+      <arc id="1817228233648" source="n31" target="n17" />
+      <arc id="1817228232496" source="n16" target="n32" />
+      <arc id="1817228232880" source="n20" target="n13" />
+      <arc id="1817228231344" source="n1" target="n33" />
+      <arc id="1817228128064" source="n15" target="n30" />
+      <arc id="1817228127680" source="n4" target="n21" />
+      <arc id="1817228230720" source="n30" target="n17" />
+      <arc id="1817228231872" source="n11" target="n24" />
+      <arc id="1817228231488" source="n33" target="n17" />
+      <arc id="1817228231536" source="n2" target="n28" />
+      <arc id="1817228878800" source="n12" target="n23" />
+      <arc id="1817228500944" source="n18" target="n5" />
+      <arc id="1817228500176" source="n3" target="n27" />
+      <arc id="1817228499792" source="n21" target="n9" />
+      <arc id="1817228127824" source="n15" target="n21" />
+      <arc id="1817228125520" source="n33" target="n14" />
+      <arc id="1817228233168" source="n26" target="n14" />
+      <arc id="1817228232784" source="n11" target="n21" />
+      <arc id="1817228230864" source="n31" target="n7" />
+      <arc id="1817228231632" source="n19" target="n13" />
+      <arc id="1817228499936" source="n25" target="n6" />
+      <arc id="1817228500320" source="n3" target="n34" />
+      <arc id="1817228500704" source="n29" target="n14" />
+      <arc id="1817228125280" source="n19" target="n4" />
+      <arc id="1817228127200" source="n25" target="n14" />
+      <arc id="1817228234080" source="n34" target="n8" />
+      <arc id="1817228232160" source="n30" target="n14" />
+      <arc id="1817228233696" source="n16" target="n31" />
+      <arc id="1817228880624" source="n32" target="n12" />
+      <arc id="1817228878320" source="n10" target="n30" />
+      <arc id="1817228500464" source="n13" target="n21" />
+      <arc id="1817228126192" source="n26" target="n6" />
+      <arc id="1817228127344" source="n25" target="n17" />
+      <arc id="1817228232688" source="n23" target="n8" />
+      <arc id="1817228230768" source="n12" target="n25" />
+      <arc id="1817228233072" source="n6" target="n32" />
+      <arc id="1817228234224" source="n32" target="n4" />
+      <arc id="1817228233456" source="n12" target="n18" />
+    </page>
+    </net>
+<finalmarkings>
+      <marking>
+        <place idref="n17">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </pnml>

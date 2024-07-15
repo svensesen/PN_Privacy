@@ -1,0 +1,252 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imported_1712938082.7584646" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imported_1712938082.7584646</text>
+    </name>
+    <page id="n0">
+      <place id="n1">
+        <name>
+          <text>([ER Sepsis Triage],[IV Antibiotics])</text>
+        </name>
+        <graphics>
+          <position x="106.25" y="202.0" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n3">
+        <name>
+          <text>([Release A, Release D, Release C, Release E],[Return ER])</text>
+        </name>
+        <graphics>
+          <position x="281.25" y="85.5" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n2">
+        <name>
+          <text>([IV Antibiotics],[Release B, Release A, ER Registration])</text>
+        </name>
+        <graphics>
+          <position x="193.75" y="222.5" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n6">
+        <name>
+          <text>End</text>
+        </name>
+        <graphics>
+          <position x="368.75" y="205.0" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n4">
+        <name>
+          <text>([IV Liquid],[Release B, Release A])</text>
+        </name>
+        <graphics>
+          <position x="106.25" y="265.5" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n5">
+        <name>
+          <text>Start</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+        <graphics>
+          <position x="12.5" y="246.5" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <transition id="n18">
+        <name>
+          <text>Release B</text>
+        </name>
+        <graphics>
+          <position x="237.5" y="205.5" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n14">
+        <name>
+          <text>IV Liquid</text>
+        </name>
+        <graphics>
+          <position x="62.5" y="229.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n21">
+        <name>
+          <text>Release E</text>
+        </name>
+        <graphics>
+          <position x="12.5" y="193.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n16">
+        <name>
+          <text>Leucocytes</text>
+        </name>
+        <graphics>
+          <position x="62.5" y="299.5" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n7">
+        <name>
+          <text>Admission IC</text>
+        </name>
+        <graphics>
+          <position x="12.5" y="388.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n17">
+        <name>
+          <text>Release A</text>
+        </name>
+        <graphics>
+          <position x="237.5" y="275.5" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n13">
+        <name>
+          <text>IV Antibiotics</text>
+        </name>
+        <graphics>
+          <position x="150.0" y="208.5" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n15">
+        <name>
+          <text>LacticAcid</text>
+        </name>
+        <graphics>
+          <position x="12.5" y="158.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n8">
+        <name>
+          <text>Admission NC</text>
+        </name>
+        <graphics>
+          <position x="12.5" y="123.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n12">
+        <name>
+          <text>ER Triage</text>
+        </name>
+        <graphics>
+          <position x="62.5" y="264.5" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n22">
+        <name>
+          <text>Return ER</text>
+        </name>
+        <graphics>
+          <position x="325.0" y="93.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n19">
+        <name>
+          <text>Release C</text>
+        </name>
+        <graphics>
+          <position x="12.5" y="88.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n11">
+        <name>
+          <text>ER Sepsis Triage</text>
+        </name>
+        <graphics>
+          <position x="62.5" y="178.5" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n20">
+        <name>
+          <text>Release D</text>
+        </name>
+        <graphics>
+          <position x="12.5" y="53.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n10">
+        <name>
+          <text>ER Registration</text>
+        </name>
+        <graphics>
+          <position x="237.5" y="240.5" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n9">
+        <name>
+          <text>CRP</text>
+        </name>
+        <graphics>
+          <position x="62.5" y="335.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <arc id="1817229041920" source="n13" target="n6" />
+      <arc id="1817229042304" source="n5" target="n10" />
+      <arc id="1817229042688" source="n4" target="n17" />
+      <arc id="1817229043072" source="n5" target="n14" />
+      <arc id="1817229043456" source="n20" target="n6" />
+      <arc id="1817229043840" source="n22" target="n6" />
+      <arc id="1817229044224" source="n12" target="n6" />
+      <arc id="1817229044608" source="n14" target="n6" />
+      <arc id="1817231171488" source="n16" target="n6" />
+      <arc id="1817229041824" source="n15" target="n6" />
+      <arc id="1817229042208" source="n19" target="n6" />
+      <arc id="1817229042976" source="n1" target="n13" />
+      <arc id="1817229042592" source="n11" target="n6" />
+      <arc id="1817229043360" source="n21" target="n3" />
+      <arc id="1817229043744" source="n8" target="n6" />
+      <arc id="1817229044128" source="n5" target="n9" />
+      <arc id="1817229044512" source="n5" target="n11" />
+      <arc id="1817231171392" source="n5" target="n12" />
+      <arc id="1817229041728" source="n11" target="n1" />
+      <arc id="1817229042112" source="n19" target="n3" />
+      <arc id="1817229042880" source="n2" target="n17" />
+      <arc id="1817229043264" source="n9" target="n6" />
+      <arc id="1817229042496" source="n20" target="n3" />
+      <arc id="1817229043648" source="n18" target="n6" />
+      <arc id="1817229044032" source="n3" target="n22" />
+      <arc id="1817229044416" source="n2" target="n18" />
+      <arc id="1817229042016" source="n5" target="n16" />
+      <arc id="1817229042400" source="n13" target="n2" />
+      <arc id="1817229042784" source="n17" target="n3" />
+      <arc id="1817229043168" source="n2" target="n10" />
+      <arc id="1817229043552" source="n21" target="n6" />
+      <arc id="1817229043936" source="n17" target="n6" />
+      <arc id="1817229044320" source="n4" target="n18" />
+      <arc id="1817229044704" source="n14" target="n4" />
+    </page>
+    </net>
+<finalmarkings>
+      <marking>
+        <place idref="n6">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </pnml>

@@ -1,0 +1,52 @@
+# Places
+p start
+p pistil
+p end
+
+# Transitions
+t tau(0) 1
+t tau(1) 1
+t Create█Fine(0) 1
+t Send█Fine(0) 1
+t Insert█Fine█Notification(0) 1
+t Add█penalty(0) 1
+t Send█for█Credit█Collection(0) 1
+t Payment(0) 67532
+t Insert█Date█Appeal█to█Prefecture(0) 1
+t Send█Appeal█to█Prefecture(0) 1
+t Receive█Result█Appeal█from█Prefecture(0) 1
+t Notify█Result█Appeal█to█Offender(0) 1
+t Appeal█to█Judge(0) 1
+
+# Arcs
+a start tau(0)
+a pistil tau(1)
+a pistil Create█Fine(0)
+a pistil Send█Fine(0)
+a pistil Insert█Fine█Notification(0)
+a pistil Add█penalty(0)
+a pistil Send█for█Credit█Collection(0)
+a pistil Payment(0)
+a pistil Insert█Date█Appeal█to█Prefecture(0)
+a pistil Send█Appeal█to█Prefecture(0)
+a pistil Receive█Result█Appeal█from█Prefecture(0)
+a pistil Notify█Result█Appeal█to█Offender(0)
+a pistil Appeal█to█Judge(0)
+a tau(0) pistil
+a tau(1) end
+a Create█Fine(0) pistil
+a Send█Fine(0) pistil
+a Insert█Fine█Notification(0) pistil
+a Add█penalty(0) pistil
+a Send█for█Credit█Collection(0) pistil
+a Payment(0) pistil
+a Insert█Date█Appeal█to█Prefecture(0) pistil
+a Send█Appeal█to█Prefecture(0) pistil
+a Receive█Result█Appeal█from█Prefecture(0) pistil
+a Notify█Result█Appeal█to█Offender(0) pistil
+a Appeal█to█Judge(0) pistil
+
+# Initial State
+i start 1
+
+# Deadlock States Not Recorded

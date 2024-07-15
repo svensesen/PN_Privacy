@@ -1,0 +1,183 @@
+# Places
+p n1
+p n2
+p n3
+p n4
+p n5
+p n6
+p n7
+p n8
+p n9
+p n10
+p n11
+p n12
+p n13
+p n14
+p n15
+p n16
+p n17
+p n18
+p n19
+p n20
+p n21
+p n22
+p n23
+p n24
+p n25
+p n26
+p n27
+p n28
+p n29
+p n30
+p n31
+p n32
+
+# Transitions
+t Release█B(0) 1
+t Release█C(0) 1
+t Release█D(0) 1
+t Release█E(0) 1
+t Return█ER(0) 1
+t Admission█IC(0) 1
+t Admission█NC(0) 1
+t CRP(0) 3262
+t ER█Registration(0) 1
+t ER█Sepsis█Triage(0) 1
+t ER█Triage(0) 1
+t IV█Antibiotics(0) 1
+t IV█Liquid(0) 1
+t LacticAcid(0) 1466
+t Leucocytes(0) 3383
+t Release█A(0) 1
+t tau(0) 1
+t tau(1) 1
+t tau(2) 1
+t tau(3) 1
+t tau(4) 1
+t tau(5) 1
+t tau(6) 1
+t tau(7) 1
+t tau(8) 1
+t tau(9) 1
+t tau(10) 1
+t tau(11) 1
+t tau(12) 1
+t tau(13) 1
+t tau(14) 1
+t tau(15) 1
+t tau(16) 1
+t tau(17) 1
+t tau(18) 1
+t tau(19) 1
+t tau(20) 1
+t tau(21) 1
+t tau(22) 1
+t tau(23) 1
+t tau(24) 1
+t tau(25) 1
+t tau(26) 1
+t tau(27) 1
+t tau(28) 1
+t tau(29) 1
+
+# Arcs
+a n1 Release█B(0)
+a n3 Release█C(0)
+a n4 tau(1)
+a n5 Release█D(0)
+a n6 tau(3)
+a n7 Release█E(0)
+a n8 tau(0)
+a n9 Return█ER(0)
+a n10 tau(11)
+a n11 Admission█IC(0)
+a n12 tau(24)
+a n13 Admission█NC(0)
+a n14 tau(4)
+a n14 tau(29)
+a n15 CRP(0)
+a n16 tau(10)
+a n16 tau(6)
+a n16 tau(7)
+a n16 tau(9)
+a n16 tau(8)
+a n16 tau(5)
+a n17 ER█Registration(0)
+a n18 tau(26)
+a n18 tau(12)
+a n19 ER█Sepsis█Triage(0)
+a n20 tau(15)
+a n20 tau(13)
+a n20 tau(16)
+a n20 tau(17)
+a n20 tau(14)
+a n21 ER█Triage(0)
+a n22 tau(18)
+a n23 IV█Antibiotics(0)
+a n24 tau(20)
+a n24 tau(21)
+a n24 tau(19)
+a n25 IV█Liquid(0)
+a n26 tau(22)
+a n27 LacticAcid(0)
+a n28 tau(25)
+a n28 tau(23)
+a n29 Leucocytes(0)
+a n30 tau(27)
+a n30 tau(28)
+a n31 Release█A(0)
+a n32 tau(2)
+a Release█B(0) n2
+a Release█C(0) n4
+a Release█D(0) n6
+a Release█E(0) n8
+a Return█ER(0) n10
+a Admission█IC(0) n12
+a Admission█NC(0) n14
+a CRP(0) n16
+a ER█Registration(0) n18
+a ER█Sepsis█Triage(0) n20
+a ER█Triage(0) n22
+a IV█Antibiotics(0) n24
+a IV█Liquid(0) n26
+a LacticAcid(0) n28
+a Leucocytes(0) n30
+a Release█A(0) n32
+a tau(0) n9
+a tau(1) n9
+a tau(2) n9
+a tau(3) n9
+a tau(4) n13
+a tau(5) n31
+a tau(6) n3
+a tau(7) n7
+a tau(8) n15
+a tau(9) n1
+a tau(10) n5
+a tau(11) n15
+a tau(12) n21
+a tau(13) n25
+a tau(13) n29
+a tau(14) n29
+a tau(15) n23
+a tau(16) n23
+a tau(16) n29
+a tau(17) n25
+a tau(18) n19
+a tau(19) n13
+a tau(19) n11
+a tau(20) n13
+a tau(21) n11
+a tau(22) n23
+a tau(23) n1
+a tau(24) n27
+a tau(25) n27
+a tau(26) n27
+a tau(27) n29
+a tau(28) n31
+a tau(29) n31
+
+# Initial State
+i n17 1
+
+# Deadlock States Not Recorded

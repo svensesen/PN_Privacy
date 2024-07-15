@@ -1,0 +1,48 @@
+<runStats miner="Frequency Estimator" machineName="LAPTOP-UTOPLPT0" runnerVersion="dev">
+   <inputLogFileName>data.xes</inputLogFileName>
+   <outputModelFileName>var/BPI 2012\osmodel_fe-BPI 2012 Heuristic_data.pnml</outputModelFileName>
+   <runDate>2024-04-16 14:07:13.886 CEST</runDate>
+   <taskRunStats class="java.util.LinkedList">
+      <taskStats taskName="spmrunner_estimator" runState="FAILED">
+         <duration>8</duration>
+         <start>1713269233887</start>
+         <errorMessage>data\BPI 2012\data.xes (Het systeem kan het opgegeven bestand niet vinden)
+
+Debug message:
+java.io.FileNotFoundException: data\BPI 2012\data.xes (Het systeem kan het opgegeven bestand niet vinden)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:157)
+	at org.processmining.xeslite.plugin.AbstractOpenXESFilePlugin.getInputStream(AbstractOpenXESFilePlugin.java:112)
+	at org.processmining.xeslite.plugin.OpenLogFileLiteImplPlugin.importFromFile(OpenLogFileLiteImplPlugin.java:32)
+	at org.processmining.xeslite.plugin.AbstractOpenXESFilePlugin.importFile(AbstractOpenXESFilePlugin.java:40)
+	at org.processmining.xeslite.plugin.AbstractOpenXESFilePlugin.importFile(AbstractOpenXESFilePlugin.java:35)
+	at au.edu.qut.pm.spn_discover.ModelRunner.loadLog(ModelRunner.java:364)
+	at au.edu.qut.pm.spn_discover.ModelRunner.runEstimator(ModelRunner.java:334)
+	at au.edu.qut.pm.spn_discover.ModelRunner.runSingleEstimator(ModelRunner.java:316)
+	at au.edu.qut.pm.spn_discover.ModelRunner.runEstimatorsOnLoadedModels(ModelRunner.java:502)
+	at au.edu.qut.pm.spn_discover.ModelRunner.runAll(ModelRunner.java:494)
+	at au.edu.qut.pm.spn_discover.ModelRunner.main(ModelRunner.java:560)
+</errorMessage>
+      </taskStats>
+   </taskRunStats>
+   <errorMessage>data\BPI 2012\data.xes (Het systeem kan het opgegeven bestand niet vinden)
+
+Debug message:
+java.io.FileNotFoundException: data\BPI 2012\data.xes (Het systeem kan het opgegeven bestand niet vinden)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:157)
+	at org.processmining.xeslite.plugin.AbstractOpenXESFilePlugin.getInputStream(AbstractOpenXESFilePlugin.java:112)
+	at org.processmining.xeslite.plugin.OpenLogFileLiteImplPlugin.importFromFile(OpenLogFileLiteImplPlugin.java:32)
+	at org.processmining.xeslite.plugin.AbstractOpenXESFilePlugin.importFile(AbstractOpenXESFilePlugin.java:40)
+	at org.processmining.xeslite.plugin.AbstractOpenXESFilePlugin.importFile(AbstractOpenXESFilePlugin.java:35)
+	at au.edu.qut.pm.spn_discover.ModelRunner.loadLog(ModelRunner.java:364)
+	at au.edu.qut.pm.spn_discover.ModelRunner.runEstimator(ModelRunner.java:334)
+	at au.edu.qut.pm.spn_discover.ModelRunner.runSingleEstimator(ModelRunner.java:316)
+	at au.edu.qut.pm.spn_discover.ModelRunner.runEstimatorsOnLoadedModels(ModelRunner.java:502)
+	at au.edu.qut.pm.spn_discover.ModelRunner.runAll(ModelRunner.java:494)
+	at au.edu.qut.pm.spn_discover.ModelRunner.main(ModelRunner.java:560)
+</errorMessage>
+   <runState>FAILED</runState>
+</runStats>

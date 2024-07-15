@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imported_1713189276.2581856" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imported_1713189276.2581856</text>
+    </name>
+    <page id="n0">
+      <place id="start">
+        <name>
+          <text>start</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="pistil">
+        <name>
+          <text>pistil</text>
+        </name>
+      </place>
+      <place id="end">
+        <name>
+          <text>end</text>
+        </name>
+      </place>
+      <transition id="A_PREACCEPTED(0)">
+        <name>
+          <text>A_PREACCEPTED</text>
+        </name>
+      </transition>
+      <transition id="W_Completeren aanvraag(0)">
+        <name>
+          <text>W_Completeren aanvraag</text>
+        </name>
+      </transition>
+      <transition id="tau(0)">
+        <name>
+          <text>tau</text>
+        </name>
+      </transition>
+      <transition id="O_CREATED(0)">
+        <name>
+          <text>O_CREATED</text>
+        </name>
+      </transition>
+      <transition id="A_CANCELLED(0)">
+        <name>
+          <text>A_CANCELLED</text>
+        </name>
+      </transition>
+      <transition id="O_SENT_BACK(0)">
+        <name>
+          <text>O_SENT_BACK</text>
+        </name>
+      </transition>
+      <transition id="W_Nabellen incomplete dossiers(0)">
+        <name>
+          <text>W_Nabellen incomplete dossiers</text>
+        </name>
+      </transition>
+      <transition id="W_Afhandelen leads(0)">
+        <name>
+          <text>W_Afhandelen leads</text>
+        </name>
+      </transition>
+      <transition id="tau(1)">
+        <name>
+          <text>tau</text>
+        </name>
+      </transition>
+      <transition id="O_CANCELLED(0)">
+        <name>
+          <text>O_CANCELLED</text>
+        </name>
+      </transition>
+      <transition id="A_ACTIVATED(0)">
+        <name>
+          <text>A_ACTIVATED</text>
+        </name>
+      </transition>
+      <transition id="A_FINALIZED(0)">
+        <name>
+          <text>A_FINALIZED</text>
+        </name>
+      </transition>
+      <transition id="A_DECLINED(0)">
+        <name>
+          <text>A_DECLINED</text>
+        </name>
+      </transition>
+      <transition id="O_ACCEPTED(0)">
+        <name>
+          <text>O_ACCEPTED</text>
+        </name>
+      </transition>
+      <transition id="A_REGISTERED(0)">
+        <name>
+          <text>A_REGISTERED</text>
+        </name>
+      </transition>
+      <transition id="A_ACCEPTED(0)">
+        <name>
+          <text>A_ACCEPTED</text>
+        </name>
+      </transition>
+      <transition id="A_SUBMITTED(0)">
+        <name>
+          <text>A_SUBMITTED</text>
+        </name>
+      </transition>
+      <transition id="A_PARTLYSUBMITTED(0)">
+        <name>
+          <text>A_PARTLYSUBMITTED</text>
+        </name>
+      </transition>
+      <transition id="A_APPROVED(0)">
+        <name>
+          <text>A_APPROVED</text>
+        </name>
+      </transition>
+      <transition id="O_SELECTED(0)">
+        <name>
+          <text>O_SELECTED</text>
+        </name>
+      </transition>
+      <transition id="W_Beoordelen fraude(0)">
+        <name>
+          <text>W_Beoordelen fraude</text>
+        </name>
+      </transition>
+      <transition id="O_SENT(0)">
+        <name>
+          <text>O_SENT</text>
+        </name>
+      </transition>
+      <transition id="W_Wijzigen contractgegevens(0)">
+        <name>
+          <text>W_Wijzigen contractgegevens</text>
+        </name>
+      </transition>
+      <transition id="O_DECLINED(0)">
+        <name>
+          <text>O_DECLINED</text>
+        </name>
+      </transition>
+      <transition id="W_Nabellen offertes(0)">
+        <name>
+          <text>W_Nabellen offertes</text>
+        </name>
+      </transition>
+      <transition id="W_Valideren aanvraag(0)">
+        <name>
+          <text>W_Valideren aanvraag</text>
+        </name>
+      </transition>
+      <arc id="2067173894896" source="O_SENT(0)" target="pistil"/>
+      <arc id="2067172677904" source="pistil" target="tau(1)"/>
+      <arc id="2067172678288" source="pistil" target="O_DECLINED(0)"/>
+      <arc id="2067172678672" source="W_Valideren aanvraag(0)" target="pistil"/>
+      <arc id="2067172679056" source="O_CANCELLED(0)" target="pistil"/>
+      <arc id="2067172679440" source="pistil" target="A_REGISTERED(0)"/>
+      <arc id="2067173892496" source="O_SENT_BACK(0)" target="pistil"/>
+      <arc id="2067173892880" source="pistil" target="A_ACTIVATED(0)"/>
+      <arc id="2067173893264" source="pistil" target="O_CREATED(0)"/>
+      <arc id="2067173893648" source="O_SELECTED(0)" target="pistil"/>
+      <arc id="2067173894032" source="pistil" target="O_SENT_BACK(0)"/>
+      <arc id="2067173894416" source="pistil" target="O_ACCEPTED(0)"/>
+      <arc id="2067173894800" source="A_ACCEPTED(0)" target="pistil"/>
+      <arc id="2067172679344" source="pistil" target="A_ACCEPTED(0)"/>
+      <arc id="2067172678960" source="W_Beoordelen fraude(0)" target="pistil"/>
+      <arc id="2067172678576" source="O_CREATED(0)" target="pistil"/>
+      <arc id="2067172677808" source="pistil" target="W_Nabellen offertes(0)"/>
+      <arc id="2067172678192" source="pistil" target="W_Wijzigen contractgegevens(0)"/>
+      <arc id="2067173892400" source="A_FINALIZED(0)" target="pistil"/>
+      <arc id="2067173892784" source="A_ACTIVATED(0)" target="pistil"/>
+      <arc id="2067173893168" source="pistil" target="W_Completeren aanvraag(0)"/>
+      <arc id="2067173893552" source="A_PARTLYSUBMITTED(0)" target="pistil"/>
+      <arc id="2067173893936" source="O_ACCEPTED(0)" target="pistil"/>
+      <arc id="2067173894320" source="pistil" target="A_FINALIZED(0)"/>
+      <arc id="2067173894704" source="A_SUBMITTED(0)" target="pistil"/>
+      <arc id="2067173893840" source="O_DECLINED(0)" target="pistil"/>
+      <arc id="2067173894128" source="pistil" target="A_PREACCEPTED(0)"/>
+      <arc id="2067172679248" source="start" target="tau(0)"/>
+      <arc id="2067172678864" source="A_REGISTERED(0)" target="pistil"/>
+      <arc id="2067172677712" source="W_Wijzigen contractgegevens(0)" target="pistil"/>
+      <arc id="2067172678096" source="pistil" target="A_APPROVED(0)"/>
+      <arc id="2067172678480" source="W_Completeren aanvraag(0)" target="pistil"/>
+      <arc id="2067172679632" source="pistil" target="W_Afhandelen leads(0)"/>
+      <arc id="2067173892304" source="A_PREACCEPTED(0)" target="pistil"/>
+      <arc id="2067173892688" source="W_Nabellen incomplete dossiers(0)" target="pistil"/>
+      <arc id="2067173893072" source="pistil" target="A_PARTLYSUBMITTED(0)"/>
+      <arc id="2067173893456" source="pistil" target="W_Beoordelen fraude(0)"/>
+      <arc id="2067173894224" source="pistil" target="A_SUBMITTED(0)"/>
+      <arc id="2067173894608" source="pistil" target="W_Nabellen incomplete dossiers(0)"/>
+      <arc id="2067173893744" source="W_Nabellen offertes(0)" target="pistil"/>
+      <arc id="2067173894992" source="W_Afhandelen leads(0)" target="pistil"/>
+      <arc id="2067172679152" source="pistil" target="O_SENT(0)"/>
+      <arc id="2067172677616" source="A_APPROVED(0)" target="pistil"/>
+      <arc id="2067172678000" source="pistil" target="O_SELECTED(0)"/>
+      <arc id="2067172678384" source="tau(1)" target="end"/>
+      <arc id="2067172678768" source="A_CANCELLED(0)" target="pistil"/>
+      <arc id="2067172679536" source="pistil" target="O_CANCELLED(0)"/>
+      <arc id="2067173892208" source="tau(0)" target="pistil"/>
+      <arc id="2067173892592" source="A_DECLINED(0)" target="pistil"/>
+      <arc id="2067173892976" source="pistil" target="W_Valideren aanvraag(0)"/>
+      <arc id="2067173893360" source="pistil" target="A_CANCELLED(0)"/>
+      <arc id="2067173894512" source="pistil" target="A_DECLINED(0)"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="end">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

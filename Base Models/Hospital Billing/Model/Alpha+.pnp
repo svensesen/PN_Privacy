@@ -1,0 +1,46 @@
+# Places
+p n1
+p n2
+
+# Transitions
+t REOPEN(0) 1
+t CHANGE█DIAGN(0) 1
+t BILLED(0) 1
+t SET█STATUS(0) 1
+t REJECT(0) 1
+t JOIN-PAT(0) 1
+t NEW(0) 1
+t CODE█OK(0) 1
+t CODE█ERROR(0) 1
+t STORNO(0) 1
+t DELETE(0) 1
+t CODE█NOK(0) 1
+t ZDBC_BEHAN(0) 1
+t CHANGE█END(0) 1
+t FIN(0) 1
+t EMPTY(0) 1
+t RELEASE(0) 1
+t MANUAL(0) 1
+
+# Arcs
+a CODE█OK(0) n2
+a MANUAL(0) n2
+a REJECT(0) n2
+a EMPTY(0) n2
+a JOIN-PAT(0) n2
+a CHANGE█DIAGN(0) n2
+a NEW(0) n2
+a BILLED(0) n2
+a STORNO(0) n2
+a n1 NEW(0)
+a DELETE(0) n2
+a SET█STATUS(0) n2
+a RELEASE(0) n2
+a FIN(0) n2
+a CODE█NOK(0) n2
+
+# Initial State
+i n1 1
+
+# Deadlock States
+f n2 1

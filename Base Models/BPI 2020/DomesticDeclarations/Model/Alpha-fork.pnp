@@ -1,0 +1,109 @@
+# Places
+p n1
+p n2
+p n3
+p n4
+p n5
+p n6
+p n7
+p n8
+p n9
+p n10
+p n11
+p n12
+p n13
+p n14
+p n15
+p n16
+p n17
+
+# Transitions
+t Declaration█APPROVED█by█ADMINISTRATION+(0) 0.25
+t Declaration█APPROVED█by█BUDGET█OWNER+(0) 0.5
+t Declaration█APPROVED█by█PRE_APPROVER+(0) 0.3076923076923077
+t Declaration█FINAL_APPROVED█by█SUPERVISOR+(0) 2.6666666666666665
+t Declaration█FOR_APPROVAL█by█ADMINISTRATION+(0) 0
+t Declaration█FOR_APPROVAL█by█PRE_APPROVER+(0) 0.605263157894737
+t Declaration█FOR_APPROVAL█by█SUPERVISOR+(0) 0.6964166119769122
+t Declaration█REJECTED█by█ADMINISTRATION+(0) 0
+t Declaration█REJECTED█by█BUDGET█OWNER+(0) 0.8809523809523809
+t Declaration█REJECTED█by█EMPLOYEE+(0) 1.5
+t Declaration█REJECTED█by█MISSING+(0) 3.0
+t Declaration█REJECTED█by█PRE_APPROVER+(0) 0
+t Declaration█REJECTED█by█SUPERVISOR+(0) 0.7653498334126607
+t Declaration█SAVED█by█EMPLOYEE+(0) 5250.0
+t Declaration█SUBMITTED█by█EMPLOYEE+(0) 2.999619120167587
+t Payment█Handled+(0) 0.5
+t Request█Payment+(0) 1.4
+
+# Arcs
+a n1 Payment█Handled+(0)
+a n1 Declaration█REJECTED█by█MISSING+(0)
+a n2 Request█Payment+(0)
+a n2 Declaration█REJECTED█by█EMPLOYEE+(0)
+a n3 Declaration█SUBMITTED█by█EMPLOYEE+(0)
+a n4 Declaration█FINAL_APPROVED█by█SUPERVISOR+(0)
+a n5 Declaration█APPROVED█by█BUDGET█OWNER+(0)
+a n5 Declaration█REJECTED█by█BUDGET█OWNER+(0)
+a n6 Declaration█FOR_APPROVAL█by█PRE_APPROVER+(0)
+a n6 Declaration█FINAL_APPROVED█by█SUPERVISOR+(0)
+a n6 Declaration█FOR_APPROVAL█by█SUPERVISOR+(0)
+a n7 Declaration█REJECTED█by█MISSING+(0)
+a n8 Payment█Handled+(0)
+a n8 Declaration█REJECTED█by█MISSING+(0)
+a n9 Request█Payment+(0)
+a n10 Declaration█FINAL_APPROVED█by█SUPERVISOR+(0)
+a n10 Declaration█REJECTED█by█SUPERVISOR+(0)
+a n11 Declaration█FINAL_APPROVED█by█SUPERVISOR+(0)
+a n11 Declaration█REJECTED█by█SUPERVISOR+(0)
+a n11 Declaration█REJECTED█by█BUDGET█OWNER+(0)
+a n12 Declaration█REJECTED█by█EMPLOYEE+(0)
+a n13 Declaration█FINAL_APPROVED█by█SUPERVISOR+(0)
+a n13 Declaration█REJECTED█by█SUPERVISOR+(0)
+a n14 Declaration█APPROVED█by█ADMINISTRATION+(0)
+a n14 Declaration█FOR_APPROVAL█by█SUPERVISOR+(0)
+a n14 Declaration█FOR_APPROVAL█by█PRE_APPROVER+(0)
+a n14 Declaration█APPROVED█by█PRE_APPROVER+(0)
+a n15 Declaration█REJECTED█by█MISSING+(0)
+a n16 Declaration█SAVED█by█EMPLOYEE+(0)
+a n16 Declaration█SUBMITTED█by█EMPLOYEE+(0)
+a Declaration█APPROVED█by█ADMINISTRATION+(0) n5
+a Declaration█APPROVED█by█ADMINISTRATION+(0) n13
+a Declaration█APPROVED█by█ADMINISTRATION+(0) n11
+a Declaration█APPROVED█by█BUDGET█OWNER+(0) n4
+a Declaration█APPROVED█by█BUDGET█OWNER+(0) n10
+a Declaration█APPROVED█by█PRE_APPROVER+(0) n10
+a Declaration█APPROVED█by█PRE_APPROVER+(0) n13
+a Declaration█FINAL_APPROVED█by█SUPERVISOR+(0) n15
+a Declaration█FINAL_APPROVED█by█SUPERVISOR+(0) n9
+a Declaration█FINAL_APPROVED█by█SUPERVISOR+(0) n8
+a Declaration█FOR_APPROVAL█by█PRE_APPROVER+(0) n15
+a Declaration█FOR_APPROVAL█by█PRE_APPROVER+(0) n7
+a Declaration█FOR_APPROVAL█by█SUPERVISOR+(0) n7
+a Declaration█FOR_APPROVAL█by█SUPERVISOR+(0) n15
+a Declaration█REJECTED█by█ADMINISTRATION+(0) n12
+a Declaration█REJECTED█by█ADMINISTRATION+(0) n17
+a Declaration█REJECTED█by█BUDGET█OWNER+(0) n12
+a Declaration█REJECTED█by█BUDGET█OWNER+(0) n3
+a Declaration█REJECTED█by█EMPLOYEE+(0) n17
+a Declaration█REJECTED█by█MISSING+(0) n17
+a Declaration█REJECTED█by█MISSING+(0) n3
+a Declaration█REJECTED█by█PRE_APPROVER+(0) n12
+a Declaration█REJECTED█by█SUPERVISOR+(0) n17
+a Declaration█REJECTED█by█SUPERVISOR+(0) n9
+a Declaration█REJECTED█by█SUPERVISOR+(0) n2
+a Declaration█REJECTED█by█SUPERVISOR+(0) n12
+a Declaration█SAVED█by█EMPLOYEE+(0) n9
+a Declaration█SAVED█by█EMPLOYEE+(0) n17
+a Declaration█SUBMITTED█by█EMPLOYEE+(0) n14
+a Declaration█SUBMITTED█by█EMPLOYEE+(0) n4
+a Declaration█SUBMITTED█by█EMPLOYEE+(0) n6
+a Payment█Handled+(0) n12
+a Payment█Handled+(0) n17
+a Request█Payment+(0) n1
+a Request█Payment+(0) n7
+
+# Initial State
+i n16 1
+
+# Deadlock States Not Recorded

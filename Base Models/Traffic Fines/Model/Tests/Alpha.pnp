@@ -1,0 +1,62 @@
+# Places
+p n1
+p n2
+p n3
+p n4
+p n5
+p n6
+p n7
+p n8
+p n9
+p n10
+p n11
+p n12
+
+# Transitions
+t Add█penalty(0) 1
+t Appeal█to█Judge(0) 1
+t Create█Fine(0) 1
+t Insert█Date█Appeal█to█Prefecture(0) 1
+t Insert█Fine█Notification(0) 1
+t Notify█Result█Appeal█to█Offender(0) 1
+t Payment(0) 1
+t Receive█Result█Appeal█from█Prefecture(0) 1
+t Send█Appeal█to█Prefecture(0) 1
+t Send█Fine(0) 1
+t Send█for█Credit█Collection(0) 1
+
+# Arcs
+a n2 Send█for█Credit█Collection(0)
+a Add█penalty(0) n3
+a Insert█Fine█Notification(0) n4
+a Send█Appeal█to█Prefecture(0) n12
+a Insert█Fine█Notification(0) n1
+a Appeal█to█Judge(0) n2
+a Payment(0) n12
+a Create█Fine(0) n4
+a Create█Fine(0) n9
+a n1 Add█penalty(0)
+a n4 Appeal█to█Judge(0)
+a Appeal█to█Judge(0) n12
+a Create█Fine(0) n8
+a Notify█Result█Appeal█to█Offender(0) n10
+a n10 Send█for█Credit█Collection(0)
+a Receive█Result█Appeal█from█Prefecture(0) n12
+a n7 Receive█Result█Appeal█from█Prefecture(0)
+a n8 Send█Fine(0)
+a Receive█Result█Appeal█from█Prefecture(0) n6
+a Send█Fine(0) n5
+a n9 Insert█Date█Appeal█to█Prefecture(0)
+a n3 Send█for█Credit█Collection(0)
+a Send█Fine(0) n12
+a Insert█Fine█Notification(0) n7
+a n5 Insert█Fine█Notification(0)
+a n11 Create█Fine(0)
+a Notify█Result█Appeal█to█Offender(0) n12
+a n6 Send█for█Credit█Collection(0)
+a Send█for█Credit█Collection(0) n12
+
+# Initial State
+i n11 1
+
+# Deadlock States Not Recorded

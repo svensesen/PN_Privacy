@@ -1,0 +1,44 @@
+p start
+p pistil
+p end
+t tau(0) 1
+t tau(1) 1
+a start tau(0)
+a tau(0) pistil
+a pistil tau(1)
+a tau(1) end
+i start 1
+d end 1
+t Create█Fine(0) 1
+a pistil Create█Fine(0)
+a Create█Fine(0) pistil
+t Send█Fine(0) 1
+a pistil Send█Fine(0)
+a Send█Fine(0) pistil
+t Insert█Fine█Notification(0) 1
+a pistil Insert█Fine█Notification(0)
+a Insert█Fine█Notification(0) pistil
+t Add█penalty(0) 1
+a pistil Add█penalty(0)
+a Add█penalty(0) pistil
+t Send█for█Credit█Collection(0) 1
+a pistil Send█for█Credit█Collection(0)
+a Send█for█Credit█Collection(0) pistil
+t Payment(0) 1
+a pistil Payment(0)
+a Payment(0) pistil
+t Insert█Date█Appeal█to█Prefecture(0) 1
+a pistil Insert█Date█Appeal█to█Prefecture(0)
+a Insert█Date█Appeal█to█Prefecture(0) pistil
+t Send█Appeal█to█Prefecture(0) 1
+a pistil Send█Appeal█to█Prefecture(0)
+a Send█Appeal█to█Prefecture(0) pistil
+t Receive█Result█Appeal█from█Prefecture(0) 1
+a pistil Receive█Result█Appeal█from█Prefecture(0)
+a Receive█Result█Appeal█from█Prefecture(0) pistil
+t Notify█Result█Appeal█to█Offender(0) 1
+a pistil Notify█Result█Appeal█to█Offender(0)
+a Notify█Result█Appeal█to█Offender(0) pistil
+t Appeal█to█Judge(0) 1
+a pistil Appeal█to█Judge(0)
+a Appeal█to█Judge(0) pistil

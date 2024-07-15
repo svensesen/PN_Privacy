@@ -1,0 +1,91 @@
+# Places
+p start
+p pistil
+p end
+
+# Transitions
+t tau(0) 13087.0
+t tau(1) 0.61523761956982
+t A_SUBMITTED(0) 8051.648363985091
+t A_PARTLYSUBMITTED(0) 8517.30916928313
+t A_PREACCEPTED(0) 5060.195038094378
+t W_Completeren█aanvraag(0) 0.7066326313303558
+t A_ACCEPTED(0) 3613.0258621013168
+t O_SELECTED(0) 5062.339712442002
+t A_FINALIZED(0) 3703.947453392794
+t O_CREATED(0) 5282.443212836961
+t O_SENT(0) 5407.7634672452195
+t W_Nabellen█offertes(0) 0.7865630844209281
+t O_SENT_BACK(0) 2716.796942795977
+t W_Valideren█aanvraag(0) 0.794697777600183
+t A_REGISTERED(0) 1784.8963477598522
+t A_APPROVED(0) 1796.5141835201816
+t O_ACCEPTED(0) 1805.5708605707202
+t A_ACTIVATED(0) 1819.2912547468252
+t O_CANCELLED(0) 2978.7708184325174
+t W_Wijzigen█contractgegevens(0) 0.8229896121456799
+t A_DECLINED(0) 6283.5418431158105
+t A_CANCELLED(0) 2356.390590693437
+t W_Afhandelen█leads(0) 0.8451111169696904
+t O_DECLINED(0) 677.7806815366165
+t W_Nabellen█incomplete█dossiers(0) 0.8466816861749838
+t W_Beoordelen█fraude(0) 0.846683625846251
+
+# Arcs
+a start tau(0)
+a pistil tau(1)
+a pistil A_SUBMITTED(0)
+a pistil A_PARTLYSUBMITTED(0)
+a pistil A_PREACCEPTED(0)
+a pistil W_Completeren█aanvraag(0)
+a pistil A_ACCEPTED(0)
+a pistil O_SELECTED(0)
+a pistil A_FINALIZED(0)
+a pistil O_CREATED(0)
+a pistil O_SENT(0)
+a pistil W_Nabellen█offertes(0)
+a pistil O_SENT_BACK(0)
+a pistil W_Valideren█aanvraag(0)
+a pistil A_REGISTERED(0)
+a pistil A_APPROVED(0)
+a pistil O_ACCEPTED(0)
+a pistil A_ACTIVATED(0)
+a pistil O_CANCELLED(0)
+a pistil W_Wijzigen█contractgegevens(0)
+a pistil A_DECLINED(0)
+a pistil A_CANCELLED(0)
+a pistil W_Afhandelen█leads(0)
+a pistil O_DECLINED(0)
+a pistil W_Nabellen█incomplete█dossiers(0)
+a pistil W_Beoordelen█fraude(0)
+a tau(0) pistil
+a tau(1) end
+a A_SUBMITTED(0) pistil
+a A_PARTLYSUBMITTED(0) pistil
+a A_PREACCEPTED(0) pistil
+a W_Completeren█aanvraag(0) pistil
+a A_ACCEPTED(0) pistil
+a O_SELECTED(0) pistil
+a A_FINALIZED(0) pistil
+a O_CREATED(0) pistil
+a O_SENT(0) pistil
+a W_Nabellen█offertes(0) pistil
+a O_SENT_BACK(0) pistil
+a W_Valideren█aanvraag(0) pistil
+a A_REGISTERED(0) pistil
+a A_APPROVED(0) pistil
+a O_ACCEPTED(0) pistil
+a A_ACTIVATED(0) pistil
+a O_CANCELLED(0) pistil
+a W_Wijzigen█contractgegevens(0) pistil
+a A_DECLINED(0) pistil
+a A_CANCELLED(0) pistil
+a W_Afhandelen█leads(0) pistil
+a O_DECLINED(0) pistil
+a W_Nabellen█incomplete█dossiers(0) pistil
+a W_Beoordelen█fraude(0) pistil
+
+# Initial State
+i start 1
+
+# Deadlock States Not Recorded

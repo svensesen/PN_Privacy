@@ -1,0 +1,76 @@
+# Places
+p n21
+p n22
+p n23
+
+# Transitions
+t Request_For_Payment_REJECTED_by_ADMINISTRATION(0) 679.5325705899937
+t Request_For_Payment_APPROVED_by_BUDGET_OWNER(0) 1637.0557382395305
+t Request_For_Payment_FINAL_APPROVED_by_DIRECTOR(0) 33.32635812702122
+t Request_For_Payment_FINAL_APPROVED_by_BUDGET_OWNER(0) 0.8128380030980786
+t Request_For_Payment_REJECTED_by_SUPERVISOR(0) 145.49800255455608
+t Request_For_Payment_APPROVED_by_PRE_APPROVER(0) 335.70209527950647
+t Request_For_Payment_SAVED_by_EMPLOYEE(0) 60.15001222925782
+t Payment_Handled(0) 5126.569285539582
+t tau(0) 0.8128380030980786
+t Request_For_Payment_REJECTED_by_MISSING(0) 53.64730820447319
+t Request_For_Payment_SUBMITTED_by_EMPLOYEE(0) 6099.5363752479825
+t Request_For_Payment_REJECTED_by_PRE_APPROVER(0) 41.45473815800201
+t Request_For_Payment_FOR_APPROVAL_by_SUPERVISOR(0) 0.8128380030980786
+t Request_For_Payment_REJECTED_by_BUDGET_OWNER(0) 38.2033861456097
+t Request_For_Payment_APPROVED_by_ADMINISTRATION(0) 4461.667799005354
+t tau(1) 6886.0
+t Request_For_Payment_APPROVED_by_SUPERVISOR(0) 33.32635812702122
+t Request_For_Payment_REJECTED_by_EMPLOYEE(0) 881.9292333614153
+t Request_Payment(0) 5123.31793352719
+t Request_For_Payment_FINAL_APPROVED_by_SUPERVISOR(0) 5155.8314536511125
+t Request_For_Payment_FOR_APPROVAL_by_ADMINISTRATION(0) 0.8128380030980786
+
+# Arcs
+a Request_For_Payment_FOR_APPROVAL_by_SUPERVISOR(0) n23
+a Request_For_Payment_FINAL_APPROVED_by_BUDGET_OWNER(0) n23
+a Request_For_Payment_APPROVED_by_SUPERVISOR(0) n23
+a n23 Request_For_Payment_APPROVED_by_SUPERVISOR(0)
+a n23 Request_For_Payment_APPROVED_by_PRE_APPROVER(0)
+a Request_Payment(0) n23
+a Request_For_Payment_FINAL_APPROVED_by_DIRECTOR(0) n23
+a Request_For_Payment_APPROVED_by_BUDGET_OWNER(0) n23
+a n23 Request_For_Payment_APPROVED_by_ADMINISTRATION(0)
+a n23 Request_For_Payment_FINAL_APPROVED_by_DIRECTOR(0)
+a Payment_Handled(0) n23
+a Request_For_Payment_FINAL_APPROVED_by_SUPERVISOR(0) n23
+a n23 Request_For_Payment_SUBMITTED_by_EMPLOYEE(0)
+a Request_For_Payment_REJECTED_by_EMPLOYEE(0) n23
+a n23 Request_For_Payment_REJECTED_by_MISSING(0)
+a n23 Request_For_Payment_FOR_APPROVAL_by_ADMINISTRATION(0)
+a Request_For_Payment_FOR_APPROVAL_by_ADMINISTRATION(0) n23
+a Request_For_Payment_REJECTED_by_MISSING(0) n23
+a n23 tau(0)
+a Request_For_Payment_APPROVED_by_ADMINISTRATION(0) n23
+a Request_For_Payment_REJECTED_by_SUPERVISOR(0) n23
+a n23 Request_Payment(0)
+a n23 Request_For_Payment_FINAL_APPROVED_by_SUPERVISOR(0)
+a n23 Payment_Handled(0)
+a n23 Request_For_Payment_REJECTED_by_ADMINISTRATION(0)
+a Request_For_Payment_REJECTED_by_BUDGET_OWNER(0) n23
+a tau(0) n22
+a Request_For_Payment_SUBMITTED_by_EMPLOYEE(0) n23
+a n23 Request_For_Payment_SAVED_by_EMPLOYEE(0)
+a tau(1) n23
+a n23 Request_For_Payment_FINAL_APPROVED_by_BUDGET_OWNER(0)
+a n23 Request_For_Payment_APPROVED_by_BUDGET_OWNER(0)
+a n23 Request_For_Payment_REJECTED_by_BUDGET_OWNER(0)
+a n23 Request_For_Payment_REJECTED_by_EMPLOYEE(0)
+a Request_For_Payment_REJECTED_by_PRE_APPROVER(0) n23
+a n23 Request_For_Payment_REJECTED_by_PRE_APPROVER(0)
+a Request_For_Payment_APPROVED_by_PRE_APPROVER(0) n23
+a n23 Request_For_Payment_REJECTED_by_SUPERVISOR(0)
+a Request_For_Payment_REJECTED_by_ADMINISTRATION(0) n23
+a n23 Request_For_Payment_FOR_APPROVAL_by_SUPERVISOR(0)
+a n21 tau(1)
+a Request_For_Payment_SAVED_by_EMPLOYEE(0) n23
+
+# Initial State
+i n21 1
+
+# Deadlock States Not Recorded

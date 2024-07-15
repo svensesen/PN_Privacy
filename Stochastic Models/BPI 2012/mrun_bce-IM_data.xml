@@ -1,0 +1,31 @@
+<runStats miner="Fork Distributed (Bill Clinton) Estimator" machineName="LAPTOP-UTOPLPT0" runnerVersion="dev">
+   <inputLogFileName>data.xes</inputLogFileName>
+   <outputModelFileName>var/BPI 2012\osmodel_bce-IM_data.pnml</outputModelFileName>
+   <runDate>2024-05-06 19:41:44.5 CEST</runDate>
+   <taskRunStats class="java.util.LinkedList">
+      <taskStats taskName="spmrunner_estimator" runState="SUCCESS">
+         <duration>2308</duration>
+         <start>1715017304005</start>
+         <errorMessage></errorMessage>
+         <measureStats measure="LOG_EVENT_COUNT">
+            <number class="java.lang.Integer">262200</number>
+         </measureStats>
+         <measureStats measure="LOG_TRACE_COUNT">
+            <number class="java.lang.Integer">13087</number>
+         </measureStats>
+      </taskStats>
+      <taskStats taskName="spmrunner_estimator" runState="SUCCESS">
+         <duration>2308</duration>
+         <start>1715017304005</start>
+         <errorMessage></errorMessage>
+         <measureStats measure="LOG_EVENT_COUNT">
+            <number class="java.lang.Integer">262200</number>
+         </measureStats>
+         <measureStats measure="LOG_TRACE_COUNT">
+            <number class="java.lang.Integer">13087</number>
+         </measureStats>
+      </taskStats>
+   </taskRunStats>
+   <errorMessage></errorMessage>
+   <runState>SUCCESS</runState>
+</runStats>

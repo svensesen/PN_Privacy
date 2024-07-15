@@ -1,0 +1,31 @@
+<runStats miner="Fork Distributed (Bill Clinton) Estimator" machineName="LAPTOP-UTOPLPT0" runnerVersion="dev">
+   <inputLogFileName>data.xes</inputLogFileName>
+   <outputModelFileName>var/Hospital Billing\osmodel_bce-Alpha+_data.pnml</outputModelFileName>
+   <runDate>2024-05-06 19:40:20.169 CEST</runDate>
+   <taskRunStats class="java.util.LinkedList">
+      <taskStats taskName="spmrunner_estimator" runState="SUCCESS">
+         <duration>5076</duration>
+         <start>1715017220169</start>
+         <errorMessage></errorMessage>
+         <measureStats measure="LOG_TRACE_COUNT">
+            <number class="java.lang.Integer">100000</number>
+         </measureStats>
+         <measureStats measure="LOG_EVENT_COUNT">
+            <number class="java.lang.Integer">451359</number>
+         </measureStats>
+      </taskStats>
+      <taskStats taskName="spmrunner_estimator" runState="SUCCESS">
+         <duration>5076</duration>
+         <start>1715017220169</start>
+         <errorMessage></errorMessage>
+         <measureStats measure="LOG_TRACE_COUNT">
+            <number class="java.lang.Integer">100000</number>
+         </measureStats>
+         <measureStats measure="LOG_EVENT_COUNT">
+            <number class="java.lang.Integer">451359</number>
+         </measureStats>
+      </taskStats>
+   </taskRunStats>
+   <errorMessage></errorMessage>
+   <runState>SUCCESS</runState>
+</runStats>

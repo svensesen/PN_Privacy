@@ -1,0 +1,428 @@
+# Places
+p n45
+p n40
+p n10
+p n55
+p n74
+p n81
+p n11
+p n75
+p n35
+p n17
+p n28
+p n6
+p n53
+p n33
+p n15
+p n47
+p n48
+p n60
+p n62
+p n9
+p n8
+p n38
+p n70
+p n49
+p n42
+p n71
+p n51
+p n36
+p n52
+p n43
+p n67
+p n37
+p n30
+p n1
+p n69
+p n77
+p n4
+p n25
+p n59
+p n27
+p n64
+p n26
+p n22
+p n80
+p n2
+p n24
+p n79
+p n34
+p n19
+p n72
+p n21
+p n54
+p n63
+p n39
+p n44
+p n12
+p n78
+p n68
+p n16
+p n73
+p n46
+p n50
+p n76
+p n14
+p n57
+p n56
+p n18
+p n5
+p n29
+p n20
+p n41
+p n31
+p n32
+p n65
+p n66
+p n7
+p n58
+p n23
+p n3
+p n61
+p n13
+
+# Transitions
+t n121(0) 1
+t n112(0) 1
+t A_Submitted(0) 1
+t n104(0) 1
+t n132(0) 1
+t O_Returned(0) 1
+t n109(0) 1
+t O_Cancelled(0) 1
+t n138(0) 1
+t n97(0) 1
+t A_Create█Application(0) 1
+t n120(0) 1
+t n85(0) 1
+t n123(0) 1
+t n167(0) 1
+t n125(0) 1
+t n151(0) 1
+t n107(0) 1
+t n100(0) 1
+t A_Concept(0) 1
+t n95(0) 1
+t A_Denied(0) 1
+t A_Accepted(0) 1
+t n122(0) 1
+t n181(0) 1
+t n152(0) 1
+t n127(0) 1
+t n130(0) 1
+t n90(0) 1
+t n180(0) 1
+t n117(0) 1
+t W_Handle█leads(0) 1
+t A_Cancelled(0) 1
+t n149(0) 1
+t O_Created(0) 1
+t W_Personal█Loan█collection(0) 1
+t n178(0) 1
+t n162(0) 1
+t n145(0) 1
+t n175(0) 1
+t n135(0) 1
+t n164(0) 1
+t n133(0) 1
+t n115(0) 1
+t W_Shortened█completion█(0) 1
+t A_Pending(0) 1
+t n172(0) 1
+t n114(0) 1
+t n142(0) 1
+t n98(0) 1
+t n92(0) 1
+t n159(0) 1
+t A_Validating(0) 1
+t O_Refused(0) 1
+t n173(0) 1
+t O_Create█Offer(0) 1
+t W_Call█incomplete█files(0) 1
+t n171(0) 1
+t n102(0) 1
+t n147(0) 1
+t n110(0) 1
+t n93(0) 1
+t W_Assess█potential█fraud(0) 1
+t O_Sent█(mail█and█online)(0) 1
+t n161(0) 1
+t n154(0) 1
+t n118(0) 1
+t n106(0) 1
+t n165(0) 1
+t n128(0) 1
+t n101(0) 1
+t A_Incomplete(0) 1
+t n144(0) 1
+t n177(0) 1
+t n157(0) 1
+t O_Sent█(online█only)(0) 1
+t n160(0) 1
+t n105(0) 1
+t n146(0) 1
+t n131(0) 1
+t n176(0) 1
+t n94(0) 1
+t O_Accepted(0) 1
+t A_Complete(0) 1
+t W_Call█after█offers(0) 1
+t n150(0) 1
+t n126(0) 1
+t W_Validate█application(0) 1
+t n89(0) 1
+t n136(0) 1
+t n141(0) 1
+t n86(0) 1
+t n111(0) 1
+t n83(0) 1
+t n166(0) 1
+t n155(0) 1
+t n156(0) 1
+t n170(0) 1
+t n139(0) 1
+t W_Complete█application(0) 1
+
+# Arcs
+a n48 W_Shortened█completion█(0)
+a n54 n142(0)
+a n152(0) n65
+a n162(0) n73
+a n132(0) n46
+a n58 n146(0)
+a W_Call█after█offers(0) n11
+a O_Accepted(0) n50
+a O_Create█Offer(0) n54
+a n109(0) n27
+a n56 n145(0)
+a n111(0) n28
+a n110(0) n25
+a W_Complete█application(0) n18
+a n161(0) n71
+a n123(0) n39
+a n85(0) n5
+a n44 O_Cancelled(0)
+a n178(0) n81
+a n11 n92(0)
+a n68 n160(0)
+a n66 n156(0)
+a n146(0) n59
+a n77 O_Refused(0)
+a n52 n139(0)
+a n173(0) n77
+a n64 n154(0)
+a n101(0) n20
+a n76 n176(0)
+a n111(0) n30
+a n154(0) n65
+a n56 n144(0)
+a n14 n86(0)
+a n57 O_Sent█(mail█and█online)(0)
+a n53 n138(0)
+a n30 n115(0)
+a W_Validate█application(0) n38
+a n39 W_Validate█application(0)
+a n85(0) n23
+a A_Pending(0) n31
+a n15 n98(0)
+a n130(0) n44
+a n76 n175(0)
+a n35 W_Call█incomplete█files(0)
+a n46 n170(0)
+a n111(0) n36
+a A_Submitted(0) n4
+a n147(0) n61
+a n12 W_Call█after█offers(0)
+a n60 n149(0)
+a O_Sent█(online█only)(0) n68
+a n42 n170(0)
+a n43 n130(0)
+a n17 W_Complete█application(0)
+a n51 n166(0)
+a n170(0) n74
+a n151(0) n63
+a n160(0) n67
+a n111(0) n49
+a n45 n132(0)
+a n157(0) n69
+a n74 n172(0)
+a n4 n85(0)
+a n111(0) n32
+a n98(0) n14
+a n97(0) n16
+a n60 n150(0)
+a n85(0) n7
+a n32 n118(0)
+a n112(0) n24
+a n23 n107(0)
+a n78 n177(0)
+a n3 n83(0)
+a n27 W_Handle█leads(0)
+a W_Call█incomplete█files(0) n34
+a n58 n147(0)
+a n62 n151(0)
+a n122(0) n37
+a n85(0) n19
+a n142(0) n57
+a n5 A_Accepted(0)
+a n156(0) n67
+a n16 A_Denied(0)
+a n7 A_Concept(0)
+a n55 n138(0)
+a n54 n141(0)
+a n86(0) n2
+a n21 n104(0)
+a n26 n109(0)
+a n95(0) n16
+a n138(0) n51
+a n1 A_Create█Application(0)
+a n180(0) n81
+a O_Create█Offer(0) n62
+a W_Handle█leads(0) n26
+a n52 A_Complete(0)
+a n41 n128(0)
+a n47 n135(0)
+a n28 O_Created(0)
+a n111(0) n41
+a n70 n161(0)
+a n18 n100(0)
+a n171(0) n40
+a n37 n112(0)
+a n118(0) n35
+a n165(0) n71
+a A_Create█Application(0) n3
+a n51 n167(0)
+a n81 W_Personal█Loan█collection(0)
+a n141(0) n55
+a n13 n95(0)
+a n29 n114(0)
+a n26 n110(0)
+a n11 n93(0)
+a n166(0) n49
+a n83(0) n4
+a n20 n86(0)
+a n176(0) n75
+a n67 n138(0)
+a n43 n131(0)
+a n36 n123(0)
+a n177(0) n79
+a n85(0) n17
+a n24 n86(0)
+a n10 n86(0)
+a n34 n121(0)
+a n107(0) n27
+a O_Created(0) n29
+a n38 n126(0)
+a n41 n127(0)
+a n114(0) n28
+a n117(0) n33
+a n149(0) n61
+a A_Accepted(0) n6
+a n13 n94(0)
+a n72 n165(0)
+a O_Returned(0) n64
+a n32 n117(0)
+a n172(0) n75
+a n21 n105(0)
+a n93(0) n10
+a n104(0) n22
+a n92(0) n12
+a n34 n120(0)
+a n121(0) n33
+a O_Create█Offer(0) n58
+a n170(0) n78
+a W_Shortened█completion█(0) n47
+a n126(0) n37
+a A_Concept(0) n8
+a n105(0) n20
+a n145(0) n55
+a n90(0) n12
+a n78 n178(0)
+a n47 n136(0)
+a n15 n97(0)
+a W_Assess█potential█fraud(0) n21
+a n111(0) n45
+a n6 n86(0)
+a O_Cancelled(0) n43
+a n18 n86(0)
+a n100(0) n17
+a O_Create█Offer(0) n66
+a n25 n111(0)
+a n155(0) n63
+a A_Cancelled(0) n50
+a n85(0) n13
+a n69 O_Sent█(online█only)(0)
+a n106(0) n25
+a n22 W_Assess█potential█fraud(0)
+a n175(0) n77
+a n49 O_Create█Offer(0)
+a n74 n173(0)
+a n102(0) n22
+a n29 n112(0)
+a n164(0) n73
+a n144(0) n57
+a n31 n112(0)
+a n63 n138(0)
+a n61 A_Validating(0)
+a n30 A_Pending(0)
+a n128(0) n44
+a n19 n102(0)
+a n66 n157(0)
+a n75 n171(0)
+a n150(0) n59
+a O_Refused(0) n76
+a n9 n89(0)
+a n71 n138(0)
+a n135(0) n48
+a n3 A_Submitted(0)
+a n79 n171(0)
+a A_Complete(0) n53
+a n167(0) n50
+a n33 n112(0)
+a n38 n125(0)
+a A_Denied(0) n15
+a n9 n90(0)
+a n62 n152(0)
+a n181(0) n79
+a n40 n112(0)
+a n80 n180(0)
+a n23 n106(0)
+a n65 O_Returned(0)
+a n89(0) n10
+a n85(0) n9
+a n72 n164(0)
+a W_Personal█Loan█collection(0) n80
+a n19 n101(0)
+a n50 n170(0)
+a n59 n138(0)
+a n73 A_Incomplete(0)
+a n64 n155(0)
+a n133(0) n48
+a n115(0) n31
+a n80 n181(0)
+a n68 n159(0)
+a A_Incomplete(0) n72
+a n51 O_Accepted(0)
+a n36 n122(0)
+a n70 n162(0)
+a A_Validating(0) n60
+a n127(0) n42
+a O_Create█Offer(0) n70
+a n136(0) n46
+a n8 n86(0)
+a n120(0) n35
+a n94(0) n14
+a n131(0) n42
+a n125(0) n39
+a n51 A_Cancelled(0)
+a n45 n133(0)
+a O_Sent█(mail█and█online)(0) n56
+a n159(0) n69
+a O_Create█Offer(0) n52
+a n139(0) n53
+
+# Initial State
+i n1 1
+
+# Deadlock States
+f n2 1

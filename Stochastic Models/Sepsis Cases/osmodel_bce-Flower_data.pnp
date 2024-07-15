@@ -1,0 +1,67 @@
+# Places
+p n18
+p n19
+p n20
+
+# Transitions
+t ER_Registration(0) 977.4696023660861
+t tau(0) 0.9309234308248439
+t Release_D(0) 22.342162339796253
+t tau(1) 1050.0
+t IV_Liquid(0) 700.9853434111075
+t LacticAcid(0) 1364.7337495892211
+t IV_Antibiotics(0) 766.1499835688466
+t Release_A(0) 624.6496220834703
+t Release_C(0) 23.273085770621098
+t Release_E(0) 5.585540584949063
+t CRP(0) 3036.6722313506407
+t Leucocytes(0) 3149.313966480447
+t ER_Sepsis_Triage(0) 976.5386789352613
+t ER_Triage(0) 980.2623726585606
+t Admission_NC(0) 1100.3514952349656
+t Return_ER(0) 273.6914886625041
+t Admission_IC(0) 108.91804140650673
+t Release_B(0) 52.13171212619126
+
+# Arcs
+a Release_C(0) n20
+a tau(1) n20
+a n20 LacticAcid(0)
+a n20 CRP(0)
+a n20 ER_Triage(0)
+a n20 Release_C(0)
+a n20 Admission_IC(0)
+a n20 tau(0)
+a tau(0) n19
+a ER_Sepsis_Triage(0) n20
+a n20 Admission_NC(0)
+a CRP(0) n20
+a ER_Triage(0) n20
+a n20 ER_Sepsis_Triage(0)
+a IV_Antibiotics(0) n20
+a Return_ER(0) n20
+a Release_B(0) n20
+a Release_E(0) n20
+a n20 ER_Registration(0)
+a Admission_NC(0) n20
+a IV_Liquid(0) n20
+a Release_D(0) n20
+a Release_A(0) n20
+a n20 Release_A(0)
+a Leucocytes(0) n20
+a n20 Return_ER(0)
+a n20 Release_B(0)
+a Admission_IC(0) n20
+a n20 Release_E(0)
+a ER_Registration(0) n20
+a n20 Release_D(0)
+a n20 IV_Antibiotics(0)
+a n20 IV_Liquid(0)
+a n20 Leucocytes(0)
+a n18 tau(1)
+a LacticAcid(0) n20
+
+# Initial State
+i n18 1
+
+# Deadlock States Not Recorded

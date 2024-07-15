@@ -1,0 +1,94 @@
+# Places
+p n9
+p n4
+p n3
+p n6
+p n1
+p n10
+p n2
+p n7
+p n8
+p n5
+
+# Transitions
+t Admission█NC(0) 1
+t ER█Registration(0) 1
+t CRP(0) 1
+t ER█Sepsis█Triage(0) 1
+t LacticAcid(0) 1
+t Leucocytes(0) 1
+t Release█C(0) 1
+t Admission█IC(0) 1
+t ER█Triage(0) 1
+t IV█Antibiotics(0) 1
+t IV█Liquid(0) 1
+t Release█D(0) 1
+t Release█E(0) 1
+t Return█ER(0) 1
+t Release█A(0) 1
+t Release█B(0) 1
+
+# Arcs
+a IV█Antibiotics(0) n6
+a n8 ER█Registration(0)
+a n5 Return█ER(0)
+a LacticAcid(0) n7
+a Release█A(0) n10
+a n7 LacticAcid(0)
+a Leucocytes(0) n10
+a n9 Leucocytes(0)
+a Admission█NC(0) n10
+a n4 Release█A(0)
+a n1 Release█A(0)
+a n4 Release█B(0)
+a n7 Release█A(0)
+a n6 LacticAcid(0)
+a n8 Release█B(0)
+a LacticAcid(0) n6
+a n6 Release█A(0)
+a IV█Liquid(0) n10
+a n6 Release█D(0)
+a Release█D(0) n10
+a ER█Sepsis█Triage(0) n2
+a ER█Triage(0) n1
+a n9 IV█Liquid(0)
+a IV█Liquid(0) n4
+a n9 ER█Registration(0)
+a n8 Release█C(0)
+a n9 CRP(0)
+a n6 Release█E(0)
+a Release█C(0) n5
+a n7 Release█C(0)
+a Release█B(0) n10
+a CRP(0) n10
+a Release█A(0) n5
+a n6 Release█B(0)
+a LacticAcid(0) n10
+a ER█Triage(0) n10
+a n4 Release█C(0)
+a n8 Release█E(0)
+a n7 Release█D(0)
+a ER█Sepsis█Triage(0) n10
+a Release█D(0) n5
+a n3 Release█A(0)
+a n8 Release█D(0)
+a n7 Release█E(0)
+a Release█E(0) n10
+a n7 Release█B(0)
+a IV█Antibiotics(0) n10
+a Release█C(0) n10
+a n6 Release█C(0)
+a n9 ER█Triage(0)
+a Release█E(0) n5
+a n2 IV█Antibiotics(0)
+a Return█ER(0) n10
+a n9 ER█Sepsis█Triage(0)
+a ER█Registration(0) n3
+a ER█Sepsis█Triage(0) n7
+a IV█Antibiotics(0) n8
+
+# Initial State
+i n9 1
+
+# Deadlock States
+f n10 1

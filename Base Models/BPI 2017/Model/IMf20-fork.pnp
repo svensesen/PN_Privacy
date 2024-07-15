@@ -1,0 +1,254 @@
+# Places
+p n1
+p n2
+p n3
+p n4
+p n5
+p n6
+p n7
+p n8
+p n9
+p n10
+p n11
+p n12
+p n13
+p n14
+p n15
+p n16
+p n17
+p n18
+p n19
+p n20
+p n21
+p n22
+p n23
+p n24
+p n25
+p n26
+p n27
+p n28
+p n29
+p n30
+p n31
+p n32
+p n33
+p n34
+p n35
+p n36
+p n37
+p n38
+p n39
+p n40
+p n41
+p n42
+p n43
+p n44
+p n45
+p n46
+p n47
+p n48
+p n49
+p n50
+
+# Transitions
+t A_Create█Application(0) 31509.0
+t tau(0) 4.896200548374461e-05
+t A_Submitted(0) 0.9999999976026046
+t tau(1) 0.25
+t W_Handle█leads(0) 0.3076923076923077
+t tau(2) 1.0
+t tau(3) 9.0
+t A_Concept(0) 1.0
+t A_Accepted(0) 1.0
+t W_Call█after█offers(0) 1.0
+t tau(4) 0.1
+t W_Complete█application(0) 1.0
+t tau(5) 0.1
+t O_Created(0) 1.0
+t tau(6) 5.804167392187591e-05
+t A_Pending(0) 0.9999999966309685
+t tau(7) 0.0002663825253063399
+t A_Denied(0) 0.9999999290214479
+t tau(8) 0.5
+t tau(9) 0.6666666666666666
+t W_Call█incomplete█files(0) 1.0
+t tau(10) 0.5
+t tau(11) 0.6666666666666666
+t tau(12) 0.5
+t tau(13) 0.6666666666666666
+t W_Validate█application(0) 1.0
+t tau(14) 0.5
+t tau(15) 0.6666666666666666
+t tau(16) 0.5
+t tau(17) 0.6666666666666666
+t W_Shortened█completion█(0) 1.0
+t tau(18) 0.5
+t tau(19) 0.6666666666666666
+t tau(20) 1.0
+t tau(21) 3.0
+t O_Create█Offer(0) 1.0
+t A_Complete(0) 1.0
+t O_Sent█(mail█and█online)(0) 1.0
+t tau(22) 0.5
+t tau(23) 0.6666666666666666
+t tau(24) 3.0
+t A_Validating(0) 1.0
+t O_Returned(0) 1.0
+t tau(25) 4.337265787647467e-05
+t A_Incomplete(0) 0.999999998118731
+t O_Accepted(0) 0.6228713980982682
+t A_Cancelled(0) 0.9999402900770304
+t tau(26) 0.4914110723001101
+t O_Cancelled(0) 10269.758509281208
+t tau(27) 0.00021294718909710392
+t O_Refused(0) 0.9999999546438382
+t tau(28) 0.3909774436090226
+t W_Assess█potential█fraud(0) 1.0
+t tau(29) 0.5
+t tau(30) 0.6666666666666666
+t tau(31) 0.5131705869258737
+
+# Arcs
+a n1 A_Create█Application(0)
+a n3 A_Submitted(0)
+a n3 tau(0)
+a n4 tau(31)
+a n4 tau(28)
+a n4 tau(1)
+a n4 W_Handle█leads(0)
+a n5 tau(2)
+a n6 A_Concept(0)
+a n7 tau(3)
+a n8 A_Accepted(0)
+a n9 tau(3)
+a n10 W_Call█after█offers(0)
+a n11 tau(3)
+a n11 tau(4)
+a n12 W_Complete█application(0)
+a n13 tau(3)
+a n13 tau(5)
+a n14 O_Created(0)
+a n15 tau(3)
+a n16 A_Pending(0)
+a n16 tau(6)
+a n17 tau(3)
+a n18 tau(7)
+a n18 A_Denied(0)
+a n19 tau(3)
+a n20 tau(8)
+a n20 tau(9)
+a n21 tau(3)
+a n22 tau(10)
+a n22 tau(11)
+a n23 W_Call█incomplete█files(0)
+a n24 tau(12)
+a n24 tau(13)
+a n25 tau(3)
+a n26 tau(15)
+a n26 tau(14)
+a n27 W_Validate█application(0)
+a n28 tau(17)
+a n28 tau(16)
+a n29 tau(3)
+a n30 tau(20)
+a n31 tau(18)
+a n31 tau(19)
+a n32 W_Shortened█completion█(0)
+a n33 tau(22)
+a n33 tau(23)
+a n34 O_Create█Offer(0)
+a n35 tau(21)
+a n36 A_Complete(0)
+a n37 tau(21)
+a n38 O_Sent█(mail█and█online)(0)
+a n39 tau(21)
+a n40 O_Accepted(0)
+a n40 A_Cancelled(0)
+a n41 A_Validating(0)
+a n42 tau(24)
+a n43 O_Returned(0)
+a n44 tau(24)
+a n45 tau(25)
+a n45 A_Incomplete(0)
+a n46 tau(24)
+a n47 tau(26)
+a n47 O_Cancelled(0)
+a n48 O_Refused(0)
+a n48 tau(27)
+a n49 tau(29)
+a n49 tau(30)
+a n50 W_Assess█potential█fraud(0)
+a A_Create█Application(0) n3
+a tau(0) n4
+a A_Submitted(0) n4
+a tau(1) n5
+a W_Handle█leads(0) n5
+a tau(2) n6
+a tau(2) n20
+a tau(2) n24
+a tau(2) n8
+a tau(2) n14
+a tau(2) n18
+a tau(2) n10
+a tau(2) n12
+a tau(2) n16
+a tau(2) n28
+a tau(3) n2
+a A_Concept(0) n7
+a A_Accepted(0) n9
+a W_Call█after█offers(0) n11
+a tau(4) n10
+a W_Complete█application(0) n13
+a tau(5) n12
+a O_Created(0) n15
+a tau(6) n17
+a A_Pending(0) n17
+a tau(7) n19
+a A_Denied(0) n19
+a tau(8) n21
+a tau(9) n23
+a W_Call█incomplete█files(0) n22
+a tau(10) n23
+a tau(11) n21
+a tau(12) n25
+a tau(13) n27
+a W_Validate█application(0) n26
+a tau(14) n27
+a tau(15) n25
+a tau(16) n30
+a tau(17) n32
+a W_Shortened█completion█(0) n31
+a tau(18) n32
+a tau(19) n30
+a tau(20) n36
+a tau(20) n34
+a tau(20) n38
+a tau(21) n33
+a O_Create█Offer(0) n35
+a A_Complete(0) n37
+a O_Sent█(mail█and█online)(0) n39
+a tau(22) n40
+a tau(23) n43
+a tau(23) n45
+a tau(23) n41
+a tau(24) n40
+a A_Validating(0) n42
+a O_Returned(0) n44
+a tau(25) n46
+a A_Incomplete(0) n46
+a O_Accepted(0) n47
+a A_Cancelled(0) n47
+a tau(26) n48
+a O_Cancelled(0) n48
+a tau(27) n29
+a O_Refused(0) n29
+a tau(28) n50
+a W_Assess█potential█fraud(0) n49
+a tau(29) n50
+a tau(30) n2
+a tau(31) n2
+
+# Initial State
+i n1 1
+
+# Deadlock States Not Recorded

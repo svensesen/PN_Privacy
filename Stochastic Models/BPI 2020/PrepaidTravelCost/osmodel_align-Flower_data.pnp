@@ -1,0 +1,106 @@
+# Places
+p n31
+p n32
+p n33
+
+# Transitions
+t Request_For_Payment_APPROVED_by_SUPERVISOR(0) 41.0
+t Request_For_Payment_FINAL_APPROVED_by_SUPERVISOR(0) 1958.0
+t Request_For_Payment_FINAL_APPROVED_by_DIRECTOR(0) 41.0
+t Request_For_Payment_REJECTED_by_BUDGET_OWNER(0) 7.0
+t tau(0) 2099.0
+t Permit_REJECTED_by_EMPLOYEE(0) 84.0
+t tau(1) 2099.0
+t Request_For_Payment_REJECTED_by_PRE_APPROVER(0) 18.0
+t Permit_FINAL_APPROVED_by_DIRECTOR(0) 390.0
+t Request_For_Payment_REJECTED_by_ADMINISTRATION(0) 230.0
+t Permit_APPROVED_by_SUPERVISOR(0) 390.0
+t Permit_REJECTED_by_ADMINISTRATION(0) 15.0
+t Request_For_Payment_REJECTED_by_EMPLOYEE(0) 271.0
+t Request_For_Payment_SUBMITTED_by_EMPLOYEE(0) 2279.0
+t Permit_REJECTED_by_MISSING(0) 22.0
+t Permit_REJECTED_by_BUDGET_OWNER(0) 17.0
+t Request_For_Payment_APPROVED_by_PRE_APPROVER(0) 160.0
+t Request_For_Payment_APPROVED_by_BUDGET_OWNER(0) 705.0
+t Permit_REJECTED_by_SUPERVISOR(0) 36.0
+t Payment_Handled(0) 1990.0
+t Permit_APPROVED_by_BUDGET_OWNER(0) 612.0
+t Permit_REJECTED_by_PRE_APPROVER(0) 16.0
+t Permit_APPROVED_by_ADMINISTRATION(0) 1603.0
+t Permit_FINAL_APPROVED_by_SUPERVISOR(0) 1478.0
+t Request_For_Payment_REJECTED_by_SUPERVISOR(0) 24.0
+t Permit_APPROVED_by_PRE_APPROVER(0) 158.0
+t Request_Payment(0) 1990.0
+t Request_For_Payment_REJECTED_by_MISSING(0) 9.0
+t Request_For_Payment_APPROVED_by_ADMINISTRATION(0) 1726.0
+t Permit_SUBMITTED_by_EMPLOYEE(0) 1952.0
+t Request_For_Payment_SAVED_by_EMPLOYEE(0) 24.0
+
+# Arcs
+a n33 Request_For_Payment_SAVED_by_EMPLOYEE(0)
+a Permit_REJECTED_by_SUPERVISOR(0) n33
+a Permit_APPROVED_by_SUPERVISOR(0) n33
+a Request_For_Payment_REJECTED_by_EMPLOYEE(0) n33
+a Request_For_Payment_APPROVED_by_SUPERVISOR(0) n33
+a Permit_APPROVED_by_BUDGET_OWNER(0) n33
+a Request_For_Payment_SAVED_by_EMPLOYEE(0) n33
+a n33 Permit_REJECTED_by_EMPLOYEE(0)
+a Request_For_Payment_FINAL_APPROVED_by_SUPERVISOR(0) n33
+a Permit_SUBMITTED_by_EMPLOYEE(0) n33
+a Request_For_Payment_REJECTED_by_MISSING(0) n33
+a tau(1) n32
+a Request_For_Payment_REJECTED_by_BUDGET_OWNER(0) n33
+a n33 Request_For_Payment_REJECTED_by_SUPERVISOR(0)
+a n33 Request_Payment(0)
+a n33 Request_For_Payment_FINAL_APPROVED_by_DIRECTOR(0)
+a n33 Request_For_Payment_APPROVED_by_BUDGET_OWNER(0)
+a n33 Payment_Handled(0)
+a n33 Permit_REJECTED_by_SUPERVISOR(0)
+a Request_For_Payment_REJECTED_by_PRE_APPROVER(0) n33
+a Request_For_Payment_APPROVED_by_ADMINISTRATION(0) n33
+a Permit_FINAL_APPROVED_by_SUPERVISOR(0) n33
+a Request_For_Payment_REJECTED_by_ADMINISTRATION(0) n33
+a Permit_REJECTED_by_MISSING(0) n33
+a tau(0) n33
+a n33 Permit_REJECTED_by_BUDGET_OWNER(0)
+a Payment_Handled(0) n33
+a n33 Request_For_Payment_REJECTED_by_EMPLOYEE(0)
+a Permit_REJECTED_by_PRE_APPROVER(0) n33
+a n33 Request_For_Payment_REJECTED_by_BUDGET_OWNER(0)
+a n33 Request_For_Payment_FINAL_APPROVED_by_SUPERVISOR(0)
+a n33 Permit_REJECTED_by_PRE_APPROVER(0)
+a n33 Permit_REJECTED_by_ADMINISTRATION(0)
+a n33 Request_For_Payment_APPROVED_by_PRE_APPROVER(0)
+a n33 Permit_APPROVED_by_SUPERVISOR(0)
+a n33 Request_For_Payment_REJECTED_by_PRE_APPROVER(0)
+a Permit_FINAL_APPROVED_by_DIRECTOR(0) n33
+a Permit_REJECTED_by_EMPLOYEE(0) n33
+a n33 Request_For_Payment_APPROVED_by_SUPERVISOR(0)
+a n33 Permit_FINAL_APPROVED_by_SUPERVISOR(0)
+a n33 Permit_FINAL_APPROVED_by_DIRECTOR(0)
+a Request_For_Payment_FINAL_APPROVED_by_DIRECTOR(0) n33
+a n33 Request_For_Payment_APPROVED_by_ADMINISTRATION(0)
+a n33 Permit_APPROVED_by_BUDGET_OWNER(0)
+a n33 Request_For_Payment_SUBMITTED_by_EMPLOYEE(0)
+a n31 tau(0)
+a Permit_APPROVED_by_PRE_APPROVER(0) n33
+a Permit_APPROVED_by_ADMINISTRATION(0) n33
+a n33 Permit_SUBMITTED_by_EMPLOYEE(0)
+a Request_For_Payment_REJECTED_by_SUPERVISOR(0) n33
+a Request_For_Payment_APPROVED_by_BUDGET_OWNER(0) n33
+a Request_For_Payment_SUBMITTED_by_EMPLOYEE(0) n33
+a n33 Permit_APPROVED_by_ADMINISTRATION(0)
+a Request_Payment(0) n33
+a Permit_REJECTED_by_ADMINISTRATION(0) n33
+a Permit_REJECTED_by_BUDGET_OWNER(0) n33
+a Request_For_Payment_APPROVED_by_PRE_APPROVER(0) n33
+a n33 Permit_APPROVED_by_PRE_APPROVER(0)
+a n33 Request_For_Payment_REJECTED_by_MISSING(0)
+a n33 Permit_REJECTED_by_MISSING(0)
+a n33 tau(1)
+a n33 Request_For_Payment_REJECTED_by_ADMINISTRATION(0)
+
+# Initial State
+i n31 1
+
+# Deadlock States Not Recorded

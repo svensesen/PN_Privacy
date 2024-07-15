@@ -1,0 +1,134 @@
+# Places
+p n1
+p n2
+p n3
+p n4
+p n5
+p n6
+p n7
+p n8
+p n9
+p n10
+p n11
+p n12
+p n13
+p n14
+p n15
+
+# Transitions
+t A_Accepted(0) 31509
+t A_Cancelled(0) 10431
+t A_Complete(0) 31362
+t A_Concept(0) 31509
+t A_Create█Application(0) 1
+t A_Denied(0) 3753
+t A_Incomplete(0) 23055
+t A_Pending(0) 17228
+t A_Submitted(0) 20423
+t A_Validating(0) 38816
+t O_Accepted(0) 17228
+t O_Cancelled(0) 20898
+t O_Create█Offer(0) 1
+t O_Created(0) 42995
+t O_Refused(0) 4695
+t O_Returned(0) 23305
+t O_Sent█(mail█and█online)(0) 1
+t O_Sent█(online█only)(0) 1
+t W_Assess█potential█fraud(0) 1
+t W_Call█after█offers(0) 1
+t W_Call█incomplete█files(0) 1
+t W_Complete█application(0) 1
+t W_Handle█leads(0) 1
+t W_Personal█Loan█collection(0) 1
+t W_Shortened█completion█(0) 1
+t W_Validate█application(0) 1
+
+# Arcs
+a n1 O_Created(0)
+a n1 W_Personal█Loan█collection(0)
+a n2 W_Personal█Loan█collection(0)
+a n2 A_Submitted(0)
+a n3 A_Accepted(0)
+a n3 W_Personal█Loan█collection(0)
+a n4 W_Personal█Loan█collection(0)
+a n4 A_Complete(0)
+a n4 A_Incomplete(0)
+a n5 W_Personal█Loan█collection(0)
+a n5 A_Complete(0)
+a n5 O_Accepted(0)
+a n6 O_Accepted(0)
+a n6 W_Assess█potential█fraud(0)
+a n6 W_Personal█Loan█collection(0)
+a n6 A_Denied(0)
+a n6 A_Cancelled(0)
+a n6 O_Create█Offer(0)
+a n7 A_Concept(0)
+a n7 W_Personal█Loan█collection(0)
+a n8 W_Handle█leads(0)
+a n8 A_Concept(0)
+a n8 W_Personal█Loan█collection(0)
+a n9 O_Create█Offer(0)
+a n9 W_Personal█Loan█collection(0)
+a n10 A_Pending(0)
+a n10 W_Personal█Loan█collection(0)
+a n11 O_Create█Offer(0)
+a n11 W_Personal█Loan█collection(0)
+a n12 W_Personal█Loan█collection(0)
+a n12 O_Create█Offer(0)
+a n13 A_Cancelled(0)
+a n13 W_Personal█Loan█collection(0)
+a n13 O_Create█Offer(0)
+a n13 W_Assess█potential█fraud(0)
+a n13 A_Denied(0)
+a n14 A_Create█Application(0)
+a A_Accepted(0) n12
+a A_Accepted(0) n11
+a A_Accepted(0) n9
+a A_Complete(0) n11
+a A_Complete(0) n13
+a A_Concept(0) n3
+a A_Create█Application(0) n2
+a A_Create█Application(0) n7
+a A_Denied(0) n15
+a A_Incomplete(0) n13
+a A_Incomplete(0) n11
+a A_Submitted(0) n8
+a A_Validating(0) n9
+a O_Accepted(0) n10
+a O_Cancelled(0) n15
+a O_Create█Offer(0) n1
+a O_Created(0) n5
+a O_Created(0) n12
+a O_Created(0) n4
+a O_Created(0) n6
+a O_Returned(0) n15
+a O_Sent█(mail█and█online)(0) n15
+a O_Sent█(online█only)(0) n15
+a W_Assess█potential█fraud(0) n6
+a W_Assess█potential█fraud(0) n15
+a W_Assess█potential█fraud(0) n13
+a W_Call█after█offers(0) n15
+a W_Call█incomplete█files(0) n15
+a W_Complete█application(0) n15
+a W_Handle█leads(0) n8
+a W_Personal█Loan█collection(0) n12
+a W_Personal█Loan█collection(0) n3
+a W_Personal█Loan█collection(0) n6
+a W_Personal█Loan█collection(0) n4
+a W_Personal█Loan█collection(0) n11
+a W_Personal█Loan█collection(0) n8
+a W_Personal█Loan█collection(0) n1
+a W_Personal█Loan█collection(0) n2
+a W_Personal█Loan█collection(0) n13
+a W_Personal█Loan█collection(0) n5
+a W_Personal█Loan█collection(0) n7
+a W_Personal█Loan█collection(0) n9
+a W_Personal█Loan█collection(0) n10
+a W_Personal█Loan█collection(0) n15
+a W_Shortened█completion█(0) n15
+a W_Validate█application(0) n15
+
+# Initial State
+i n14 1
+
+# Deadlock States Not Recorded

@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imported_1713189275.1923692" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imported_1713189275.1923692</text>
+    </name>
+    <page id="n0">
+      <place id="start">
+        <name>
+          <text>start</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="end">
+        <name>
+          <text>end</text>
+        </name>
+      </place>
+      <place id="pistil">
+        <name>
+          <text>pistil</text>
+        </name>
+      </place>
+      <transition id="ER Registration(0)">
+        <name>
+          <text>ER Registration</text>
+        </name>
+      </transition>
+      <transition id="tau(1)">
+        <name>
+          <text>tau</text>
+        </name>
+      </transition>
+      <transition id="Release D(0)">
+        <name>
+          <text>Release D</text>
+        </name>
+      </transition>
+      <transition id="tau(0)">
+        <name>
+          <text>tau</text>
+        </name>
+      </transition>
+      <transition id="IV Liquid(0)">
+        <name>
+          <text>IV Liquid</text>
+        </name>
+      </transition>
+      <transition id="LacticAcid(0)">
+        <name>
+          <text>LacticAcid</text>
+        </name>
+      </transition>
+      <transition id="IV Antibiotics(0)">
+        <name>
+          <text>IV Antibiotics</text>
+        </name>
+      </transition>
+      <transition id="Release A(0)">
+        <name>
+          <text>Release A</text>
+        </name>
+      </transition>
+      <transition id="Release C(0)">
+        <name>
+          <text>Release C</text>
+        </name>
+      </transition>
+      <transition id="Release E(0)">
+        <name>
+          <text>Release E</text>
+        </name>
+      </transition>
+      <transition id="CRP(0)">
+        <name>
+          <text>CRP</text>
+        </name>
+      </transition>
+      <transition id="Leucocytes(0)">
+        <name>
+          <text>Leucocytes</text>
+        </name>
+      </transition>
+      <transition id="ER Sepsis Triage(0)">
+        <name>
+          <text>ER Sepsis Triage</text>
+        </name>
+      </transition>
+      <transition id="ER Triage(0)">
+        <name>
+          <text>ER Triage</text>
+        </name>
+      </transition>
+      <transition id="Admission NC(0)">
+        <name>
+          <text>Admission NC</text>
+        </name>
+      </transition>
+      <transition id="Return ER(0)">
+        <name>
+          <text>Return ER</text>
+        </name>
+      </transition>
+      <transition id="Admission IC(0)">
+        <name>
+          <text>Admission IC</text>
+        </name>
+      </transition>
+      <transition id="Release B(0)">
+        <name>
+          <text>Release B</text>
+        </name>
+      </transition>
+      <arc id="2067169857792" source="pistil" target="Return ER(0)"/>
+      <arc id="2067169858176" source="Release B(0)" target="pistil"/>
+      <arc id="2067169858560" source="pistil" target="Release A(0)"/>
+      <arc id="2067169858944" source="pistil" target="ER Sepsis Triage(0)"/>
+      <arc id="2067169859328" source="pistil" target="Admission NC(0)"/>
+      <arc id="2067169859712" source="pistil" target="Release D(0)"/>
+      <arc id="2067169860096" source="pistil" target="CRP(0)"/>
+      <arc id="2067169860480" source="tau(0)" target="pistil"/>
+      <arc id="2067169860864" source="Release C(0)" target="pistil"/>
+      <arc id="2067171962784" source="IV Antibiotics(0)" target="pistil"/>
+      <arc id="2067169857696" source="pistil" target="IV Liquid(0)"/>
+      <arc id="2067169858080" source="ER Sepsis Triage(0)" target="pistil"/>
+      <arc id="2067169858848" source="ER Triage(0)" target="pistil"/>
+      <arc id="2067169859232" source="Release E(0)" target="pistil"/>
+      <arc id="2067169858464" source="pistil" target="Release E(0)"/>
+      <arc id="2067169859616" source="pistil" target="IV Antibiotics(0)"/>
+      <arc id="2067169860000" source="Release D(0)" target="pistil"/>
+      <arc id="2067169860384" source="pistil" target="Release C(0)"/>
+      <arc id="2067169860768" source="start" target="tau(0)"/>
+      <arc id="2067169857600" source="LacticAcid(0)" target="pistil"/>
+      <arc id="2067169857984" source="Release A(0)" target="pistil"/>
+      <arc id="2067169858368" source="CRP(0)" target="pistil"/>
+      <arc id="2067169858752" source="Admission NC(0)" target="pistil"/>
+      <arc id="2067169859136" source="pistil" target="ER Registration(0)"/>
+      <arc id="2067169859520" source="tau(1)" target="end"/>
+      <arc id="2067169859904" source="pistil" target="Admission IC(0)"/>
+      <arc id="2067169860288" source="pistil" target="Leucocytes(0)"/>
+      <arc id="2067169860672" source="Return ER(0)" target="pistil"/>
+      <arc id="2067169857888" source="pistil" target="tau(1)"/>
+      <arc id="2067169858272" source="Leucocytes(0)" target="pistil"/>
+      <arc id="2067169858656" source="ER Registration(0)" target="pistil"/>
+      <arc id="2067169859040" source="pistil" target="Release B(0)"/>
+      <arc id="2067169859424" source="IV Liquid(0)" target="pistil"/>
+      <arc id="2067169859808" source="pistil" target="ER Triage(0)"/>
+      <arc id="2067169860192" source="Admission IC(0)" target="pistil"/>
+      <arc id="2067169860576" source="pistil" target="LacticAcid(0)"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="end">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

@@ -1,0 +1,73 @@
+# Places
+p start
+p pistil
+p end
+
+# Transitions
+t tau(0) 100000.0
+t tau(1) 0.36492828461845256
+t NEW(0) 36963.2914146684
+t FIN(0) 33792.576667064626
+t RELEASE(0) 37823.079438751236
+t CODE█OK(0) 0.6237585860673602
+t BILLED(0) 42071.350247276794
+t DELETE(0) 5897.532012471433
+t REOPEN(0) 3394.3392347557474
+t CHANGE█DIAGN(0) 0.7325733336854354
+t STORNO(0) 2177.9440272488
+t REJECT(0) 1483.972695047559
+t CODE█NOK(0) 0.7384740732286574
+t SET█STATUS(0) 0.7384752452090512
+t CHANGE█END(0) 0.7384764171879129
+t MANUAL(0) 274.7136631694702
+t JOIN-PAT(0) 264.53114792078014
+t CODE█ERROR(0) 0.7393334209695122
+t ZDBC_BEHAN(0) 0.7393345918191332
+t EMPTY(0) 331.96175743757436
+
+# Arcs
+a start tau(0)
+a pistil tau(1)
+a pistil NEW(0)
+a pistil FIN(0)
+a pistil RELEASE(0)
+a pistil CODE█OK(0)
+a pistil BILLED(0)
+a pistil DELETE(0)
+a pistil REOPEN(0)
+a pistil CHANGE█DIAGN(0)
+a pistil STORNO(0)
+a pistil REJECT(0)
+a pistil CODE█NOK(0)
+a pistil SET█STATUS(0)
+a pistil CHANGE█END(0)
+a pistil MANUAL(0)
+a pistil JOIN-PAT(0)
+a pistil CODE█ERROR(0)
+a pistil ZDBC_BEHAN(0)
+a pistil EMPTY(0)
+a tau(0) pistil
+a tau(1) end
+a NEW(0) pistil
+a FIN(0) pistil
+a RELEASE(0) pistil
+a CODE█OK(0) pistil
+a BILLED(0) pistil
+a DELETE(0) pistil
+a REOPEN(0) pistil
+a CHANGE█DIAGN(0) pistil
+a STORNO(0) pistil
+a REJECT(0) pistil
+a CODE█NOK(0) pistil
+a SET█STATUS(0) pistil
+a CHANGE█END(0) pistil
+a MANUAL(0) pistil
+a JOIN-PAT(0) pistil
+a CODE█ERROR(0) pistil
+a ZDBC_BEHAN(0) pistil
+a EMPTY(0) pistil
+
+# Initial State
+i start 1
+
+# Deadlock States Not Recorded

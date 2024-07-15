@@ -1,0 +1,149 @@
+# Places
+p n1
+p n2
+p n3
+p n4
+p n5
+p n6
+p n7
+p n8
+p n9
+p n10
+p n11
+p n12
+p n13
+p n14
+p n15
+p n16
+p n17
+p n18
+p n19
+p n20
+p n21
+p n22
+p n23
+p n24
+p n25
+p n26
+p n27
+p n28
+p n29
+
+# Transitions
+t Create█Fine(0) 150370.0
+t tau(0) 2.0
+t tau(1) 0.5
+t Send█Appeal█to█Prefecture(0) 0.6666666666666666
+t tau(2) 2.0
+t tau(3) 0.5
+t tau(4) 0.6666666666666666
+t tau(5) 3.0
+t Send█Fine(0) 1.0
+t tau(6) 0.5
+t Insert█Date█Appeal█to█Prefecture(0) 0.6666666666666666
+t tau(7) 0.5
+t Insert█Fine█Notification(0) 0.6666666666666666
+t tau(8) 1.0
+t tau(9) 3.0
+t tau(10) 0.5
+t tau(11) 0.6666666666666666
+t tau(12) 2.0
+t Add█penalty(0) 1.0
+t tau(13) 0.5
+t Notify█Result█Appeal█to█Offender(0) 0.6666666666666666
+t tau(14) 0.5
+t Receive█Result█Appeal█from█Prefecture(0) 0.6666666666666666
+t tau(15) 0.5
+t Appeal█to█Judge(0) 0.6666666666666666
+t tau(16) 0.5
+t tau(17) 0.6666666666666666
+t Payment(0) 1.0
+t tau(18) 0.5
+t tau(19) 0.6666666666666666
+t tau(20) 0.5
+t Send█for█Credit█Collection(0) 0.6666666666666666
+
+# Arcs
+a n1 Create█Fine(0)
+a n3 Send█Appeal█to█Prefecture(0)
+a n3 tau(1)
+a n4 tau(0)
+a n5 tau(0)
+a n6 Send█for█Credit█Collection(0)
+a n6 tau(20)
+a n7 tau(4)
+a n7 tau(3)
+a n8 tau(2)
+a n9 Send█Fine(0)
+a n10 tau(5)
+a n11 tau(6)
+a n11 Insert█Date█Appeal█to█Prefecture(0)
+a n12 tau(5)
+a n13 tau(7)
+a n13 Insert█Fine█Notification(0)
+a n14 tau(5)
+a n15 tau(8)
+a n16 tau(10)
+a n16 tau(11)
+a n17 tau(9)
+a n18 Add█penalty(0)
+a n19 tau(12)
+a n20 Notify█Result█Appeal█to█Offender(0)
+a n20 tau(13)
+a n21 tau(12)
+a n22 Receive█Result█Appeal█from█Prefecture(0)
+a n22 tau(14)
+a n23 tau(9)
+a n24 tau(15)
+a n24 Appeal█to█Judge(0)
+a n25 tau(9)
+a n26 tau(16)
+a n26 tau(17)
+a n27 tau(2)
+a n28 tau(18)
+a n28 tau(19)
+a n29 Payment(0)
+a Create█Fine(0) n7
+a Create█Fine(0) n26
+a Create█Fine(0) n3
+a tau(0) n2
+a tau(1) n4
+a Send█Appeal█to█Prefecture(0) n4
+a tau(2) n6
+a tau(3) n8
+a tau(4) n13
+a tau(4) n11
+a tau(4) n9
+a tau(5) n8
+a Send█Fine(0) n10
+a tau(6) n12
+a Insert█Date█Appeal█to█Prefecture(0) n12
+a tau(7) n15
+a Insert█Fine█Notification(0) n15
+a tau(8) n16
+a tau(8) n24
+a tau(8) n22
+a tau(9) n14
+a tau(10) n17
+a tau(11) n18
+a tau(11) n20
+a tau(12) n17
+a Add█penalty(0) n19
+a tau(13) n21
+a Notify█Result█Appeal█to█Offender(0) n21
+a tau(14) n23
+a Receive█Result█Appeal█from█Prefecture(0) n23
+a tau(15) n25
+a Appeal█to█Judge(0) n25
+a tau(16) n27
+a tau(17) n29
+a Payment(0) n28
+a tau(18) n29
+a tau(19) n27
+a tau(20) n5
+a Send█for█Credit█Collection(0) n5
+
+# Initial State
+i n1 1
+
+# Deadlock States Not Recorded

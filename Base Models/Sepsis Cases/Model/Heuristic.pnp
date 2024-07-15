@@ -1,0 +1,184 @@
+# Places
+p n21
+p n2
+p n27
+p n20
+p n23
+p n26
+p n29
+p n30
+p n11
+p n31
+p n24
+p n25
+p n8
+p n22
+p n7
+p n32
+p n19
+p n14
+p n6
+p n17
+p n9
+p n12
+p n28
+p n13
+p n3
+p n1
+p n16
+p n15
+p n10
+p n4
+p n5
+p n18
+
+# Transitions
+t Release█A(0) 1
+t n70(0) 1
+t n66(0) 1
+t IV█Liquid(0) 1
+t Admission█NC(0) 1
+t n63(0) 1
+t n50(0) 1
+t n71(0) 1
+t Admission█IC(0) 1
+t ER█Registration(0) 1
+t ER█Triage(0) 1
+t Release█C(0) 1
+t Release█B(0) 1
+t n65(0) 1
+t n77(0) 1
+t n62(0) 1
+t n78(0) 1
+t n67(0) 1
+t IV█Antibiotics(0) 1
+t n55(0) 1
+t LacticAcid(0) 1
+t n61(0) 1
+t n60(0) 1
+t n74(0) 1
+t n68(0) 1
+t n49(0) 1
+t n53(0) 1
+t n64(0) 1
+t CRP(0) 1
+t ER█Sepsis█Triage(0) 1
+t n56(0) 1
+t n51(0) 1
+t n54(0) 1
+t n73(0) 1
+t n75(0) 1
+t Return█ER(0) 1
+t n76(0) 1
+t n52(0) 1
+t Release█E(0) 1
+t n57(0) 1
+t n58(0) 1
+t Release█D(0) 1
+t Leucocytes(0) 1
+t n72(0) 1
+t n59(0) 1
+t n69(0) 1
+
+# Arcs
+a n24 n70(0)
+a n30 n77(0)
+a n62(0) n25
+a n5 Release█D(0)
+a n16 n56(0)
+a n15 CRP(0)
+a n65(0) n29
+a n68(0) n11
+a Release█E(0) n8
+a n6 n52(0)
+a n61(0) n21
+a Admission█IC(0) n12
+a n16 n58(0)
+a ER█Triage(0) n22
+a n16 n57(0)
+a n63(0) n29
+a n12 n73(0)
+a ER█Sepsis█Triage(0) n20
+a n73(0) n27
+a n58(0) n1
+a n62(0) n29
+a n23 IV█Antibiotics(0)
+a n52(0) n9
+a n20 n65(0)
+a n14 n53(0)
+a n65(0) n23
+a ER█Registration(0) n18
+a n4 n50(0)
+a n9 Return█ER(0)
+a n78(0) n31
+a n75(0) n27
+a n20 n66(0)
+a n16 n55(0)
+a n55(0) n3
+a Leucocytes(0) n30
+a n72(0) n1
+a n66(0) n25
+a Release█B(0) n2
+a n14 n78(0)
+a n70(0) n11
+a n49(0) n9
+a n68(0) n13
+a n10 n60(0)
+a n13 Admission█NC(0)
+a n20 n64(0)
+a n67(0) n19
+a n50(0) n9
+a n51(0) n9
+a n30 n76(0)
+a n20 n63(0)
+a n25 IV█Liquid(0)
+a n3 Release█C(0)
+a n32 n51(0)
+a n29 Leucocytes(0)
+a n16 n59(0)
+a n71(0) n23
+a LacticAcid(0) n28
+a Release█C(0) n4
+a n7 Release█E(0)
+a IV█Liquid(0) n26
+a IV█Antibiotics(0) n24
+a n54(0) n31
+a n8 n49(0)
+a n1 Release█B(0)
+a n24 n68(0)
+a n77(0) n31
+a n64(0) n23
+a n57(0) n15
+a CRP(0) n16
+a n28 n74(0)
+a n18 n61(0)
+a n56(0) n7
+a n26 n71(0)
+a n22 n67(0)
+a n17 ER█Registration(0)
+a n74(0) n27
+a n60(0) n15
+a n16 n54(0)
+a Admission█NC(0) n14
+a Release█D(0) n6
+a n21 ER█Triage(0)
+a n59(0) n5
+a Release█A(0) n32
+a Return█ER(0) n10
+a n28 n72(0)
+a n20 n62(0)
+a n19 ER█Sepsis█Triage(0)
+a n53(0) n13
+a n76(0) n29
+a n31 Release█A(0)
+a n18 n75(0)
+a n69(0) n13
+a n11 Admission█IC(0)
+a n24 n69(0)
+a n27 LacticAcid(0)
+
+# Initial State
+i n17 1
+
+# Deadlock States
+f n2 1

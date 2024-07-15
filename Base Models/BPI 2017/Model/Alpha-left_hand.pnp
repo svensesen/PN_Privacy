@@ -1,0 +1,103 @@
+# Places
+p n1
+p n2
+p n3
+p n4
+p n5
+p n6
+p n7
+p n8
+p n9
+p n10
+p n11
+p n12
+
+# Transitions
+t A_Accepted(0) 9231
+t A_Cancelled(0) 211
+t A_Complete(0) 1
+t A_Concept(0) 1
+t A_Create█Application(0) 1
+t A_Denied(0) 196
+t A_Incomplete(0) 1
+t A_Pending(0) 17228
+t A_Submitted(0) 1
+t A_Validating(0) 1
+t O_Accepted(0) 415
+t O_Cancelled(0) 4436
+t O_Create█Offer(0) 1
+t O_Created(0) 1
+t O_Refused(0) 1
+t O_Returned(0) 1
+t O_Sent█(mail█and█online)(0) 1
+t O_Sent█(online█only)(0) 1
+t W_Assess█potential█fraud(0) 1
+t W_Call█after█offers(0) 1
+t W_Call█incomplete█files(0) 1
+t W_Complete█application(0) 1
+t W_Handle█leads(0) 1
+t W_Personal█Loan█collection(0) 1
+t W_Shortened█completion█(0) 1
+t W_Validate█application(0) 1
+
+# Arcs
+a n1 A_Accepted(0)
+a n2 A_Pending(0)
+a n3 A_Concept(0)
+a n3 A_Submitted(0)
+a n4 O_Create█Offer(0)
+a n4 A_Denied(0)
+a n4 O_Accepted(0)
+a n4 A_Cancelled(0)
+a n5 O_Accepted(0)
+a n5 A_Denied(0)
+a n5 O_Create█Offer(0)
+a n6 A_Denied(0)
+a n7 O_Create█Offer(0)
+a n8 O_Create█Offer(0)
+a n8 A_Denied(0)
+a n9 A_Cancelled(0)
+a n9 O_Create█Offer(0)
+a n9 A_Denied(0)
+a n10 A_Cancelled(0)
+a n10 A_Denied(0)
+a n11 A_Create█Application(0)
+a A_Accepted(0) n7
+a A_Complete(0) n9
+a A_Complete(0) n8
+a A_Complete(0) n6
+a A_Complete(0) n7
+a A_Complete(0) n10
+a A_Concept(0) n1
+a A_Create█Application(0) n3
+a A_Denied(0) n12
+a A_Incomplete(0) n6
+a A_Incomplete(0) n8
+a A_Incomplete(0) n5
+a A_Incomplete(0) n7
+a A_Validating(0) n6
+a A_Validating(0) n9
+a A_Validating(0) n5
+a A_Validating(0) n8
+a A_Validating(0) n7
+a A_Validating(0) n4
+a A_Validating(0) n10
+a O_Accepted(0) n2
+a O_Cancelled(0) n12
+a O_Created(0) n6
+a O_Created(0) n10
+a O_Returned(0) n12
+a O_Sent█(mail█and█online)(0) n12
+a O_Sent█(online█only)(0) n12
+a W_Assess█potential█fraud(0) n12
+a W_Call█after█offers(0) n12
+a W_Call█incomplete█files(0) n12
+a W_Complete█application(0) n12
+a W_Personal█Loan█collection(0) n12
+a W_Shortened█completion█(0) n12
+a W_Validate█application(0) n12
+
+# Initial State
+i n11 1
+
+# Deadlock States Not Recorded

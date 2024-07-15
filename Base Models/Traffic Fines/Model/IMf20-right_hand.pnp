@@ -1,0 +1,96 @@
+# Places
+p n1
+p n2
+p n3
+p n4
+p n5
+p n6
+p n7
+p n8
+p n9
+p n10
+p n11
+p n12
+p n13
+p n14
+p n15
+p n16
+p n17
+
+# Transitions
+t Create█Fine(0) 1
+t tau(0) 1
+t tau(1) 1
+t tau(2) 1
+t tau(3) 1
+t Insert█Date█Appeal█to█Prefecture(0) 1
+t tau(4) 1
+t Notify█Result█Appeal█to█Offender(0) 1
+t Send█Appeal█to█Prefecture(0) 1
+t Receive█Result█Appeal█from█Prefecture(0) 1
+t tau(5) 1
+t Appeal█to█Judge(0) 1
+t Send█Fine(0) 1
+t tau(6) 1
+t Insert█Fine█Notification(0) 1
+t tau(7) 1
+t Add█penalty(0) 1
+t tau(8) 1
+t Payment(0) 67201
+t tau(9) 1
+t Send█for█Credit█Collection(0) 1
+
+# Arcs
+a n1 Create█Fine(0)
+a n3 tau(0)
+a n3 tau(1)
+a n3 tau(2)
+a n4 Add█penalty(0)
+a n4 tau(7)
+a n5 Send█Fine(0)
+a n6 Insert█Date█Appeal█to█Prefecture(0)
+a n7 tau(3)
+a n8 Notify█Result█Appeal█to█Offender(0)
+a n8 tau(4)
+a n9 Send█Appeal█to█Prefecture(0)
+a n10 tau(3)
+a n11 Receive█Result█Appeal█from█Prefecture(0)
+a n12 tau(3)
+a n13 Appeal█to█Judge(0)
+a n13 tau(5)
+a n14 tau(3)
+a n15 tau(6)
+a n15 Insert█Fine█Notification(0)
+a n16 Payment(0)
+a n16 tau(8)
+a n17 tau(9)
+a n17 Send█for█Credit█Collection(0)
+a Create█Fine(0) n3
+a tau(0) n4
+a tau(1) n5
+a tau(2) n13
+a tau(2) n11
+a tau(2) n6
+a tau(2) n9
+a tau(3) n5
+a Insert█Date█Appeal█to█Prefecture(0) n8
+a tau(4) n7
+a Notify█Result█Appeal█to█Offender(0) n7
+a Send█Appeal█to█Prefecture(0) n10
+a Receive█Result█Appeal█from█Prefecture(0) n12
+a tau(5) n14
+a Appeal█to█Judge(0) n14
+a Send█Fine(0) n15
+a tau(6) n4
+a Insert█Fine█Notification(0) n4
+a tau(7) n16
+a Add█penalty(0) n16
+a tau(8) n17
+a Payment(0) n17
+a tau(9) n2
+a Send█for█Credit█Collection(0) n2
+
+# Initial State
+i n1 1
+
+# Deadlock States Not Recorded

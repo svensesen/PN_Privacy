@@ -1,0 +1,106 @@
+# Places
+p start
+p pistil
+p end
+
+# Transitions
+t tau(0) 2099.0
+t tau(1) 0.03333333333333333
+t Permit█SUBMITTED█by█EMPLOYEE(0) 0.034443168771526984
+t Permit█FINAL_APPROVED█by█SUPERVISOR(0) 0.035628044847977464
+t Request█For█Payment█SUBMITTED█by█EMPLOYEE(0) 0.036895733828111545
+t Request█For█Payment█FINAL_APPROVED█by█SUPERVISOR(0) 0.03825510760238768
+t Request█For█Payment█REJECTED█by█MISSING(0) 0.03971633735831291
+t Permit█REJECTED█by█MISSING(0) 0.04129113800210186
+t Request█Payment(0) 0.04299306938217516
+t Payment█Handled(0) 0.044837910192826944
+t Permit█APPROVED█by█SUPERVISOR(0) 0.04684412567358788
+t Permit█FINAL_APPROVED█by█DIRECTOR(0) 0.04903345746580052
+t Request█For█Payment█APPROVED█by█PRE_APPROVER(0) 0.05143167412862495
+t Permit█APPROVED█by█PRE_APPROVER(0) 0.05406953518319922
+t Request█For█Payment█REJECTED█by█PRE_APPROVER(0) 0.05698404217521645
+t Request█For█Payment█REJECTED█by█EMPLOYEE(0) 0.06022008026458335
+t Request█For█Payment█APPROVED█by█SUPERVISOR(0) 0.0638325982116595
+t Request█For█Payment█FINAL_APPROVED█by█DIRECTOR(0) 0.067889541256286
+t Permit█REJECTED█by█PRE_APPROVER(0) 0.07247585321406816
+t Permit█REJECTED█by█EMPLOYEE(0) 0.0776990226904813
+t Request█For█Payment█REJECTED█by█SUPERVISOR(0) 0.08369690029794949
+t Permit█REJECTED█by█SUPERVISOR(0) 0.0906489229469137
+t Request█For█Payment█SAVED█by█EMPLOYEE(0) 0.09879256129885351
+t Request█For█Payment█APPROVED█by█ADMINISTRATION(0) 0.10844796458908844
+t Request█For█Payment█APPROVED█by█BUDGET█OWNER(0) 0.12005580016799944
+t Request█For█Payment█REJECTED█by█ADMINISTRATION(0) 0.13423691020355402
+t Permit█APPROVED█by█ADMINISTRATION(0) 0.1518890555815681
+t Permit█APPROVED█by█BUDGET█OWNER(0) 0.1743484023951501
+t Permit█REJECTED█by█ADMINISTRATION(0) 0.20366639050592372
+t Request█For█Payment█REJECTED█by█BUDGET█OWNER(0) 0.2430927219766244
+t Permit█REJECTED█by█BUDGET█OWNER(0) 0.2979072548411432
+
+# Arcs
+a start tau(0)
+a pistil tau(1)
+a pistil Permit█SUBMITTED█by█EMPLOYEE(0)
+a pistil Permit█FINAL_APPROVED█by█SUPERVISOR(0)
+a pistil Request█For█Payment█SUBMITTED█by█EMPLOYEE(0)
+a pistil Request█For█Payment█FINAL_APPROVED█by█SUPERVISOR(0)
+a pistil Request█For█Payment█REJECTED█by█MISSING(0)
+a pistil Permit█REJECTED█by█MISSING(0)
+a pistil Request█Payment(0)
+a pistil Payment█Handled(0)
+a pistil Permit█APPROVED█by█SUPERVISOR(0)
+a pistil Permit█FINAL_APPROVED█by█DIRECTOR(0)
+a pistil Request█For█Payment█APPROVED█by█PRE_APPROVER(0)
+a pistil Permit█APPROVED█by█PRE_APPROVER(0)
+a pistil Request█For█Payment█REJECTED█by█PRE_APPROVER(0)
+a pistil Request█For█Payment█REJECTED█by█EMPLOYEE(0)
+a pistil Request█For█Payment█APPROVED█by█SUPERVISOR(0)
+a pistil Request█For█Payment█FINAL_APPROVED█by█DIRECTOR(0)
+a pistil Permit█REJECTED█by█PRE_APPROVER(0)
+a pistil Permit█REJECTED█by█EMPLOYEE(0)
+a pistil Request█For█Payment█REJECTED█by█SUPERVISOR(0)
+a pistil Permit█REJECTED█by█SUPERVISOR(0)
+a pistil Request█For█Payment█SAVED█by█EMPLOYEE(0)
+a pistil Request█For█Payment█APPROVED█by█ADMINISTRATION(0)
+a pistil Request█For█Payment█APPROVED█by█BUDGET█OWNER(0)
+a pistil Request█For█Payment█REJECTED█by█ADMINISTRATION(0)
+a pistil Permit█APPROVED█by█ADMINISTRATION(0)
+a pistil Permit█APPROVED█by█BUDGET█OWNER(0)
+a pistil Permit█REJECTED█by█ADMINISTRATION(0)
+a pistil Request█For█Payment█REJECTED█by█BUDGET█OWNER(0)
+a pistil Permit█REJECTED█by█BUDGET█OWNER(0)
+a tau(0) pistil
+a tau(1) end
+a Permit█SUBMITTED█by█EMPLOYEE(0) pistil
+a Permit█FINAL_APPROVED█by█SUPERVISOR(0) pistil
+a Request█For█Payment█SUBMITTED█by█EMPLOYEE(0) pistil
+a Request█For█Payment█FINAL_APPROVED█by█SUPERVISOR(0) pistil
+a Request█For█Payment█REJECTED█by█MISSING(0) pistil
+a Permit█REJECTED█by█MISSING(0) pistil
+a Request█Payment(0) pistil
+a Payment█Handled(0) pistil
+a Permit█APPROVED█by█SUPERVISOR(0) pistil
+a Permit█FINAL_APPROVED█by█DIRECTOR(0) pistil
+a Request█For█Payment█APPROVED█by█PRE_APPROVER(0) pistil
+a Permit█APPROVED█by█PRE_APPROVER(0) pistil
+a Request█For█Payment█REJECTED█by█PRE_APPROVER(0) pistil
+a Request█For█Payment█REJECTED█by█EMPLOYEE(0) pistil
+a Request█For█Payment█APPROVED█by█SUPERVISOR(0) pistil
+a Request█For█Payment█FINAL_APPROVED█by█DIRECTOR(0) pistil
+a Permit█REJECTED█by█PRE_APPROVER(0) pistil
+a Permit█REJECTED█by█EMPLOYEE(0) pistil
+a Request█For█Payment█REJECTED█by█SUPERVISOR(0) pistil
+a Permit█REJECTED█by█SUPERVISOR(0) pistil
+a Request█For█Payment█SAVED█by█EMPLOYEE(0) pistil
+a Request█For█Payment█APPROVED█by█ADMINISTRATION(0) pistil
+a Request█For█Payment█APPROVED█by█BUDGET█OWNER(0) pistil
+a Request█For█Payment█REJECTED█by█ADMINISTRATION(0) pistil
+a Permit█APPROVED█by█ADMINISTRATION(0) pistil
+a Permit█APPROVED█by█BUDGET█OWNER(0) pistil
+a Permit█REJECTED█by█ADMINISTRATION(0) pistil
+a Request█For█Payment█REJECTED█by█BUDGET█OWNER(0) pistil
+a Permit█REJECTED█by█BUDGET█OWNER(0) pistil
+
+# Initial State
+i start 1
+
+# Deadlock States Not Recorded

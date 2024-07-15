@@ -1,0 +1,93 @@
+# Places
+p n16
+p n17
+p n18
+p n19
+p n20
+p n21
+p n22
+p n23
+p n24
+p n25
+
+# Transitions
+t ER_Registration(0) 0.0
+t LacticAcid(0) 0.0
+t IV_Liquid(0) 0.0
+t Return_ER(0) 0.0
+t Admission_NC(0) 0.0
+t ER_Sepsis_Triage(0) 0.0
+t ER_Triage(0) 0.0
+t Release_D(0) 0.0
+t Release_B(0) 0.0
+t CRP(0) 611.0
+t Leucocytes(0) 439.0
+t Release_A(0) 0.0
+t Release_C(0) 0.0
+t Admission_IC(0) 117.0
+t Release_E(0) 0.0
+t IV_Antibiotics(0) 0.0
+
+# Arcs
+a n22 Release_E(0)
+a ER_Sepsis_Triage(0) n17
+a n19 Release_A(0)
+a n24 Release_A(0)
+a n20 Leucocytes(0)
+a Leucocytes(0) n17
+a n22 Release_D(0)
+a ER_Registration(0) n25
+a IV_Liquid(0) n17
+a n21 Release_B(0)
+a Release_C(0) n17
+a ER_Triage(0) n17
+a ER_Triage(0) n24
+a n23 Release_E(0)
+a n22 ER_Registration(0)
+a n23 Release_A(0)
+a n23 Release_D(0)
+a LacticAcid(0) n23
+a IV_Liquid(0) n21
+a n23 LacticAcid(0)
+a n19 Release_D(0)
+a Release_E(0) n18
+a Release_A(0) n18
+a n19 LacticAcid(0)
+a n23 Release_B(0)
+a n25 Release_A(0)
+a n22 Release_C(0)
+a n18 Return_ER(0)
+a n21 Release_C(0)
+a Release_E(0) n17
+a CRP(0) n17
+a n20 ER_Triage(0)
+a ER_Sepsis_Triage(0) n23
+a n19 Release_C(0)
+a Release_C(0) n18
+a IV_Antibiotics(0) n17
+a Release_A(0) n17
+a LacticAcid(0) n19
+a n19 Release_E(0)
+a n23 Release_C(0)
+a LacticAcid(0) n17
+a n22 Release_B(0)
+a Admission_NC(0) n17
+a n16 IV_Antibiotics(0)
+a n20 IV_Liquid(0)
+a Release_B(0) n17
+a Return_ER(0) n17
+a n21 Release_A(0)
+a n19 Release_B(0)
+a Release_D(0) n18
+a IV_Antibiotics(0) n19
+a n20 ER_Registration(0)
+a IV_Antibiotics(0) n22
+a Release_D(0) n17
+a n20 CRP(0)
+a n20 ER_Sepsis_Triage(0)
+a ER_Sepsis_Triage(0) n16
+
+# Initial State
+i n20 1
+
+# Deadlock States Not Recorded

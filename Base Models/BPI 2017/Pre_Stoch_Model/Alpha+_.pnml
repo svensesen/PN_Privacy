@@ -1,0 +1,472 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imported_1713189276.6548488" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imported_1713189276.6548488</text>
+    </name>
+    <page id="n0">
+      <place id="n11">
+        <name>
+          <text>([A_Accepted, A_Incomplete, A_Complete],[O_Create Offer])</text>
+        </name>
+        <graphics>
+          <position x="418.75" y="243.0" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n2">
+        <name>
+          <text>([A_Create Application],[A_Submitted])</text>
+        </name>
+        <graphics>
+          <position x="156.25" y="364.0" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n6">
+        <name>
+          <text>([O_Created],[A_Denied, O_Create Offer, A_Cancelled, O_Accepted])</text>
+        </name>
+        <graphics>
+          <position x="768.75" y="389.5" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n3">
+        <name>
+          <text>([A_Concept],[A_Accepted])</text>
+        </name>
+        <graphics>
+          <position x="331.25" y="449.5" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n10">
+        <name>
+          <text>([O_Accepted],[A_Pending])</text>
+        </name>
+        <graphics>
+          <position x="856.25" y="301.5" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n7">
+        <name>
+          <text>([A_Create Application],[A_Concept])</text>
+        </name>
+        <graphics>
+          <position x="156.25" y="421.5" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n1">
+        <name>
+          <text>([O_Create Offer],[O_Created])</text>
+        </name>
+        <graphics>
+          <position x="506.25" y="255.0" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n14">
+        <name>
+          <text>Start</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+        <graphics>
+          <position x="12.5" y="484.5" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n15">
+        <name>
+          <text>End</text>
+        </name>
+        <graphics>
+          <position x="856.25" y="236.5" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n12">
+        <name>
+          <text>([A_Accepted, O_Created],[O_Create Offer])</text>
+        </name>
+        <graphics>
+          <position x="593.75" y="427.5" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n8">
+        <name>
+          <text>([A_Submitted],[A_Concept])</text>
+        </name>
+        <graphics>
+          <position x="243.75" y="366.5" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n4">
+        <name>
+          <text>([O_Created],[A_Incomplete, A_Complete])</text>
+        </name>
+        <graphics>
+          <position x="593.75" y="329.5" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n13">
+        <name>
+          <text>([A_Incomplete, A_Complete],[A_Denied, O_Create Offer, A_Cancelled])</text>
+        </name>
+        <graphics>
+          <position x="681.25" y="373.0" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n5">
+        <name>
+          <text>([O_Created],[A_Complete, O_Accepted])</text>
+        </name>
+        <graphics>
+          <position x="593.75" y="295.0" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <place id="n9">
+        <name>
+          <text>([A_Validating, A_Accepted],[O_Create Offer])</text>
+        </name>
+        <graphics>
+          <position x="62.5" y="352.5" />
+          <dimension x="12.5" y="12.5" />
+        </graphics>
+      </place>
+      <transition id="n24">
+        <name>
+          <text>A_Submitted</text>
+        </name>
+        <graphics>
+          <position x="200.0" y="371.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n37">
+        <name>
+          <text>W_Complete application</text>
+        </name>
+        <graphics>
+          <position x="12.5" y="128.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n18">
+        <name>
+          <text>A_Complete</text>
+        </name>
+        <graphics>
+          <position x="637.5" y="311.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n39">
+        <name>
+          <text>W_Personal Loan collection</text>
+        </name>
+        <graphics>
+          <position x="112.5" y="315.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n26">
+        <name>
+          <text>O_Accepted</text>
+        </name>
+        <graphics>
+          <position x="812.5" y="341.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n16">
+        <name>
+          <text>A_Accepted</text>
+        </name>
+        <graphics>
+          <position x="375.0" y="476.5" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n33">
+        <name>
+          <text>O_Sent (online only)</text>
+        </name>
+        <graphics>
+          <position x="12.5" y="418.5" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n25">
+        <name>
+          <text>A_Validating</text>
+        </name>
+        <graphics>
+          <position x="12.5" y="352.5" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n35">
+        <name>
+          <text>W_Call after offers</text>
+        </name>
+        <graphics>
+          <position x="12.5" y="233.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n29">
+        <name>
+          <text>O_Created</text>
+        </name>
+        <graphics>
+          <position x="550.0" y="255.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n22">
+        <name>
+          <text>A_Incomplete</text>
+        </name>
+        <graphics>
+          <position x="637.5" y="346.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n19">
+        <name>
+          <text>A_Concept</text>
+        </name>
+        <graphics>
+          <position x="287.5" y="428.5" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n40">
+        <name>
+          <text>W_Shortened completion </text>
+        </name>
+        <graphics>
+          <position x="12.5" y="58.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n23">
+        <name>
+          <text>A_Pending</text>
+        </name>
+        <graphics>
+          <position x="900.0" y="301.5" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n27">
+        <name>
+          <text>O_Cancelled</text>
+        </name>
+        <graphics>
+          <position x="12.5" y="93.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n20">
+        <name>
+          <text>A_Create Application</text>
+        </name>
+        <graphics>
+          <position x="62.5" y="480.5" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n31">
+        <name>
+          <text>O_Returned</text>
+        </name>
+        <graphics>
+          <position x="12.5" y="198.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n34">
+        <name>
+          <text>W_Assess potential fraud</text>
+        </name>
+        <graphics>
+          <position x="725.0" y="376.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n17">
+        <name>
+          <text>A_Cancelled</text>
+        </name>
+        <graphics>
+          <position x="812.5" y="411.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n32">
+        <name>
+          <text>O_Sent (mail and online)</text>
+        </name>
+        <graphics>
+          <position x="12.5" y="453.5" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n28">
+        <name>
+          <text>O_Create Offer</text>
+        </name>
+        <graphics>
+          <position x="462.5" y="381.5" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n36">
+        <name>
+          <text>W_Call incomplete files</text>
+        </name>
+        <graphics>
+          <position x="12.5" y="163.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n38">
+        <name>
+          <text>W_Handle leads</text>
+        </name>
+        <graphics>
+          <position x="287.5" y="362.5" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n21">
+        <name>
+          <text>A_Denied</text>
+        </name>
+        <graphics>
+          <position x="812.5" y="376.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n41">
+        <name>
+          <text>W_Validate application</text>
+        </name>
+        <graphics>
+          <position x="12.5" y="547.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <transition id="n30">
+        <name>
+          <text>O_Refused</text>
+        </name>
+        <graphics>
+          <position x="12.5" y="603.0" />
+          <dimension x="25.0" y="20.0" />
+        </graphics>
+      </transition>
+      <arc id="2067169659392" source="n35" target="n15" />
+      <arc id="2067170432528" source="n39" target="n13" />
+      <arc id="2067170434064" source="n7" target="n39" />
+      <arc id="2067170433056" source="n39" target="n11" />
+      <arc id="2067169657904" source="n39" target="n8" />
+      <arc id="2067169659968" source="n39" target="n2" />
+      <arc id="2067169254464" source="n39" target="n15" />
+      <arc id="2067169254992" source="n9" target="n28" />
+      <arc id="2067170433632" source="n13" target="n17" />
+      <arc id="2067170432096" source="n13" target="n21" />
+      <arc id="2067169657952" source="n39" target="n3" />
+      <arc id="2067169254512" source="n31" target="n15" />
+      <arc id="2067170434160" source="n7" target="n19" />
+      <arc id="2067170431088" source="n3" target="n39" />
+      <arc id="2067170432624" source="n3" target="n16" />
+      <arc id="2067169658480" source="n6" target="n28" />
+      <arc id="2067169255040" source="n6" target="n26" />
+      <arc id="2067169253504" source="n26" target="n10" />
+      <arc id="2067170433152" source="n18" target="n11" />
+      <arc id="2067170434688" source="n40" target="n15" />
+      <arc id="2067169659008" source="n29" target="n5" />
+      <arc id="2067169660544" source="n1" target="n39" />
+      <arc id="2067169254032" source="n27" target="n15" />
+      <arc id="2067170432144" source="n39" target="n6" />
+      <arc id="2067169658000" source="n39" target="n1" />
+      <arc id="2067169254560" source="n34" target="n13" />
+      <arc id="2067169251488" source="n39" target="n10" />
+      <arc id="2067170434208" source="n24" target="n8" />
+      <arc id="2067170432672" source="n1" target="n29" />
+      <arc id="2067169660064" source="n11" target="n39" />
+      <arc id="2067169255088" source="n4" target="n22" />
+      <arc id="2067170433200" source="n13" target="n28" />
+      <arc id="2067170434736" source="n6" target="n39" />
+      <arc id="2067169252544" source="n4" target="n18" />
+      <arc id="2067169254080" source="n10" target="n39" />
+      <arc id="2067170432192" source="n29" target="n4" />
+      <arc id="2067170432720" source="n37" target="n15" />
+      <arc id="2067170431184" source="n34" target="n6" />
+      <arc id="2067169658576" source="n21" target="n15" />
+      <arc id="2067169659104" source="n2" target="n39" />
+      <arc id="2067169660640" source="n36" target="n15" />
+      <arc id="2067170433248" source="n5" target="n18" />
+      <arc id="2067170431712" source="n8" target="n39" />
+      <arc id="2067169658096" source="n10" target="n23" />
+      <arc id="2067170431232" source="n39" target="n5" />
+      <arc id="2067169255184" source="n29" target="n12" />
+      <arc id="2067170434832" source="n2" target="n24" />
+      <arc id="2067169659152" source="n38" target="n8" />
+      <arc id="2067169660688" source="n22" target="n13" />
+      <arc id="2067170433824" source="n6" target="n21" />
+      <arc id="2067170432816" source="n39" target="n7" />
+      <arc id="2067170434352" source="n14" target="n20" />
+      <arc id="2067170434880" source="n34" target="n15" />
+      <arc id="2067169255232" source="n28" target="n1" />
+      <arc id="2067169253696" source="n16" target="n12" />
+      <arc id="2067170431808" source="n9" target="n39" />
+      <arc id="2067169254224" source="n8" target="n19" />
+      <arc id="2067170432336" source="n13" target="n34" />
+      <arc id="2067170433872" source="n4" target="n39" />
+      <arc id="2067169251680" source="n32" target="n15" />
+      <arc id="2067169254752" source="n5" target="n39" />
+      <arc id="2067170434400" source="n29" target="n6" />
+      <arc id="2067169660784" source="n33" target="n15" />
+      <arc id="2067170433920" source="n18" target="n13" />
+      <arc id="2067170432384" source="n6" target="n34" />
+      <arc id="2067170434448" source="n5" target="n26" />
+      <arc id="2067170432912" source="n19" target="n3" />
+      <arc id="2067169658768" source="n25" target="n9" />
+      <arc id="2067170431904" source="n8" target="n38" />
+      <arc id="2067170434976" source="n39" target="n4" />
+      <arc id="2067169659296" source="n39" target="n12" />
+      <arc id="2067169254320" source="n16" target="n9" />
+      <arc id="2067170432960" source="n22" target="n11" />
+      <arc id="2067170431424" source="n20" target="n2" />
+      <arc id="2067170434496" source="n12" target="n28" />
+      <arc id="2067169253840" source="n13" target="n39" />
+      <arc id="2067169659344" source="n20" target="n7" />
+      <arc id="2067169254368" source="n6" target="n17" />
+      <arc id="2067170434016" source="n11" target="n28" />
+      <arc id="2067169659872" source="n16" target="n11" />
+      <arc id="2067170431472" source="n12" target="n39" />
+      <arc id="2067170434544" source="n41" target="n15" />
+      <arc id="2067169658864" source="n39" target="n9" />
+    </page>
+    </net>
+<finalmarkings>
+      <marking>
+        <place idref="n15">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </pnml>

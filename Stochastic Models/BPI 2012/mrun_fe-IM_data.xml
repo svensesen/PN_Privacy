@@ -1,0 +1,20 @@
+<runStats miner="Frequency Estimator" machineName="LAPTOP-UTOPLPT0" runnerVersion="dev">
+   <inputLogFileName>data.xes</inputLogFileName>
+   <outputModelFileName>var/BPI 2012\osmodel_fe-IM_data.pnml</outputModelFileName>
+   <runDate>2024-04-08 17:37:02.736 CEST</runDate>
+   <taskRunStats class="java.util.LinkedList">
+      <taskStats taskName="spmrunner_estimator" runState="FAILED">
+         <duration>2155</duration>
+         <start>1712590622736</start>
+         <errorMessage>Cannot invoke &quot;org.processmining.models.semantics.petrinet.Marking.iterator()&quot; because &quot;finalMarking&quot; is null</errorMessage>
+         <measureStats measure="LOG_EVENT_COUNT">
+            <number class="java.lang.Integer">262200</number>
+         </measureStats>
+         <measureStats measure="LOG_TRACE_COUNT">
+            <number class="java.lang.Integer">13087</number>
+         </measureStats>
+      </taskStats>
+   </taskRunStats>
+   <errorMessage>Cannot invoke &quot;org.processmining.models.semantics.petrinet.Marking.iterator()&quot; because &quot;finalMarking&quot; is null</errorMessage>
+   <runState>FAILED</runState>
+</runStats>

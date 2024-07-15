@@ -1,0 +1,281 @@
+# Places
+p n37
+p n36
+p n42
+p n46
+p n24
+p n30
+p n11
+p n6
+p n39
+p n16
+p n45
+p n20
+p n35
+p n2
+p n34
+p n17
+p n25
+p n26
+p n19
+p n1
+p n23
+p n27
+p n5
+p n32
+p n22
+p n31
+p n44
+p n4
+p n41
+p n13
+p n47
+p n15
+p n10
+p n28
+p n3
+p n43
+p n8
+p n48
+p n40
+p n12
+p n38
+p n29
+p n33
+p n9
+p n18
+p n7
+p n21
+p n14
+
+# Transitions
+t O_SENT(0) 1
+t n104(0) 1
+t n75(0) 1
+t n106(0) 1
+t n109(0) 1
+t n83(0) 1
+t n111(0) 1
+t n78(0) 1
+t n93(0) 1
+t O_SENT_BACK(0) 1
+t n90(0) 1
+t W_Beoordelen█fraude(0) 1
+t n108(0) 1
+t n84(0) 1
+t A_PARTLYSUBMITTED(0) 1
+t A_ACCEPTED(0) 1
+t n118(0) 1
+t n86(0) 1
+t n85(0) 1
+t n80(0) 1
+t n97(0) 1
+t n101(0) 1
+t n110(0) 1
+t n107(0) 1
+t n100(0) 1
+t A_DECLINED(0) 1
+t A_PREACCEPTED(0) 1
+t n94(0) 1
+t n103(0) 1
+t n82(0) 1
+t A_FINALIZED(0) 1
+t n119(0) 1
+t n77(0) 1
+t W_Wijzigen█contractgegevens(0) 1
+t n121(0) 1
+t n117(0) 1
+t n89(0) 1
+t W_Afhandelen█leads(0) 1
+t W_Nabellen█incomplete█dossiers(0) 1
+t A_CANCELLED(0) 1
+t n105(0) 1
+t W_Valideren█aanvraag(0) 1
+t A_SUBMITTED(0) 1
+t n98(0) 1
+t O_DECLINED(0) 1
+t n114(0) 1
+t n120(0) 1
+t n92(0) 1
+t O_ACCEPTED(0) 1
+t A_APPROVED(0) 1
+t O_CREATED(0) 1
+t n96(0) 1
+t n87(0) 1
+t O_CANCELLED(0) 1
+t n112(0) 1
+t n115(0) 1
+t A_REGISTERED(0) 1
+t n73(0) 1
+t A_ACTIVATED(0) 1
+t n79(0) 1
+t W_Nabellen█offertes(0) 1
+t O_SELECTED(0) 1
+t W_Completeren█aanvraag(0) 1
+t n99(0) 1
+t n74(0) 1
+t n76(0) 1
+t n102(0) 1
+t n91(0) 1
+t n116(0) 1
+t n113(0) 1
+t n81(0) 1
+t n95(0) 1
+t n88(0) 1
+
+# Arcs
+a n101(0) n33
+a n36 n105(0)
+a A_PREACCEPTED(0) n38
+a n81(0) n5
+a n114(0) n43
+a n35 A_PARTLYSUBMITTED(0)
+a n36 n107(0)
+a O_ACCEPTED(0) n48
+a A_REGISTERED(0) n40
+a n33 A_FINALIZED(0)
+a n44 n113(0)
+a n5 W_Wijzigen█contractgegevens(0)
+a A_ACTIVATED(0) n26
+a A_CANCELLED(0) n30
+a n77(0) n3
+a n4 n85(0)
+a n109(0) n11
+a n22 n86(0)
+a n102(0) n33
+a W_Completeren█aanvraag(0) n22
+a n48 n121(0)
+a n99(0) n31
+a n104(0) n37
+a n93(0) n21
+a n100(0) n29
+a n95(0) n33
+a n9 O_DECLINED(0)
+a n91(0) n17
+a O_SENT_BACK(0) n16
+a W_Nabellen█offertes(0) n46
+a n20 n90(0)
+a n22 n96(0)
+a n2 n76(0)
+a n15 O_SENT_BACK(0)
+a n44 n110(0)
+a n39 A_REGISTERED(0)
+a n47 O_ACCEPTED(0)
+a n2 n77(0)
+a A_DECLINED(0) n32
+a n82(0) n13
+a n29 A_CANCELLED(0)
+a n112(0) n15
+a n22 n94(0)
+a n90(0) n17
+a n24 n102(0)
+a n86(0) n11
+a n21 W_Completeren█aanvraag(0)
+a n24 n99(0)
+a n18 n91(0)
+a n36 n106(0)
+a n12 n84(0)
+a n22 n93(0)
+a n34 n83(0)
+a n43 W_Nabellen█incomplete█dossiers(0)
+a n96(0) n23
+a n79(0) n1
+a n14 n119(0)
+a O_CREATED(0) n8
+a n24 n98(0)
+a n45 W_Nabellen█offertes(0)
+a n119(0) n45
+a n13 O_SENT(0)
+a n117(0) n15
+a n75(0) n27
+a n98(0) n33
+a n76(0) n1
+a n98(0) n31
+a n26 n78(0)
+a n7 O_CREATED(0)
+a n120(0) n39
+a A_APPROVED(0) n28
+a n27 A_APPROVED(0)
+a n10 n118(0)
+a n106(0) n31
+a n94(0) n23
+a n6 n81(0)
+a n36 n104(0)
+a n85(0) n7
+a n80(0) n3
+a n46 n117(0)
+a n84(0) n7
+a n2 n74(0)
+a n23 A_ACCEPTED(0)
+a n11 O_SELECTED(0)
+a n17 W_Afhandelen█leads(0)
+a n113(0) n5
+a n83(0) n7
+a n24 n100(0)
+a n18 n89(0)
+a n116(0) n45
+a n20 n92(0)
+a n46 n116(0)
+a n31 A_DECLINED(0)
+a n24 n88(0)
+a n37 A_PREACCEPTED(0)
+a n25 A_ACTIVATED(0)
+a n88(0) n11
+a O_SELECTED(0) n12
+a n24 n101(0)
+a n107(0) n17
+a W_Afhandelen█leads(0) n18
+a A_PARTLYSUBMITTED(0) n36
+a A_FINALIZED(0) n34
+a n73(0) n47
+a n2 n75(0)
+a n74(0) n11
+a n19 W_Beoordelen█fraude(0)
+a n78(0) n1
+a W_Nabellen█incomplete█dossiers(0) n44
+a n1 W_Valideren█aanvraag(0)
+a n87(0) n11
+a n28 n103(0)
+a n46 n87(0)
+a n38 n97(0)
+a n42 n108(0)
+a n22 n95(0)
+a n102(0) n29
+a O_DECLINED(0) n10
+a n103(0) n25
+a n40 n114(0)
+a n118(0) n45
+a W_Valideren█aanvraag(0) n2
+a n30 n80(0)
+a n94(0) n33
+a n8 n82(0)
+a n2 n73(0)
+a n108(0) n35
+a A_SUBMITTED(0) n42
+a n3 O_CANCELLED(0)
+a W_Wijzigen█contractgegevens(0) n6
+a n14 n115(0)
+a n97(0) n21
+a n115(0) n43
+a W_Beoordelen█fraude(0) n20
+a n16 n79(0)
+a n41 A_SUBMITTED(0)
+a n44 n111(0)
+a n44 n109(0)
+a n44 n112(0)
+a O_SENT(0) n14
+a O_CANCELLED(0) n4
+a n89(0) n37
+a n110(0) n43
+a A_ACCEPTED(0) n24
+a n105(0) n19
+a n48 n120(0)
+a n121(0) n25
+a n111(0) n9
+a n92(0) n19
+
+# Initial State
+i n41 1
+
+# Deadlock States
+f n32 1

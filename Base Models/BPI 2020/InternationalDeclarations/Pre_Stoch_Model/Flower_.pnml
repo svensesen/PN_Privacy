@@ -1,0 +1,287 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imported_1713189275.7440202" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imported_1713189275.7440202</text>
+    </name>
+    <page id="n0">
+      <place id="start">
+        <name>
+          <text>start</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="pistil">
+        <name>
+          <text>pistil</text>
+        </name>
+      </place>
+      <place id="end">
+        <name>
+          <text>end</text>
+        </name>
+      </place>
+      <transition id="Permit REJECTED by EMPLOYEE(0)">
+        <name>
+          <text>Permit REJECTED by EMPLOYEE</text>
+        </name>
+      </transition>
+      <transition id="Declaration SAVED by EMPLOYEE(0)">
+        <name>
+          <text>Declaration SAVED by EMPLOYEE</text>
+        </name>
+      </transition>
+      <transition id="Permit SUBMITTED by EMPLOYEE(0)">
+        <name>
+          <text>Permit SUBMITTED by EMPLOYEE</text>
+        </name>
+      </transition>
+      <transition id="Request Payment(0)">
+        <name>
+          <text>Request Payment</text>
+        </name>
+      </transition>
+      <transition id="Declaration REJECTED by EMPLOYEE(0)">
+        <name>
+          <text>Declaration REJECTED by EMPLOYEE</text>
+        </name>
+      </transition>
+      <transition id="Declaration REJECTED by PRE_APPROVER(0)">
+        <name>
+          <text>Declaration REJECTED by PRE_APPROVER</text>
+        </name>
+      </transition>
+      <transition id="Permit REJECTED by PRE_APPROVER(0)">
+        <name>
+          <text>Permit REJECTED by PRE_APPROVER</text>
+        </name>
+      </transition>
+      <transition id="Start trip(0)">
+        <name>
+          <text>Start trip</text>
+        </name>
+      </transition>
+      <transition id="Permit APPROVED by SUPERVISOR(0)">
+        <name>
+          <text>Permit APPROVED by SUPERVISOR</text>
+        </name>
+      </transition>
+      <transition id="Permit REJECTED by BUDGET OWNER(0)">
+        <name>
+          <text>Permit REJECTED by BUDGET OWNER</text>
+        </name>
+      </transition>
+      <transition id="Declaration REJECTED by SUPERVISOR(0)">
+        <name>
+          <text>Declaration REJECTED by SUPERVISOR</text>
+        </name>
+      </transition>
+      <transition id="tau(1)">
+        <name>
+          <text>tau</text>
+        </name>
+      </transition>
+      <transition id="Declaration REJECTED by BUDGET OWNER(0)">
+        <name>
+          <text>Declaration REJECTED by BUDGET OWNER</text>
+        </name>
+      </transition>
+      <transition id="Payment Handled(0)">
+        <name>
+          <text>Payment Handled</text>
+        </name>
+      </transition>
+      <transition id="Permit REJECTED by MISSING(0)">
+        <name>
+          <text>Permit REJECTED by MISSING</text>
+        </name>
+      </transition>
+      <transition id="Permit REJECTED by DIRECTOR(0)">
+        <name>
+          <text>Permit REJECTED by DIRECTOR</text>
+        </name>
+      </transition>
+      <transition id="Declaration SUBMITTED by EMPLOYEE(0)">
+        <name>
+          <text>Declaration SUBMITTED by EMPLOYEE</text>
+        </name>
+      </transition>
+      <transition id="Declaration REJECTED by ADMINISTRATION(0)">
+        <name>
+          <text>Declaration REJECTED by ADMINISTRATION</text>
+        </name>
+      </transition>
+      <transition id="Declaration APPROVED by PRE_APPROVER(0)">
+        <name>
+          <text>Declaration APPROVED by PRE_APPROVER</text>
+        </name>
+      </transition>
+      <transition id="Permit REJECTED by ADMINISTRATION(0)">
+        <name>
+          <text>Permit REJECTED by ADMINISTRATION</text>
+        </name>
+      </transition>
+      <transition id="End trip(0)">
+        <name>
+          <text>End trip</text>
+        </name>
+      </transition>
+      <transition id="Declaration APPROVED by ADMINISTRATION(0)">
+        <name>
+          <text>Declaration APPROVED by ADMINISTRATION</text>
+        </name>
+      </transition>
+      <transition id="Declaration APPROVED by BUDGET OWNER(0)">
+        <name>
+          <text>Declaration APPROVED by BUDGET OWNER</text>
+        </name>
+      </transition>
+      <transition id="Permit FINAL_APPROVED by DIRECTOR(0)">
+        <name>
+          <text>Permit FINAL_APPROVED by DIRECTOR</text>
+        </name>
+      </transition>
+      <transition id="Permit APPROVED by BUDGET OWNER(0)">
+        <name>
+          <text>Permit APPROVED by BUDGET OWNER</text>
+        </name>
+      </transition>
+      <transition id="Declaration REJECTED by MISSING(0)">
+        <name>
+          <text>Declaration REJECTED by MISSING</text>
+        </name>
+      </transition>
+      <transition id="Permit REJECTED by SUPERVISOR(0)">
+        <name>
+          <text>Permit REJECTED by SUPERVISOR</text>
+        </name>
+      </transition>
+      <transition id="Permit FINAL_APPROVED by SUPERVISOR(0)">
+        <name>
+          <text>Permit FINAL_APPROVED by SUPERVISOR</text>
+        </name>
+      </transition>
+      <transition id="Send Reminder(0)">
+        <name>
+          <text>Send Reminder</text>
+        </name>
+      </transition>
+      <transition id="tau(0)">
+        <name>
+          <text>tau</text>
+        </name>
+      </transition>
+      <transition id="Declaration APPROVED by SUPERVISOR(0)">
+        <name>
+          <text>Declaration APPROVED by SUPERVISOR</text>
+        </name>
+      </transition>
+      <transition id="Declaration REJECTED by DIRECTOR(0)">
+        <name>
+          <text>Declaration REJECTED by DIRECTOR</text>
+        </name>
+      </transition>
+      <transition id="Declaration FINAL_APPROVED by SUPERVISOR(0)">
+        <name>
+          <text>Declaration FINAL_APPROVED by SUPERVISOR</text>
+        </name>
+      </transition>
+      <transition id="Permit APPROVED by ADMINISTRATION(0)">
+        <name>
+          <text>Permit APPROVED by ADMINISTRATION</text>
+        </name>
+      </transition>
+      <transition id="Permit APPROVED by PRE_APPROVER(0)">
+        <name>
+          <text>Permit APPROVED by PRE_APPROVER</text>
+        </name>
+      </transition>
+      <transition id="Declaration FINAL_APPROVED by DIRECTOR(0)">
+        <name>
+          <text>Declaration FINAL_APPROVED by DIRECTOR</text>
+        </name>
+      </transition>
+      <arc id="2067172835584" source="Payment Handled(0)" target="pistil" />
+      <arc id="2067172836880" source="Permit SUBMITTED by EMPLOYEE(0)" target="pistil" />
+      <arc id="2067172912720" source="tau(1)" target="end" />
+      <arc id="2067172836016" source="pistil" target="Declaration SUBMITTED by EMPLOYEE(0)" />
+      <arc id="2067172911856" source="pistil" target="Permit FINAL_APPROVED by DIRECTOR(0)" />
+      <arc id="2067172913104" source="Permit FINAL_APPROVED by SUPERVISOR(0)" target="pistil" />
+      <arc id="2067173322512" source="pistil" target="Permit APPROVED by BUDGET OWNER(0)" />
+      <arc id="2067173321744" source="Declaration APPROVED by SUPERVISOR(0)" target="pistil" />
+      <arc id="2067173322128" source="pistil" target="Payment Handled(0)" />
+      <arc id="2067172909456" source="Permit REJECTED by PRE_APPROVER(0)" target="pistil" />
+      <arc id="2067172909840" source="Permit APPROVED by BUDGET OWNER(0)" target="pistil" />
+      <arc id="2067172910224" source="pistil" target="Permit SUBMITTED by EMPLOYEE(0)" />
+      <arc id="2067172910608" source="pistil" target="Declaration REJECTED by ADMINISTRATION(0)" />
+      <arc id="2067172910992" source="Declaration APPROVED by ADMINISTRATION(0)" target="pistil" />
+      <arc id="2067172911376" source="Permit REJECTED by SUPERVISOR(0)" target="pistil" />
+      <arc id="2067172911760" source="Permit APPROVED by SUPERVISOR(0)" target="pistil" />
+      <arc id="2067172912240" source="pistil" target="Declaration SAVED by EMPLOYEE(0)" />
+      <arc id="2067172836400" source="pistil" target="Send Reminder(0)" />
+      <arc id="2067172836784" source="Declaration REJECTED by BUDGET OWNER(0)" target="pistil" />
+      <arc id="2067172912624" source="pistil" target="Declaration REJECTED by BUDGET OWNER(0)" />
+      <arc id="2067172835488" source="pistil" target="Permit APPROVED by SUPERVISOR(0)" />
+      <arc id="2067172836304" source="pistil" target="Permit REJECTED by EMPLOYEE(0)" />
+      <arc id="2067172835920" source="pistil" target="Start trip(0)" />
+      <arc id="2067172913008" source="Declaration REJECTED by DIRECTOR(0)" target="pistil" />
+      <arc id="2067172912336" source="pistil" target="Declaration APPROVED by SUPERVISOR(0)" />
+      <arc id="2067173322416" source="pistil" target="Permit APPROVED by ADMINISTRATION(0)" />
+      <arc id="2067173321648" source="Request Payment(0)" target="pistil" />
+      <arc id="2067173322032" source="pistil" target="Permit FINAL_APPROVED by SUPERVISOR(0)" />
+      <arc id="2067172909360" source="Declaration REJECTED by EMPLOYEE(0)" target="pistil" />
+      <arc id="2067172909744" source="Declaration REJECTED by SUPERVISOR(0)" target="pistil" />
+      <arc id="2067172910128" source="start" target="tau(0)" />
+      <arc id="2067172910512" source="pistil" target="Permit REJECTED by SUPERVISOR(0)" />
+      <arc id="2067172910896" source="Permit FINAL_APPROVED by DIRECTOR(0)" target="pistil" />
+      <arc id="2067172911280" source="Permit REJECTED by EMPLOYEE(0)" target="pistil" />
+      <arc id="2067172911664" source="Declaration REJECTED by ADMINISTRATION(0)" target="pistil" />
+      <arc id="2067172912144" source="pistil" target="Declaration FINAL_APPROVED by SUPERVISOR(0)" />
+      <arc id="2067172836688" source="Declaration FINAL_APPROVED by DIRECTOR(0)" target="pistil" />
+      <arc id="2067172912528" source="pistil" target="Declaration APPROVED by BUDGET OWNER(0)" />
+      <arc id="2067172835824" source="Declaration REJECTED by MISSING(0)" target="pistil" />
+      <arc id="2067172912912" source="Permit REJECTED by BUDGET OWNER(0)" target="pistil" />
+      <arc id="2067172836208" source="pistil" target="Declaration REJECTED by SUPERVISOR(0)" />
+      <arc id="2067172912048" source="pistil" target="End trip(0)" />
+      <arc id="2067172909264" source="Permit REJECTED by ADMINISTRATION(0)" target="pistil" />
+      <arc id="2067173322704" source="End trip(0)" target="pistil" />
+      <arc id="2067173321552" source="Send Reminder(0)" target="pistil" />
+      <arc id="2067173321936" source="pistil" target="tau(1)" />
+      <arc id="2067173322320" source="pistil" target="Permit REJECTED by PRE_APPROVER(0)" />
+      <arc id="2067172909648" source="Declaration FINAL_APPROVED by SUPERVISOR(0)" target="pistil" />
+      <arc id="2067172910032" source="pistil" target="Declaration APPROVED by PRE_APPROVER(0)" />
+      <arc id="2067172910416" source="pistil" target="Declaration FINAL_APPROVED by DIRECTOR(0)" />
+      <arc id="2067172910800" source="Start trip(0)" target="pistil" />
+      <arc id="2067172911184" source="Declaration REJECTED by PRE_APPROVER(0)" target="pistil" />
+      <arc id="2067172912432" source="pistil" target="Declaration REJECTED by DIRECTOR(0)" />
+      <arc id="2067172836592" source="tau(0)" target="pistil" />
+      <arc id="2067172835728" source="pistil" target="Permit APPROVED by PRE_APPROVER(0)" />
+      <arc id="2067172911568" source="Permit REJECTED by MISSING(0)" target="pistil" />
+      <arc id="2067172835680" source="Declaration APPROVED by BUDGET OWNER(0)" target="pistil" />
+      <arc id="2067172912816" source="Permit APPROVED by PRE_APPROVER(0)" target="pistil" />
+      <arc id="2067172836112" source="pistil" target="Declaration REJECTED by EMPLOYEE(0)" />
+      <arc id="2067172911952" source="pistil" target="Declaration REJECTED by PRE_APPROVER(0)" />
+      <arc id="2067172909552" source="Permit APPROVED by ADMINISTRATION(0)" target="pistil" />
+      <arc id="2067173322608" source="pistil" target="Permit REJECTED by DIRECTOR(0)" />
+      <arc id="2067173321456" source="Declaration SAVED by EMPLOYEE(0)" target="pistil" />
+      <arc id="2067173321840" source="pistil" target="Declaration APPROVED by ADMINISTRATION(0)" />
+      <arc id="2067173322224" source="pistil" target="Permit REJECTED by MISSING(0)" />
+      <arc id="2067172909168" source="Declaration APPROVED by PRE_APPROVER(0)" target="pistil" />
+      <arc id="2067172909936" source="pistil" target="Declaration REJECTED by MISSING(0)" />
+      <arc id="2067172910320" source="pistil" target="Request Payment(0)" />
+      <arc id="2067172910704" source="pistil" target="Permit REJECTED by BUDGET OWNER(0)" />
+      <arc id="2067172911088" source="Permit REJECTED by DIRECTOR(0)" target="pistil" />
+      <arc id="2067172836496" source="pistil" target="Permit REJECTED by ADMINISTRATION(0)" />
+      <arc id="2067172911472" source="Declaration SUBMITTED by EMPLOYEE(0)" target="pistil" />
+    </page>
+    </net>
+<finalmarkings>
+      <marking>
+        <place idref="end">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </pnml>

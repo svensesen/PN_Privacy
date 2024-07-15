@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imported_1713189275.492731" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imported_1713189275.492731</text>
+    </name>
+    <page id="n0">
+      <place id="start">
+        <name>
+          <text>start</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="pistil">
+        <name>
+          <text>pistil</text>
+        </name>
+      </place>
+      <place id="end">
+        <name>
+          <text>end</text>
+        </name>
+      </place>
+      <transition id="ZDBC_BEHAN(0)">
+        <name>
+          <text>ZDBC_BEHAN</text>
+        </name>
+      </transition>
+      <transition id="FIN(0)">
+        <name>
+          <text>FIN</text>
+        </name>
+      </transition>
+      <transition id="CODE NOK(0)">
+        <name>
+          <text>CODE NOK</text>
+        </name>
+      </transition>
+      <transition id="JOIN-PAT(0)">
+        <name>
+          <text>JOIN-PAT</text>
+        </name>
+      </transition>
+      <transition id="RELEASE(0)">
+        <name>
+          <text>RELEASE</text>
+        </name>
+      </transition>
+      <transition id="DELETE(0)">
+        <name>
+          <text>DELETE</text>
+        </name>
+      </transition>
+      <transition id="REJECT(0)">
+        <name>
+          <text>REJECT</text>
+        </name>
+      </transition>
+      <transition id="MANUAL(0)">
+        <name>
+          <text>MANUAL</text>
+        </name>
+      </transition>
+      <transition id="CODE OK(0)">
+        <name>
+          <text>CODE OK</text>
+        </name>
+      </transition>
+      <transition id="CHANGE END(0)">
+        <name>
+          <text>CHANGE END</text>
+        </name>
+      </transition>
+      <transition id="tau(1)">
+        <name>
+          <text>tau</text>
+        </name>
+      </transition>
+      <transition id="tau(0)">
+        <name>
+          <text>tau</text>
+        </name>
+      </transition>
+      <transition id="BILLED(0)">
+        <name>
+          <text>BILLED</text>
+        </name>
+      </transition>
+      <transition id="STORNO(0)">
+        <name>
+          <text>STORNO</text>
+        </name>
+      </transition>
+      <transition id="CHANGE DIAGN(0)">
+        <name>
+          <text>CHANGE DIAGN</text>
+        </name>
+      </transition>
+      <transition id="SET STATUS(0)">
+        <name>
+          <text>SET STATUS</text>
+        </name>
+      </transition>
+      <transition id="CODE ERROR(0)">
+        <name>
+          <text>CODE ERROR</text>
+        </name>
+      </transition>
+      <transition id="NEW(0)">
+        <name>
+          <text>NEW</text>
+        </name>
+      </transition>
+      <transition id="REOPEN(0)">
+        <name>
+          <text>REOPEN</text>
+        </name>
+      </transition>
+      <transition id="EMPTY(0)">
+        <name>
+          <text>EMPTY</text>
+        </name>
+      </transition>
+      <arc id="2067170248448" source="CODE OK(0)" target="pistil" />
+      <arc id="2067170249600" source="CODE ERROR(0)" target="pistil" />
+      <arc id="2067170246912" source="pistil" target="STORNO(0)" />
+      <arc id="2067170249984" source="tau(0)" target="pistil" />
+      <arc id="2067170249216" source="CODE NOK(0)" target="pistil" />
+      <arc id="2067170248592" source="pistil" target="CODE OK(0)" />
+      <arc id="2067170247056" source="pistil" target="CHANGE DIAGN(0)" />
+      <arc id="2067170250512" source="pistil" target="CODE ERROR(0)" />
+      <arc id="2067170247440" source="EMPTY(0)" target="pistil" />
+      <arc id="2067170251680" source="pistil" target="JOIN-PAT(0)" />
+      <arc id="2067170249888" source="SET STATUS(0)" target="pistil" />
+      <arc id="2067170250656" source="tau(1)" target="end" />
+      <arc id="2067170249504" source="pistil" target="ZDBC_BEHAN(0)" />
+      <arc id="2067170250176" source="pistil" target="CHANGE END(0)" />
+      <arc id="2067170248112" source="FIN(0)" target="pistil" />
+      <arc id="2067170247728" source="DELETE(0)" target="pistil" />
+      <arc id="2067170254272" source="NEW(0)" target="pistil" />
+      <arc id="2067170253888" source="BILLED(0)" target="pistil" />
+      <arc id="2067170253504" source="STORNO(0)" target="pistil" />
+      <arc id="2067170253120" source="CHANGE END(0)" target="pistil" />
+      <arc id="2067170252736" source="ZDBC_BEHAN(0)" target="pistil" />
+      <arc id="2067170252352" source="pistil" target="FIN(0)" />
+      <arc id="2067170251968" source="pistil" target="DELETE(0)" />
+      <arc id="2067170251584" source="pistil" target="REJECT(0)" />
+      <arc id="2067170254656" source="pistil" target="EMPTY(0)" />
+      <arc id="2067170247872" source="pistil" target="BILLED(0)" />
+      <arc id="2067170251344" source="pistil" target="RELEASE(0)" />
+      <arc id="2067170251728" source="pistil" target="CODE NOK(0)" />
+      <arc id="2067170252112" source="pistil" target="MANUAL(0)" />
+      <arc id="2067170248784" source="pistil" target="tau(1)" />
+      <arc id="2067170247632" source="MANUAL(0)" target="pistil" />
+      <arc id="2067170252640" source="start" target="tau(0)" />
+      <arc id="2067170254560" source="pistil" target="REOPEN(0)" />
+      <arc id="2067170249312" source="CHANGE DIAGN(0)" target="pistil" />
+      <arc id="2067170248928" source="pistil" target="NEW(0)" />
+      <arc id="2067170248544" source="RELEASE(0)" target="pistil" />
+      <arc id="2067170247392" source="REOPEN(0)" target="pistil" />
+      <arc id="2067170247920" source="JOIN-PAT(0)" target="pistil" />
+      <arc id="2067170246768" source="pistil" target="SET STATUS(0)" />
+      <arc id="2067170247152" source="REJECT(0)" target="pistil" />
+    </page>
+    </net>
+<finalmarkings>
+      <marking>
+        <place idref="end">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </pnml>

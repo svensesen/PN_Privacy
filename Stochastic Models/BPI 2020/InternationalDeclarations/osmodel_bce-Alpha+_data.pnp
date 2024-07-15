@@ -1,0 +1,298 @@
+# Places
+p n34
+p n35
+p n36
+p n37
+p n38
+p n39
+p n40
+p n41
+p n42
+p n43
+p n44
+p n45
+p n46
+p n47
+p n48
+p n49
+p n50
+p n51
+p n52
+p n53
+p n54
+p n55
+p n56
+p n57
+p n58
+p n59
+p n60
+p n61
+p n62
+p n63
+p n64
+p n65
+p n66
+p n67
+p n68
+p n69
+p n70
+p n71
+p n72
+p n73
+p n74
+p n75
+p n76
+p n77
+p n78
+p n79
+p n80
+p n81
+p n82
+
+# Transitions
+t Declaration_REJECTED_by_EMPLOYEE+(0) 1.0
+t Declaration_FINAL_APPROVED_by_SUPERVISOR+(0) 2.25
+t Request_Payment+(0) 2.0
+t Declaration_APPROVED_by_ADMINISTRATION+(0) 0.5
+t Permit_REJECTED_by_ADMINISTRATION+(0) 0.0
+t Permit_APPROVED_by_BUDGET_OWNER+(0) 0.5
+t Declaration_REJECTED_by_ADMINISTRATION+(0) 1.9999999999999998
+t Permit_REJECTED_by_DIRECTOR+(0) 1.0
+t Permit_REJECTED_by_EMPLOYEE+(0) 1.0
+t Permit_FINAL_APPROVED_by_SUPERVISOR+(0) 1.7499999999999998
+t Permit_REJECTED_by_MISSING+(0) 5.416666666666666
+t Permit_APPROVED_by_ADMINISTRATION+(0) 0.3333333333333333
+t Permit_SUBMITTED_by_EMPLOYEE+(0) 1612.75
+t Declaration_SUBMITTED_by_EMPLOYEE+(0) 1613.75
+t Declaration_REJECTED_by_SUPERVISOR+(0) 1.9999999999999998
+t Declaration_APPROVED_by_PRE_APPROVER+(0) 1.5833333333333333
+t Declaration_REJECTED_by_BUDGET_OWNER+(0) 0.8333333333333333
+t Declaration_APPROVED_by_BUDGET_OWNER+(0) 0.3333333333333333
+t End_trip+(0) 2.0
+t Send_Reminder+(0) 0.0
+t Permit_REJECTED_by_PRE_APPROVER+(0) 0.6666666666666666
+t Start_trip+(0) 1614.25
+t Permit_APPROVED_by_SUPERVISOR+(0) 2.4166666666666665
+t Declaration_APPROVED_by_SUPERVISOR+(0) 3.0833333333333335
+t Declaration_SAVED_by_EMPLOYEE+(0) 1614.25
+t Permit_APPROVED_by_PRE_APPROVER+(0) 0.3333333333333333
+t Declaration_FINAL_APPROVED_by_DIRECTOR+(0) 1.6666666666666665
+t Permit_REJECTED_by_BUDGET_OWNER+(0) 1.0833333333333333
+t Permit_REJECTED_by_SUPERVISOR+(0) 2.4166666666666665
+t Declaration_REJECTED_by_DIRECTOR+(0) 0.5
+t Declaration_REJECTED_by_MISSING+(0) 1.0
+t Permit_FINAL_APPROVED_by_DIRECTOR+(0) 0.8333333333333333
+t Payment_Handled+(0) 1.0
+t Declaration_REJECTED_by_PRE_APPROVER+(0) 1.5
+
+# Arcs
+a n64 Permit_APPROVED_by_PRE_APPROVER+(0)
+a n48 Permit_REJECTED_by_MISSING+(0)
+a Declaration_SAVED_by_EMPLOYEE+(0) n61
+a Permit_APPROVED_by_PRE_APPROVER+(0) n77
+a n36 Permit_REJECTED_by_BUDGET_OWNER+(0)
+a Declaration_APPROVED_by_PRE_APPROVER+(0) n59
+a Permit_SUBMITTED_by_EMPLOYEE+(0) n60
+a n81 End_trip+(0)
+a Declaration_APPROVED_by_ADMINISTRATION+(0) n55
+a Declaration_REJECTED_by_SUPERVISOR+(0) n76
+a n40 Declaration_APPROVED_by_SUPERVISOR+(0)
+a n40 Declaration_REJECTED_by_SUPERVISOR+(0)
+a n50 Declaration_FINAL_APPROVED_by_SUPERVISOR+(0)
+a n52 Declaration_SAVED_by_EMPLOYEE+(0)
+a Permit_APPROVED_by_BUDGET_OWNER+(0) n53
+a Declaration_SUBMITTED_by_EMPLOYEE+(0) n65
+a Declaration_APPROVED_by_PRE_APPROVER+(0) n42
+a n38 Payment_Handled+(0)
+a n64 Permit_APPROVED_by_ADMINISTRATION+(0)
+a Permit_APPROVED_by_PRE_APPROVER+(0) n78
+a Declaration_REJECTED_by_MISSING+(0) n34
+a Permit_APPROVED_by_PRE_APPROVER+(0) n73
+a n45 Declaration_REJECTED_by_BUDGET_OWNER+(0)
+a Permit_APPROVED_by_BUDGET_OWNER+(0) n60
+a n37 Declaration_SUBMITTED_by_EMPLOYEE+(0)
+a Declaration_REJECTED_by_BUDGET_OWNER+(0) n81
+a n62 Declaration_APPROVED_by_PRE_APPROVER+(0)
+a Declaration_REJECTED_by_PRE_APPROVER+(0) n49
+a n73 Permit_REJECTED_by_SUPERVISOR+(0)
+a Declaration_FINAL_APPROVED_by_SUPERVISOR+(0) n51
+a n82 Declaration_REJECTED_by_SUPERVISOR+(0)
+a n54 Declaration_APPROVED_by_PRE_APPROVER+(0)
+a Declaration_SUBMITTED_by_EMPLOYEE+(0) n39
+a n82 Declaration_APPROVED_by_SUPERVISOR+(0)
+a Permit_FINAL_APPROVED_by_SUPERVISOR+(0) n37
+a n57 Declaration_APPROVED_by_PRE_APPROVER+(0)
+a Permit_REJECTED_by_PRE_APPROVER+(0) n63
+a Request_Payment+(0) n66
+a Permit_REJECTED_by_SUPERVISOR+(0) n63
+a n72 Declaration_REJECTED_by_MISSING+(0)
+a Permit_REJECTED_by_DIRECTOR+(0) n63
+a n71 Permit_FINAL_APPROVED_by_DIRECTOR+(0)
+a n46 Declaration_REJECTED_by_EMPLOYEE+(0)
+a n41 Declaration_FINAL_APPROVED_by_DIRECTOR+(0)
+a Declaration_REJECTED_by_DIRECTOR+(0) n46
+a Declaration_APPROVED_by_ADMINISTRATION+(0) n49
+a n70 Request_Payment+(0)
+a Payment_Handled+(0) n66
+a n35 Payment_Handled+(0)
+a Permit_SUBMITTED_by_EMPLOYEE+(0) n64
+a Permit_FINAL_APPROVED_by_SUPERVISOR+(0) n47
+a Permit_FINAL_APPROVED_by_SUPERVISOR+(0) n49
+a n34 Start_trip+(0)
+a n55 Declaration_APPROVED_by_BUDGET_OWNER+(0)
+a n48 Declaration_APPROVED_by_SUPERVISOR+(0)
+a Start_trip+(0) n81
+a Declaration_APPROVED_by_ADMINISTRATION+(0) n40
+a n44 Permit_REJECTED_by_MISSING+(0)
+a n73 Permit_FINAL_APPROVED_by_DIRECTOR+(0)
+a Declaration_REJECTED_by_ADMINISTRATION+(0) n46
+a n76 End_trip+(0)
+a Permit_REJECTED_by_ADMINISTRATION+(0) n63
+a Permit_FINAL_APPROVED_by_DIRECTOR+(0) n49
+a Permit_APPROVED_by_PRE_APPROVER+(0) n34
+a Permit_APPROVED_by_ADMINISTRATION+(0) n78
+a Permit_FINAL_APPROVED_by_SUPERVISOR+(0) n58
+a n79 Permit_REJECTED_by_BUDGET_OWNER+(0)
+a n39 Declaration_REJECTED_by_PRE_APPROVER+(0)
+a Declaration_SUBMITTED_by_EMPLOYEE+(0) n44
+a n72 Request_Payment+(0)
+a Permit_APPROVED_by_ADMINISTRATION+(0) n36
+a Declaration_APPROVED_by_PRE_APPROVER+(0) n41
+a n68 Declaration_FINAL_APPROVED_by_DIRECTOR+(0)
+a n60 Permit_FINAL_APPROVED_by_SUPERVISOR+(0)
+a n52 Start_trip+(0)
+a n70 Declaration_REJECTED_by_DIRECTOR+(0)
+a Declaration_REJECTED_by_SUPERVISOR+(0) n46
+a n54 Declaration_APPROVED_by_ADMINISTRATION+(0)
+a Declaration_APPROVED_by_BUDGET_OWNER+(0) n82
+a Permit_FINAL_APPROVED_by_SUPERVISOR+(0) n69
+a Declaration_SUBMITTED_by_EMPLOYEE+(0) n54
+a n80 Permit_REJECTED_by_MISSING+(0)
+a Start_trip+(0) n74
+a Declaration_SUBMITTED_by_EMPLOYEE+(0) n80
+a n67 Permit_REJECTED_by_DIRECTOR+(0)
+a Declaration_REJECTED_by_SUPERVISOR+(0) n66
+a Declaration_SAVED_by_EMPLOYEE+(0) n44
+a n65 Declaration_REJECTED_by_ADMINISTRATION+(0)
+a n36 Permit_FINAL_APPROVED_by_SUPERVISOR+(0)
+a End_trip+(0) n66
+a n64 Permit_REJECTED_by_PRE_APPROVER+(0)
+a Permit_APPROVED_by_BUDGET_OWNER+(0) n77
+a n48 Permit_REJECTED_by_BUDGET_OWNER+(0)
+a n56 Permit_FINAL_APPROVED_by_SUPERVISOR+(0)
+a n39 Declaration_APPROVED_by_ADMINISTRATION+(0)
+a Declaration_APPROVED_by_BUDGET_OWNER+(0) n50
+a n52 Permit_SUBMITTED_by_EMPLOYEE+(0)
+a Declaration_REJECTED_by_BUDGET_OWNER+(0) n46
+a n68 Start_trip+(0)
+a n43 Declaration_REJECTED_by_ADMINISTRATION+(0)
+a n54 Declaration_REJECTED_by_PRE_APPROVER+(0)
+a Permit_REJECTED_by_BUDGET_OWNER+(0) n63
+a n60 Permit_APPROVED_by_SUPERVISOR+(0)
+a Declaration_FINAL_APPROVED_by_SUPERVISOR+(0) n66
+a n71 Permit_REJECTED_by_SUPERVISOR+(0)
+a n80 Declaration_FINAL_APPROVED_by_DIRECTOR+(0)
+a Declaration_REJECTED_by_MISSING+(0) n49
+a End_trip+(0) n48
+a n62 Permit_REJECTED_by_MISSING+(0)
+a Permit_REJECTED_by_MISSING+(0) n66
+a Declaration_REJECTED_by_PRE_APPROVER+(0) n46
+a n74 Declaration_REJECTED_by_SUPERVISOR+(0)
+a n79 Permit_APPROVED_by_BUDGET_OWNER+(0)
+a n65 Declaration_FINAL_APPROVED_by_SUPERVISOR+(0)
+a n43 Declaration_APPROVED_by_SUPERVISOR+(0)
+a Declaration_REJECTED_by_MISSING+(0) n61
+a n63 Permit_REJECTED_by_EMPLOYEE+(0)
+a n39 Declaration_FINAL_APPROVED_by_DIRECTOR+(0)
+a n65 Declaration_FINAL_APPROVED_by_DIRECTOR+(0)
+a n41 Declaration_REJECTED_by_SUPERVISOR+(0)
+a Permit_FINAL_APPROVED_by_SUPERVISOR+(0) n57
+a n42 Declaration_APPROVED_by_SUPERVISOR+(0)
+a Declaration_APPROVED_by_ADMINISTRATION+(0) n45
+a n51 Request_Payment+(0)
+a n45 Declaration_FINAL_APPROVED_by_SUPERVISOR+(0)
+a Declaration_APPROVED_by_ADMINISTRATION+(0) n59
+a Declaration_REJECTED_by_EMPLOYEE+(0) n66
+a Declaration_APPROVED_by_SUPERVISOR+(0) n51
+a Declaration_SUBMITTED_by_EMPLOYEE+(0) n43
+a n56 Permit_APPROVED_by_SUPERVISOR+(0)
+a n59 Declaration_APPROVED_by_SUPERVISOR+(0)
+a Declaration_FINAL_APPROVED_by_SUPERVISOR+(0) n35
+a n41 Declaration_FINAL_APPROVED_by_SUPERVISOR+(0)
+a Permit_FINAL_APPROVED_by_DIRECTOR+(0) n47
+a n36 Permit_APPROVED_by_SUPERVISOR+(0)
+a Declaration_SUBMITTED_by_EMPLOYEE+(0) n75
+a Permit_APPROVED_by_BUDGET_OWNER+(0) n73
+a Permit_FINAL_APPROVED_by_DIRECTOR+(0) n58
+a Declaration_SUBMITTED_by_EMPLOYEE+(0) n50
+a Declaration_APPROVED_by_SUPERVISOR+(0) n70
+a Permit_REJECTED_by_MISSING+(0) n38
+a Permit_APPROVED_by_ADMINISTRATION+(0) n79
+a n75 Declaration_FINAL_APPROVED_by_SUPERVISOR+(0)
+a n52 Declaration_SUBMITTED_by_EMPLOYEE+(0)
+a n77 Permit_REJECTED_by_SUPERVISOR+(0)
+a n75 Declaration_REJECTED_by_ADMINISTRATION+(0)
+a n38 Permit_SUBMITTED_by_EMPLOYEE+(0)
+a n78 Permit_REJECTED_by_SUPERVISOR+(0)
+a Declaration_APPROVED_by_PRE_APPROVER+(0) n68
+a n53 Permit_REJECTED_by_SUPERVISOR+(0)
+a Declaration_FINAL_APPROVED_by_DIRECTOR+(0) n72
+a n42 Start_trip+(0)
+a n74 Declaration_REJECTED_by_PRE_APPROVER+(0)
+a Declaration_REJECTED_by_ADMINISTRATION+(0) n47
+a n50 Declaration_APPROVED_by_SUPERVISOR+(0)
+a n55 Declaration_REJECTED_by_BUDGET_OWNER+(0)
+a n82 Declaration_FINAL_APPROVED_by_SUPERVISOR+(0)
+a n45 Declaration_REJECTED_by_SUPERVISOR+(0)
+a Permit_SUBMITTED_by_EMPLOYEE+(0) n56
+a n45 Declaration_APPROVED_by_SUPERVISOR+(0)
+a n53 Permit_FINAL_APPROVED_by_SUPERVISOR+(0)
+a n61 Permit_REJECTED_by_MISSING+(0)
+a n40 Permit_REJECTED_by_MISSING+(0)
+a Declaration_FINAL_APPROVED_by_SUPERVISOR+(0) n72
+a n36 Permit_REJECTED_by_SUPERVISOR+(0)
+a Send_Reminder+(0) n66
+a n55 Permit_REJECTED_by_MISSING+(0)
+a n57 Permit_REJECTED_by_MISSING+(0)
+a n37 Declaration_SAVED_by_EMPLOYEE+(0)
+a n35 Declaration_REJECTED_by_MISSING+(0)
+a n75 Declaration_REJECTED_by_PRE_APPROVER+(0)
+a Declaration_SAVED_by_EMPLOYEE+(0) n66
+a n54 Declaration_REJECTED_by_ADMINISTRATION+(0)
+a Declaration_APPROVED_by_ADMINISTRATION+(0) n61
+a n69 Declaration_SAVED_by_EMPLOYEE+(0)
+a n62 Declaration_REJECTED_by_ADMINISTRATION+(0)
+a n47 Declaration_SUBMITTED_by_EMPLOYEE+(0)
+a n78 Permit_APPROVED_by_SUPERVISOR+(0)
+a n59 Declaration_REJECTED_by_SUPERVISOR+(0)
+a Permit_FINAL_APPROVED_by_DIRECTOR+(0) n37
+a n69 Declaration_APPROVED_by_PRE_APPROVER+(0)
+a Declaration_REJECTED_by_EMPLOYEE+(0) n58
+a Permit_APPROVED_by_BUDGET_OWNER+(0) n71
+a Declaration_REJECTED_by_MISSING+(0) n47
+a n71 Permit_FINAL_APPROVED_by_SUPERVISOR+(0)
+a Permit_APPROVED_by_SUPERVISOR+(0) n67
+a Declaration_SUBMITTED_by_EMPLOYEE+(0) n62
+a n75 Declaration_APPROVED_by_SUPERVISOR+(0)
+a n49 Permit_REJECTED_by_MISSING+(0)
+a Declaration_REJECTED_by_PRE_APPROVER+(0) n61
+a n53 Permit_APPROVED_by_SUPERVISOR+(0)
+a n43 Permit_REJECTED_by_MISSING+(0)
+a n65 Declaration_REJECTED_by_PRE_APPROVER+(0)
+a Declaration_APPROVED_by_PRE_APPROVER+(0) n34
+a Declaration_REJECTED_by_BUDGET_OWNER+(0) n76
+a n40 Declaration_REJECTED_by_BUDGET_OWNER+(0)
+a Declaration_REJECTED_by_MISSING+(0) n66
+a Declaration_APPROVED_by_PRE_APPROVER+(0) n82
+a n39 Declaration_REJECTED_by_ADMINISTRATION+(0)
+a n58 Declaration_SAVED_by_EMPLOYEE+(0)
+a Permit_REJECTED_by_ADMINISTRATION+(0) n34
+a n77 Permit_APPROVED_by_SUPERVISOR+(0)
+a n59 Declaration_FINAL_APPROVED_by_SUPERVISOR+(0)
+a n80 Declaration_REJECTED_by_ADMINISTRATION+(0)
+a n56 Permit_REJECTED_by_PRE_APPROVER+(0)
+
+# Initial State
+i n52 1
+
+# Deadlock States Not Recorded

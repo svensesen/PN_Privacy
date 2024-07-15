@@ -1,0 +1,231 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imported_1713189276.8198166" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imported_1713189276.8198166</text>
+    </name>
+    <page id="n0">
+      <place id="start">
+        <name>
+          <text>start</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="end">
+        <name>
+          <text>end</text>
+        </name>
+      </place>
+      <place id="pistil">
+        <name>
+          <text>pistil</text>
+        </name>
+      </place>
+      <transition id="W_Call after offers(0)">
+        <name>
+          <text>W_Call after offers</text>
+        </name>
+      </transition>
+      <transition id="A_Complete(0)">
+        <name>
+          <text>A_Complete</text>
+        </name>
+      </transition>
+      <transition id="W_Validate application(0)">
+        <name>
+          <text>W_Validate application</text>
+        </name>
+      </transition>
+      <transition id="O_Refused(0)">
+        <name>
+          <text>O_Refused</text>
+        </name>
+      </transition>
+      <transition id="O_Cancelled(0)">
+        <name>
+          <text>O_Cancelled</text>
+        </name>
+      </transition>
+      <transition id="W_Assess potential fraud(0)">
+        <name>
+          <text>W_Assess potential fraud</text>
+        </name>
+      </transition>
+      <transition id="A_Validating(0)">
+        <name>
+          <text>A_Validating</text>
+        </name>
+      </transition>
+      <transition id="A_Pending(0)">
+        <name>
+          <text>A_Pending</text>
+        </name>
+      </transition>
+      <transition id="O_Sent (online only)(0)">
+        <name>
+          <text>O_Sent </text>
+        </name>
+      </transition>
+      <transition id="A_Create Application(0)">
+        <name>
+          <text>A_Create Application</text>
+        </name>
+      </transition>
+      <transition id="O_Accepted(0)">
+        <name>
+          <text>O_Accepted</text>
+        </name>
+      </transition>
+      <transition id="A_Accepted(0)">
+        <name>
+          <text>A_Accepted</text>
+        </name>
+      </transition>
+      <transition id="A_Denied(0)">
+        <name>
+          <text>A_Denied</text>
+        </name>
+      </transition>
+      <transition id="A_Concept(0)">
+        <name>
+          <text>A_Concept</text>
+        </name>
+      </transition>
+      <transition id="tau(0)">
+        <name>
+          <text>tau</text>
+        </name>
+      </transition>
+      <transition id="W_Complete application(0)">
+        <name>
+          <text>W_Complete application</text>
+        </name>
+      </transition>
+      <transition id="O_Create Offer(0)">
+        <name>
+          <text>O_Create Offer</text>
+        </name>
+      </transition>
+      <transition id="tau(1)">
+        <name>
+          <text>tau</text>
+        </name>
+      </transition>
+      <transition id="A_Cancelled(0)">
+        <name>
+          <text>A_Cancelled</text>
+        </name>
+      </transition>
+      <transition id="W_Personal Loan collection(0)">
+        <name>
+          <text>W_Personal Loan collection</text>
+        </name>
+      </transition>
+      <transition id="A_Incomplete(0)">
+        <name>
+          <text>A_Incomplete</text>
+        </name>
+      </transition>
+      <transition id="W_Handle leads(0)">
+        <name>
+          <text>W_Handle leads</text>
+        </name>
+      </transition>
+      <transition id="O_Sent (mail and online)(0)">
+        <name>
+          <text>O_Sent </text>
+        </name>
+      </transition>
+      <transition id="A_Submitted(0)">
+        <name>
+          <text>A_Submitted</text>
+        </name>
+      </transition>
+      <transition id="W_Shortened completion (0)">
+        <name>
+          <text>W_Shortened completion </text>
+        </name>
+      </transition>
+      <transition id="O_Created(0)">
+        <name>
+          <text>O_Created</text>
+        </name>
+      </transition>
+      <transition id="W_Call incomplete files(0)">
+        <name>
+          <text>W_Call incomplete files</text>
+        </name>
+      </transition>
+      <transition id="O_Returned(0)">
+        <name>
+          <text>O_Returned</text>
+        </name>
+      </transition>
+      <arc id="2067170421632" source="A_Create Application(0)" target="pistil"/>
+      <arc id="2067169524608" source="W_Call after offers(0)" target="pistil"/>
+      <arc id="2067169523840" source="pistil" target="A_Incomplete(0)"/>
+      <arc id="2067169522688" source="O_Create Offer(0)" target="pistil"/>
+      <arc id="2067169524224" source="W_Call incomplete files(0)" target="pistil"/>
+      <arc id="2067169149184" source="A_Accepted(0)" target="pistil"/>
+      <arc id="2067170129424" source="W_Shortened completion (0)" target="pistil"/>
+      <arc id="2067169524752" source="tau(1)" target="end"/>
+      <arc id="2067169522064" source="pistil" target="W_Validate application(0)"/>
+      <arc id="2067169525136" source="pistil" target="O_Cancelled(0)"/>
+      <arc id="2067169149712" source="W_Assess potential fraud(0)" target="pistil"/>
+      <arc id="2067170421536" source="pistil" target="A_Create Application(0)"/>
+      <arc id="2067169521824" source="O_Created(0)" target="pistil"/>
+      <arc id="2067169522592" source="pistil" target="O_Refused(0)"/>
+      <arc id="2067169522976" source="W_Handle leads(0)" target="pistil"/>
+      <arc id="2067169524128" source="pistil" target="A_Concept(0)"/>
+      <arc id="2067169522208" source="pistil" target="O_Created(0)"/>
+      <arc id="2067169523360" source="pistil" target="O_Returned(0)"/>
+      <arc id="2067169149088" source="pistil" target="A_Cancelled(0)"/>
+      <arc id="2066136057648" source="W_Personal Loan collection(0)" target="pistil"/>
+      <arc id="2067170128176" source="tau(0)" target="pistil"/>
+      <arc id="2067169523888" source="A_Validating(0)" target="pistil"/>
+      <arc id="2067169524656" source="pistil" target="A_Pending(0)"/>
+      <arc id="2067169525040" source="pistil" target="W_Call after offers(0)"/>
+      <arc id="2067170127936" source="W_Complete application(0)" target="pistil"/>
+      <arc id="2067169522496" source="O_Refused(0)" target="pistil"/>
+      <arc id="2067169521728" source="pistil" target="O_Accepted(0)"/>
+      <arc id="2067169525184" source="pistil" target="A_Denied(0)"/>
+      <arc id="2067169522880" source="pistil" target="O_Create Offer(0)"/>
+      <arc id="2067169523648" source="A_Cancelled(0)" target="pistil"/>
+      <arc id="2067169524416" source="pistil" target="W_Handle leads(0)"/>
+      <arc id="2067169151680" source="O_Cancelled(0)" target="pistil"/>
+      <arc id="2067169152448" source="pistil" target="A_Submitted(0)"/>
+      <arc id="2067169152832" source="O_Accepted(0)" target="pistil"/>
+      <arc id="2067170131536" source="A_Submitted(0)" target="pistil"/>
+      <arc id="2067169525328" source="O_Sent (mail and online)(0)" target="pistil"/>
+      <arc id="2067169523408" source="pistil" target="A_Accepted(0)"/>
+      <arc id="2067169521872" source="W_Validate application(0)" target="pistil"/>
+      <arc id="2067169524944" source="pistil" target="tau(1)"/>
+      <arc id="2067169524560" source="pistil" target="A_Validating(0)"/>
+      <arc id="2067169152592" source="A_Complete(0)" target="pistil"/>
+      <arc id="2067170421728" source="pistil" target="W_Call incomplete files(0)"/>
+      <arc id="2067170419040" source="A_Pending(0)" target="pistil"/>
+      <arc id="2067169525472" source="O_Returned(0)" target="pistil"/>
+      <arc id="2067169523168" source="pistil" target="O_Sent (online only)(0)"/>
+      <arc id="2067169523552" source="A_Incomplete(0)" target="pistil"/>
+      <arc id="2067169524320" source="pistil" target="W_Assess potential fraud(0)"/>
+      <arc id="2067169524704" source="pistil" target="W_Personal Loan collection(0)"/>
+      <arc id="2067169522400" source="pistil" target="A_Complete(0)"/>
+      <arc id="2067169525088" source="O_Sent (online only)(0)" target="pistil"/>
+      <arc id="2067170418800" source="A_Concept(0)" target="pistil"/>
+      <arc id="2067169523312" source="A_Denied(0)" target="pistil"/>
+      <arc id="2067169521776" source="start" target="tau(0)"/>
+      <arc id="2067169522928" source="pistil" target="W_Shortened completion (0)"/>
+      <arc id="2067169523696" source="pistil" target="W_Complete application(0)"/>
+      <arc id="2067169522160" source="pistil" target="O_Sent (mail and online)(0)"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="end">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

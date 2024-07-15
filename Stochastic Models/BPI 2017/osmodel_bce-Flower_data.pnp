@@ -1,0 +1,97 @@
+# Places
+p n28
+p n29
+p n30
+
+# Transitions
+t W_Call_after_offers(0) 179561.97018793886
+t A_Complete(0) 29469.692656072148
+t W_Validate_application(0) 196855.51727174575
+t O_Refused(0) 4411.715037952258
+t O_Cancelled(0) 19637.065146565772
+t W_Assess_potential_fraud(0) 3083.9720456995337
+t A_Validating(0) 36473.9362967316
+t A_Pending(0) 16188.504083885306
+t O_Sent_(0) 0.9396624148993096
+t A_Create_Application(0) 29607.823031062344
+t O_Accepted(0) 16188.504083885306
+t A_Accepted(0) 29607.823031062344
+t A_Denied(0) 3526.5530431171087
+t A_Concept(0) 29607.823031062344
+t tau(0) 31509.0
+t W_Complete_application(0) 139915.73357850718
+t O_Create_Offer(0) 40400.785528595814
+t tau(1) 0.9396624148993096
+t A_Cancelled(0) 9801.618649814698
+t W_Personal_Loan_collection(0) 20.67257312778481
+t A_Incomplete(0) 21663.91697550358
+t W_Handle_leads(0) 44412.20437780097
+t O_Sent_(1) 0.9396624148993096
+t A_Submitted(0) 19190.7254994886
+t W_Shortened_completion_(0) 223.63965474603566
+t O_Created(0) 40400.785528595814
+t W_Call_incomplete_files(0) 158360.36712056573
+t O_Returned(0) 21898.83257922841
+
+# Arcs
+a O_Refused(0) n30
+a n30 O_Accepted(0)
+a O_Cancelled(0) n30
+a A_Accepted(0) n30
+a n30 W_Call_after_offers(0)
+a n30 O_Refused(0)
+a n30 A_Pending(0)
+a A_Submitted(0) n30
+a W_Shortened_completion_(0) n30
+a W_Handle_leads(0) n30
+a tau(0) n30
+a n28 tau(0)
+a A_Create_Application(0) n30
+a n30 A_Denied(0)
+a A_Incomplete(0) n30
+a O_Created(0) n30
+a n30 O_Create_Offer(0)
+a n30 A_Validating(0)
+a W_Assess_potential_fraud(0) n30
+a n30 W_Shortened_completion_(0)
+a A_Validating(0) n30
+a O_Accepted(0) n30
+a n30 O_Sent_(1)
+a A_Complete(0) n30
+a A_Concept(0) n30
+a W_Call_incomplete_files(0) n30
+a n30 O_Sent_(0)
+a W_Complete_application(0) n30
+a O_Returned(0) n30
+a W_Validate_application(0) n30
+a n30 W_Assess_potential_fraud(0)
+a n30 A_Complete(0)
+a n30 A_Submitted(0)
+a n30 A_Concept(0)
+a A_Pending(0) n30
+a n30 A_Incomplete(0)
+a n30 W_Validate_application(0)
+a n30 tau(1)
+a n30 W_Handle_leads(0)
+a tau(1) n29
+a n30 O_Created(0)
+a W_Call_after_offers(0) n30
+a n30 O_Cancelled(0)
+a n30 W_Call_incomplete_files(0)
+a A_Denied(0) n30
+a n30 W_Complete_application(0)
+a W_Personal_Loan_collection(0) n30
+a A_Cancelled(0) n30
+a O_Create_Offer(0) n30
+a n30 O_Returned(0)
+a n30 A_Cancelled(0)
+a O_Sent_(1) n30
+a O_Sent_(0) n30
+a n30 A_Accepted(0)
+a n30 A_Create_Application(0)
+a n30 W_Personal_Loan_collection(0)
+
+# Initial State
+i n28 1
+
+# Deadlock States Not Recorded

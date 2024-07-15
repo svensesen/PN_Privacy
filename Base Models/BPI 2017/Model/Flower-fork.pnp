@@ -1,0 +1,97 @@
+# Places
+p start
+p pistil
+p end
+
+# Transitions
+t tau(0) 31509.0
+t tau(1) 0.21878191791185927
+t A_Create█Application(0) 0.21878245670768304
+t A_Submitted(0) 4468.205117214729
+t W_Handle█leads(0) 0.2303696502579707
+t W_Complete█application(0) 0.2303702387787954
+t A_Concept(0) 7258.754397464296
+t A_Accepted(0) 7894.202202092385
+t O_Create█Offer(0) 0.27388636629895696
+t O_Created(0) 11775.77806271823
+t O_Sent█(mail█and█online)(0) 0.31237241039182206
+t W_Call█after█offers(0) 0.31237337717256064
+t A_Complete(0) 9796.68417520842
+t W_Validate█application(0) 0.34595411191360304
+t A_Validating(0) 13428.598589012756
+t O_Returned(0) 9230.634491160343
+t W_Call█incomplete█files(0) 0.43067242554749613
+t A_Incomplete(0) 9929.187850306218
+t O_Accepted(0) 8077.588047849683
+t A_Pending(0) 8609.831268619344
+t A_Denied(0) 1999.6900684245406
+t O_Refused(0) 2535.7438143635873
+t O_Cancelled(0) 11479.797226401823
+t A_Cancelled(0) 6191.568714608419
+t O_Sent█(online█only)(0) 0.6159056825805802
+t W_Assess█potential█fraud(0) 0.6159077819835077
+t W_Personal█Loan█collection(0) 0.6159098813892724
+t W_Shortened█completion█(0) 0.615911980797874
+
+# Arcs
+a start tau(0)
+a pistil tau(1)
+a pistil A_Create█Application(0)
+a pistil A_Submitted(0)
+a pistil W_Handle█leads(0)
+a pistil W_Complete█application(0)
+a pistil A_Concept(0)
+a pistil A_Accepted(0)
+a pistil O_Create█Offer(0)
+a pistil O_Created(0)
+a pistil O_Sent█(mail█and█online)(0)
+a pistil W_Call█after█offers(0)
+a pistil A_Complete(0)
+a pistil W_Validate█application(0)
+a pistil A_Validating(0)
+a pistil O_Returned(0)
+a pistil W_Call█incomplete█files(0)
+a pistil A_Incomplete(0)
+a pistil O_Accepted(0)
+a pistil A_Pending(0)
+a pistil A_Denied(0)
+a pistil O_Refused(0)
+a pistil O_Cancelled(0)
+a pistil A_Cancelled(0)
+a pistil O_Sent█(online█only)(0)
+a pistil W_Assess█potential█fraud(0)
+a pistil W_Personal█Loan█collection(0)
+a pistil W_Shortened█completion█(0)
+a tau(0) pistil
+a tau(1) end
+a A_Create█Application(0) pistil
+a A_Submitted(0) pistil
+a W_Handle█leads(0) pistil
+a W_Complete█application(0) pistil
+a A_Concept(0) pistil
+a A_Accepted(0) pistil
+a O_Create█Offer(0) pistil
+a O_Created(0) pistil
+a O_Sent█(mail█and█online)(0) pistil
+a W_Call█after█offers(0) pistil
+a A_Complete(0) pistil
+a W_Validate█application(0) pistil
+a A_Validating(0) pistil
+a O_Returned(0) pistil
+a W_Call█incomplete█files(0) pistil
+a A_Incomplete(0) pistil
+a O_Accepted(0) pistil
+a A_Pending(0) pistil
+a A_Denied(0) pistil
+a O_Refused(0) pistil
+a O_Cancelled(0) pistil
+a A_Cancelled(0) pistil
+a O_Sent█(online█only)(0) pistil
+a W_Assess█potential█fraud(0) pistil
+a W_Personal█Loan█collection(0) pistil
+a W_Shortened█completion█(0) pistil
+
+# Initial State
+i start 1
+
+# Deadlock States Not Recorded

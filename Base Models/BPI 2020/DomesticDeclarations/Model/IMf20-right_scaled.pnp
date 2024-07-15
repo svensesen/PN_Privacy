@@ -1,0 +1,103 @@
+# Places
+p n1
+p n2
+p n3
+p n4
+p n5
+p n6
+p n7
+p n8
+p n9
+p n10
+p n11
+p n12
+p n13
+p n14
+p n15
+p n16
+
+# Transitions
+t tau(0) 1
+t Declaration█SAVED█by█EMPLOYEE(0) 1
+t tau(1) 1
+t tau(2) 1
+t Declaration█FOR_APPROVAL█by█SUPERVISOR(0) 1
+t Declaration█FOR_APPROVAL█by█PRE_APPROVER(0) 1
+t Declaration█REJECTED█by█BUDGET█OWNER(0) 1
+t tau(3) 1
+t tau(4) 1
+t tau(5) 1
+t Declaration█REJECTED█by█MISSING(0) 1
+t tau(6) 1
+t Declaration█APPROVED█by█PRE_APPROVER(0) 1
+t Declaration█REJECTED█by█PRE_APPROVER(0) 1
+t Declaration█REJECTED█by█SUPERVISOR(0) 1
+t Declaration█REJECTED█by█ADMINISTRATION(0) 1
+t Declaration█REJECTED█by█EMPLOYEE(0) 1
+t Declaration█SUBMITTED█by█EMPLOYEE(0) 1
+t tau(7) 1
+t Declaration█APPROVED█by█ADMINISTRATION(0) 1
+t tau(8) 1
+t Declaration█APPROVED█by█BUDGET█OWNER(0) 1
+t Declaration█FINAL_APPROVED█by█SUPERVISOR(0) 1
+t Request█Payment(0) 1
+t Payment█Handled(0) 1
+
+# Arcs
+a n1 Declaration█SAVED█by█EMPLOYEE(0)
+a n1 tau(0)
+a n3 tau(2)
+a n3 tau(1)
+a n3 Declaration█FOR_APPROVAL█by█PRE_APPROVER(0)
+a n3 Declaration█REJECTED█by█BUDGET█OWNER(0)
+a n3 Declaration█FOR_APPROVAL█by█SUPERVISOR(0)
+a n4 Declaration█SUBMITTED█by█EMPLOYEE(0)
+a n5 tau(3)
+a n6 Declaration█REJECTED█by█PRE_APPROVER(0)
+a n6 Declaration█REJECTED█by█ADMINISTRATION(0)
+a n6 Declaration█REJECTED█by█SUPERVISOR(0)
+a n7 Declaration█REJECTED█by█MISSING(0)
+a n7 tau(5)
+a n8 tau(4)
+a n9 tau(6)
+a n9 Declaration█APPROVED█by█PRE_APPROVER(0)
+a n10 tau(4)
+a n11 Declaration█REJECTED█by█EMPLOYEE(0)
+a n12 tau(7)
+a n12 Declaration█APPROVED█by█ADMINISTRATION(0)
+a n13 Declaration█FINAL_APPROVED█by█SUPERVISOR(0)
+a n14 tau(8)
+a n14 Declaration█APPROVED█by█BUDGET█OWNER(0)
+a n15 Request█Payment(0)
+a n16 Payment█Handled(0)
+a tau(0) n3
+a Declaration█SAVED█by█EMPLOYEE(0) n3
+a tau(1) n4
+a tau(2) n5
+a Declaration█FOR_APPROVAL█by█SUPERVISOR(0) n5
+a Declaration█FOR_APPROVAL█by█PRE_APPROVER(0) n5
+a Declaration█REJECTED█by█BUDGET█OWNER(0) n5
+a tau(3) n7
+a tau(3) n9
+a tau(4) n6
+a tau(5) n8
+a Declaration█REJECTED█by█MISSING(0) n8
+a tau(6) n10
+a Declaration█APPROVED█by█PRE_APPROVER(0) n10
+a Declaration█REJECTED█by█PRE_APPROVER(0) n11
+a Declaration█REJECTED█by█SUPERVISOR(0) n11
+a Declaration█REJECTED█by█ADMINISTRATION(0) n11
+a Declaration█REJECTED█by█EMPLOYEE(0) n4
+a Declaration█SUBMITTED█by█EMPLOYEE(0) n12
+a tau(7) n13
+a Declaration█APPROVED█by█ADMINISTRATION(0) n14
+a tau(8) n13
+a Declaration█APPROVED█by█BUDGET█OWNER(0) n13
+a Declaration█FINAL_APPROVED█by█SUPERVISOR(0) n15
+a Request█Payment(0) n16
+a Payment█Handled(0) n2
+
+# Initial State
+i n1 1
+
+# Deadlock States Not Recorded

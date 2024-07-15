@@ -1,0 +1,134 @@
+# Places
+p n26
+p n27
+p n28
+p n29
+p n30
+p n31
+p n32
+p n33
+p n34
+p n35
+p n36
+p n37
+p n38
+p n39
+p n40
+
+# Transitions
+t A_Submitted(0) 0.0
+t W_Complete_application(0) 0.0
+t A_Complete(0) 0.0
+t W_Personal_Loan_collection(0) 0.0
+t O_Accepted(0) 0.0
+t A_Accepted(0) 0.0
+t O_Sent_(online_only)(0) 0.0
+t A_Validating(0) 0.0
+t W_Call_after_offers(0) 0.0
+t O_Created(0) 0.0
+t A_Incomplete(0) 0.0
+t A_Concept(0) 0.0
+t W_Shortened_completion_(0) 0.0
+t A_Pending(0) 0.0
+t O_Cancelled(0) 0.0
+t A_Create_Application(0) 0.0
+t O_Returned(0) 0.0
+t W_Assess_potential_fraud(0) 0.0
+t A_Cancelled(0) 0.0
+t O_Sent_(mail_and_online)(0) 0.0
+t O_Create_Offer(0) 0.0
+t W_Call_incomplete_files(0) 0.0
+t W_Handle_leads(0) 0.0
+t A_Denied(0) 0.0
+t W_Validate_application(0) 0.0
+t O_Refused(0) 0.0
+
+# Arcs
+a O_Returned(0) n34
+a A_Accepted(0) n35
+a O_Create_Offer(0) n32
+a n29 W_Personal_Loan_collection(0)
+a n38 W_Assess_potential_fraud(0)
+a n28 W_Personal_Loan_collection(0)
+a W_Personal_Loan_collection(0) n28
+a n27 W_Personal_Loan_collection(0)
+a W_Personal_Loan_collection(0) n36
+a W_Personal_Loan_collection(0) n38
+a A_Accepted(0) n40
+a n35 O_Create_Offer(0)
+a W_Personal_Loan_collection(0) n39
+a O_Created(0) n35
+a A_Concept(0) n29
+a A_Validating(0) n40
+a n39 W_Personal_Loan_collection(0)
+a W_Personal_Loan_collection(0) n29
+a n29 A_Accepted(0)
+a n38 A_Cancelled(0)
+a O_Sent_(online_only)(0) n34
+a n36 W_Handle_leads(0)
+a W_Personal_Loan_collection(0) n27
+a n39 A_Complete(0)
+a n38 O_Create_Offer(0)
+a A_Create_Application(0) n27
+a n28 W_Assess_potential_fraud(0)
+a W_Personal_Loan_collection(0) n26
+a W_Personal_Loan_collection(0) n37
+a W_Call_incomplete_files(0) n34
+a W_Assess_potential_fraud(0) n34
+a n30 W_Personal_Loan_collection(0)
+a W_Personal_Loan_collection(0) n34
+a O_Cancelled(0) n34
+a A_Denied(0) n34
+a n31 W_Personal_Loan_collection(0)
+a A_Incomplete(0) n38
+a n28 A_Denied(0)
+a n35 W_Personal_Loan_collection(0)
+a n39 O_Accepted(0)
+a n28 O_Create_Offer(0)
+a O_Created(0) n37
+a A_Incomplete(0) n26
+a A_Create_Application(0) n31
+a n32 W_Personal_Loan_collection(0)
+a n30 A_Pending(0)
+a n33 A_Create_Application(0)
+a W_Handle_leads(0) n36
+a A_Accepted(0) n26
+a n37 A_Incomplete(0)
+a n36 A_Concept(0)
+a n27 A_Submitted(0)
+a W_Personal_Loan_collection(0) n31
+a n36 W_Personal_Loan_collection(0)
+a W_Validate_application(0) n34
+a A_Submitted(0) n36
+a n38 W_Personal_Loan_collection(0)
+a O_Accepted(0) n30
+a W_Personal_Loan_collection(0) n30
+a n28 O_Accepted(0)
+a n31 A_Concept(0)
+a A_Complete(0) n38
+a W_Personal_Loan_collection(0) n32
+a W_Assess_potential_fraud(0) n28
+a n38 A_Denied(0)
+a W_Personal_Loan_collection(0) n35
+a O_Created(0) n28
+a n40 W_Personal_Loan_collection(0)
+a O_Created(0) n39
+a n40 O_Create_Offer(0)
+a W_Personal_Loan_collection(0) n40
+a n26 W_Personal_Loan_collection(0)
+a n26 O_Create_Offer(0)
+a n37 A_Complete(0)
+a O_Sent_(mail_and_online)(0) n34
+a n37 W_Personal_Loan_collection(0)
+a W_Complete_application(0) n34
+a W_Call_after_offers(0) n34
+a W_Shortened_completion_(0) n34
+a A_Complete(0) n26
+a n32 O_Created(0)
+a n28 A_Cancelled(0)
+a W_Assess_potential_fraud(0) n38
+
+# Initial State
+i n33 1
+
+# Deadlock States Not Recorded

@@ -1,0 +1,326 @@
+# Places
+p n26
+p n39
+p n20
+p n11
+p n48
+p n56
+p n47
+p n50
+p n23
+p n38
+p n21
+p n52
+p n4
+p n10
+p n17
+p n44
+p n42
+p n32
+p n30
+p n37
+p n58
+p n14
+p n18
+p n15
+p n12
+p n49
+p n22
+p n9
+p n59
+p n41
+p n29
+p n25
+p n28
+p n60
+p n5
+p n3
+p n16
+p n53
+p n31
+p n43
+p n51
+p n45
+p n55
+p n46
+p n6
+p n57
+p n1
+p n34
+p n8
+p n7
+p n40
+p n24
+p n19
+p n2
+p n27
+p n13
+p n54
+p n35
+p n33
+p n36
+
+# Transitions
+t n117(0) 1
+t n63(0) 1
+t n91(0) 1
+t n111(0) 1
+t n74(0) 1
+t n83(0) 1
+t n70(0) 1
+t n126(0) 1
+t A_CANCELLED(0) 1
+t n68(0) 1
+t n96(0) 1
+t n80(0) 1
+t n73(0) 1
+t n121(0) 1
+t n109(0) 1
+t A_FINALIZED(0) 1
+t n65(0) 1
+t n98(0) 1
+t n132(0) 1
+t n122(0) 1
+t n84(0) 1
+t n69(0) 1
+t n85(0) 1
+t O_SELECTED(0) 1
+t n136(0) 1
+t n79(0) 1
+t n125(0) 1
+t n135(0) 1
+t A_APPROVED(0) 1
+t n93(0) 1
+t n99(0) 1
+t A_ACTIVATED(0) 1
+t W_Completeren█aanvraag(0) 1
+t n94(0) 1
+t n100(0) 1
+t n124(0) 1
+t n72(0) 1
+t A_SUBMITTED(0) 1
+t W_Valideren█aanvraag(0) 1
+t n88(0) 1
+t n67(0) 1
+t A_PARTLYSUBMITTED(0) 1
+t n128(0) 1
+t W_Afhandelen█leads(0) 1
+t O_SENT_BACK(0) 1
+t A_DECLINED(0) 1
+t O_CREATED(0) 1
+t n127(0) 1
+t n119(0) 1
+t A_PREACCEPTED(0) 1
+t W_Wijzigen█contractgegevens(0) 1
+t W_Beoordelen█fraude(0) 1
+t W_Nabellen█offertes(0) 1
+t n82(0) 1
+t n137(0) 1
+t n78(0) 1
+t O_ACCEPTED(0) 1
+t n77(0) 1
+t n113(0) 1
+t A_REGISTERED(0) 1
+t n106(0) 1
+t n87(0) 1
+t n64(0) 1
+t n107(0) 1
+t W_Nabellen█incomplete█dossiers(0) 1
+t n102(0) 1
+t n75(0) 1
+t n95(0) 1
+t O_SENT(0) 1
+t A_ACCEPTED(0) 1
+t O_CANCELLED(0) 1
+t n108(0) 1
+t n112(0) 1
+t O_DECLINED(0) 1
+t n133(0) 1
+t n118(0) 1
+t n89(0) 1
+
+# Arcs
+a n33 n137(0)
+a n40 O_SENT_BACK(0)
+a n36 n109(0)
+a n88(0) n21
+a n68(0) n5
+a O_CREATED(0) n35
+a n111(0) n39
+a n52 n128(0)
+a n23 W_Beoordelen█fraude(0)
+a n39 W_Nabellen█offertes(0)
+a n127(0) n51
+a n28 n96(0)
+a n78(0) n13
+a n38 n111(0)
+a A_SUBMITTED(0) n3
+a n26 n93(0)
+a n117(0) n45
+a n41 n107(0)
+a n137(0) n34
+a n70(0) n11
+a n87(0) n23
+a n135(0) n60
+a O_SENT(0) n6
+a n45 n121(0)
+a n18 n83(0)
+a n40 n113(0)
+a n60 W_Nabellen█incomplete█dossiers(0)
+a n16 n79(0)
+a n8 n69(0)
+a n42 O_CANCELLED(0)
+a n44 n118(0)
+a n34 A_DECLINED(0)
+a n19 W_Completeren█aanvraag(0)
+a n72(0) n11
+a n10 n72(0)
+a n45 n122(0)
+a n31 O_SELECTED(0)
+a n93(0) n32
+a n100(0) n34
+a n122(0) n48
+a A_PARTLYSUBMITTED(0) n24
+a n46 n118(0)
+a n28 n95(0)
+a n126(0) n50
+a n106(0) n40
+a n21 n63(0)
+a n1 A_SUBMITTED(0)
+a W_Valideren█aanvraag(0) n10
+a n107(0) n33
+a n112(0) n37
+a n49 n127(0)
+a n93(0) n28
+a n24 n89(0)
+a n57 n133(0)
+a n79(0) n17
+a W_Beoordelen█fraude(0) n22
+a W_Afhandelen█leads(0) n14
+a n37 n107(0)
+a n99(0) n29
+a W_Completeren█aanvraag(0) n18
+a n57 n132(0)
+a n18 n82(0)
+a n17 n63(0)
+a n34 n102(0)
+a A_DECLINED(0) n35
+a n54 n128(0)
+a A_PARTLYSUBMITTED(0) n20
+a n20 n85(0)
+a n58 n107(0)
+a n98(0) n31
+a n67(0) n7
+a n94(0) n25
+a n133(0) n60
+a A_PREACCEPTED(0) n27
+a n14 n77(0)
+a n9 n63(0)
+a n22 n87(0)
+a n91(0) n26
+a n128(0) n50
+a n6 n68(0)
+a n65(0) n7
+a n127(0) n55
+a n59 n135(0)
+a n4 n65(0)
+a n11 W_Valideren█aanvraag(0)
+a n83(0) n17
+a n48 W_Wijzigen█contractgegevens(0)
+a n85(0) n23
+a n32 A_FINALIZED(0)
+a n80(0) n19
+a A_FINALIZED(0) n34
+a n43 n119(0)
+a n6 n67(0)
+a n27 n91(0)
+a n118(0) n41
+a n32 n100(0)
+a n34 A_CANCELLED(0)
+a A_PARTLYSUBMITTED(0) n12
+a n12 n74(0)
+a n42 O_DECLINED(0)
+a n25 n63(0)
+a n36 n108(0)
+a n109(0) n39
+a n75(0) n15
+a n55 A_ACTIVATED(0)
+a n124(0) n48
+a n106(0) n57
+a n43 O_ACCEPTED(0)
+a n63(0) n2
+a n47 n125(0)
+a n22 n88(0)
+a n38 n112(0)
+a n30 n98(0)
+a A_REGISTERED(0) n52
+a n53 A_APPROVED(0)
+a n33 n94(0)
+a O_ACCEPTED(0) n44
+a O_SENT_BACK(0) n42
+a n84(0) n21
+a n64(0) n5
+a n16 n80(0)
+a n13 n63(0)
+a n127(0) n53
+a n49 n126(0)
+a n42 n117(0)
+a n50 n118(0)
+a O_DECLINED(0) n41
+a n69(0) n9
+a n117(0) n43
+a n117(0) n49
+a n34 O_CREATED(0)
+a n35 n106(0)
+a n96(0) n31
+a n24 A_PREACCEPTED(0)
+a O_CANCELLED(0) n41
+a n121(0) n46
+a n77(0) n15
+a n108(0) n37
+a n136(0) n58
+a n74(0) n13
+a W_Nabellen█incomplete█dossiers(0) n59
+a n10 n73(0)
+a n73(0) n9
+a n27 A_ACCEPTED(0)
+a A_PARTLYSUBMITTED(0) n4
+a n3 A_PARTLYSUBMITTED(0)
+a n8 n70(0)
+a n15 W_Afhandelen█leads(0)
+a n56 n128(0)
+a W_Wijzigen█contractgegevens(0) n47
+a A_PARTLYSUBMITTED(0) n8
+a n47 n124(0)
+a n12 n75(0)
+a n125(0) n46
+a n20 n84(0)
+a A_PARTLYSUBMITTED(0) n16
+a n119(0) n44
+a n5 n63(0)
+a A_APPROVED(0) n54
+a n113(0) n42
+a n29 n94(0)
+a n30 n99(0)
+a n7 O_SENT(0)
+a n89(0) n26
+a n106(0) n36
+a n82(0) n19
+a A_ACTIVATED(0) n56
+a O_SELECTED(0) n30
+a n14 n78(0)
+a n51 A_REGISTERED(0)
+a n4 n64(0)
+a n59 n136(0)
+a n102(0) n35
+a n132(0) n58
+a n95(0) n29
+a A_CANCELLED(0) n35
+a A_ACCEPTED(0) n26
+a W_Nabellen█offertes(0) n38
+
+# Initial State
+i n1 1
+
+# Deadlock States
+f n2 1

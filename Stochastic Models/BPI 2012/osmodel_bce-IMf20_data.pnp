@@ -1,0 +1,255 @@
+# Places
+p n59
+p n60
+p n61
+p n62
+p n63
+p n64
+p n65
+p n66
+p n67
+p n68
+p n69
+p n70
+p n71
+p n72
+p n73
+p n74
+p n75
+p n76
+p n77
+p n78
+p n79
+p n80
+p n81
+p n82
+p n83
+p n84
+p n85
+p n86
+p n87
+p n88
+p n89
+p n90
+p n91
+p n92
+p n93
+p n94
+p n95
+p n96
+p n97
+p n98
+p n99
+p n100
+p n101
+p n102
+p n103
+p n104
+p n105
+p n106
+p n107
+p n108
+
+# Transitions
+t tau(0) 0.5
+t tau(1) 0.5
+t tau(2) 0.5
+t O_SENT_BACK(0) 3253.0581765557163
+t tau(3) 0.9418234442836468
+t tau(4) 0.5
+t tau(5) 1.5
+t A_DECLINED(0) 0.999869041382923
+t A_ACCEPTED(0) 0.9998044583496285
+t tau(6) 1.0
+t tau(7) 0.5
+t A_ACTIVATED(0) 1.0
+t tau(8) 0.5
+t tau(9) 1.9554165037152912E-4
+t tau(10) 2.735229759299781E-4
+t tau(11) 0.5
+t tau(12) 0.5
+t tau(13) 3.0
+t tau(14) 0.5
+t A_PREACCEPTED(0) 1.0
+t W_Nabellen_incomplete_dossiers(0) 1.0
+t O_SENT(0) 0.9998577727208079
+t W_Wijzigen_contractgegevens(0) 0.9230769230769231
+t tau(15) 0.5
+t tau(16) 2.0
+t O_ACCEPTED(0) 1.0
+t O_SELECTED(0) 1.0
+t A_CANCELLED(0) 829.4316934336247
+t tau(17) 0.5
+t A_FINALIZED(0) 1.0
+t tau(18) 0.5
+t tau(19) 0.5
+t A_PARTLYSUBMITTED(0) 13087.0
+t A_REGISTERED(0) 1.0
+t tau(20) 2.0
+t tau(21) 0.29548688757877617
+t tau(22) 0.5
+t W_Completeren_aanvraag(0) 1.0
+t tau(23) 0.5
+t tau(24) 0.5
+t tau(25) 0.5
+t O_CANCELLED(0) 0.99972647702407
+t A_SUBMITTED(0) 13087.0
+t tau(26) 0.5
+t tau(27) 3.0
+t tau(28) 2.0
+t W_Nabellen_offertes(0) 1.0
+t tau(29) 0.5
+t O_CREATED(0) 2077.2728196787966
+t tau(30) 1.3095861707700367E-4
+t W_Afhandelen_leads(0) 1.0
+t A_APPROVED(0) 1.0
+t tau(31) 0.5
+t tau(32) 0.07692307692307693
+t tau(33) 1.4222727919214906E-4
+t W_Beoordelen_fraude(0) 1.0
+t W_Valideren_aanvraag(0) 1.0
+t tau(34) 1.5
+t tau(35) 1.0
+
+# Arcs
+a n105 W_Completeren_aanvraag(0)
+a n70 O_CANCELLED(0)
+a n70 tau(10)
+a n60 tau(4)
+a n103 A_ACTIVATED(0)
+a n68 tau(5)
+a n84 A_PARTLYSUBMITTED(0)
+a n106 A_DECLINED(0)
+a n80 tau(13)
+a A_REGISTERED(0) n66
+a n61 tau(0)
+a n68 tau(7)
+a n100 tau(13)
+a n92 tau(31)
+a n98 tau(29)
+a n60 tau(12)
+a n87 tau(23)
+a tau(11) n104
+a n62 W_Nabellen_incomplete_dossiers(0)
+a n78 tau(21)
+a tau(6) n90
+a tau(12) n102
+a tau(13) n83
+a W_Beoordelen_fraude(0) n92
+a O_SENT(0) n79
+a n90 A_REGISTERED(0)
+a n95 tau(20)
+a tau(8) n86
+a n71 tau(5)
+a tau(6) n93
+a O_ACCEPTED(0) n67
+a n73 tau(32)
+a n85 tau(19)
+a tau(34) n71
+a tau(20) n99
+a n102 O_SENT(0)
+a n94 tau(20)
+a n88 A_FINALIZED(0)
+a n87 tau(15)
+a n77 tau(6)
+a n67 tau(16)
+a tau(21) n98
+a n63 tau(22)
+a n81 tau(35)
+a n89 W_Valideren_aanvraag(0)
+a n61 tau(11)
+a tau(18) n62
+a n97 tau(34)
+a n104 tau(28)
+a tau(0) n89
+a O_SENT_BACK(0) n76
+a n82 tau(17)
+a tau(5) n100
+a W_Nabellen_incomplete_dossiers(0) n63
+a tau(15) n86
+a n91 tau(16)
+a n63 tau(26)
+a n98 tau(14)
+a O_CANCELLED(0) n94
+a n92 tau(25)
+a tau(17) n104
+a A_FINALIZED(0) n78
+a tau(3) n99
+a n73 W_Wijzigen_contractgegevens(0)
+a n107 tau(27)
+a n106 tau(30)
+a A_DECLINED(0) n100
+a n66 tau(27)
+a n74 O_SELECTED(0)
+a A_ACTIVATED(0) n96
+a n78 O_CREATED(0)
+a tau(31) n108
+a n82 tau(1)
+a n83 tau(28)
+a A_ACCEPTED(0) n81
+a tau(2) n78
+a n78 A_CANCELLED(0)
+a tau(14) n76
+a A_SUBMITTED(0) n84
+a W_Nabellen_offertes(0) n101
+a tau(24) n80
+a tau(4) n108
+a tau(6) n103
+a tau(30) n105
+a tau(35) n74
+a n64 tau(8)
+a O_CREATED(0) n98
+a n65 tau(9)
+a tau(12) n106
+a n69 A_SUBMITTED(0)
+a tau(7) n105
+a tau(22) n95
+a tau(25) n83
+a tau(9) n81
+a tau(28) n75
+a n101 tau(3)
+a n108 W_Beoordelen_fraude(0)
+a n102 tau(33)
+a tau(29) n85
+a A_APPROVED(0) n107
+a n79 tau(13)
+a tau(16) n94
+a tau(26) n62
+a n99 tau(34)
+a tau(35) n88
+a n64 tau(24)
+a A_PARTLYSUBMITTED(0) n60
+a tau(27) n91
+a n99 tau(2)
+a n76 W_Nabellen_offertes(0)
+a n59 A_PREACCEPTED(0)
+a tau(30) n59
+a tau(12) n87
+a O_SELECTED(0) n97
+a A_PREACCEPTED(0) n65
+a tau(19) n95
+a tau(10) n73
+a W_Completeren_aanvraag(0) n68
+a tau(23) n80
+a n72 O_ACCEPTED(0)
+a n86 W_Afhandelen_leads(0)
+a n101 O_SENT_BACK(0)
+a A_PARTLYSUBMITTED(0) n61
+a W_Wijzigen_contractgegevens(0) n77
+a A_CANCELLED(0) n98
+a tau(32) n77
+a W_Valideren_aanvraag(0) n82
+a n93 A_APPROVED(0)
+a tau(10) n72
+a W_Afhandelen_leads(0) n64
+a tau(1) n89
+a tau(29) n70
+a n85 tau(18)
+a tau(33) n79
+a n65 A_ACCEPTED(0)
+a n96 tau(27)
+
+# Initial State
+i n69 1
+
+# Deadlock States Not Recorded

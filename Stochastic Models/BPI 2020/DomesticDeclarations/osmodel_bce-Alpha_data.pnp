@@ -1,0 +1,109 @@
+# Places
+p n17
+p n18
+p n19
+p n20
+p n21
+p n22
+p n23
+p n24
+p n25
+p n26
+p n27
+p n28
+p n29
+p n30
+p n31
+p n32
+p n33
+
+# Transitions
+t Declaration_APPROVED_by_BUDGET_OWNER+(0) 0.5
+t Declaration_APPROVED_by_PRE_APPROVER+(0) 0.25
+t Declaration_REJECTED_by_SUPERVISOR+(0) 1.3333333333333333
+t Declaration_APPROVED_by_ADMINISTRATION+(0) 0.25
+t Declaration_FOR_APPROVAL_by_PRE_APPROVER+(0) 0.5833333333333333
+t Declaration_SUBMITTED_by_EMPLOYEE+(0) 5251.0
+t Declaration_FOR_APPROVAL_by_ADMINISTRATION+(0) 0.0
+t Declaration_REJECTED_by_EMPLOYEE+(0) 1.5
+t Payment_Handled+(0) 1.0
+t Declaration_FOR_APPROVAL_by_SUPERVISOR+(0) 0.5833333333333333
+t Declaration_REJECTED_by_ADMINISTRATION+(0) 0.0
+t Declaration_REJECTED_by_BUDGET_OWNER+(0) 0.8333333333333333
+t Declaration_REJECTED_by_MISSING+(0) 3.0
+t Request_Payment+(0) 1.5
+t Declaration_REJECTED_by_PRE_APPROVER+(0) 0.0
+t Declaration_SAVED_by_EMPLOYEE+(0) 5250.0
+t Declaration_FINAL_APPROVED_by_SUPERVISOR+(0) 2.6666666666666665
+
+# Arcs
+a n28 Declaration_REJECTED_by_MISSING+(0)
+a n17 Declaration_SUBMITTED_by_EMPLOYEE+(0)
+a n24 Declaration_REJECTED_by_SUPERVISOR+(0)
+a n23 Declaration_APPROVED_by_BUDGET_OWNER+(0)
+a n20 Declaration_SAVED_by_EMPLOYEE+(0)
+a Declaration_FINAL_APPROVED_by_SUPERVISOR+(0) n32
+a n22 Declaration_APPROVED_by_PRE_APPROVER+(0)
+a Request_Payment+(0) n28
+a Declaration_FOR_APPROVAL_by_PRE_APPROVER+(0) n28
+a Declaration_SUBMITTED_by_EMPLOYEE+(0) n22
+a Declaration_REJECTED_by_BUDGET_OWNER+(0) n29
+a Declaration_APPROVED_by_BUDGET_OWNER+(0) n30
+a n25 Declaration_REJECTED_by_SUPERVISOR+(0)
+a Declaration_REJECTED_by_MISSING+(0) n31
+a Declaration_APPROVED_by_ADMINISTRATION+(0) n25
+a n18 Declaration_REJECTED_by_MISSING+(0)
+a Declaration_APPROVED_by_ADMINISTRATION+(0) n23
+a Declaration_FINAL_APPROVED_by_SUPERVISOR+(0) n21
+a n30 Declaration_FINAL_APPROVED_by_SUPERVISOR+(0)
+a n20 Declaration_SUBMITTED_by_EMPLOYEE+(0)
+a Declaration_APPROVED_by_BUDGET_OWNER+(0) n24
+a Declaration_APPROVED_by_PRE_APPROVER+(0) n19
+a Declaration_SUBMITTED_by_EMPLOYEE+(0) n26
+a Payment_Handled+(0) n29
+a n18 Payment_Handled+(0)
+a Declaration_REJECTED_by_SUPERVISOR+(0) n31
+a Declaration_FOR_APPROVAL_by_PRE_APPROVER+(0) n32
+a Request_Payment+(0) n18
+a Declaration_REJECTED_by_ADMINISTRATION+(0) n29
+a n23 Declaration_REJECTED_by_BUDGET_OWNER+(0)
+a Declaration_REJECTED_by_PRE_APPROVER+(0) n29
+a Declaration_FOR_APPROVAL_by_SUPERVISOR+(0) n28
+a Declaration_REJECTED_by_SUPERVISOR+(0) n33
+a n22 Declaration_APPROVED_by_ADMINISTRATION+(0)
+a Declaration_FINAL_APPROVED_by_SUPERVISOR+(0) n27
+a n26 Declaration_FOR_APPROVAL_by_PRE_APPROVER+(0)
+a Declaration_REJECTED_by_BUDGET_OWNER+(0) n17
+a n22 Declaration_FOR_APPROVAL_by_SUPERVISOR+(0)
+a n24 Declaration_FINAL_APPROVED_by_SUPERVISOR+(0)
+a Payment_Handled+(0) n31
+a Declaration_REJECTED_by_SUPERVISOR+(0) n21
+a Declaration_REJECTED_by_SUPERVISOR+(0) n29
+a n27 Payment_Handled+(0)
+a Declaration_REJECTED_by_EMPLOYEE+(0) n31
+a n25 Declaration_FINAL_APPROVED_by_SUPERVISOR+(0)
+a Declaration_REJECTED_by_ADMINISTRATION+(0) n31
+a Declaration_SUBMITTED_by_EMPLOYEE+(0) n30
+a n22 Declaration_FOR_APPROVAL_by_PRE_APPROVER+(0)
+a n27 Declaration_REJECTED_by_MISSING+(0)
+a n21 Request_Payment+(0)
+a Declaration_REJECTED_by_MISSING+(0) n17
+a Declaration_APPROVED_by_ADMINISTRATION+(0) n19
+a n29 Declaration_REJECTED_by_EMPLOYEE+(0)
+a Declaration_SAVED_by_EMPLOYEE+(0) n31
+a n19 Declaration_FINAL_APPROVED_by_SUPERVISOR+(0)
+a n26 Declaration_FINAL_APPROVED_by_SUPERVISOR+(0)
+a n19 Declaration_REJECTED_by_SUPERVISOR+(0)
+a n33 Request_Payment+(0)
+a n25 Declaration_REJECTED_by_BUDGET_OWNER+(0)
+a n32 Declaration_REJECTED_by_MISSING+(0)
+a Declaration_SAVED_by_EMPLOYEE+(0) n21
+a n26 Declaration_FOR_APPROVAL_by_SUPERVISOR+(0)
+a Declaration_APPROVED_by_PRE_APPROVER+(0) n24
+a Declaration_FOR_APPROVAL_by_SUPERVISOR+(0) n32
+a n33 Declaration_REJECTED_by_EMPLOYEE+(0)
+
+# Initial State
+i n20 1
+
+# Deadlock States Not Recorded

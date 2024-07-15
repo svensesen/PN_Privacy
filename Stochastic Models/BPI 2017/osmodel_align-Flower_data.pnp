@@ -1,0 +1,97 @@
+# Places
+p n28
+p n29
+p n30
+
+# Transitions
+t W_Call_after_offers(0) 191092.0
+t A_Complete(0) 31362.0
+t W_Validate_application(0) 209496.0
+t O_Refused(0) 4695.0
+t O_Cancelled(0) 20898.0
+t W_Assess_potential_fraud(0) 3282.0
+t A_Validating(0) 38816.0
+t A_Pending(0) 17228.0
+t O_Sent_(0) 0.0
+t A_Create_Application(0) 31509.0
+t O_Accepted(0) 17228.0
+t A_Accepted(0) 31509.0
+t A_Denied(0) 3753.0
+t A_Concept(0) 31509.0
+t tau(0) 31509.0
+t W_Complete_application(0) 148900.0
+t O_Create_Offer(0) 42995.0
+t tau(1) 31509.0
+t A_Cancelled(0) 10431.0
+t W_Personal_Loan_collection(0) 22.0
+t A_Incomplete(0) 23055.0
+t W_Handle_leads(0) 47264.0
+t O_Sent_(1) 0.0
+t A_Submitted(0) 20423.0
+t W_Shortened_completion_(0) 238.0
+t O_Created(0) 42995.0
+t W_Call_incomplete_files(0) 168529.0
+t O_Returned(0) 23305.0
+
+# Arcs
+a A_Accepted(0) n30
+a n30 A_Pending(0)
+a n30 O_Returned(0)
+a n30 W_Validate_application(0)
+a A_Create_Application(0) n30
+a n28 tau(0)
+a tau(0) n30
+a n30 A_Accepted(0)
+a n30 A_Submitted(0)
+a n30 A_Denied(0)
+a n30 W_Call_after_offers(0)
+a n30 A_Validating(0)
+a n30 W_Handle_leads(0)
+a O_Sent_(1) n30
+a n30 W_Complete_application(0)
+a O_Accepted(0) n30
+a n30 O_Create_Offer(0)
+a W_Call_incomplete_files(0) n30
+a n30 O_Sent_(0)
+a n30 W_Call_incomplete_files(0)
+a W_Handle_leads(0) n30
+a W_Shortened_completion_(0) n30
+a O_Create_Offer(0) n30
+a A_Incomplete(0) n30
+a n30 A_Incomplete(0)
+a n30 O_Refused(0)
+a n30 O_Sent_(1)
+a A_Concept(0) n30
+a W_Complete_application(0) n30
+a W_Call_after_offers(0) n30
+a n30 tau(1)
+a O_Refused(0) n30
+a A_Pending(0) n30
+a n30 A_Concept(0)
+a n30 W_Assess_potential_fraud(0)
+a n30 A_Complete(0)
+a A_Denied(0) n30
+a W_Validate_application(0) n30
+a n30 A_Cancelled(0)
+a n30 W_Personal_Loan_collection(0)
+a n30 A_Create_Application(0)
+a A_Complete(0) n30
+a O_Returned(0) n30
+a tau(1) n29
+a A_Submitted(0) n30
+a n30 O_Cancelled(0)
+a n30 O_Created(0)
+a O_Created(0) n30
+a n30 W_Shortened_completion_(0)
+a W_Personal_Loan_collection(0) n30
+a A_Cancelled(0) n30
+a W_Assess_potential_fraud(0) n30
+a O_Cancelled(0) n30
+a O_Sent_(0) n30
+a n30 O_Accepted(0)
+a A_Validating(0) n30
+
+# Initial State
+i n28 1
+
+# Deadlock States Not Recorded

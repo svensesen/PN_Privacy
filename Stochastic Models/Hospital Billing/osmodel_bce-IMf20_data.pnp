@@ -1,0 +1,162 @@
+# Places
+p n38
+p n39
+p n40
+p n41
+p n42
+p n43
+p n44
+p n45
+p n46
+p n47
+p n48
+p n49
+p n50
+p n51
+p n52
+p n53
+p n54
+p n55
+p n56
+p n57
+p n58
+p n59
+p n60
+p n61
+p n62
+p n63
+p n64
+p n65
+
+# Transitions
+t NEW(0) 100000.0
+t tau(0) 0.5
+t tau(1) 0.5
+t BILLED(0) 1.0
+t tau(2) 0.5
+t tau(3) 0.5
+t CODE_ERROR(0) 0.6410256410256411
+t tau(4) 0.5
+t REJECT(0) 0.9995042141794744
+t tau(5) 2.0
+t tau(6) 0.008547008547008548
+t tau(7) 2.1413276231263382E-4
+t STORNO(0) 0.9996637525218561
+t ZDBC_BEHAN(0) 0.5
+t tau(8) 0.5
+t DELETE(0) 0.99987843423292
+t JOIN-PAT(0) 1.0
+t SET_STATUS(0) 0.9985835694050992
+t tau(9) 0.0022222222222222222
+t REOPEN(0) 0.9997858672376874
+t tau(10) 1.0
+t tau(11) 0.008547008547008548
+t CHANGE_END(0) 0.3247863247863248
+t tau(12) 0.008547008547008548
+t tau(13) 2.7616680475006904E-4
+t tau(14) 4.957858205255329E-4
+t tau(15) 0.008547008547008548
+t CODE_NOK(0) 0.9997238331952499
+t FIN(0) 40802.0
+t CODE_OK(0) 66278.0
+t CHANGE_DIAGN(0) 226.0
+t MANUAL(0) 1.0
+t tau(16) 1.2156576707999027E-4
+t tau(17) 0.00141643059490085
+t tau(18) 3.362474781439139E-4
+t tau(19) 0.5
+t EMPTY(0) 0.9977777777777778
+t RELEASE(0) 70265.0
+
+# Arcs
+a RELEASE(0) n64
+a n61 EMPTY(0)
+a n55 tau(14)
+a n63 CHANGE_DIAGN(0)
+a n50 tau(17)
+a n45 tau(7)
+a n55 REJECT(0)
+a n50 SET_STATUS(0)
+a STORNO(0) n63
+a n43 CHANGE_DIAGN(0)
+a tau(10) n50
+a n45 REOPEN(0)
+a BILLED(0) n61
+a FIN(0) n38
+a ZDBC_BEHAN(0) n42
+a n61 tau(9)
+a n39 tau(4)
+a REOPEN(0) n43
+a tau(10) n48
+a n56 JOIN-PAT(0)
+a CODE_OK(0) n57
+a n44 tau(5)
+a SET_STATUS(0) n62
+a n57 ZDBC_BEHAN(0)
+a MANUAL(0) n39
+a tau(10) n47
+a n48 CODE_NOK(0)
+a tau(2) n40
+a n52 tau(6)
+a tau(18) n63
+a n64 CODE_OK(0)
+a n65 NEW(0)
+a tau(1) n42
+a n52 tau(12)
+a tau(3) n52
+a tau(15) n56
+a n62 CHANGE_DIAGN(0)
+a n60 tau(5)
+a tau(19) n61
+a EMPTY(0) n44
+a tau(12) n59
+a n52 CODE_ERROR(0)
+a tau(10) n45
+a tau(9) n44
+a n49 tau(3)
+a n59 tau(10)
+a n47 tau(18)
+a n38 RELEASE(0)
+a n54 CHANGE_DIAGN(0)
+a n41 MANUAL(0)
+a tau(4) n38
+a tau(7) n43
+a tau(3) n46
+a n57 tau(1)
+a tau(0) n41
+a CODE_ERROR(0) n59
+a n48 tau(13)
+a tau(14) n54
+a n58 CHANGE_DIAGN(0)
+a tau(5) n40
+a n51 tau(19)
+a CHANGE_END(0) n59
+a n47 STORNO(0)
+a n51 tau(8)
+a n52 CHANGE_END(0)
+a n49 tau(2)
+a tau(16) n60
+a n46 DELETE(0)
+a n42 BILLED(0)
+a CHANGE_DIAGN(0) n53
+a n39 tau(0)
+a n53 FIN(0)
+a REJECT(0) n54
+a tau(8) n56
+a n46 tau(16)
+a DELETE(0) n60
+a tau(17) n62
+a NEW(0) n49
+a tau(13) n58
+a tau(10) n55
+a tau(11) n53
+a JOIN-PAT(0) n51
+a n52 tau(11)
+a n52 tau(15)
+a tau(6) n41
+a CODE_NOK(0) n58
+
+# Initial State
+i n65 1
+
+# Deadlock States Not Recorded

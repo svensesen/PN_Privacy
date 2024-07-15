@@ -1,0 +1,163 @@
+# Places
+p n4
+p n22
+p n3
+p n27
+p n20
+p n6
+p n14
+p n23
+p n25
+p n18
+p n26
+p n8
+p n1
+p n28
+p n11
+p n24
+p n12
+p n5
+p n13
+p n7
+p n2
+p n15
+p n10
+p n17
+p n9
+p n19
+p n21
+p n16
+
+# Transitions
+t MANUAL(0) 1
+t SET█STATUS(0) 1
+t CODE█OK(0) 1
+t n54(0) 1
+t n48(0) 1
+t n39(0) 1
+t n46(0) 1
+t n63(0) 1
+t CHANGE█DIAGN(0) 1
+t ZDBC_BEHAN(0) 1
+t n61(0) 1
+t n42(0) 1
+t REOPEN(0) 1
+t RELEASE(0) 1
+t EMPTY(0) 1
+t n31(0) 1
+t BILLED(0) 1
+t n32(0) 1
+t n65(0) 1
+t n52(0) 1
+t n36(0) 1
+t n35(0) 1
+t CODE█NOK(0) 1
+t REJECT(0) 1
+t CHANGE█END(0) 1
+t n64(0) 1
+t DELETE(0) 1
+t FIN(0) 1
+t n30(0) 1
+t NEW(0) 1
+t n55(0) 1
+t n33(0) 1
+t STORNO(0) 1
+t JOIN-PAT(0) 1
+t n44(0) 1
+t n40(0) 1
+t CODE█ERROR(0) 1
+t n58(0) 1
+
+# Arcs
+a n32(0) n2
+a n6 n52(0)
+a n35(0) n10
+a n3 n31(0)
+a n13 CHANGE█DIAGN(0)
+a n4 DELETE(0)
+a n31(0) n4
+a n55(0) n9
+a ZDBC_BEHAN(0) n26
+a n10 FIN(0)
+a n16 CODE█NOK(0)
+a n31(0) n6
+a CODE█OK(0) n25
+a n39(0) n14
+a n36(0) n11
+a n4 n33(0)
+a SET█STATUS(0) n19
+a CODE█ERROR(0) n11
+a n22 n55(0)
+a JOIN-PAT(0) n27
+a n1 NEW(0)
+a n3 n30(0)
+a n24 CODE█OK(0)
+a n54(0) n23
+a n9 RELEASE(0)
+a n44(0) n17
+a DELETE(0) n5
+a n58(0) n26
+a n6 CHANGE█END(0)
+a n33(0) n5
+a n11 n39(0)
+a NEW(0) n3
+a STORNO(0) n21
+a n19 CHANGE█DIAGN(0)
+a CHANGE█DIAGN(0) n10
+a n22 n54(0)
+a n63(0) n28
+a REJECT(0) n15
+a n30(0) n2
+a n25 ZDBC_BEHAN(0)
+a n6 CODE█ERROR(0)
+a n27 n64(0)
+a n16 n44(0)
+a CHANGE█END(0) n11
+a MANUAL(0) n22
+a n14 REJECT(0)
+a n25 n58(0)
+a n28 JOIN-PAT(0)
+a n17 CHANGE█DIAGN(0)
+a n26 BILLED(0)
+a n40(0) n13
+a n21 CHANGE█DIAGN(0)
+a EMPTY(0) n7
+a n6 n61(0)
+a n15 CHANGE█DIAGN(0)
+a BILLED(0) n8
+a n27 n63(0)
+a n18 n46(0)
+a n46(0) n19
+a CODE█NOK(0) n17
+a n6 n36(0)
+a n8 n65(0)
+a n42(0) n15
+a n52(0) n23
+a n39(0) n16
+a REOPEN(0) n13
+a n23 MANUAL(0)
+a n20 n48(0)
+a n14 n42(0)
+a n48(0) n21
+a n5 n32(0)
+a n12 n40(0)
+a n18 SET█STATUS(0)
+a n20 STORNO(0)
+a n6 n35(0)
+a n61(0) n28
+a FIN(0) n9
+a n64(0) n8
+a n65(0) n7
+a n39(0) n20
+a n12 REOPEN(0)
+a n7 n32(0)
+a n39(0) n18
+a n39(0) n12
+a RELEASE(0) n24
+a n8 EMPTY(0)
+
+# Initial State
+i n1 1
+
+# Deadlock States
+f n2 1

@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imported_1713189275.3157046" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imported_1713189275.3157046</text>
+    </name>
+    <page id="n0">
+      <place id="start">
+        <name>
+          <text>start</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="end">
+        <name>
+          <text>end</text>
+        </name>
+      </place>
+      <place id="pistil">
+        <name>
+          <text>pistil</text>
+        </name>
+      </place>
+      <transition id="Notify Result Appeal to Offender(0)">
+        <name>
+          <text>Notify Result Appeal to Offender</text>
+        </name>
+      </transition>
+      <transition id="Send Appeal to Prefecture(0)">
+        <name>
+          <text>Send Appeal to Prefecture</text>
+        </name>
+      </transition>
+      <transition id="Receive Result Appeal from Prefecture(0)">
+        <name>
+          <text>Receive Result Appeal from Prefecture</text>
+        </name>
+      </transition>
+      <transition id="Insert Date Appeal to Prefecture(0)">
+        <name>
+          <text>Insert Date Appeal to Prefecture</text>
+        </name>
+      </transition>
+      <transition id="Appeal to Judge(0)">
+        <name>
+          <text>Appeal to Judge</text>
+        </name>
+      </transition>
+      <transition id="Create Fine(0)">
+        <name>
+          <text>Create Fine</text>
+        </name>
+      </transition>
+      <transition id="Send Fine(0)">
+        <name>
+          <text>Send Fine</text>
+        </name>
+      </transition>
+      <transition id="Add penalty(0)">
+        <name>
+          <text>Add penalty</text>
+        </name>
+      </transition>
+      <transition id="Send for Credit Collection(0)">
+        <name>
+          <text>Send for Credit Collection</text>
+        </name>
+      </transition>
+      <transition id="tau(0)">
+        <name>
+          <text>tau</text>
+        </name>
+      </transition>
+      <transition id="tau(1)">
+        <name>
+          <text>tau</text>
+        </name>
+      </transition>
+      <transition id="Insert Fine Notification(0)">
+        <name>
+          <text>Insert Fine Notification</text>
+        </name>
+      </transition>
+      <transition id="Payment(0)">
+        <name>
+          <text>Payment</text>
+        </name>
+      </transition>
+      <arc id="2067169501440" source="Create Fine(0)" target="pistil" />
+      <arc id="2067169502208" source="pistil" target="Payment(0)" />
+      <arc id="2067169503888" source="Insert Fine Notification(0)" target="pistil" />
+      <arc id="2067169501584" source="pistil" target="Insert Fine Notification(0)" />
+      <arc id="2067169503120" source="Send for Credit Collection(0)" target="pistil" />
+      <arc id="2067169503504" source="pistil" target="Send Appeal to Prefecture(0)" />
+      <arc id="2067170422160" source="Appeal to Judge(0)" target="pistil" />
+      <arc id="2067170421008" source="pistil" target="Send Fine(0)" />
+      <arc id="2067170419856" source="pistil" target="Create Fine(0)" />
+      <arc id="2067169502496" source="pistil" target="Add penalty(0)" />
+      <arc id="2067169503264" source="Add penalty(0)" target="pistil" />
+      <arc id="2067169503024" source="pistil" target="Insert Date Appeal to Prefecture(0)" />
+      <arc id="2067169501488" source="pistil" target="Notify Result Appeal to Offender(0)" />
+      <arc id="2067169501248" source="pistil" target="Receive Result Appeal from Prefecture(0)" />
+      <arc id="2067169503552" source="start" target="tau(0)" />
+      <arc id="2067169502160" source="Payment(0)" target="pistil" />
+      <arc id="2067169501392" source="Send Appeal to Prefecture(0)" target="pistil" />
+      <arc id="2067170420048" source="pistil" target="Appeal to Judge(0)" />
+      <arc id="2067170419280" source="tau(1)" target="end" />
+      <arc id="2067169502688" source="Notify Result Appeal to Offender(0)" target="pistil" />
+      <arc id="2067169503456" source="Send Fine(0)" target="pistil" />
+      <arc id="2067169501536" source="pistil" target="Send for Credit Collection(0)" />
+      <arc id="2067169501680" source="Receive Result Appeal from Prefecture(0)" target="pistil" />
+      <arc id="2067169501296" source="Insert Date Appeal to Prefecture(0)" target="pistil" />
+      <arc id="2067169502064" source="pistil" target="tau(1)" />
+      <arc id="2067169503216" source="tau(0)" target="pistil" />
+    </page>
+    </net>
+<finalmarkings>
+      <marking>
+        <place idref="end">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </pnml>

@@ -1,0 +1,18 @@
+<runStats miner="Fork Distributed (Bill Clinton) Estimator" machineName="LAPTOP-UTOPLPT0" runnerVersion="dev">
+   <inputLogFileName>data.xes</inputLogFileName>
+   <outputModelFileName>var/BPI 2020/PrepaidTravelCost\osmodel_bce-Heuristic_data.pnml</outputModelFileName>
+   <runDate>2024-05-06 19:41:27.974 CEST</runDate>
+   <taskRunStats class="java.util.LinkedList">
+      <taskStats taskName="spmrunner_estimator" runState="FAILED">
+         <duration>697</duration>
+         <start>1715017287974</start>
+         <measureStats measure="LOG_EVENT_COUNT">
+            <number class="java.lang.Integer">18246</number>
+         </measureStats>
+         <measureStats measure="LOG_TRACE_COUNT">
+            <number class="java.lang.Integer">2099</number>
+         </measureStats>
+      </taskStats>
+   </taskRunStats>
+   <runState>FAILED</runState>
+</runStats>
