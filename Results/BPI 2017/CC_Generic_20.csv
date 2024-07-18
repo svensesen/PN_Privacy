@@ -1,0 +1,249 @@
+Sensitive Activities,Background Size,Confidence Privacy
+"('O_Sent (online only)',)",1,1.8039781161116037
+"('O_Sent (online only)',)",2,1.7524196522689939
+"('O_Sent (online only)',)",3,1.3845389767592138
+"('O_Sent (online only)',)",4,1.0247716070323283
+"('O_Refused',)",1,0.32941979706351665
+"('O_Refused',)",2,0.3081576175086094
+"('O_Refused',)",3,0.2265723307421189
+"('O_Refused',)",4,0.1504266512038394
+"('W_Assess potential fraud',)",1,34.60742793579393
+"('W_Assess potential fraud',)",2,33.41998628439478
+"('W_Assess potential fraud',)",3,25.622316382161756
+"('W_Assess potential fraud',)",4,17.900566169743957
+"('W_Shortened completion ',)",1,629.5360591819878
+"('W_Shortened completion ',)",2,571.8647179214668
+"('W_Shortened completion ',)",3,428.5614452351089
+"('W_Shortened completion ',)",4,307.2004765094807
+"('A_Denied',)",1,0.3124689415798617
+"('A_Denied',)",2,0.2922864004778225
+"('A_Denied',)",3,0.21496366172538375
+"('A_Denied',)",4,0.1427944770449773
+"('W_Personal Loan collection',)",1,1393945.3906826004
+"('W_Personal Loan collection',)",2,1237636.100561798
+"('W_Personal Loan collection',)",3,852782.2577718025
+"('W_Personal Loan collection',)",4,525737.3615695033
+"('O_Sent (online only)', 'O_Refused')",1,1.9248713799002204
+"('O_Sent (online only)', 'O_Refused')",2,1.9633275830241756
+"('O_Sent (online only)', 'O_Refused')",3,1.6161147981666788
+"('O_Sent (online only)', 'O_Refused')",4,1.2353779364172344
+"('O_Sent (online only)', 'W_Assess potential fraud')",1,36.70909622378547
+"('O_Sent (online only)', 'W_Assess potential fraud')",2,36.92551286425653
+"('O_Sent (online only)', 'W_Assess potential fraud')",3,29.574549699412714
+"('O_Sent (online only)', 'W_Assess potential fraud')",4,21.64627847378701
+"('O_Sent (online only)', 'W_Shortened completion ')",1,656.4301599435192
+"('O_Sent (online only)', 'W_Shortened completion ')",2,619.7464021921859
+"('O_Sent (online only)', 'W_Shortened completion ')",3,483.89672574168895
+"('O_Sent (online only)', 'W_Shortened completion ')",4,362.2004421602008
+"('O_Sent (online only)', 'A_Denied')",1,1.923183890312096
+"('O_Sent (online only)', 'A_Denied')",2,1.9592871390282347
+"('O_Sent (online only)', 'A_Denied')",3,1.6113911343716953
+"('O_Sent (online only)', 'A_Denied')",4,1.2311333007433394
+"('O_Sent (online only)', 'W_Personal Loan collection')",1,1452027.1081216158
+"('O_Sent (online only)', 'W_Personal Loan collection')",2,1343962.907050093
+"('O_Sent (online only)', 'W_Personal Loan collection')",3,968761.2136199166
+"('O_Sent (online only)', 'W_Personal Loan collection')",4,626078.5903176144
+"('O_Refused', 'W_Assess potential fraud')",1,34.8713914112112
+"('O_Refused', 'W_Assess potential fraud')",2,34.6150861720357
+"('O_Refused', 'W_Assess potential fraud')",3,27.121340306823665
+"('O_Refused', 'W_Assess potential fraud')",4,19.24693558598654
+"('O_Refused', 'W_Shortened completion ')",1,656.0970478670337
+"('O_Refused', 'W_Shortened completion ')",2,615.2535275039739
+"('O_Refused', 'W_Shortened completion ')",3,474.48036294140957
+"('O_Refused', 'W_Shortened completion ')",4,349.0180808342316
+"('O_Refused', 'A_Denied')",1,0.31025255655549017
+"('O_Refused', 'A_Denied')",2,0.2964540729914773
+"('O_Refused', 'A_Denied')",3,0.22077183069320702
+"('O_Refused', 'A_Denied')",4,0.14716811516706318
+"('O_Refused', 'W_Personal Loan collection')",1,1430998.2900271656
+"('O_Refused', 'W_Personal Loan collection')",2,1304490.96630811
+"('O_Refused', 'W_Personal Loan collection')",3,916631.7197732056
+"('O_Refused', 'W_Personal Loan collection')",4,571955.3047824865
+"('W_Assess potential fraud', 'W_Shortened completion ')",1,685.6320556811648
+"('W_Assess potential fraud', 'W_Shortened completion ')",2,648.9795804793071
+"('W_Assess potential fraud', 'W_Shortened completion ')",3,507.54307547186585
+"('W_Assess potential fraud', 'W_Shortened completion ')",4,379.84045469192404
+"('W_Assess potential fraud', 'A_Denied')",1,34.856642848724114
+"('W_Assess potential fraud', 'A_Denied')",2,34.60235111201981
+"('W_Assess potential fraud', 'A_Denied')",3,27.112356034123632
+"('W_Assess potential fraud', 'A_Denied')",4,19.240977305236058
+"('W_Assess potential fraud', 'W_Personal Loan collection')",1,1451801.6991611393
+"('W_Assess potential fraud', 'W_Personal Loan collection')",2,1339096.2535609812
+"('W_Assess potential fraud', 'W_Personal Loan collection')",3,959483.6169934511
+"('W_Assess potential fraud', 'W_Personal Loan collection')",4,615063.4335297865
+"('W_Shortened completion ', 'A_Denied')",1,656.0794224211933
+"('W_Shortened completion ', 'A_Denied')",2,615.2374769647475
+"('W_Shortened completion ', 'A_Denied')",3,474.4689943304108
+"('W_Shortened completion ', 'A_Denied')",4,349.01088481653795
+"('W_Shortened completion ', 'W_Personal Loan collection')",1,1452668.013009469
+"('W_Shortened completion ', 'W_Personal Loan collection')",2,1339925.894626643
+"('W_Shortened completion ', 'W_Personal Loan collection')",3,956121.5766376972
+"('W_Shortened completion ', 'W_Personal Loan collection')",4,607202.6095332943
+"('A_Denied', 'W_Personal Loan collection')",1,1430748.5686855617
+"('A_Denied', 'W_Personal Loan collection')",2,1304254.3487515422
+"('A_Denied', 'W_Personal Loan collection')",3,916451.9436752362
+"('A_Denied', 'W_Personal Loan collection')",4,571829.3814227687
+"('O_Sent (online only)', 'O_Refused', 'W_Assess potential fraud')",1,37.075913254133575
+"('O_Sent (online only)', 'O_Refused', 'W_Assess potential fraud')",2,38.37316279469925
+"('O_Sent (online only)', 'O_Refused', 'W_Assess potential fraud')",3,31.442392351473696
+"('O_Sent (online only)', 'O_Refused', 'W_Assess potential fraud')",4,23.406186283428376
+"('O_Sent (online only)', 'O_Refused', 'W_Shortened completion ')",1,685.004933617035
+"('O_Sent (online only)', 'O_Refused', 'W_Shortened completion ')",2,668.1840793749499
+"('O_Sent (online only)', 'O_Refused', 'W_Shortened completion ')",3,537.2380261040068
+"('O_Sent (online only)', 'O_Refused', 'W_Shortened completion ')",4,412.94966473529877
+"('O_Sent (online only)', 'O_Refused', 'A_Denied')",1,1.9742382412325714
+"('O_Sent (online only)', 'O_Refused', 'A_Denied')",2,2.0782211908094115
+"('O_Sent (online only)', 'O_Refused', 'A_Denied')",3,1.7549855722193224
+"('O_Sent (online only)', 'O_Refused', 'A_Denied')",4,1.3679981662771372
+"('O_Sent (online only)', 'O_Refused', 'W_Personal Loan collection')",1,1493216.2951524227
+"('O_Sent (online only)', 'O_Refused', 'W_Personal Loan collection')",2,1420446.4528467844
+"('O_Sent (online only)', 'O_Refused', 'W_Personal Loan collection')",3,1045190.1876043663
+"('O_Sent (online only)', 'O_Refused', 'W_Personal Loan collection')",4,684366.9994136676
+"('O_Sent (online only)', 'W_Assess potential fraud', 'W_Shortened completion ')",1,715.4423518938848
+"('O_Sent (online only)', 'W_Assess potential fraud', 'W_Shortened completion ')",2,705.0942398130876
+"('O_Sent (online only)', 'W_Assess potential fraud', 'W_Shortened completion ')",3,575.6210347241781
+"('O_Sent (online only)', 'W_Assess potential fraud', 'W_Shortened completion ')",4,450.7412699178607
+"('O_Sent (online only)', 'W_Assess potential fraud', 'A_Denied')",1,37.06052344979923
+"('O_Sent (online only)', 'W_Assess potential fraud', 'A_Denied')",2,38.35933480424705
+"('O_Sent (online only)', 'W_Assess potential fraud', 'A_Denied')",3,31.432221391831085
+"('O_Sent (online only)', 'W_Assess potential fraud', 'A_Denied')",4,23.399141410087875
+"('O_Sent (online only)', 'W_Assess potential fraud', 'W_Personal Loan collection')",1,1514924.1999679827
+"('O_Sent (online only)', 'W_Assess potential fraud', 'W_Personal Loan collection')",2,1459016.0487827356
+"('O_Sent (online only)', 'W_Assess potential fraud', 'W_Personal Loan collection')",3,1095313.2117188305
+"('O_Sent (online only)', 'W_Assess potential fraud', 'W_Personal Loan collection')",4,737050.6179735227
+"('O_Sent (online only)', 'W_Shortened completion ', 'A_Denied')",1,685.0032058316789
+"('O_Sent (online only)', 'W_Shortened completion ', 'A_Denied')",2,668.1808708496998
+"('O_Sent (online only)', 'W_Shortened completion ', 'A_Denied')",3,537.2345134823481
+"('O_Sent (online only)', 'W_Shortened completion ', 'A_Denied')",4,412.9466124506659
+"('O_Sent (online only)', 'W_Shortened completion ', 'W_Personal Loan collection')",1,1515827.4918359676
+"('O_Sent (online only)', 'W_Shortened completion ', 'W_Personal Loan collection')",2,1459919.2583308707
+"('O_Sent (online only)', 'W_Shortened completion ', 'W_Personal Loan collection')",3,1092565.451511313
+"('O_Sent (online only)', 'W_Shortened completion ', 'W_Personal Loan collection')",4,729801.4431510415
+"('O_Sent (online only)', 'A_Denied', 'W_Personal Loan collection')",1,1492955.7163611844
+"('O_Sent (online only)', 'A_Denied', 'W_Personal Loan collection')",2,1420188.8026185217
+"('O_Sent (online only)', 'A_Denied', 'W_Personal Loan collection')",3,1044985.1978617917
+"('O_Sent (online only)', 'A_Denied', 'W_Personal Loan collection')",4,684216.3272756088
+"('O_Refused', 'W_Assess potential fraud', 'W_Shortened completion ')",1,714.2129144270511
+"('O_Refused', 'W_Assess potential fraud', 'W_Shortened completion ')",2,698.3866907745023
+"('O_Refused', 'W_Assess potential fraud', 'W_Shortened completion ')",3,562.2793668322302
+"('O_Refused', 'W_Assess potential fraud', 'W_Shortened completion ')",4,431.88644464615976
+"('O_Refused', 'W_Assess potential fraud', 'A_Denied')",1,35.142918427982586
+"('O_Refused', 'W_Assess potential fraud', 'A_Denied')",2,35.96330014846304
+"('O_Refused', 'W_Assess potential fraud', 'A_Denied')",3,28.833268767243492
+"('O_Refused', 'W_Assess potential fraud', 'A_Denied')",4,20.77459844485667
+"('O_Refused', 'W_Assess potential fraud', 'W_Personal Loan collection')",1,1492981.0724186362
+"('O_Refused', 'W_Assess potential fraud', 'W_Personal Loan collection')",2,1414926.7331977922
+"('O_Refused', 'W_Assess potential fraud', 'W_Personal Loan collection')",3,1034145.7344430529
+"('O_Refused', 'W_Assess potential fraud', 'W_Personal Loan collection')",4,670788.9542921007
+"('O_Refused', 'W_Shortened completion ', 'A_Denied')",1,684.5886832712848
+"('O_Refused', 'W_Shortened completion ', 'A_Denied')",2,662.8923299816666
+"('O_Refused', 'W_Shortened completion ', 'A_Denied')",3,525.3113349721407
+"('O_Refused', 'W_Shortened completion ', 'A_Denied')",4,395.1439284999
+"('O_Refused', 'W_Shortened completion ', 'W_Personal Loan collection')",1,1493885.0520864585
+"('O_Refused', 'W_Shortened completion ', 'W_Personal Loan collection')",2,1415814.3703643363
+"('O_Refused', 'W_Shortened completion ', 'W_Personal Loan collection')",3,1032188.914925991
+"('O_Refused', 'W_Shortened completion ', 'W_Personal Loan collection')",4,665667.9856002415
+"('O_Refused', 'A_Denied', 'W_Personal Loan collection')",1,1471012.5884771936
+"('O_Refused', 'A_Denied', 'W_Personal Loan collection')",2,1378691.5304236247
+"('O_Refused', 'A_Denied', 'W_Personal Loan collection')",3,988089.6401247749
+"('O_Refused', 'A_Denied', 'W_Personal Loan collection')",4,623467.4581139339
+"('W_Assess potential fraud', 'W_Shortened completion ', 'A_Denied')",1,714.197524622717
+"('W_Assess potential fraud', 'W_Shortened completion ', 'A_Denied')",2,698.3728627802312
+"('W_Assess potential fraud', 'W_Shortened completion ', 'A_Denied')",3,562.2692121577477
+"('W_Assess potential fraud', 'W_Shortened completion ', 'A_Denied')",4,431.8794367437262
+"('W_Assess potential fraud', 'W_Shortened completion ', 'W_Personal Loan collection')",1,1515587.5152800085
+"('W_Assess potential fraud', 'W_Shortened completion ', 'W_Personal Loan collection')",2,1459627.2924374563
+"('W_Assess potential fraud', 'W_Shortened completion ', 'W_Personal Loan collection')",3,1092283.797223027
+"('W_Assess potential fraud', 'W_Shortened completion ', 'W_Personal Loan collection')",4,729555.1801913186
+"('W_Assess potential fraud', 'A_Denied', 'W_Personal Loan collection')",1,1492720.493660471
+"('W_Assess potential fraud', 'A_Denied', 'W_Personal Loan collection')",2,1414670.0339486937
+"('W_Assess potential fraud', 'A_Denied', 'W_Personal Loan collection')",3,1033942.860426318
+"('W_Assess potential fraud', 'A_Denied', 'W_Personal Loan collection')",4,670641.2242855048
+"('W_Shortened completion ', 'A_Denied', 'W_Personal Loan collection')",1,1493624.4733282933
+"('W_Shortened completion ', 'A_Denied', 'W_Personal Loan collection')",2,1415557.6711449628
+"('W_Shortened completion ', 'A_Denied', 'W_Personal Loan collection')",3,1031986.5630315975
+"('W_Shortened completion ', 'A_Denied', 'W_Personal Loan collection')",4,665521.4986092511
+"('O_Sent (online only)', 'O_Refused', 'W_Assess potential fraud', 'W_Shortened completion ')",1,746.6773540469807
+"('O_Sent (online only)', 'O_Refused', 'W_Assess potential fraud', 'W_Shortened completion ')",2,760.8439113881732
+"('O_Sent (online only)', 'O_Refused', 'W_Assess potential fraud', 'W_Shortened completion ')",3,639.8229862119173
+"('O_Sent (online only)', 'O_Refused', 'W_Assess potential fraud', 'W_Shortened completion ')",4,514.4715066197581
+"('O_Sent (online only)', 'O_Refused', 'W_Assess potential fraud', 'A_Denied')",1,37.45998794634558
+"('O_Sent (online only)', 'O_Refused', 'W_Assess potential fraud', 'A_Denied')",2,40.00447030720927
+"('O_Sent (online only)', 'O_Refused', 'W_Assess potential fraud', 'A_Denied')",3,33.56886503616856
+"('O_Sent (online only)', 'O_Refused', 'W_Assess potential fraud', 'A_Denied')",4,25.39164115249102
+"('O_Sent (online only)', 'O_Refused', 'W_Assess potential fraud', 'W_Personal Loan collection')",1,1560844.5675011312
+"('O_Sent (online only)', 'O_Refused', 'W_Assess potential fraud', 'W_Personal Loan collection')",2,1546150.5634298804
+"('O_Sent (online only)', 'O_Refused', 'W_Assess potential fraud', 'W_Personal Loan collection')",3,1185201.419112887
+"('O_Sent (online only)', 'O_Refused', 'W_Assess potential fraud', 'W_Personal Loan collection')",4,807788.0205441349
+"('O_Sent (online only)', 'O_Refused', 'W_Shortened completion ', 'A_Denied')",1,716.1056381646613
+"('O_Sent (online only)', 'O_Refused', 'W_Shortened completion ', 'A_Denied')",2,721.8124849265863
+"('O_Sent (online only)', 'O_Refused', 'W_Shortened completion ', 'A_Denied')",3,596.578367539613
+"('O_Sent (online only)', 'O_Refused', 'W_Shortened completion ', 'A_Denied')",4,469.0629711219231
+"('O_Sent (online only)', 'O_Refused', 'W_Shortened completion ', 'W_Personal Loan collection')",1,1561788.9180903884
+"('O_Sent (online only)', 'O_Refused', 'W_Shortened completion ', 'W_Personal Loan collection')",2,1547119.735364626
+"('O_Sent (online only)', 'O_Refused', 'W_Shortened completion ', 'W_Personal Loan collection')",3,1183909.7176637591
+"('O_Sent (online only)', 'O_Refused', 'W_Shortened completion ', 'W_Personal Loan collection')",4,803673.3175954919
+"('O_Sent (online only)', 'O_Refused', 'A_Denied', 'W_Personal Loan collection')",1,1537877.516492237
+"('O_Sent (online only)', 'O_Refused', 'A_Denied', 'W_Personal Loan collection')",2,1505531.9439187918
+"('O_Sent (online only)', 'O_Refused', 'A_Denied', 'W_Personal Loan collection')",3,1130795.3701723656
+"('O_Sent (online only)', 'O_Refused', 'A_Denied', 'W_Personal Loan collection')",4,749232.7913962707
+"('O_Sent (online only)', 'W_Assess potential fraud', 'W_Shortened completion ', 'A_Denied')",1,746.6612647060855
+"('O_Sent (online only)', 'W_Assess potential fraud', 'W_Shortened completion ', 'A_Denied')",2,760.8288467481681
+"('O_Sent (online only)', 'W_Assess potential fraud', 'W_Shortened completion ', 'A_Denied')",3,639.8114311119589
+"('O_Sent (online only)', 'W_Assess potential fraud', 'W_Shortened completion ', 'A_Denied')",4,514.4631586696751
+"('O_Sent (online only)', 'W_Assess potential fraud', 'W_Shortened completion ', 'W_Personal Loan collection')",1,1584477.8564992135
+"('O_Sent (online only)', 'W_Assess potential fraud', 'W_Shortened completion ', 'W_Personal Loan collection')",2,1596653.527523101
+"('O_Sent (online only)', 'W_Assess potential fraud', 'W_Shortened completion ', 'W_Personal Loan collection')",3,1256226.3311831208
+"('O_Sent (online only)', 'W_Assess potential fraud', 'W_Shortened completion ', 'W_Personal Loan collection')",4,885122.7905190195
+"('O_Sent (online only)', 'W_Assess potential fraud', 'A_Denied', 'W_Personal Loan collection')",1,1560572.1442539582
+"('O_Sent (online only)', 'W_Assess potential fraud', 'A_Denied', 'W_Personal Loan collection')",2,1545870.057395588
+"('O_Sent (online only)', 'W_Assess potential fraud', 'A_Denied', 'W_Personal Loan collection')",3,1184968.9118128147
+"('O_Sent (online only)', 'W_Assess potential fraud', 'A_Denied', 'W_Personal Loan collection')",4,807610.1189161073
+"('O_Sent (online only)', 'W_Shortened completion ', 'A_Denied', 'W_Personal Loan collection')",1,1561516.4948432157
+"('O_Sent (online only)', 'W_Shortened completion ', 'A_Denied', 'W_Personal Loan collection')",2,1546839.2293628107
+"('O_Sent (online only)', 'W_Shortened completion ', 'A_Denied', 'W_Personal Loan collection')",3,1183677.6221910284
+"('O_Sent (online only)', 'W_Shortened completion ', 'A_Denied', 'W_Personal Loan collection')",4,803496.4611316419
+"('O_Refused', 'W_Assess potential fraud', 'W_Shortened completion ', 'A_Denied')",1,745.3759437180323
+"('O_Refused', 'W_Assess potential fraud', 'W_Shortened completion ', 'A_Denied')",2,753.2448955306019
+"('O_Refused', 'W_Assess potential fraud', 'W_Shortened completion ', 'A_Denied')",3,623.3387226195089
+"('O_Refused', 'W_Assess potential fraud', 'W_Shortened completion ', 'A_Denied')",4,489.51727237179375
+"('O_Refused', 'W_Assess potential fraud', 'W_Shortened completion ', 'W_Personal Loan collection')",1,1561538.0335091585
+"('O_Refused', 'W_Assess potential fraud', 'W_Shortened completion ', 'W_Personal Loan collection')",2,1546811.1009275538
+"('O_Refused', 'W_Assess potential fraud', 'W_Shortened completion ', 'W_Personal Loan collection')",3,1183610.9992119772
+"('O_Refused', 'W_Assess potential fraud', 'W_Shortened completion ', 'W_Personal Loan collection')",4,803413.311970444
+"('O_Refused', 'W_Assess potential fraud', 'A_Denied', 'W_Personal Loan collection')",1,1537631.6018160053
+"('O_Refused', 'W_Assess potential fraud', 'A_Denied', 'W_Personal Loan collection')",2,1499240.215024422
+"('O_Refused', 'W_Assess potential fraud', 'A_Denied', 'W_Personal Loan collection')",3,1117606.8667246453
+"('O_Refused', 'W_Assess potential fraud', 'A_Denied', 'W_Personal Loan collection')",4,732536.2432754912
+"('O_Refused', 'W_Shortened completion ', 'A_Denied', 'W_Personal Loan collection')",1,1538576.671468729
+"('O_Refused', 'W_Shortened completion ', 'A_Denied', 'W_Personal Loan collection')",2,1500191.7851784872
+"('O_Refused', 'W_Shortened completion ', 'A_Denied', 'W_Personal Loan collection')",3,1117736.9107559242
+"('O_Refused', 'W_Shortened completion ', 'A_Denied', 'W_Personal Loan collection')",4,731596.8085302028
+"('W_Assess potential fraud', 'W_Shortened completion ', 'A_Denied', 'W_Personal Loan collection')",1,1561265.6102619858
+"('W_Assess potential fraud', 'W_Shortened completion ', 'A_Denied', 'W_Personal Loan collection')",2,1546530.594893257
+"('W_Assess potential fraud', 'W_Shortened completion ', 'A_Denied', 'W_Personal Loan collection')",3,1183378.9036721708
+"('W_Assess potential fraud', 'W_Shortened completion ', 'A_Denied', 'W_Personal Loan collection')",4,803236.4554137777
+"('O_Sent (online only)', 'O_Refused', 'W_Assess potential fraud', 'W_Shortened completion ', 'A_Denied')",1,780.8702628099096
+"('O_Sent (online only)', 'O_Refused', 'W_Assess potential fraud', 'W_Shortened completion ', 'A_Denied')",2,822.9282079678375
+"('O_Sent (online only)', 'O_Refused', 'W_Assess potential fraud', 'W_Shortened completion ', 'A_Denied')",3,711.5426324025317
+"('O_Sent (online only)', 'O_Refused', 'W_Assess potential fraud', 'W_Shortened completion ', 'A_Denied')",4,584.9932882022022
+"('O_Sent (online only)', 'O_Refused', 'W_Assess potential fraud', 'W_Shortened completion ', 'W_Personal Loan collection')",1,1635896.9870830465
+"('O_Sent (online only)', 'O_Refused', 'W_Assess potential fraud', 'W_Shortened completion ', 'W_Personal Loan collection')",2,1697385.6323008717
+"('O_Sent (online only)', 'O_Refused', 'W_Assess potential fraud', 'W_Shortened completion ', 'W_Personal Loan collection')",3,1366760.0761481556
+"('O_Sent (online only)', 'O_Refused', 'W_Assess potential fraud', 'W_Shortened completion ', 'W_Personal Loan collection')",4,979365.9805505314
+"('O_Sent (online only)', 'O_Refused', 'W_Assess potential fraud', 'A_Denied', 'W_Personal Loan collection')",1,1610852.9075880174
+"('O_Sent (online only)', 'O_Refused', 'W_Assess potential fraud', 'A_Denied', 'W_Personal Loan collection')",2,1643272.877751886
+"('O_Sent (online only)', 'O_Refused', 'W_Assess potential fraud', 'A_Denied', 'W_Personal Loan collection')",3,1285762.6741160334
+"('O_Sent (online only)', 'O_Refused', 'W_Assess potential fraud', 'A_Denied', 'W_Personal Loan collection')",4,886019.6883718295
+"('O_Sent (online only)', 'O_Refused', 'W_Shortened completion ', 'A_Denied', 'W_Personal Loan collection')",1,1611842.2272529542
+"('O_Sent (online only)', 'O_Refused', 'W_Shortened completion ', 'A_Denied', 'W_Personal Loan collection')",2,1644315.0134563032
+"('O_Sent (online only)', 'O_Refused', 'W_Shortened completion ', 'A_Denied', 'W_Personal Loan collection')",3,1286645.9051679359
+"('O_Sent (online only)', 'O_Refused', 'W_Shortened completion ', 'A_Denied', 'W_Personal Loan collection')",4,886716.1095907551
+"('O_Sent (online only)', 'W_Assess potential fraud', 'W_Shortened completion ', 'A_Denied', 'W_Personal Loan collection')",1,1635611.5913002943
+"('O_Sent (online only)', 'W_Assess potential fraud', 'W_Shortened completion ', 'A_Denied', 'W_Personal Loan collection')",2,1697077.8203694357
+"('O_Sent (online only)', 'W_Assess potential fraud', 'W_Shortened completion ', 'A_Denied', 'W_Personal Loan collection')",3,1366492.0667109217
+"('O_Sent (online only)', 'W_Assess potential fraud', 'W_Shortened completion ', 'A_Denied', 'W_Personal Loan collection')",4,979150.3912734215
+"('O_Refused', 'W_Assess potential fraud', 'W_Shortened completion ', 'A_Denied', 'W_Personal Loan collection')",1,1611579.3957869038
+"('O_Refused', 'W_Assess potential fraud', 'W_Shortened completion ', 'A_Denied', 'W_Personal Loan collection')",2,1643988.2196705746
+"('O_Refused', 'W_Assess potential fraud', 'W_Shortened completion ', 'A_Denied', 'W_Personal Loan collection')",3,1286328.6615961283
+"('O_Refused', 'W_Assess potential fraud', 'W_Shortened completion ', 'A_Denied', 'W_Personal Loan collection')",4,886441.2505641987

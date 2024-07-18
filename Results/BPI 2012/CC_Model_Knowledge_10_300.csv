@@ -1,0 +1,17 @@
+Model,Stochastic Type,Sensitive Activities,Background Size,Confidence Privacy,Upper CC,Lower CC
+Alpha_,BillClintonEstimator,"('A_DECLINED', 'A_CANCELLED', 'A_APPROVED')",1,0.0,0,3
+Alpha_,BillClintonEstimator,"('A_DECLINED', 'A_CANCELLED', 'A_APPROVED')",2,0.0,0,6
+Alpha_,BillClintonEstimator,"('A_DECLINED', 'A_CANCELLED', 'A_APPROVED')",3,0.0,0,7
+Alpha_,BillClintonEstimator,"('A_DECLINED', 'A_CANCELLED', 'A_APPROVED')",4,0.0,0,7
+Alpha_,AlignmentEstimator,"('A_DECLINED', 'A_CANCELLED', 'A_APPROVED')",1,0.0,0,0
+Alpha_,AlignmentEstimator,"('A_DECLINED', 'A_CANCELLED', 'A_APPROVED')",2,0.0,0,0
+Alpha_,AlignmentEstimator,"('A_DECLINED', 'A_CANCELLED', 'A_APPROVED')",3,0.0,0,0
+Alpha_,AlignmentEstimator,"('A_DECLINED', 'A_CANCELLED', 'A_APPROVED')",4,0.0,0,0
+Alpha+_,BillClintonEstimator,"('A_DECLINED', 'A_CANCELLED', 'A_APPROVED')",1,0.0,0,3
+Alpha+_,BillClintonEstimator,"('A_DECLINED', 'A_CANCELLED', 'A_APPROVED')",2,0.0,0,6
+Alpha+_,BillClintonEstimator,"('A_DECLINED', 'A_CANCELLED', 'A_APPROVED')",3,0.0,0,7
+Alpha+_,BillClintonEstimator,"('A_DECLINED', 'A_CANCELLED', 'A_APPROVED')",4,0.0,0,7
+Alpha+_,AlignmentEstimator,"('A_DECLINED', 'A_CANCELLED', 'A_APPROVED')",1,0.0,0,0
+Alpha+_,AlignmentEstimator,"('A_DECLINED', 'A_CANCELLED', 'A_APPROVED')",2,0.0,0,0
+Alpha+_,AlignmentEstimator,"('A_DECLINED', 'A_CANCELLED', 'A_APPROVED')",3,0.0,0,0
+Alpha+_,AlignmentEstimator,"('A_DECLINED', 'A_CANCELLED', 'A_APPROVED')",4,0.0,0,0

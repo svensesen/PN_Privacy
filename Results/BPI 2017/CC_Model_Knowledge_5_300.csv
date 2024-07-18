@@ -1,0 +1,15 @@
+Model,Stochastic Type,Sensitive Activities,Background Size,Confidence Privacy,Upper CC,Lower CC,Max C
+Flower_,BillClintonEstimator,"('A_Cancelled', 'A_Denied', 'A_Pending')",1,9.348788120849089e-09,2.0567333865867995e-07,22,0.9999999898946749
+Flower_,BillClintonEstimator,"('A_Cancelled', 'A_Denied', 'A_Pending')",2,1.6621258989534875e-08,4.205178524352324e-06,253,0.9999999999741179
+Flower_,BillClintonEstimator,"('A_Cancelled', 'A_Denied', 'A_Pending')",3,2.2867221268218227e-08,4.100092773391528e-05,1793,0.999999999998966
+Flower_,AlignmentEstimator,"('A_Cancelled', 'A_Denied', 'A_Pending')",1,0.036545027358531317,0.7674455745291576,21,0.5819205876551973
+Flower_,AlignmentEstimator,"('A_Cancelled', 'A_Denied', 'A_Pending')",2,0.039114807214887005,9.035520466638898,231,0.7285973938334459
+Flower_,AlignmentEstimator,"('A_Cancelled', 'A_Denied', 'A_Pending')",3,0.032556024937765986,50.8199549278527,1561,0.8123764998026016
+Alpha+_,BillClintonEstimator,"('A_Cancelled', 'A_Denied', 'A_Pending')",1,0.0,0.0,5,0.0
+Alpha+_,BillClintonEstimator,"('A_Cancelled', 'A_Denied', 'A_Pending')",2,0.0,0.0,15,0.0
+Alpha+_,BillClintonEstimator,"('A_Cancelled', 'A_Denied', 'A_Pending')",3,0.0,0.0,25,0.0
+Alpha+_,BillClintonEstimator,"('A_Cancelled', 'A_Denied', 'A_Pending')",4,0.0,0.0,30,0.0
+Alpha+_,AlignmentEstimator,"('A_Cancelled', 'A_Denied', 'A_Pending')",1,0.0,0.0,0,0.0
+Alpha+_,AlignmentEstimator,"('A_Cancelled', 'A_Denied', 'A_Pending')",2,0.0,0.0,0,0.0
+Alpha+_,AlignmentEstimator,"('A_Cancelled', 'A_Denied', 'A_Pending')",3,0.0,0.0,0,0.0
+Alpha+_,AlignmentEstimator,"('A_Cancelled', 'A_Denied', 'A_Pending')",4,0.0,0.0,0,0.0

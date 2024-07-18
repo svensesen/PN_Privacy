@@ -1,0 +1,6 @@
+Model,Stochastic Type,Sensitive Activities,Background Size,Confidence Privacy,Upper CC,Lower CC,Max C
+IMf20_,BillClintonEstimator,"(('Release E', 0.005714285714285714), ('Release D', 0.022857142857142857), ('Release C', 0.023809523809523808), ('Release B', 0.05333333333333334))",1,0.0,0,14,0
+IMf20_,AlignmentEstimator,"(('Release E', 0.005714285714285714), ('Release D', 0.022857142857142857), ('Release C', 0.023809523809523808), ('Release B', 0.05333333333333334))",1,0.0,0,14,0
+Heuristic_,AlignmentEstimator,"(('Release E', 0.005714285714285714), ('Release D', 0.022857142857142857), ('Release C', 0.023809523809523808), ('Release B', 0.05333333333333334))",1,0.0,0,15,0
+Flower_,BillClintonEstimator,"(('Release E', 0.005714285714285714), ('Release D', 0.022857142857142857), ('Release C', 0.023809523809523808), ('Release B', 0.05333333333333334))",1,0.0,0,16,0
+Flower_,AlignmentEstimator,"(('Release E', 0.005714285714285714), ('Release D', 0.022857142857142857), ('Release C', 0.023809523809523808), ('Release B', 0.05333333333333334))",1,0.0,0,16,0

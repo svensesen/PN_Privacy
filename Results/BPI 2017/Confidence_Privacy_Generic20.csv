@@ -1,0 +1,577 @@
+Sensitive Activity,Background Size,Function,Background Odds,Percentage,Absolute,Confidence Privacy
+W_Personal Loan collection,1,basic,True,True,True,0.14095591735694563
+W_Personal Loan collection,1,basic,True,True,False,0.08983274619949859
+W_Personal Loan collection,1,basic,True,False,True,8.947025761334581e-06
+W_Personal Loan collection,1,basic,True,False,False,5.702037271858744e-06
+W_Personal Loan collection,1,basic,False,True,True,2.5404256105222722
+W_Personal Loan collection,1,basic,False,True,False,2.3552960356716444
+W_Personal Loan collection,1,basic,False,False,True,0.00016125079250514272
+W_Personal Loan collection,1,basic,False,False,False,0.00014949989118484523
+W_Personal Loan collection,1,quadratic,True,True,True,0.048977309053771206
+W_Personal Loan collection,1,quadratic,True,True,False,0.03262349896053009
+W_Personal Loan collection,1,quadratic,True,False,True,1.9732661732386614e-10
+W_Personal Loan collection,1,quadratic,True,False,False,1.3143810510460011e-10
+W_Personal Loan collection,1,quadratic,False,True,True,105.03629364641206
+W_Personal Loan collection,1,quadratic,False,True,False,104.8715281419875
+W_Personal Loan collection,1,quadratic,False,False,True,4.231848772811837e-07
+W_Personal Loan collection,1,quadratic,False,False,False,4.22521047024522e-07
+W_Personal Loan collection,1,cubic,True,True,True,0.019288258963655488
+W_Personal Loan collection,1,cubic,True,True,False,0.012629901517924407
+W_Personal Loan collection,1,cubic,True,False,True,4.932636981193911e-15
+W_Personal Loan collection,1,cubic,True,False,False,3.229877793197374e-15
+W_Personal Loan collection,1,cubic,False,True,True,5307.330195404772
+W_Personal Loan collection,1,cubic,False,True,False,5307.169189779006
+W_Personal Loan collection,1,cubic,False,False,True,1.3572574508974375e-09
+W_Personal Loan collection,1,cubic,False,False,False,1.3572162765070832e-09
+W_Personal Loan collection,2,basic,True,True,True,0.1646980478713386
+W_Personal Loan collection,2,basic,True,True,False,0.10302429273739393
+W_Personal Loan collection,2,basic,True,False,True,1.0454032046167036e-05
+W_Personal Loan collection,2,basic,True,False,False,6.539356548122372e-06
+W_Personal Loan collection,2,basic,False,True,True,4.045595919852857
+W_Personal Loan collection,2,basic,False,True,False,3.67640771163714
+W_Personal Loan collection,2,basic,False,False,True,0.0002567898644738228
+W_Personal Loan collection,2,basic,False,False,False,0.00023335603869606411
+W_Personal Loan collection,2,quadratic,True,True,True,0.056078824776257974
+W_Personal Loan collection,2,quadratic,True,True,False,0.038332436746989176
+W_Personal Loan collection,2,quadratic,True,False,True,2.259381948577012e-10
+W_Personal Loan collection,2,quadratic,True,False,False,1.5443907032050424e-10
+W_Personal Loan collection,2,quadratic,False,True,True,206.56409805356162
+W_Personal Loan collection,2,quadratic,False,True,False,206.21303251278118
+W_Personal Loan collection,2,quadratic,False,False,True,8.322342635181181e-07
+W_Personal Loan collection,2,quadratic,False,False,False,8.308198416774855e-07
+W_Personal Loan collection,2,cubic,True,True,True,0.021924757933310713
+W_Personal Loan collection,2,cubic,True,True,False,0.01536609001050832
+W_Personal Loan collection,2,cubic,True,False,True,5.6068757677586325e-15
+W_Personal Loan collection,2,cubic,True,False,False,3.92961044254993e-15
+W_Personal Loan collection,2,cubic,False,True,True,13690.453802510527
+W_Personal Loan collection,2,cubic,False,True,False,13690.105905588849
+W_Personal Loan collection,2,cubic,False,False,True,3.5010956065467645e-09
+W_Personal Loan collection,2,cubic,False,False,False,3.501006637955821e-09
+W_Personal Loan collection,3,basic,True,True,True,0.15158519479401256
+W_Personal Loan collection,3,basic,True,True,False,0.09162301926476088
+W_Personal Loan collection,3,basic,True,False,True,9.621707752960268e-06
+W_Personal Loan collection,3,basic,True,False,False,5.815672935654005e-06
+W_Personal Loan collection,3,basic,False,True,True,4.812058348910338
+W_Personal Loan collection,3,basic,False,True,False,4.283750901148949
+W_Personal Loan collection,3,basic,False,False,True,0.000305440245574933
+W_Personal Loan collection,3,basic,False,False,False,0.0002719064966294648
+W_Personal Loan collection,3,quadratic,True,True,True,0.05055644162492946
+W_Personal Loan collection,3,quadratic,True,True,False,0.034929372992651586
+W_Personal Loan collection,3,quadratic,True,False,True,2.0368884698884044e-10
+W_Personal Loan collection,3,quadratic,True,False,False,1.4072833218167157e-10
+W_Personal Loan collection,3,quadratic,False,True,True,287.6891790245427
+W_Personal Loan collection,3,quadratic,False,True,False,287.17289975795444
+W_Personal Loan collection,3,quadratic,False,False,True,1.1590823104484826e-06
+W_Personal Loan collection,3,quadratic,False,False,False,1.157002252494298e-06
+W_Personal Loan collection,3,cubic,True,True,True,0.01967148999302435
+W_Personal Loan collection,3,cubic,True,True,False,0.01444747973296739
+W_Personal Loan collection,3,cubic,True,False,True,5.0306416560258005e-15
+W_Personal Loan collection,3,cubic,True,False,False,3.69469183041177e-15
+W_Personal Loan collection,3,cubic,False,True,True,22798.324045628877
+W_Personal Loan collection,3,cubic,False,True,False,22797.809736258492
+W_Personal Loan collection,3,cubic,False,False,True,5.830275117552695e-09
+W_Personal Loan collection,3,cubic,False,False,False,5.8301435918702905e-09
+W_Personal Loan collection,4,basic,True,True,True,0.12936871189178173
+W_Personal Loan collection,4,basic,True,True,False,0.07445312183601173
+W_Personal Loan collection,4,basic,True,False,True,8.211540314943676e-06
+W_Personal Loan collection,4,basic,True,False,False,4.725832101051218e-06
+W_Personal Loan collection,4,basic,False,True,True,5.05545451580383
+W_Personal Loan collection,4,basic,False,True,False,4.398854179822928
+W_Personal Loan collection,4,basic,False,False,True,0.0003208895563683073
+W_Personal Loan collection,4,basic,False,False,False,0.00027921255386225834
+W_Personal Loan collection,4,quadratic,True,True,True,0.0422309560997111
+W_Personal Loan collection,4,quadratic,True,True,False,0.029066496877130994
+W_Personal Loan collection,4,quadratic,True,False,True,1.7014596911317234e-10
+W_Personal Loan collection,4,quadratic,True,False,False,1.1710715874410495e-10
+W_Personal Loan collection,4,quadratic,False,True,True,339.6417995593234
+W_Personal Loan collection,4,quadratic,False,True,False,338.9922368605075
+W_Personal Loan collection,4,quadratic,False,False,True,1.368396277861109e-06
+W_Personal Loan collection,4,quadratic,False,False,False,1.3657792290159186e-06
+W_Personal Loan collection,4,cubic,True,True,True,0.016375002838051687
+W_Personal Loan collection,4,cubic,True,True,False,0.012350093927616218
+W_Personal Loan collection,4,cubic,True,False,True,4.187622362304644e-15
+W_Personal Loan collection,4,cubic,True,False,False,3.1583218653049232e-15
+W_Personal Loan collection,4,cubic,False,True,True,30496.883050843782
+W_Personal Loan collection,4,cubic,False,True,False,30496.234553629212
+W_Personal Loan collection,4,cubic,False,False,True,7.79904777466999e-09
+W_Personal Loan collection,4,cubic,False,False,False,7.798881932778163e-09
+O_Sent (online only),1,basic,True,True,True,0.10240309118029767
+O_Sent (online only),1,basic,True,True,False,0.07744203878257006
+O_Sent (online only),1,basic,True,False,True,0.005849933800645397
+O_Sent (online only),1,basic,True,False,False,0.004423995360329622
+O_Sent (online only),1,basic,False,True,True,0.29424285797438454
+O_Sent (online only),1,basic,False,True,False,0.15232228825998578
+O_Sent (online only),1,basic,False,False,True,0.0168090750056775
+O_Sent (online only),1,basic,False,False,False,0.008701644573549603
+O_Sent (online only),1,quadratic,True,True,True,0.022739838545671635
+O_Sent (online only),1,quadratic,True,True,False,0.019687528423022765
+O_Sent (online only),1,quadratic,True,False,True,7.421012218460823e-05
+O_Sent (online only),1,quadratic,True,False,False,6.424908808614037e-05
+O_Sent (online only),1,quadratic,False,True,True,0.1637127945341298
+O_Sent (online only),1,quadratic,False,True,False,0.07460531485599782
+O_Sent (online only),1,quadratic,False,False,True,0.0005342670512440352
+O_Sent (online only),1,quadratic,False,False,False,0.00024347004575098858
+O_Sent (online only),1,cubic,True,True,True,0.005751814460147751
+O_Sent (online only),1,cubic,True,True,False,0.005337919595525796
+O_Sent (online only),1,cubic,True,False,True,1.0723054739296868e-06
+O_Sent (online only),1,cubic,True,False,False,9.951434354041763e-07
+O_Sent (online only),1,cubic,False,True,True,0.1095835813600292
+O_Sent (online only),1,cubic,False,True,False,0.041359419865133126
+O_Sent (online only),1,cubic,False,False,True,2.0429566175915897e-05
+O_Sent (online only),1,cubic,False,False,False,7.710598564543964e-06
+O_Sent (online only),2,basic,True,True,True,0.1171663563496849
+O_Sent (online only),2,basic,True,True,False,0.09402465091543506
+O_Sent (online only),2,basic,True,False,True,0.006693307989127966
+O_Sent (online only),2,basic,True,False,False,0.005371302537299922
+O_Sent (online only),2,basic,False,True,True,0.5031328443575721
+O_Sent (online only),2,basic,False,True,False,0.2871482626407291
+O_Sent (online only),2,basic,False,False,True,0.028742236181523648
+O_Sent (online only),2,basic,False,False,False,0.016403785355083043
+O_Sent (online only),2,quadratic,True,True,True,0.028787053309422106
+O_Sent (online only),2,quadratic,True,True,False,0.026063404910408303
+O_Sent (online only),2,quadratic,True,False,True,9.39448509775667e-05
+O_Sent (online only),2,quadratic,True,False,False,8.505638503385379e-05
+O_Sent (online only),2,quadratic,False,True,True,0.4939453280725446
+O_Sent (online only),2,quadratic,False,True,False,0.3435216108332708
+O_Sent (online only),2,quadratic,False,False,True,0.0016119614514922423
+O_Sent (online only),2,quadratic,False,False,False,0.001121062520377609
+O_Sent (online only),2,cubic,True,True,True,0.00883204044568882
+O_Sent (online only),2,cubic,True,True,False,0.00846339980585581
+O_Sent (online only),2,cubic,True,False,True,1.6465491683536063e-06
+O_Sent (online only),2,cubic,True,False,False,1.577823833288516e-06
+O_Sent (online only),2,cubic,False,True,True,0.8425057478923758
+O_Sent (online only),2,cubic,False,True,False,0.720771340105897
+O_Sent (online only),2,cubic,False,False,True,0.00015706757085815463
+O_Sent (online only),2,cubic,False,False,False,0.0001343727372992022
+O_Sent (online only),3,basic,True,True,True,0.10820574430895477
+O_Sent (online only),3,basic,True,True,False,0.09136031950592685
+O_Sent (online only),3,basic,True,False,True,0.006181419269291834
+O_Sent (online only),3,basic,True,False,False,0.005219098515048688
+O_Sent (online only),3,basic,False,True,True,0.6560338192482935
+O_Sent (online only),3,basic,False,True,False,0.39943267817437894
+O_Sent (online only),3,basic,False,False,True,0.03747693911729738
+O_Sent (online only),3,basic,False,False,False,0.022818204979970134
+O_Sent (online only),3,quadratic,True,True,True,0.02871967304848838
+O_Sent (online only),3,quadratic,True,True,False,0.026850812427918945
+O_Sent (online only),3,quadratic,True,False,True,9.372495946924755e-05
+O_Sent (online only),3,quadratic,True,False,False,8.762604303587417e-05
+O_Sent (online only),3,quadratic,False,True,True,0.8297109068865641
+O_Sent (online only),3,quadratic,False,True,False,0.6399689386167796
+O_Sent (online only),3,quadratic,False,False,True,0.00270771261872807
+O_Sent (online only),3,quadratic,False,False,False,0.0020885008938704504
+O_Sent (online only),3,cubic,True,True,True,0.009850137201845929
+O_Sent (online only),3,cubic,True,True,False,0.009599520430666983
+O_Sent (online only),3,cubic,True,False,True,1.8363520092104284e-06
+O_Sent (online only),3,cubic,True,False,False,1.789629755310236e-06
+O_Sent (online only),3,cubic,False,True,True,1.7100280193892243
+O_Sent (online only),3,cubic,False,True,False,1.551569063255069
+O_Sent (online only),3,cubic,False,False,True,0.00031879894917839123
+O_Sent (online only),3,cubic,False,False,False,0.0002892575918844233
+O_Sent (online only),4,basic,True,True,True,0.09501663654450103
+O_Sent (online only),4,basic,True,True,False,0.08352644632570626
+O_Sent (online only),4,basic,True,False,True,0.0054279712393314064
+O_Sent (online only),4,basic,True,False,False,0.00477157648247359
+O_Sent (online only),4,basic,False,True,True,0.7709040393618719
+O_Sent (online only),4,basic,False,True,False,0.49204146027338047
+O_Sent (online only),4,basic,False,False,True,0.04403907679873475
+O_Sent (online only),4,basic,False,False,False,0.028108623837382277
+O_Sent (online only),4,quadratic,True,True,True,0.026570198270745488
+O_Sent (online only),4,quadratic,True,True,False,0.02540231265088418
+O_Sent (online only),4,quadratic,True,False,True,8.671027528102951e-05
+O_Sent (online only),4,quadratic,True,False,False,8.289894942779293e-05
+O_Sent (online only),4,quadratic,False,True,True,1.1365428530475032
+O_Sent (online only),4,quadratic,False,True,False,0.9229613281197718
+O_Sent (online only),4,quadratic,False,False,True,0.003709040581941652
+O_Sent (online only),4,quadratic,False,False,False,0.0030120298696875666
+O_Sent (online only),4,cubic,True,True,True,0.009683025254989087
+O_Sent (online only),4,cubic,True,True,False,0.009529733172723423
+O_Sent (online only),4,cubic,True,False,True,1.8051974828231317e-06
+O_Sent (online only),4,cubic,True,False,False,1.776619381067079e-06
+O_Sent (online only),4,cubic,False,True,True,2.605910042786761
+O_Sent (online only),4,cubic,False,True,False,2.424009649877969
+O_Sent (online only),4,cubic,False,False,True,0.00048581740993378244
+O_Sent (online only),4,cubic,False,False,False,0.0004519058871651879
+W_Assess potential fraud,1,basic,True,True,True,0.10949966519074072
+W_Assess potential fraud,1,basic,True,True,False,0.07492273934619968
+W_Assess potential fraud,1,basic,True,False,True,0.0010529816418418372
+W_Assess potential fraud,1,basic,True,False,False,0.0007204795462216669
+W_Assess potential fraud,1,basic,False,True,True,2.519747776617953
+W_Assess potential fraud,1,basic,False,True,False,2.4041481241100957
+W_Assess potential fraud,1,basic,False,False,True,0.02423065080818939
+W_Assess potential fraud,1,basic,False,False,False,0.023119009857671107
+W_Assess potential fraud,1,quadratic,True,True,True,0.028921059346938126
+W_Assess potential fraud,1,quadratic,True,True,False,0.021541364504883295
+W_Assess potential fraud,1,quadratic,True,False,True,2.674423706438067e-06
+W_Assess potential fraud,1,quadratic,True,False,False,1.991999504920716e-06
+W_Assess potential fraud,1,quadratic,False,True,True,105.18113741126393
+W_Assess potential fraud,1,quadratic,False,True,False,105.10253734575535
+W_Assess potential fraud,1,quadratic,False,False,True,0.009726439270025745
+W_Assess potential fraud,1,quadratic,False,False,False,0.009719170868270401
+W_Assess potential fraud,1,cubic,True,True,True,0.009277229048414678
+W_Assess potential fraud,1,cubic,True,True,False,0.0076774728369343745
+W_Assess potential fraud,1,cubic,True,False,True,8.249778800355043e-09
+W_Assess potential fraud,1,cubic,True,False,False,6.8271950945596396e-09
+W_Assess potential fraud,1,cubic,False,True,True,5308.446743284301
+W_Assess potential fraud,1,cubic,False,True,False,5308.385264376558
+W_Assess potential fraud,1,cubic,False,False,True,0.0047205379081423195
+W_Assess potential fraud,1,cubic,False,False,False,0.004720483238004597
+W_Assess potential fraud,2,basic,True,True,True,0.1245441084620697
+W_Assess potential fraud,2,basic,True,True,False,0.08745913974986311
+W_Assess potential fraud,2,basic,True,False,True,0.0011976535232475505
+W_Assess potential fraud,2,basic,True,False,False,0.0008410333347363777
+W_Assess potential fraud,2,basic,False,True,True,4.307679128812241
+W_Assess potential fraud,2,basic,False,True,False,4.12909353382961
+W_Assess potential fraud,2,basic,False,False,True,0.04142393525754891
+W_Assess potential fraud,2,basic,False,False,False,0.03970660258181384
+W_Assess potential fraud,2,quadratic,True,True,True,0.03203779551438177
+W_Assess potential fraud,2,quadratic,True,True,False,0.024634733867374133
+W_Assess potential fraud,2,quadratic,True,False,True,2.9626383597442126e-06
+W_Assess potential fraud,2,quadratic,True,False,False,2.2780533543517396e-06
+W_Assess potential fraud,2,quadratic,False,True,True,257.5449457400995
+W_Assess potential fraud,2,quadratic,False,True,False,257.41028255174405
+W_Assess potential fraud,2,quadratic,False,False,True,0.02381601241150769
+W_Assess potential fraud,2,quadratic,False,False,False,0.023803559671827502
+W_Assess potential fraud,2,cubic,True,True,True,0.010060493896308339
+W_Assess potential fraud,2,cubic,True,True,False,0.008515860070470033
+W_Assess potential fraud,2,cubic,True,False,True,8.946297308574981e-09
+W_Assess potential fraud,2,cubic,True,False,False,7.572731201258727e-09
+W_Assess potential fraud,2,cubic,False,True,True,20704.253020148393
+W_Assess potential fraud,2,cubic,False,True,False,20704.13715490647
+W_Assess potential fraud,2,cubic,False,False,True,0.018411263401111634
+W_Assess potential fraud,2,cubic,False,False,False,0.018411160367909435
+W_Assess potential fraud,3,basic,True,True,True,0.11041080961562538
+W_Assess potential fraud,3,basic,True,True,False,0.07953687700469754
+W_Assess potential fraud,3,basic,True,False,True,0.0010617434800703005
+W_Assess potential fraud,3,basic,True,False,False,0.000764850478670332
+W_Assess potential fraud,3,basic,False,True,True,5.328352280399009
+W_Assess potential fraud,3,basic,False,True,False,5.110139336134456
+W_Assess potential fraud,3,basic,False,False,True,0.05123903459205009
+W_Assess potential fraud,3,basic,False,False,False,0.049140633433264656
+W_Assess potential fraud,3,quadratic,True,True,True,0.02737665708786119
+W_Assess potential fraud,3,quadratic,True,True,False,0.021683635429747775
+W_Assess potential fraud,3,quadratic,True,False,True,2.5316078446674574e-06
+W_Assess potential fraud,3,quadratic,True,False,False,2.0051557565514094e-06
+W_Assess potential fraud,3,quadratic,False,True,True,369.59894319959795
+W_Assess potential fraud,3,quadratic,False,True,False,369.42161396834746
+W_Assess potential fraud,3,quadratic,False,False,True,0.034178007233753374
+W_Assess potential fraud,3,quadratic,False,False,False,0.03416160902737331
+W_Assess potential fraud,3,cubic,True,True,True,0.00840035942385657
+W_Assess potential fraud,3,cubic,True,True,False,0.007264494475904109
+W_Assess potential fraud,3,cubic,True,False,True,7.470022215538257e-09
+W_Assess potential fraud,3,cubic,True,False,False,6.459953959296824e-09
+W_Assess potential fraud,3,cubic,False,True,True,33428.151195825
+W_Assess potential fraud,3,cubic,False,True,False,33427.98982650229
+W_Assess potential fraud,3,cubic,False,False,True,0.029725993788792496
+W_Assess potential fraud,3,cubic,False,False,False,0.029725850291072355
+W_Assess potential fraud,4,basic,True,True,True,0.09011271898361382
+W_Assess potential fraud,4,basic,True,True,False,0.06653066485684844
+W_Assess potential fraud,4,basic,True,False,True,0.0008665509489997956
+W_Assess potential fraud,4,basic,True,False,False,0.0006397788394308051
+W_Assess potential fraud,4,basic,False,True,True,5.7585079061362014
+W_Assess potential fraud,4,basic,False,True,False,5.5110123861373905
+W_Assess potential fraud,4,basic,False,False,True,0.055375540180877855
+W_Assess potential fraud,4,basic,False,False,False,0.052995548985993145
+W_Assess potential fraud,4,quadratic,True,True,True,0.02128516978694459
+W_Assess potential fraud,4,quadratic,True,True,False,0.017321688258117234
+W_Assess potential fraud,4,quadratic,True,False,True,1.9683083524321186e-06
+W_Assess potential fraud,4,quadratic,True,False,False,1.6017924225152051e-06
+W_Assess potential fraud,4,quadratic,False,True,True,428.35963638776053
+W_Assess potential fraud,4,quadratic,False,True,False,428.14724330093327
+W_Assess potential fraud,4,quadratic,False,False,True,0.0396117981950032
+W_Assess potential fraud,4,quadratic,False,False,False,0.03959215752072166
+W_Assess potential fraud,4,cubic,True,True,True,0.006365091910321621
+W_Assess potential fraud,4,cubic,True,True,False,0.005614265276383882
+W_Assess potential fraud,4,cubic,True,False,True,5.660159949705723e-09
+W_Assess potential fraud,4,cubic,True,False,False,4.992487133277824e-09
+W_Assess potential fraud,4,cubic,False,True,True,40811.77636554119
+W_Assess potential fraud,4,cubic,False,True,False,40811.576318888845
+W_Assess potential fraud,4,cubic,False,False,True,0.036291884754403876
+W_Assess potential fraud,4,cubic,False,False,False,0.03629170686285568
+W_Shortened completion ,1,basic,True,True,True,0.05293214379761082
+W_Shortened completion ,1,basic,True,True,False,0.03856926335075437
+W_Shortened completion ,1,basic,True,False,True,0.00012431301028351268
+W_Shortened completion ,1,basic,True,False,False,9.0581277982666e-05
+W_Shortened completion ,1,basic,False,True,True,0.23711241084689821
+W_Shortened completion ,1,basic,False,True,False,0.06628443213783379
+W_Shortened completion ,1,basic,False,False,True,0.000556866876215382
+W_Shortened completion ,1,basic,False,False,False,0.0001556713313085055
+W_Shortened completion ,1,quadratic,True,True,True,0.009324433549739934
+W_Shortened completion ,1,quadratic,True,True,False,0.008596879697856273
+W_Shortened completion ,1,quadratic,True,False,True,5.1430015755717905e-08
+W_Shortened completion ,1,quadratic,True,False,False,4.741710646038022e-08
+W_Shortened completion ,1,quadratic,False,True,True,0.1601063587303566
+W_Shortened completion ,1,quadratic,False,True,False,0.021861717491564008
+W_Shortened completion ,1,quadratic,False,False,True,8.830855524003949e-07
+W_Shortened completion ,1,quadratic,False,False,False,1.2058088773334117e-07
+W_Shortened completion ,1,cubic,True,True,True,0.00251297022802526
+W_Shortened completion ,1,cubic,True,True,False,0.002467085968655993
+W_Shortened completion ,1,cubic,True,False,True,3.2552072340182176e-11
+W_Shortened completion ,1,cubic,True,False,False,3.195770488066885e-11
+W_Shortened completion ,1,cubic,False,True,True,0.1299035860848385
+W_Shortened completion ,1,cubic,False,True,False,0.009293162631393475
+W_Shortened completion ,1,cubic,False,False,True,1.6827222560474532e-09
+W_Shortened completion ,1,cubic,False,False,False,1.203801377638754e-10
+W_Shortened completion ,2,basic,True,True,True,0.06461806151662446
+W_Shortened completion ,2,basic,True,True,False,0.04898276886458223
+W_Shortened completion ,2,basic,True,False,True,0.00015175780101654127
+W_Shortened completion ,2,basic,True,False,False,0.00011503776368590171
+W_Shortened completion ,2,basic,False,True,True,0.41670641725008495
+W_Shortened completion ,2,basic,False,True,False,0.10668847179617406
+W_Shortened completion ,2,basic,False,False,True,0.000978649746945517
+W_Shortened completion ,2,basic,False,False,False,0.0002505616462888977
+W_Shortened completion ,2,quadratic,True,True,True,0.010643445877667215
+W_Shortened completion ,2,quadratic,True,True,False,0.009863831425261461
+W_Shortened completion ,2,quadratic,True,False,True,5.8705184209160136e-08
+W_Shortened completion ,2,quadratic,True,False,False,5.440512851604715e-08
+W_Shortened completion ,2,quadratic,False,True,True,0.30905207794697814
+W_Shortened completion ,2,quadratic,False,True,False,0.045136536228102125
+W_Shortened completion ,2,quadratic,False,False,True,1.7046132779394169e-06
+W_Shortened completion ,2,quadratic,False,False,False,2.4895590246708016e-07
+W_Shortened completion ,2,cubic,True,True,True,0.0025606141529014924
+W_Shortened completion ,2,cubic,True,True,False,0.002512549629524995
+W_Shortened completion ,2,cubic,True,False,True,3.316923384565693e-11
+W_Shortened completion ,2,cubic,True,False,False,3.254662406520696e-11
+W_Shortened completion ,2,cubic,False,True,True,0.2614109761610033
+W_Shortened completion ,2,cubic,False,True,False,0.024036714255420474
+W_Shortened completion ,2,cubic,False,False,True,3.38621958653188e-09
+W_Shortened completion ,2,cubic,False,False,False,3.113625671075289e-10
+W_Shortened completion ,3,basic,True,True,True,0.06353598307839416
+W_Shortened completion ,3,basic,True,True,False,0.04956747087692094
+W_Shortened completion ,3,basic,True,False,True,0.00014921650156466985
+W_Shortened completion ,3,basic,True,False,False,0.00011641095702472777
+W_Shortened completion ,3,basic,False,True,True,0.5504294569963012
+W_Shortened completion ,3,basic,False,True,False,0.13150746063596772
+W_Shortened completion ,3,basic,False,False,True,0.001292703031442651
+W_Shortened completion ,3,basic,False,False,False,0.00030884991866011595
+W_Shortened completion ,3,quadratic,True,True,True,0.01001391999954106
+W_Shortened completion ,3,quadratic,True,True,False,0.009352968954437513
+W_Shortened completion ,3,quadratic,True,False,True,5.5232959793815686e-08
+W_Shortened completion ,3,quadratic,True,False,False,5.158740615432625e-08
+W_Shortened completion ,3,quadratic,False,True,True,0.43550742196292974
+W_Shortened completion ,3,quadratic,False,True,False,0.0681634353864857
+W_Shortened completion ,3,quadratic,False,False,True,2.402092679818644e-06
+W_Shortened completion ,3,quadratic,False,False,False,3.759634874537336e-07
+W_Shortened completion ,3,cubic,True,True,True,0.002200997456642863
+W_Shortened completion ,3,cubic,True,True,False,0.0021618584534677204
+W_Shortened completion ,3,cubic,True,False,True,2.8510894251818157e-11
+W_Shortened completion ,3,cubic,True,False,False,2.8003902307197542e-11
+W_Shortened completion ,3,cubic,False,True,True,0.3814209637426667
+W_Shortened completion ,3,cubic,False,True,False,0.044016880562600114
+W_Shortened completion ,3,cubic,False,False,True,4.940783884085218e-09
+W_Shortened completion ,3,cubic,False,False,False,5.701781359299644e-10
+W_Shortened completion ,4,basic,True,True,True,0.058608532979580207
+W_Shortened completion ,4,basic,True,True,False,0.04665314123038096
+W_Shortened completion ,4,basic,True,False,True,0.0001376442108759139
+W_Shortened completion ,4,basic,True,False,False,0.00010956655086001591
+W_Shortened completion ,4,basic,False,True,True,0.6501337213145215
+W_Shortened completion ,4,basic,False,True,False,0.14592196676005245
+W_Shortened completion ,4,basic,False,False,True,0.0015268620196539407
+W_Shortened completion ,4,basic,False,False,False,0.0003427028956883481
+W_Shortened completion ,4,quadratic,True,True,True,0.009050015361869402
+W_Shortened completion ,4,quadratic,True,True,False,0.008528893479272765
+W_Shortened completion ,4,quadratic,True,False,True,4.991642979357423e-08
+W_Shortened completion ,4,quadratic,True,False,False,4.704212043315833e-08
+W_Shortened completion ,4,quadratic,False,True,True,0.5406020124590623
+W_Shortened completion ,4,quadratic,False,True,False,0.08950195062617868
+W_Shortened completion ,4,quadratic,False,False,True,2.981754319983924e-06
+W_Shortened completion ,4,quadratic,False,False,False,4.936585913039464e-07
+W_Shortened completion ,4,cubic,True,True,True,0.0018792047531303448
+W_Shortened completion ,4,cubic,True,True,False,0.001850044880721954
+W_Shortened completion ,4,cubic,True,False,True,2.43425124514838e-11
+W_Shortened completion ,4,cubic,True,False,False,2.396478641816873e-11
+W_Shortened completion ,4,cubic,False,True,True,0.48821853247779584
+W_Shortened completion ,4,cubic,False,True,False,0.06732272168017335
+W_Shortened completion ,4,cubic,False,False,True,6.3241994711266875e-09
+W_Shortened completion ,4,cubic,False,False,False,8.72073246961153e-10
+A_Denied,1,basic,True,True,True,0.15849981604064659
+A_Denied,1,basic,True,True,False,0.07303187616006557
+A_Denied,1,basic,True,False,True,0.01887369671473249
+A_Denied,1,basic,True,False,False,0.008696423223604872
+A_Denied,1,basic,False,True,True,0.8409808640578997
+A_Denied,1,basic,False,True,False,0.6225364746348467
+A_Denied,1,basic,False,False,True,0.10014155326875623
+A_Denied,1,basic,False,False,False,0.07412983124916515
+A_Denied,1,quadratic,True,True,True,0.0762774898318158
+A_Denied,1,quadratic,True,True,False,0.0389529939690142
+A_Denied,1,quadratic,True,False,True,0.0010815654653481392
+A_Denied,1,quadratic,True,False,False,0.0005523282575461382
+A_Denied,1,quadratic,False,True,True,3.3236771992535292
+A_Denied,1,quadratic,False,True,False,3.142752586668341
+A_Denied,1,quadratic,False,False,True,0.04712759274857838
+A_Denied,1,quadratic,False,False,False,0.0445621987740901
+A_Denied,1,cubic,True,True,True,0.046930973208063824
+A_Denied,1,cubic,True,True,False,0.028739743259810692
+A_Denied,1,cubic,True,False,True,7.923994926176346e-05
+A_Denied,1,cubic,True,False,False,4.8525219956704584e-05
+A_Denied,1,cubic,False,True,True,19.586168054514125
+A_Denied,1,cubic,False,True,False,19.422040180223984
+A_Denied,1,cubic,False,False,True,0.03306999315764031
+A_Denied,1,cubic,False,False,False,0.03279287373006029
+A_Denied,2,basic,True,True,True,0.18386144521785242
+A_Denied,2,basic,True,True,False,0.08089214769010543
+A_Denied,2,basic,True,False,True,0.021893685691624004
+A_Denied,2,basic,True,False,False,0.009632401476824889
+A_Denied,2,basic,False,True,True,1.362957512281655
+A_Denied,2,basic,False,True,False,0.9956997919122869
+A_Denied,2,basic,False,False,True,0.1622970131099293
+A_Denied,2,basic,False,False,False,0.11856503282411066
+A_Denied,2,quadratic,True,True,True,0.08495607130368586
+A_Denied,2,quadratic,True,True,False,0.04282583590124217
+A_Denied,2,quadratic,True,False,True,0.0012046221368364246
+A_Denied,2,quadratic,True,False,False,0.0006072426509784036
+A_Denied,2,quadratic,False,True,True,5.962278162851159
+A_Denied,2,quadratic,False,True,False,5.644127563302598
+A_Denied,2,quadratic,False,False,True,0.08454124762046662
+A_Denied,2,quadratic,False,False,False,0.08003007791613795
+A_Denied,2,cubic,True,True,True,0.05050016293560091
+A_Denied,2,cubic,True,True,False,0.030605177290728553
+A_Denied,2,cubic,True,False,True,8.526629803705481e-05
+A_Denied,2,cubic,True,False,False,5.1674886112268136e-05
+A_Denied,2,cubic,False,True,True,37.54832362309451
+A_Denied,2,cubic,False,True,False,37.25236035317366
+A_Denied,2,cubic,False,False,True,0.06339794501101573
+A_Denied,2,cubic,False,False,False,0.06289822994250645
+A_Denied,3,basic,True,True,True,0.16582163670450856
+A_Denied,3,basic,True,True,False,0.06882583176015199
+A_Denied,3,basic,True,False,True,0.019745557806192415
+A_Denied,3,basic,True,False,False,0.008195579699898101
+A_Denied,3,basic,False,True,True,1.672509132819367
+A_Denied,3,basic,False,True,False,1.1998899546539856
+A_Denied,3,basic,False,False,True,0.19915751900530657
+A_Denied,3,basic,False,False,False,0.14287940302331936
+A_Denied,3,quadratic,True,True,True,0.0728461894809997
+A_Denied,3,quadratic,True,True,False,0.035879573645848546
+A_Denied,3,quadratic,True,False,True,0.0010329118459269633
+A_Denied,3,quadratic,True,False,False,0.0005087491454206037
+A_Denied,3,quadratic,False,True,True,7.745460377799699
+A_Denied,3,quadratic,False,True,False,7.322043579639282
+A_Denied,3,quadratic,False,False,True,0.10982561796830818
+A_Denied,3,quadratic,False,False,False,0.10382184165961761
+A_Denied,3,cubic,True,True,True,0.04161919293645846
+A_Denied,3,cubic,True,True,False,0.024807745708387778
+A_Denied,3,cubic,True,False,True,7.027134770846511e-05
+A_Denied,3,cubic,True,False,False,4.188629335505918e-05
+A_Denied,3,cubic,False,True,True,50.52918281594406
+A_Denied,3,cubic,False,True,False,50.12832463873874
+A_Denied,3,cubic,False,False,True,0.08531529625057514
+A_Denied,3,cubic,False,False,False,0.08463847283414788
+A_Denied,4,basic,True,True,True,0.13747521661735948
+A_Denied,4,basic,True,True,False,0.05312061098631128
+A_Denied,4,basic,True,False,True,0.016370148616216024
+A_Denied,4,basic,True,False,False,0.006325447726701644
+A_Denied,4,basic,False,True,True,1.8473830502778723
+A_Denied,4,basic,False,True,False,1.296119673713495
+A_Denied,4,basic,False,False,True,0.21998099605326588
+A_Denied,4,basic,False,False,False,0.15433815785244662
+A_Denied,4,quadratic,True,True,True,0.05678756554941414
+A_Denied,4,quadratic,True,True,False,0.02699693851911161
+A_Denied,4,quadratic,True,False,True,0.0008052109461764224
+A_Denied,4,quadratic,True,False,False,0.00038279912509940975
+A_Denied,4,quadratic,False,True,True,8.8194157353386
+A_Denied,4,quadratic,False,True,False,8.312648923788405
+A_Denied,4,quadratic,False,False,True,0.1250536102449465
+A_Denied,4,quadratic,False,False,False,0.11786798466174686
+A_Denied,4,cubic,True,True,True,0.030977045728025975
+A_Denied,4,cubic,True,True,False,0.01801577248455447
+A_Denied,4,cubic,True,False,True,5.2302762205373024e-05
+A_Denied,4,cubic,True,False,False,3.0418480589749992e-05
+A_Denied,4,cubic,False,True,True,58.71218093023326
+A_Denied,4,cubic,False,True,False,58.226241807920424
+A_Denied,4,cubic,False,False,True,0.09913176565364332
+A_Denied,4,cubic,False,False,False,0.09831128849827338
+O_Refused,1,basic,True,True,True,0.1594931115431433
+O_Refused,1,basic,True,True,False,0.073966680282848
+O_Refused,1,basic,True,False,True,0.018829996983099853
+O_Refused,1,basic,True,False,False,0.008732617685492862
+O_Refused,1,basic,False,True,True,0.8453220335347228
+O_Refused,1,basic,False,True,False,0.6264342036272458
+O_Refused,1,basic,False,False,True,0.09979999253385285
+O_Refused,1,basic,False,False,False,0.07395776563817812
+O_Refused,1,quadratic,True,True,True,0.07740354955272767
+O_Refused,1,quadratic,True,True,False,0.03978478969294709
+O_Refused,1,quadratic,True,False,True,0.0010788908658295605
+O_Refused,1,quadratic,True,False,False,0.0005545410571827975
+O_Refused,1,quadratic,False,True,True,3.346406825105228
+O_Refused,1,quadratic,False,True,False,3.1642997183808665
+O_Refused,1,quadratic,False,False,True,0.046643955966080106
+O_Refused,1,quadratic,False,False,False,0.04410565255256905
+O_Refused,1,cubic,True,True,True,0.04794330764816039
+O_Refused,1,cubic,True,True,False,0.029553699974432676
+O_Refused,1,cubic,True,False,True,7.88956306600171e-05
+O_Refused,1,cubic,True,False,False,4.863364486511945e-05
+O_Refused,1,cubic,False,True,True,19.696534140173764
+O_Refused,1,cubic,False,True,False,19.530859263339924
+O_Refused,1,cubic,False,False,True,0.032412667357238405
+O_Refused,1,cubic,False,False,False,0.032140032352823394
+O_Refused,2,basic,True,True,True,0.18507992357781416
+O_Refused,2,basic,True,True,False,0.08193870884427995
+O_Refused,2,basic,True,False,True,0.02185081455169852
+O_Refused,2,basic,True,False,False,0.00967380738521443
+O_Refused,2,basic,False,True,True,1.365789320417921
+O_Refused,2,basic,False,True,False,0.9977444740313962
+O_Refused,2,basic,False,False,True,0.16124714437001053
+O_Refused,2,basic,False,False,False,0.11779521544310499
+O_Refused,2,quadratic,True,True,True,0.08611753845777148
+O_Refused,2,quadratic,True,True,False,0.043742772564517966
+O_Refused,2,quadratic,True,False,True,0.0012003509679685124
+O_Refused,2,quadratic,True,False,False,0.0006097094776483052
+O_Refused,2,quadratic,False,True,True,5.956624943373579
+O_Refused,2,quadratic,False,True,False,5.636897764520745
+O_Refused,2,quadratic,False,False,True,0.08302653146675765
+O_Refused,2,quadratic,False,False,False,0.0785700080280387
+O_Refused,2,cubic,True,True,True,0.051532700870280834
+O_Refused,2,cubic,True,True,False,0.031486448866547154
+O_Refused,2,cubic,True,False,True,8.48023453995216e-05
+O_Refused,2,cubic,True,False,False,5.181418142446281e-05
+O_Refused,2,cubic,False,True,True,37.37604298178286
+O_Refused,2,cubic,False,True,False,37.07803569695745
+O_Refused,2,cubic,False,False,True,0.06150611268342083
+O_Refused,2,cubic,False,False,False,0.06101571112727201
+O_Refused,3,basic,True,True,True,0.16689118925587762
+O_Refused,3,basic,True,True,False,0.0696922119316391
+O_Refused,3,basic,True,False,True,0.019703425181118703
+O_Refused,3,basic,True,False,False,0.008227967513589667
+O_Refused,3,basic,False,True,True,1.6719813916074153
+O_Refused,3,basic,False,True,False,1.1984233350017413
+O_Refused,3,basic,False,False,True,0.1973966414922606
+O_Refused,3,basic,False,False,False,0.1414876640390513
+O_Refused,3,quadratic,True,True,True,0.07376767581823362
+O_Refused,3,quadratic,True,True,False,0.03664129091504122
+O_Refused,3,quadratic,True,False,True,0.0010282121697733316
+O_Refused,3,quadratic,True,False,False,0.0005107253389395554
+O_Refused,3,quadratic,False,True,True,7.6973009727361195
+O_Refused,3,quadratic,False,True,False,7.272179455285841
+O_Refused,3,quadratic,False,False,True,0.10728897781837365
+O_Refused,3,quadratic,False,False,False,0.10136341336176852
+O_Refused,3,cubic,True,True,True,0.0424274716846814
+O_Refused,3,cubic,True,True,False,0.025527844638900333
+O_Refused,3,cubic,True,False,True,6.98187567791097e-05
+O_Refused,3,cubic,True,False,False,4.2008686946618114e-05
+O_Refused,3,cubic,False,True,True,49.95244375820042
+O_Refused,3,cubic,False,True,False,49.54938083459941
+O_Refused,3,cubic,False,False,True,0.08220187022209886
+O_Refused,3,cubic,False,False,False,0.08153858883595583
+O_Refused,4,basic,True,True,True,0.1382993563189284
+O_Refused,4,basic,True,True,False,0.05375755647627107
+O_Refused,4,basic,True,False,True,0.016327830318525763
+O_Refused,4,basic,True,False,False,0.006346698089172332
+O_Refused,4,basic,False,True,True,1.8423759243376725
+O_Refused,4,basic,False,True,False,1.2901384359371824
+O_Refused,4,basic,False,False,True,0.21751367668081684
+O_Refused,4,basic,False,False,False,0.15231568700010506
+O_Refused,4,quadratic,True,True,True,0.05745060944626293
+O_Refused,4,quadratic,True,True,False,0.02756151659960282
+O_Refused,4,quadratic,True,False,True,0.0008007764259659909
+O_Refused,4,quadratic,True,False,False,0.00038416672981470235
+O_Refused,4,quadratic,False,True,True,8.716620966001376
+O_Refused,4,quadratic,False,True,False,8.208126890380225
+O_Refused,4,quadratic,False,False,True,0.12149678917128699
+O_Refused,4,quadratic,False,False,False,0.11440913470729808
+O_Refused,4,cubic,True,True,True,0.031548052002780706
+O_Refused,4,cubic,True,True,False,0.018539947228213834
+O_Refused,4,cubic,True,False,True,5.191555570425739e-05
+O_Refused,4,cubic,True,False,False,3.050938495332375e-05
+O_Refused,4,cubic,False,True,True,57.60585120022913
+O_Refused,4,cubic,False,True,False,57.11767367129092
+O_Refused,4,cubic,False,False,True,0.09479633723860295
+O_Refused,4,cubic,False,False,False,0.09399299103849873

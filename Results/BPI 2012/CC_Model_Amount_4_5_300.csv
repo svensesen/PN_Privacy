@@ -1,0 +1,17 @@
+Model,Stochastic Type,Sensitive Activities,Background Size,Confidence Privacy,Upper CC,Lower CC,Max C
+Heuristic_,BillClintonEstimator,"('O_DECLINED', 'W_Beoordelen_fraude', 'W_Nabellen_incomplete_dossiers', 'W_Wijzigen_contractgegevens')",1,0.0,0.0,0,0.0
+Heuristic_,AlignmentEstimator,"('O_DECLINED', 'W_Beoordelen_fraude', 'W_Nabellen_incomplete_dossiers', 'W_Wijzigen_contractgegevens')",1,0.15786844855583854,1.1050791398908697,7,0.012077294685990343
+Flower_,BillClintonEstimator,"('O_DECLINED', 'W_Beoordelen_fraude', 'W_Nabellen_incomplete_dossiers', 'W_Wijzigen_contractgegevens')",1,6.292718673037081e-08,1.2585437346074164e-06,20,0.9999967529549784
+Flower_,BillClintonEstimator,"('O_DECLINED', 'W_Beoordelen_fraude', 'W_Nabellen_incomplete_dossiers', 'W_Wijzigen_contractgegevens')",2,1.2752570992827336e-07,2.6780399084937407e-05,210,0.9999995084847195
+Flower_,BillClintonEstimator,"('O_DECLINED', 'W_Beoordelen_fraude', 'W_Nabellen_incomplete_dossiers', 'W_Wijzigen_contractgegevens')",3,1.9311134476690076e-07,0.00026070031543531605,1350,0.9999998962554266
+Flower_,AlignmentEstimator,"('O_DECLINED', 'W_Beoordelen_fraude', 'W_Nabellen_incomplete_dossiers', 'W_Wijzigen_contractgegevens')",1,0.038719421999024395,0.7743884399804879,20,0.870647469718643
+Flower_,AlignmentEstimator,"('O_DECLINED', 'W_Beoordelen_fraude', 'W_Nabellen_incomplete_dossiers', 'W_Wijzigen_contractgegevens')",2,0.031964422788412834,6.712528785566695,210,0.9468353752446211
+Flower_,AlignmentEstimator,"('O_DECLINED', 'W_Beoordelen_fraude', 'W_Nabellen_incomplete_dossiers', 'W_Wijzigen_contractgegevens')",3,0.021319523513839183,28.781356743682895,1350,0.9765865576967436
+Alpha+_,BillClintonEstimator,"('O_DECLINED', 'W_Beoordelen_fraude', 'W_Nabellen_incomplete_dossiers', 'W_Wijzigen_contractgegevens')",1,0.0,0.0,3,0.0
+Alpha+_,BillClintonEstimator,"('O_DECLINED', 'W_Beoordelen_fraude', 'W_Nabellen_incomplete_dossiers', 'W_Wijzigen_contractgegevens')",2,0.0,0.0,6,0.0
+Alpha+_,BillClintonEstimator,"('O_DECLINED', 'W_Beoordelen_fraude', 'W_Nabellen_incomplete_dossiers', 'W_Wijzigen_contractgegevens')",3,0.0,0.0,7,0.0
+Alpha+_,BillClintonEstimator,"('O_DECLINED', 'W_Beoordelen_fraude', 'W_Nabellen_incomplete_dossiers', 'W_Wijzigen_contractgegevens')",4,0.0,0.0,7,0.0
+Alpha+_,AlignmentEstimator,"('O_DECLINED', 'W_Beoordelen_fraude', 'W_Nabellen_incomplete_dossiers', 'W_Wijzigen_contractgegevens')",1,0.0,0.0,0,0.0
+Alpha+_,AlignmentEstimator,"('O_DECLINED', 'W_Beoordelen_fraude', 'W_Nabellen_incomplete_dossiers', 'W_Wijzigen_contractgegevens')",2,0.0,0.0,0,0.0
+Alpha+_,AlignmentEstimator,"('O_DECLINED', 'W_Beoordelen_fraude', 'W_Nabellen_incomplete_dossiers', 'W_Wijzigen_contractgegevens')",3,0.0,0.0,0,0.0
+Alpha+_,AlignmentEstimator,"('O_DECLINED', 'W_Beoordelen_fraude', 'W_Nabellen_incomplete_dossiers', 'W_Wijzigen_contractgegevens')",4,0.0,0.0,0,0.0

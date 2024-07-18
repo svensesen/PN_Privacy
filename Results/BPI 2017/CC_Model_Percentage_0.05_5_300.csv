@@ -1,0 +1,15 @@
+Model,Stochastic Type,Sensitive Activities,Background Size,Confidence Privacy,Upper CC,Lower CC,Max C
+Flower_,BillClintonEstimator,"('W_Assess_potential_fraud', 'W_Personal_Loan_collection', 'W_Shortened_completion_')",1,3.2329851324438084e-05,0.0007112567291376379,22,0.9999997218270138
+Flower_,BillClintonEstimator,"('W_Assess_potential_fraud', 'W_Personal_Loan_collection', 'W_Shortened_completion_')",2,6.184826802388825e-05,0.015647611810043725,253,0.9999997824093236
+Flower_,BillClintonEstimator,"('W_Assess_potential_fraud', 'W_Personal_Loan_collection', 'W_Shortened_completion_')",3,9.203020631134123e-05,0.16501015991623483,1793,0.9999998077353606
+Flower_,AlignmentEstimator,"('W_Assess_potential_fraud', 'W_Personal_Loan_collection', 'W_Shortened_completion_')",1,0.04514816006540349,0.9481113613734733,21,0.17145163095063345
+Flower_,AlignmentEstimator,"('W_Assess_potential_fraud', 'W_Personal_Loan_collection', 'W_Shortened_completion_')",2,0.05219277786398146,12.056531686579717,231,0.23350267070741923
+Flower_,AlignmentEstimator,"('W_Assess_potential_fraud', 'W_Personal_Loan_collection', 'W_Shortened_completion_')",3,0.04721733020343404,73.70625244756054,1561,0.2732140640039516
+Alpha+_,BillClintonEstimator,"('W_Assess_potential_fraud', 'W_Personal_Loan_collection', 'W_Shortened_completion_')",1,0.0,0.0,5,0.0
+Alpha+_,BillClintonEstimator,"('W_Assess_potential_fraud', 'W_Personal_Loan_collection', 'W_Shortened_completion_')",2,0.0,0.0,15,0.0
+Alpha+_,BillClintonEstimator,"('W_Assess_potential_fraud', 'W_Personal_Loan_collection', 'W_Shortened_completion_')",3,0.0,0.0,25,0.0
+Alpha+_,BillClintonEstimator,"('W_Assess_potential_fraud', 'W_Personal_Loan_collection', 'W_Shortened_completion_')",4,0.0,0.0,30,0.0
+Alpha+_,AlignmentEstimator,"('W_Assess_potential_fraud', 'W_Personal_Loan_collection', 'W_Shortened_completion_')",1,0.0,0.0,0,0.0
+Alpha+_,AlignmentEstimator,"('W_Assess_potential_fraud', 'W_Personal_Loan_collection', 'W_Shortened_completion_')",2,0.0,0.0,0,0.0
+Alpha+_,AlignmentEstimator,"('W_Assess_potential_fraud', 'W_Personal_Loan_collection', 'W_Shortened_completion_')",3,0.0,0.0,0,0.0
+Alpha+_,AlignmentEstimator,"('W_Assess_potential_fraud', 'W_Personal_Loan_collection', 'W_Shortened_completion_')",4,0.0,0.0,0,0.0

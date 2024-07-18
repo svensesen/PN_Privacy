@@ -1,0 +1,11 @@
+Model,Stochastic Type,Background Size,Problem At
+IMf20_,BillClintonEstimator,1,CC-Timeout
+IMf20_,AlignmentEstimator,0,Non-Existant
+IM_,BillClintonEstimator,0,Reach-Timeout
+IM_,AlignmentEstimator,0,Non-Existant
+Heuristic_,BillClintonEstimator,0,Non-Existant
+Heuristic_,AlignmentEstimator,0,Non-Existant
+Flower_,BillClintonEstimator,3,CC-Timeout
+Flower_,AlignmentEstimator,3,CC-Timeout
+Alpha+_,BillClintonEstimator,0,Succes
+Alpha+_,AlignmentEstimator,0,Succes

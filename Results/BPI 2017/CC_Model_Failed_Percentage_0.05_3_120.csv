@@ -1,0 +1,17 @@
+Model,Stochastic Type,Sensitive Activities,Background Size,Confidence Privacy,Upper CC,Lower CC,Max C
+Alpha+_,BillClintonEstimator,"('W_Personal Loan collection', 'W_Shortened completion ', 'W_Assess potential fraud')",1,0.0,0,5,0
+Alpha+_,BillClintonEstimator,"('W_Personal Loan collection', 'W_Shortened completion ', 'W_Assess potential fraud')",2,0.0,0,15,0
+Alpha+_,BillClintonEstimator,"('W_Personal Loan collection', 'W_Shortened completion ', 'W_Assess potential fraud')",3,0.0,0,25,0
+Alpha+_,BillClintonEstimator,"('W_Personal Loan collection', 'W_Shortened completion ', 'W_Assess potential fraud')",4,0.0,0,30,0
+Alpha+_,AlignmentEstimator,"('W_Personal Loan collection', 'W_Shortened completion ', 'W_Assess potential fraud')",1,0.0,0,0,0
+Alpha+_,AlignmentEstimator,"('W_Personal Loan collection', 'W_Shortened completion ', 'W_Assess potential fraud')",2,0.0,0,0,0
+Alpha+_,AlignmentEstimator,"('W_Personal Loan collection', 'W_Shortened completion ', 'W_Assess potential fraud')",3,0.0,0,0,0
+Alpha+_,AlignmentEstimator,"('W_Personal Loan collection', 'W_Shortened completion ', 'W_Assess potential fraud')",4,0.0,0,0,0
+Heuristic_,AlignmentEstimator,"('W_Personal Loan collection', 'W_Shortened completion ', 'W_Assess potential fraud')",1,0.0,0,0,0
+Heuristic_,AlignmentEstimator,"('W_Personal Loan collection', 'W_Shortened completion ', 'W_Assess potential fraud')",2,0.0,0,0,0
+Flower_,BillClintonEstimator,"('W_Personal Loan collection', 'W_Shortened completion ', 'W_Assess potential fraud')",1,0.0,0,25,0
+Flower_,BillClintonEstimator,"('W_Personal Loan collection', 'W_Shortened completion ', 'W_Assess potential fraud')",2,0.0,0,325,0
+Flower_,BillClintonEstimator,"('W_Personal Loan collection', 'W_Shortened completion ', 'W_Assess potential fraud')",3,0.0,0,2625,0
+Flower_,AlignmentEstimator,"('W_Personal Loan collection', 'W_Shortened completion ', 'W_Assess potential fraud')",1,0.0,0,24,0
+Flower_,AlignmentEstimator,"('W_Personal Loan collection', 'W_Shortened completion ', 'W_Assess potential fraud')",2,0.0,0,300,0
+Flower_,AlignmentEstimator,"('W_Personal Loan collection', 'W_Shortened completion ', 'W_Assess potential fraud')",3,0.0,0,2324,0

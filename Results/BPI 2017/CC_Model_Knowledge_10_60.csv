@@ -1,0 +1,10 @@
+Model,Stochastic Type,Sensitive Activities,Background Size,Confidence Privacy,Upper CC,Lower CC
+Alpha+_,BillClintonEstimator,"('A_Denied', 'A_Cancelled', 'A_Pending')",1,0.0,0.0,5
+Alpha+_,BillClintonEstimator,"('A_Denied', 'A_Cancelled', 'A_Pending')",2,0.0,0.0,15
+Alpha+_,BillClintonEstimator,"('A_Denied', 'A_Cancelled', 'A_Pending')",3,0.0,0.0,25
+Alpha+_,BillClintonEstimator,"('A_Denied', 'A_Cancelled', 'A_Pending')",4,0.0,0.0,30
+Alpha+_,AlignmentEstimator,"('A_Denied', 'A_Cancelled', 'A_Pending')",1,0.0,0.0,0
+Alpha+_,AlignmentEstimator,"('A_Denied', 'A_Cancelled', 'A_Pending')",2,0.0,0.0,0
+Alpha+_,AlignmentEstimator,"('A_Denied', 'A_Cancelled', 'A_Pending')",3,0.0,0.0,0
+Alpha+_,AlignmentEstimator,"('A_Denied', 'A_Cancelled', 'A_Pending')",4,0.0,0.0,0
+Flower_,BillClintonEstimator,"('A_Denied', 'A_Cancelled', 'A_Pending')",1,0.019525173876839778,0.4295538252904751,22

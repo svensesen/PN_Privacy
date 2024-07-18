@@ -1,0 +1,27 @@
+Model,Stochastic Type,Sensitive Activities,Background Size,Confidence Privacy,Upper CC,Lower CC,Max C
+IMf20_,BillClintonEstimator,"(('ZDBC_BEHAN', 1e-05), ('CHANGE END', 0.00033), ('CODE ERROR', 0.00067), ('JOIN-PAT', 0.00095))",1,0.0,0,18,0
+IMf20_,BillClintonEstimator,"(('ZDBC_BEHAN', 1e-05), ('CHANGE END', 0.00033), ('CODE ERROR', 0.00067), ('JOIN-PAT', 0.00095))",2,0.0,0,147,0
+IMf20_,BillClintonEstimator,"(('ZDBC_BEHAN', 1e-05), ('CHANGE END', 0.00033), ('CODE ERROR', 0.00067), ('JOIN-PAT', 0.00095))",3,0.0,0,717,0
+IMf20_,AlignmentEstimator,"(('ZDBC_BEHAN', 1e-05), ('CHANGE END', 0.00033), ('CODE ERROR', 0.00067), ('JOIN-PAT', 0.00095))",1,0.0,0,18,0
+IMf20_,AlignmentEstimator,"(('ZDBC_BEHAN', 1e-05), ('CHANGE END', 0.00033), ('CODE ERROR', 0.00067), ('JOIN-PAT', 0.00095))",2,0.0,0,147,0
+IMf20_,AlignmentEstimator,"(('ZDBC_BEHAN', 1e-05), ('CHANGE END', 0.00033), ('CODE ERROR', 0.00067), ('JOIN-PAT', 0.00095))",3,0.0,0,717,0
+Alpha+_,BillClintonEstimator,"(('ZDBC_BEHAN', 1e-05), ('CHANGE END', 0.00033), ('CODE ERROR', 0.00067), ('JOIN-PAT', 0.00095))",1,0.0,0,1,0
+Alpha+_,BillClintonEstimator,"(('ZDBC_BEHAN', 1e-05), ('CHANGE END', 0.00033), ('CODE ERROR', 0.00067), ('JOIN-PAT', 0.00095))",2,0.0,0,1,0
+Alpha+_,BillClintonEstimator,"(('ZDBC_BEHAN', 1e-05), ('CHANGE END', 0.00033), ('CODE ERROR', 0.00067), ('JOIN-PAT', 0.00095))",3,0.0,0,1,0
+Alpha+_,BillClintonEstimator,"(('ZDBC_BEHAN', 1e-05), ('CHANGE END', 0.00033), ('CODE ERROR', 0.00067), ('JOIN-PAT', 0.00095))",4,0.0,0,1,0
+Alpha+_,AlignmentEstimator,"(('ZDBC_BEHAN', 1e-05), ('CHANGE END', 0.00033), ('CODE ERROR', 0.00067), ('JOIN-PAT', 0.00095))",1,0.0,0,1,0
+Alpha+_,AlignmentEstimator,"(('ZDBC_BEHAN', 1e-05), ('CHANGE END', 0.00033), ('CODE ERROR', 0.00067), ('JOIN-PAT', 0.00095))",2,0.0,0,1,0
+Alpha+_,AlignmentEstimator,"(('ZDBC_BEHAN', 1e-05), ('CHANGE END', 0.00033), ('CODE ERROR', 0.00067), ('JOIN-PAT', 0.00095))",3,0.0,0,1,0
+Alpha+_,AlignmentEstimator,"(('ZDBC_BEHAN', 1e-05), ('CHANGE END', 0.00033), ('CODE ERROR', 0.00067), ('JOIN-PAT', 0.00095))",4,0.0,0,1,0
+Heuristic_,BillClintonEstimator,"(('ZDBC_BEHAN', 1e-05), ('CHANGE END', 0.00033), ('CODE ERROR', 0.00067), ('JOIN-PAT', 0.00095))",1,0.0,0,0,0
+Heuristic_,BillClintonEstimator,"(('ZDBC_BEHAN', 1e-05), ('CHANGE END', 0.00033), ('CODE ERROR', 0.00067), ('JOIN-PAT', 0.00095))",2,0.0,0,0,0
+Heuristic_,BillClintonEstimator,"(('ZDBC_BEHAN', 1e-05), ('CHANGE END', 0.00033), ('CODE ERROR', 0.00067), ('JOIN-PAT', 0.00095))",3,0.0,0,0,0
+Heuristic_,BillClintonEstimator,"(('ZDBC_BEHAN', 1e-05), ('CHANGE END', 0.00033), ('CODE ERROR', 0.00067), ('JOIN-PAT', 0.00095))",4,0.0,0,0,0
+Flower_,BillClintonEstimator,"(('ZDBC_BEHAN', 1e-05), ('CHANGE END', 0.00033), ('CODE ERROR', 0.00067), ('JOIN-PAT', 0.00095))",1,0.0,0,18,0
+Flower_,BillClintonEstimator,"(('ZDBC_BEHAN', 1e-05), ('CHANGE END', 0.00033), ('CODE ERROR', 0.00067), ('JOIN-PAT', 0.00095))",2,0.0,0,171,0
+Flower_,BillClintonEstimator,"(('ZDBC_BEHAN', 1e-05), ('CHANGE END', 0.00033), ('CODE ERROR', 0.00067), ('JOIN-PAT', 0.00095))",3,0.0,0,987,0
+Flower_,BillClintonEstimator,"(('ZDBC_BEHAN', 1e-05), ('CHANGE END', 0.00033), ('CODE ERROR', 0.00067), ('JOIN-PAT', 0.00095))",4,0.0,0,4047,0
+Flower_,AlignmentEstimator,"(('ZDBC_BEHAN', 1e-05), ('CHANGE END', 0.00033), ('CODE ERROR', 0.00067), ('JOIN-PAT', 0.00095))",1,0.0,0,18,0
+Flower_,AlignmentEstimator,"(('ZDBC_BEHAN', 1e-05), ('CHANGE END', 0.00033), ('CODE ERROR', 0.00067), ('JOIN-PAT', 0.00095))",2,0.0,0,171,0
+Flower_,AlignmentEstimator,"(('ZDBC_BEHAN', 1e-05), ('CHANGE END', 0.00033), ('CODE ERROR', 0.00067), ('JOIN-PAT', 0.00095))",3,0.0,0,987,0
+Flower_,AlignmentEstimator,"(('ZDBC_BEHAN', 1e-05), ('CHANGE END', 0.00033), ('CODE ERROR', 0.00067), ('JOIN-PAT', 0.00095))",4,0.0,0,4047,0

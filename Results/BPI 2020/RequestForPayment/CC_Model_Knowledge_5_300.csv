@@ -1,0 +1,27 @@
+Model,Stochastic Type,Sensitive Activities,Background Size,Confidence Privacy,Upper CC,Lower CC,Max C
+IMf20_,BillClintonEstimator,"('Payment_Handled',)",1,0.0,0.0,16,1.0
+IMf20_,BillClintonEstimator,"('Payment_Handled',)",2,0.0,0.0,131,1.0
+IMf20_,BillClintonEstimator,"('Payment_Handled',)",3,0.0,0.0,627,1.0000000000000002
+IMf20_,AlignmentEstimator,"('Payment_Handled',)",1,0.0,0.0,16,1.0000000000000002
+IMf20_,AlignmentEstimator,"('Payment_Handled',)",2,0.0,0.0,131,1.0000000000000002
+IMf20_,AlignmentEstimator,"('Payment_Handled',)",3,0.0,0.0,627,1.0000000000000002
+Heuristic_,BillClintonEstimator,"('Payment_Handled',)",1,0.0,0.0,0,0.0
+Heuristic_,BillClintonEstimator,"('Payment_Handled',)",2,0.0,0.0,0,0.0
+Heuristic_,BillClintonEstimator,"('Payment_Handled',)",3,0.0,0.0,0,0.0
+Heuristic_,BillClintonEstimator,"('Payment_Handled',)",4,0.0,0.0,0,0.0
+Flower_,BillClintonEstimator,"('Payment_Handled',)",1,1.5786587906519335e-08,2.84158582317348e-07,18,0.9999999497451738
+Flower_,BillClintonEstimator,"('Payment_Handled',)",2,1.7248929200581318e-08,2.9495668932994056e-06,171,0.9999999999761076
+Flower_,BillClintonEstimator,"('Payment_Handled',)",3,1.604308848100436e-08,1.5834528330751304e-05,987,0.9999999999999857
+Flower_,BillClintonEstimator,"('Payment_Handled',)",4,1.4286559990671917e-08,5.781770828224925e-05,4047,1.0000000000000002
+Flower_,AlignmentEstimator,"('Payment_Handled',)",1,0.007367143973689708,0.13260859152641474,18,0.7275561184146175
+Flower_,AlignmentEstimator,"('Payment_Handled',)",2,0.0021387833602493013,0.3657319546026305,171,0.8577799578355347
+Flower_,AlignmentEstimator,"('Payment_Handled',)",3,0.000547723671810428,0.5406032640768924,987,0.925753723062216
+Flower_,AlignmentEstimator,"('Payment_Handled',)",4,0.0001515551845862431,0.6124345009130083,4041,0.960700045868593
+Alpha+_,BillClintonEstimator,"('Payment_Handled',)",1,0.0,0.0,0,0.0
+Alpha+_,BillClintonEstimator,"('Payment_Handled',)",2,0.0,0.0,0,0.0
+Alpha+_,BillClintonEstimator,"('Payment_Handled',)",3,0.0,0.0,0,0.0
+Alpha+_,BillClintonEstimator,"('Payment_Handled',)",4,0.0,0.0,0,0.0
+Alpha+_,AlignmentEstimator,"('Payment_Handled',)",1,0.0,0.0,0,0.0
+Alpha+_,AlignmentEstimator,"('Payment_Handled',)",2,0.0,0.0,0,0.0
+Alpha+_,AlignmentEstimator,"('Payment_Handled',)",3,0.0,0.0,0,0.0
+Alpha+_,AlignmentEstimator,"('Payment_Handled',)",4,0.0,0.0,0,0.0

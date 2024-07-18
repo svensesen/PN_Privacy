@@ -1,0 +1,5 @@
+Sensitive Activities,Background Size,Confidence Privacy,Upper CC,Lower CC,Max K,Max C
+"['A_Cancelled', 'A_Denied', 'A_Pending']",1,0.07174852866820389,1.6502161593686895,23,2,1.0
+"['A_Cancelled', 'A_Denied', 'A_Pending']",2,0.08153149859202093,22.095036118437672,271,1,1.0
+"['A_Cancelled', 'A_Denied', 'A_Pending']",3,0.07345429490885418,141.47297199445313,1926,1,1.0
+"['A_Cancelled', 'A_Denied', 'A_Pending']",4,0.0602145184150051,577.6980896735589,9594,1,1.0

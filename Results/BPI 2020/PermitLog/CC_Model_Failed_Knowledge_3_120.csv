@@ -1,0 +1,14 @@
+Model,Stochastic Type,Sensitive Activities,Background Size,Confidence Privacy,Upper CC,Lower CC,Max C
+IMf20_,BillClintonEstimator,"('Payment Handled', 'Send Reminder')",1,0.0,0,50,0
+Alpha+_,BillClintonEstimator,"('Payment Handled', 'Send Reminder')",1,0.0,0,0,0
+Alpha+_,BillClintonEstimator,"('Payment Handled', 'Send Reminder')",2,0.0,0,0,0
+Alpha+_,BillClintonEstimator,"('Payment Handled', 'Send Reminder')",3,0.0,0,0,0
+Alpha+_,BillClintonEstimator,"('Payment Handled', 'Send Reminder')",4,0.0,0,0,0
+Alpha+_,AlignmentEstimator,"('Payment Handled', 'Send Reminder')",1,0.0,0,0,0
+Alpha+_,AlignmentEstimator,"('Payment Handled', 'Send Reminder')",2,0.0,0,0,0
+Alpha+_,AlignmentEstimator,"('Payment Handled', 'Send Reminder')",3,0.0,0,0,0
+Alpha+_,AlignmentEstimator,"('Payment Handled', 'Send Reminder')",4,0.0,0,0,0
+Flower_,BillClintonEstimator,"('Payment Handled', 'Send Reminder')",1,0.0,0,51,0
+Flower_,BillClintonEstimator,"('Payment Handled', 'Send Reminder')",2,0.0,0,1326,0
+Flower_,AlignmentEstimator,"('Payment Handled', 'Send Reminder')",1,0.0,0,51,0
+Flower_,AlignmentEstimator,"('Payment Handled', 'Send Reminder')",2,0.0,0,1326,0

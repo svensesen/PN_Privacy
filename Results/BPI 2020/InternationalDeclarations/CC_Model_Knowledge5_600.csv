@@ -1,0 +1,17 @@
+Model,Stochastic Type,Sensitive Activities,Background Size,Confidence Privacy,Upper CC,Lower CC
+Alpha_,BillClintonEstimator,"('Send Reminder',)",1,0,0,0
+Alpha_,BillClintonEstimator,"('Send Reminder',)",2,0,0,0
+Alpha_,BillClintonEstimator,"('Send Reminder',)",3,0,0,0
+Alpha_,BillClintonEstimator,"('Send Reminder',)",4,0,0,0
+Alpha_,AlignmentEstimator,"('Send Reminder',)",1,0,0,0
+Alpha_,AlignmentEstimator,"('Send Reminder',)",2,0,0,0
+Alpha_,AlignmentEstimator,"('Send Reminder',)",3,0,0,0
+Alpha_,AlignmentEstimator,"('Send Reminder',)",4,0,0,0
+Alpha+_,BillClintonEstimator,"('Send Reminder',)",1,0,0,0
+Alpha+_,BillClintonEstimator,"('Send Reminder',)",2,0,0,0
+Alpha+_,BillClintonEstimator,"('Send Reminder',)",3,0,0,0
+Alpha+_,BillClintonEstimator,"('Send Reminder',)",4,0,0,0
+Alpha+_,AlignmentEstimator,"('Send Reminder',)",1,0,0,0
+Alpha+_,AlignmentEstimator,"('Send Reminder',)",2,0,0,0
+Alpha+_,AlignmentEstimator,"('Send Reminder',)",3,0,0,0
+Alpha+_,AlignmentEstimator,"('Send Reminder',)",4,0,0,0

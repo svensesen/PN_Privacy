@@ -1,0 +1,18 @@
+Model,Stochastic Type,Sensitive Activities,Background Size,Confidence Privacy,Upper CC,Lower CC,Max C
+IMf20_,BillClintonEstimator,"('Release_C', 'Release_D', 'Release_E')",1,0.0,0.0,11,0.44642857142857156
+IMf20_,BillClintonEstimator,"('Release_C', 'Release_D', 'Release_E')",2,0.0,0.0,66,0.4464285714285716
+IMf20_,BillClintonEstimator,"('Release_C', 'Release_D', 'Release_E')",3,0.0,0.0,231,0.4464285714285718
+IMf20_,AlignmentEstimator,"('Release_C', 'Release_D', 'Release_E')",1,0.0,0.0,11,0.023809523809523822
+IMf20_,AlignmentEstimator,"('Release_C', 'Release_D', 'Release_E')",2,0.0,0.0,66,0.023809523809523832
+IMf20_,AlignmentEstimator,"('Release_C', 'Release_D', 'Release_E')",3,0.0,0.0,231,0.023809523809523832
+Heuristic_,BillClintonEstimator,"('Release_C', 'Release_D', 'Release_E')",1,0.15777777777777807,2.051111111111115,13,0.6249999999999998
+Heuristic_,AlignmentEstimator,"('Release_C', 'Release_D', 'Release_E')",1,0.01631524723501143,0.2120982140551486,13,0.011138613861386138
+Heuristic_,AlignmentEstimator,"('Release_C', 'Release_D', 'Release_E')",2,0.018497302847296393,1.4427896220891188,78,0.01113861386138614
+Flower_,BillClintonEstimator,"('Release_C', 'Release_D', 'Release_E')",1,2.5189118877682467e-05,0.0003274585454098721,13,0.973264540337696
+Flower_,BillClintonEstimator,"('Release_C', 'Release_D', 'Release_E')",2,4.738026156704837e-05,0.004311603802601402,91,0.9751987102340978
+Flower_,BillClintonEstimator,"('Release_C', 'Release_D', 'Release_E')",3,6.995837340731224e-05,0.026374306774556718,377,0.9754021690062074
+Flower_,BillClintonEstimator,"('Release_C', 'Release_D', 'Release_E')",4,9.176324887959671e-05,0.1002054677765196,1092,0.9754191178266406
+Flower_,AlignmentEstimator,"('Release_C', 'Release_D', 'Release_E')",1,0.045228439291366884,0.5879697107877695,13,0.04484609215964463
+Flower_,AlignmentEstimator,"('Release_C', 'Release_D', 'Release_E')",2,0.046332650718068115,4.216271215344198,91,0.06345294344734391
+Flower_,AlignmentEstimator,"('Release_C', 'Release_D', 'Release_E')",3,0.03805827195901587,14.347968528548984,377,0.07613712014430961
+Flower_,AlignmentEstimator,"('Release_C', 'Release_D', 'Release_E')",4,0.029221620875830995,31.910009996407446,1092,0.08186634828773662

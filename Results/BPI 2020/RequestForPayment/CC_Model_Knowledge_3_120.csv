@@ -1,0 +1,27 @@
+Model,Stochastic Type,Sensitive Activities,Background Size,Confidence Privacy,Upper CC,Lower CC,Max C
+IMf20_,BillClintonEstimator,"('Payment Handled',)",1,0.0,0,17,0
+IMf20_,BillClintonEstimator,"('Payment Handled',)",2,0.0,0,148,0
+IMf20_,BillClintonEstimator,"('Payment Handled',)",3,0.0,0,759,0
+IMf20_,AlignmentEstimator,"('Payment Handled',)",1,0.0,0,17,0
+IMf20_,AlignmentEstimator,"('Payment Handled',)",2,0.0,0,148,0
+IMf20_,AlignmentEstimator,"('Payment Handled',)",3,0.0,0,759,0
+Alpha+_,BillClintonEstimator,"('Payment Handled',)",1,0.0,0,0,0
+Alpha+_,BillClintonEstimator,"('Payment Handled',)",2,0.0,0,0,0
+Alpha+_,BillClintonEstimator,"('Payment Handled',)",3,0.0,0,0,0
+Alpha+_,BillClintonEstimator,"('Payment Handled',)",4,0.0,0,0,0
+Alpha+_,AlignmentEstimator,"('Payment Handled',)",1,0.0,0,0,0
+Alpha+_,AlignmentEstimator,"('Payment Handled',)",2,0.0,0,0,0
+Alpha+_,AlignmentEstimator,"('Payment Handled',)",3,0.0,0,0,0
+Alpha+_,AlignmentEstimator,"('Payment Handled',)",4,0.0,0,0,0
+Heuristic_,BillClintonEstimator,"('Payment Handled',)",1,0.0,0,0,0
+Heuristic_,BillClintonEstimator,"('Payment Handled',)",2,0.0,0,0,0
+Heuristic_,BillClintonEstimator,"('Payment Handled',)",3,0.0,0,0,0
+Heuristic_,BillClintonEstimator,"('Payment Handled',)",4,0.0,0,0,0
+Flower_,BillClintonEstimator,"('Payment Handled',)",1,0.0,0,19,0
+Flower_,BillClintonEstimator,"('Payment Handled',)",2,0.0,0,190,0
+Flower_,BillClintonEstimator,"('Payment Handled',)",3,0.0,0,1159,0
+Flower_,BillClintonEstimator,"('Payment Handled',)",4,0.0,0,5035,0
+Flower_,AlignmentEstimator,"('Payment Handled',)",1,0.0,0,19,0
+Flower_,AlignmentEstimator,"('Payment Handled',)",2,0.0,0,190,0
+Flower_,AlignmentEstimator,"('Payment Handled',)",3,0.0,0,1159,0
+Flower_,AlignmentEstimator,"('Payment Handled',)",4,0.0,0,5035,0

@@ -1,0 +1,5 @@
+Sensitive Activities,Background Size,Confidence Privacy,Upper CC,Lower CC,Max K,Max C
+"['W_Beoordelen fraude', 'W_Wijzigen contractgegevens']",1,0.3192923524140347,7.024431753108764,22,802,0.014571948998178506
+"['W_Beoordelen fraude', 'W_Wijzigen contractgegevens']",2,0.34398136056651996,82.21154517539827,239,140,0.02100840336134454
+"['W_Beoordelen fraude', 'W_Wijzigen contractgegevens']",3,0.3290795466183039,506.1243426989514,1538,31,0.030303030303030304
+"['W_Beoordelen fraude', 'W_Wijzigen contractgegevens']",4,0.30623856156342494,2108.146257802617,6884,19,0.030303030303030304

@@ -1,0 +1,125 @@
+Sensitive Activities,Background Size,Confidence Privacy
+"('Notify Result Appeal to Offender',)",1,481.83999702487324
+"('Notify Result Appeal to Offender',)",2,276.56312906209666
+"('Notify Result Appeal to Offender',)",3,130.80182762119546
+"('Notify Result Appeal to Offender',)",4,65.85636669109091
+"('Appeal to Judge',)",1,1130.56084824565
+"('Appeal to Judge',)",2,636.5057262461951
+"('Appeal to Judge',)",3,296.16486182267187
+"('Appeal to Judge',)",4,146.53439614648374
+"('Insert Date Appeal to Prefecture',)",1,19.672862382592733
+"('Insert Date Appeal to Prefecture',)",2,10.939826134194224
+"('Insert Date Appeal to Prefecture',)",3,5.033668354904244
+"('Insert Date Appeal to Prefecture',)",4,2.493914172302026
+"('Send Appeal to Prefecture',)",1,20.100839782162755
+"('Send Appeal to Prefecture',)",2,11.177089733495402
+"('Send Appeal to Prefecture',)",3,5.143067981399565
+"('Send Appeal to Prefecture',)",4,2.5483840530027653
+"('Receive Result Appeal from Prefecture',)",1,386.20646474598647
+"('Receive Result Appeal from Prefecture',)",2,221.47245195467636
+"('Receive Result Appeal from Prefecture',)",3,104.65822300756344
+"('Receive Result Appeal from Prefecture',)",4,52.66239739965769
+"('Notify Result Appeal to Offender', 'Appeal to Judge')",1,1259.768621726245
+"('Notify Result Appeal to Offender', 'Appeal to Judge')",2,781.5556093856657
+"('Notify Result Appeal to Offender', 'Appeal to Judge')",3,404.7550716533021
+"('Notify Result Appeal to Offender', 'Appeal to Judge')",4,223.5115955841245
+"('Notify Result Appeal to Offender', 'Insert Date Appeal to Prefecture')",1,533.1619659598774
+"('Notify Result Appeal to Offender', 'Insert Date Appeal to Prefecture')",2,335.42799765432807
+"('Notify Result Appeal to Offender', 'Insert Date Appeal to Prefecture')",3,175.06415971409098
+"('Notify Result Appeal to Offender', 'Insert Date Appeal to Prefecture')",4,97.46695305900866
+"('Notify Result Appeal to Offender', 'Send Appeal to Prefecture')",1,533.3347296299622
+"('Notify Result Appeal to Offender', 'Send Appeal to Prefecture')",2,335.59993858366056
+"('Notify Result Appeal to Offender', 'Send Appeal to Prefecture')",3,175.19747654476285
+"('Notify Result Appeal to Offender', 'Send Appeal to Prefecture')",4,97.56163488677143
+"('Notify Result Appeal to Offender', 'Receive Result Appeal from Prefecture')",1,535.2414786243443
+"('Notify Result Appeal to Offender', 'Receive Result Appeal from Prefecture')",2,337.83535941119163
+"('Notify Result Appeal to Offender', 'Receive Result Appeal from Prefecture')",3,177.2436250833266
+"('Notify Result Appeal to Offender', 'Receive Result Appeal from Prefecture')",4,99.24166603169485
+"('Appeal to Judge', 'Insert Date Appeal to Prefecture')",1,1255.5672276531368
+"('Appeal to Judge', 'Insert Date Appeal to Prefecture')",2,777.2471124772087
+"('Appeal to Judge', 'Insert Date Appeal to Prefecture')",3,401.1318148168078
+"('Appeal to Judge', 'Insert Date Appeal to Prefecture')",4,220.7088464919124
+"('Appeal to Judge', 'Send Appeal to Prefecture')",1,1255.6138548204626
+"('Appeal to Judge', 'Send Appeal to Prefecture')",2,777.2930089525088
+"('Appeal to Judge', 'Send Appeal to Prefecture')",3,401.16744236952064
+"('Appeal to Judge', 'Send Appeal to Prefecture')",4,220.73430115510678
+"('Appeal to Judge', 'Receive Result Appeal from Prefecture')",1,1258.604774815695
+"('Appeal to Judge', 'Receive Result Appeal from Prefecture')",2,780.4717140602231
+"('Appeal to Judge', 'Receive Result Appeal from Prefecture')",3,403.8754006030673
+"('Appeal to Judge', 'Receive Result Appeal from Prefecture')",4,222.83301364692153
+"('Insert Date Appeal to Prefecture', 'Send Appeal to Prefecture')",1,22.226867759092755
+"('Insert Date Appeal to Prefecture', 'Send Appeal to Prefecture')",2,13.559076754327137
+"('Insert Date Appeal to Prefecture', 'Send Appeal to Prefecture')",3,6.90135698335249
+"('Insert Date Appeal to Prefecture', 'Send Appeal to Prefecture')",4,3.795767562377745
+"('Insert Date Appeal to Prefecture', 'Receive Result Appeal from Prefecture')",1,427.33313810303594
+"('Insert Date Appeal to Prefecture', 'Receive Result Appeal from Prefecture')",2,268.6071727697483
+"('Insert Date Appeal to Prefecture', 'Receive Result Appeal from Prefecture')",3,140.07702183011767
+"('Insert Date Appeal to Prefecture', 'Receive Result Appeal from Prefecture')",4,77.94988265193031
+"('Send Appeal to Prefecture', 'Receive Result Appeal from Prefecture')",1,427.4691472789829
+"('Send Appeal to Prefecture', 'Receive Result Appeal from Prefecture')",2,268.74176469174927
+"('Send Appeal to Prefecture', 'Receive Result Appeal from Prefecture')",3,140.18064593664062
+"('Send Appeal to Prefecture', 'Receive Result Appeal from Prefecture')",4,78.0229238964528
+"('Notify Result Appeal to Offender', 'Appeal to Judge', 'Insert Date Appeal to Prefecture')",1,1414.7469148657965
+"('Notify Result Appeal to Offender', 'Appeal to Judge', 'Insert Date Appeal to Prefecture')",2,973.7025450037477
+"('Notify Result Appeal to Offender', 'Appeal to Judge', 'Insert Date Appeal to Prefecture')",3,564.199676240162
+"('Notify Result Appeal to Offender', 'Appeal to Judge', 'Insert Date Appeal to Prefecture')",4,348.7499469913255
+"('Notify Result Appeal to Offender', 'Appeal to Judge', 'Send Appeal to Prefecture')",1,1414.941273994642
+"('Notify Result Appeal to Offender', 'Appeal to Judge', 'Send Appeal to Prefecture')",2,973.9174673122288
+"('Notify Result Appeal to Offender', 'Appeal to Judge', 'Send Appeal to Prefecture')",3,564.3866010991256
+"('Notify Result Appeal to Offender', 'Appeal to Judge', 'Send Appeal to Prefecture')",4,348.8978019552864
+"('Notify Result Appeal to Offender', 'Appeal to Judge', 'Receive Result Appeal from Prefecture')",1,1417.0863666133216
+"('Notify Result Appeal to Offender', 'Appeal to Judge', 'Receive Result Appeal from Prefecture')",2,976.7117413502282
+"('Notify Result Appeal to Offender', 'Appeal to Judge', 'Receive Result Appeal from Prefecture')",3,567.2556532012622
+"('Notify Result Appeal to Offender', 'Appeal to Judge', 'Receive Result Appeal from Prefecture')",4,351.5215486327349
+"('Notify Result Appeal to Offender', 'Insert Date Appeal to Prefecture', 'Send Appeal to Prefecture')",1,597.5087862574782
+"('Notify Result Appeal to Offender', 'Insert Date Appeal to Prefecture', 'Send Appeal to Prefecture')",2,416.7686787742567
+"('Notify Result Appeal to Offender', 'Insert Date Appeal to Prefecture', 'Send Appeal to Prefecture')",3,243.30455111146148
+"('Notify Result Appeal to Offender', 'Insert Date Appeal to Prefecture', 'Send Appeal to Prefecture')",4,151.45564332390632
+"('Notify Result Appeal to Offender', 'Insert Date Appeal to Prefecture', 'Receive Result Appeal from Prefecture')",1,599.6538788761578
+"('Notify Result Appeal to Offender', 'Insert Date Appeal to Prefecture', 'Receive Result Appeal from Prefecture')",2,419.0840891563287
+"('Notify Result Appeal to Offender', 'Insert Date Appeal to Prefecture', 'Receive Result Appeal from Prefecture')",3,245.26326186176763
+"('Notify Result Appeal to Offender', 'Insert Date Appeal to Prefecture', 'Receive Result Appeal from Prefecture')",4,152.97091696239227
+"('Notify Result Appeal to Offender', 'Send Appeal to Prefecture', 'Receive Result Appeal from Prefecture')",1,599.8482380050033
+"('Notify Result Appeal to Offender', 'Send Appeal to Prefecture', 'Receive Result Appeal from Prefecture')",2,419.295599054144
+"('Notify Result Appeal to Offender', 'Send Appeal to Prefecture', 'Receive Result Appeal from Prefecture')",3,245.44340050706364
+"('Notify Result Appeal to Offender', 'Send Appeal to Prefecture', 'Receive Result Appeal from Prefecture')",4,153.11098000908834
+"('Appeal to Judge', 'Insert Date Appeal to Prefecture', 'Send Appeal to Prefecture')",1,1411.8776574757371
+"('Appeal to Judge', 'Insert Date Appeal to Prefecture', 'Send Appeal to Prefecture')",2,970.8770641630249
+"('Appeal to Judge', 'Insert Date Appeal to Prefecture', 'Send Appeal to Prefecture')",3,561.8728164095031
+"('Appeal to Judge', 'Insert Date Appeal to Prefecture', 'Send Appeal to Prefecture')",4,346.95040206967633
+"('Appeal to Judge', 'Insert Date Appeal to Prefecture', 'Receive Result Appeal from Prefecture')",1,1413.9220711010892
+"('Appeal to Judge', 'Insert Date Appeal to Prefecture', 'Receive Result Appeal from Prefecture')",2,972.9879448063018
+"('Appeal to Judge', 'Insert Date Appeal to Prefecture', 'Receive Result Appeal from Prefecture')",3,563.637822879268
+"('Appeal to Judge', 'Insert Date Appeal to Prefecture', 'Receive Result Appeal from Prefecture')",4,348.31309486239945
+"('Appeal to Judge', 'Send Appeal to Prefecture', 'Receive Result Appeal from Prefecture')",1,1414.0750814240296
+"('Appeal to Judge', 'Send Appeal to Prefecture', 'Receive Result Appeal from Prefecture')",2,973.1561820985074
+"('Appeal to Judge', 'Send Appeal to Prefecture', 'Receive Result Appeal from Prefecture')",3,563.7831161915963
+"('Appeal to Judge', 'Send Appeal to Prefecture', 'Receive Result Appeal from Prefecture')",4,348.42715728345615
+"('Insert Date Appeal to Prefecture', 'Send Appeal to Prefecture', 'Receive Result Appeal from Prefecture')",1,478.8944901222881
+"('Insert Date Appeal to Prefecture', 'Send Appeal to Prefecture', 'Receive Result Appeal from Prefecture')",2,333.7377680613669
+"('Insert Date Appeal to Prefecture', 'Send Appeal to Prefecture', 'Receive Result Appeal from Prefecture')",3,194.6827526088878
+"('Insert Date Appeal to Prefecture', 'Send Appeal to Prefecture', 'Receive Result Appeal from Prefecture')",4,121.13793059713785
+"('Notify Result Appeal to Offender', 'Appeal to Judge', 'Insert Date Appeal to Prefecture', 'Send Appeal to Prefecture')",1,1614.2268450496144
+"('Notify Result Appeal to Offender', 'Appeal to Judge', 'Insert Date Appeal to Prefecture', 'Send Appeal to Prefecture')",2,1248.6680508785455
+"('Notify Result Appeal to Offender', 'Appeal to Judge', 'Insert Date Appeal to Prefecture', 'Send Appeal to Prefecture')",3,820.7479280551449
+"('Notify Result Appeal to Offender', 'Appeal to Judge', 'Insert Date Appeal to Prefecture', 'Send Appeal to Prefecture')",4,573.7013183879608
+"('Notify Result Appeal to Offender', 'Appeal to Judge', 'Insert Date Appeal to Prefecture', 'Receive Result Appeal from Prefecture')",1,1616.6783794709627
+"('Notify Result Appeal to Offender', 'Appeal to Judge', 'Insert Date Appeal to Prefecture', 'Receive Result Appeal from Prefecture')",2,1251.6450045172478
+"('Notify Result Appeal to Offender', 'Appeal to Judge', 'Insert Date Appeal to Prefecture', 'Receive Result Appeal from Prefecture')",3,823.6082643934974
+"('Notify Result Appeal to Offender', 'Appeal to Judge', 'Insert Date Appeal to Prefecture', 'Receive Result Appeal from Prefecture')",4,576.1906941090052
+"('Notify Result Appeal to Offender', 'Appeal to Judge', 'Send Appeal to Prefecture', 'Receive Result Appeal from Prefecture')",1,1616.9005041896432
+"('Notify Result Appeal to Offender', 'Appeal to Judge', 'Send Appeal to Prefecture', 'Receive Result Appeal from Prefecture')",2,1251.9169408603448
+"('Notify Result Appeal to Offender', 'Appeal to Judge', 'Send Appeal to Prefecture', 'Receive Result Appeal from Prefecture')",3,823.871313195472
+"('Notify Result Appeal to Offender', 'Appeal to Judge', 'Send Appeal to Prefecture', 'Receive Result Appeal from Prefecture')",4,576.4207825651448
+"('Notify Result Appeal to Offender', 'Insert Date Appeal to Prefecture', 'Send Appeal to Prefecture', 'Receive Result Appeal from Prefecture')",1,682.6919467757416
+"('Notify Result Appeal to Offender', 'Insert Date Appeal to Prefecture', 'Send Appeal to Prefecture', 'Receive Result Appeal from Prefecture')",2,535.6237502018738
+"('Notify Result Appeal to Offender', 'Insert Date Appeal to Prefecture', 'Send Appeal to Prefecture', 'Receive Result Appeal from Prefecture')",3,355.0817064469636
+"('Notify Result Appeal to Offender', 'Insert Date Appeal to Prefecture', 'Send Appeal to Prefecture', 'Receive Result Appeal from Prefecture')",4,248.623637668505
+"('Appeal to Judge', 'Insert Date Appeal to Prefecture', 'Send Appeal to Prefecture', 'Receive Result Appeal from Prefecture')",1,1613.7906066942421
+"('Appeal to Judge', 'Insert Date Appeal to Prefecture', 'Send Appeal to Prefecture', 'Receive Result Appeal from Prefecture')",2,1248.3858484932896
+"('Appeal to Judge', 'Insert Date Appeal to Prefecture', 'Send Appeal to Prefecture', 'Receive Result Appeal from Prefecture')",3,820.564475745057
+"('Appeal to Judge', 'Insert Date Appeal to Prefecture', 'Send Appeal to Prefecture', 'Receive Result Appeal from Prefecture')",4,573.5573479654865
+"('Notify Result Appeal to Offender', 'Appeal to Judge', 'Insert Date Appeal to Prefecture', 'Send Appeal to Prefecture', 'Receive Result Appeal from Prefecture')",1,1883.060208786278
+"('Notify Result Appeal to Offender', 'Appeal to Judge', 'Insert Date Appeal to Prefecture', 'Send Appeal to Prefecture', 'Receive Result Appeal from Prefecture')",2,1664.5951993115928
+"('Notify Result Appeal to Offender', 'Appeal to Judge', 'Insert Date Appeal to Prefecture', 'Send Appeal to Prefecture', 'Receive Result Appeal from Prefecture')",3,1260.811078890937
+"('Notify Result Appeal to Offender', 'Appeal to Judge', 'Insert Date Appeal to Prefecture', 'Send Appeal to Prefecture', 'Receive Result Appeal from Prefecture')",4,1003.6339331754563

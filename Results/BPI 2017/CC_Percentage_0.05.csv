@@ -1,0 +1,5 @@
+Sensitive Activities,Background Size,Confidence Privacy,Upper CC,Lower CC,Max K,Max C
+"['W_Assess potential fraud', 'W_Personal Loan collection', 'W_Shortened completion ']",1,0.037977545608640015,0.8734835489987204,23,1800,0.04489247311827957
+"['W_Assess potential fraud', 'W_Personal Loan collection', 'W_Shortened completion ']",2,0.04469479207788681,11.978204276873665,268,124,0.049079754601226995
+"['W_Assess potential fraud', 'W_Personal Loan collection', 'W_Shortened completion ']",3,0.042867250758659346,80.80476768007287,1885,13,0.05454545454545454
+"['W_Assess potential fraud', 'W_Personal Loan collection', 'W_Shortened completion ']",4,0.03825729011136479,356.97877402914486,9331,4,0.08108108108108109

@@ -1,0 +1,11 @@
+Model,Stochastic Type,Sensitive Activities,Background Size,Confidence Privacy,Upper CC,Lower CC
+Alpha+_,BillClintonEstimator,"('W_Shortened completion ', 'W_Personal Loan collection', 'W_Assess potential fraud')",1,0.0,0,5
+Alpha+_,BillClintonEstimator,"('W_Shortened completion ', 'W_Personal Loan collection', 'W_Assess potential fraud')",2,0.0,0,15
+Alpha+_,BillClintonEstimator,"('W_Shortened completion ', 'W_Personal Loan collection', 'W_Assess potential fraud')",3,0.0,0,25
+Alpha+_,BillClintonEstimator,"('W_Shortened completion ', 'W_Personal Loan collection', 'W_Assess potential fraud')",4,0.0,0,30
+Alpha+_,AlignmentEstimator,"('W_Shortened completion ', 'W_Personal Loan collection', 'W_Assess potential fraud')",1,0.0,0,0
+Alpha+_,AlignmentEstimator,"('W_Shortened completion ', 'W_Personal Loan collection', 'W_Assess potential fraud')",2,0.0,0,0
+Alpha+_,AlignmentEstimator,"('W_Shortened completion ', 'W_Personal Loan collection', 'W_Assess potential fraud')",3,0.0,0,0
+Alpha+_,AlignmentEstimator,"('W_Shortened completion ', 'W_Personal Loan collection', 'W_Assess potential fraud')",4,0.0,0,0
+Flower_,BillClintonEstimator,"('W_Shortened completion ', 'W_Personal Loan collection', 'W_Assess potential fraud')",1,0.0,0,25
+Flower_,AlignmentEstimator,"('W_Shortened completion ', 'W_Personal Loan collection', 'W_Assess potential fraud')",1,0.0,0,24

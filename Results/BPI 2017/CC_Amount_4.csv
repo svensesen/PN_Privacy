@@ -1,0 +1,5 @@
+Sensitive Activities,Background Size,Confidence Privacy,Upper CC,Lower CC,Max K,Max C
+"['O_Sent (online only)', 'W_Assess potential fraud', 'W_Personal Loan collection', 'W_Shortened completion ']",1,0.05616049866501003,1.2355309706302207,22,3720,0.095459762785359
+"['O_Sent (online only)', 'W_Assess potential fraud', 'W_Personal Loan collection', 'W_Shortened completion ']",2,0.07497654578601365,18.369253717573343,245,163,0.23286097280735352
+"['O_Sent (online only)', 'W_Assess potential fraud', 'W_Personal Loan collection', 'W_Shortened completion ']",3,0.08109154929752499,132.90904929864345,1639,55,0.2605382233865206
+"['O_Sent (online only)', 'W_Assess potential fraud', 'W_Personal Loan collection', 'W_Shortened completion ']",4,0.08088149044419944,622.0595430063379,7691,37,0.2605382233865206

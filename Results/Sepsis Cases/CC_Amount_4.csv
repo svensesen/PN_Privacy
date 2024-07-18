@@ -1,0 +1,5 @@
+Sensitive Activities,Background Size,Confidence Privacy,Upper CC,Lower CC,Max K,Max C
+"['Release B', 'Release C', 'Release D', 'Release E']",1,0.012997680461073323,0.15597216553287988,12,110,0.11818181818181818
+"['Release B', 'Release C', 'Release D', 'Release E']",2,0.018322114657828962,1.429124943310659,78,47,0.11926605504587157
+"['Release B', 'Release C', 'Release D', 'Release E']",3,0.020596562305011456,6.1377755668934135,298,42,0.11926605504587157
+"['Release B', 'Release C', 'Release D', 'Release E']",4,0.020801069734325023,16.495248299319744,793,38,0.11926605504587157

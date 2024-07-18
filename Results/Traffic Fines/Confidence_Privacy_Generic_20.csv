@@ -1,0 +1,481 @@
+Sensitive Activity,Background Size,Function,Background Odds,Percentage,Absolute,Confidence Privacy
+Insert Date Appeal to Prefecture,1,basic,True,True,True,0.32636321492626374
+Insert Date Appeal to Prefecture,1,basic,True,True,False,0.26119506395526504
+Insert Date Appeal to Prefecture,1,basic,True,False,True,0.009089639849113469
+Insert Date Appeal to Prefecture,1,basic,True,False,False,0.007274622117740573
+Insert Date Appeal to Prefecture,1,basic,False,True,True,11.831546325661666
+Insert Date Appeal to Prefecture,1,basic,False,True,False,11.678266336008704
+Insert Date Appeal to Prefecture,1,basic,False,False,True,0.3295239476748757
+Insert Date Appeal to Prefecture,1,basic,False,False,False,0.3252549006796865
+Insert Date Appeal to Prefecture,1,quadratic,True,True,True,0.1704179798971019
+Insert Date Appeal to Prefecture,1,quadratic,True,True,False,0.14918343554352448
+Insert Date Appeal to Prefecture,1,quadratic,True,False,True,0.00013219236106612375
+Insert Date Appeal to Prefecture,1,quadratic,True,False,False,0.00011572083290954302
+Insert Date Appeal to Prefecture,1,quadratic,False,True,True,370.0973655339686
+Insert Date Appeal to Prefecture,1,quadratic,False,True,False,369.9791223553798
+Insert Date Appeal to Prefecture,1,quadratic,False,False,True,0.28708264587943033
+Insert Date Appeal to Prefecture,1,quadratic,False,False,False,0.28699092524662473
+Insert Date Appeal to Prefecture,1,cubic,True,True,True,0.11709977606850382
+Insert Date Appeal to Prefecture,1,cubic,True,True,False,0.11018062777938424
+Insert Date Appeal to Prefecture,1,cubic,True,False,True,2.529836675952562e-06
+Insert Date Appeal to Prefecture,1,cubic,True,False,False,2.3803546214529108e-06
+Insert Date Appeal to Prefecture,1,cubic,False,True,True,12474.619891297541
+Insert Date Appeal to Prefecture,1,cubic,False,True,False,12474.528090391594
+Insert Date Appeal to Prefecture,1,cubic,False,False,True,0.2695030851392056
+Insert Date Appeal to Prefecture,1,cubic,False,False,False,0.26950110186215287
+Insert Date Appeal to Prefecture,2,basic,True,True,True,0.2612272165057892
+Insert Date Appeal to Prefecture,2,basic,True,True,False,0.2192271772289924
+Insert Date Appeal to Prefecture,2,basic,True,False,True,0.007275517608075049
+Insert Date Appeal to Prefecture,2,basic,True,False,False,0.006105761908858287
+Insert Date Appeal to Prefecture,2,basic,False,True,True,18.396084476328777
+Insert Date Appeal to Prefecture,2,basic,False,True,False,18.27608437053811
+Insert Date Appeal to Prefecture,2,basic,False,False,True,0.5123548699000128
+Insert Date Appeal to Prefecture,2,basic,False,False,False,0.5090127109384426
+Insert Date Appeal to Prefecture,2,quadratic,True,True,True,0.13469297018411613
+Insert Date Appeal to Prefecture,2,quadratic,True,True,False,0.12119669518437307
+Insert Date Appeal to Prefecture,2,quadratic,True,False,True,0.00010448065256024154
+Insert Date Appeal to Prefecture,2,quadratic,True,False,False,9.4011660621181e-05
+Insert Date Appeal to Prefecture,2,quadratic,False,True,True,598.1050279296978
+Insert Date Appeal to Prefecture,2,quadratic,False,True,False,598.0085407453261
+Insert Date Appeal to Prefecture,2,quadratic,False,False,True,0.46394703103091534
+Insert Date Appeal to Prefecture,2,quadratic,False,False,False,0.4638721864122759
+Insert Date Appeal to Prefecture,2,cubic,True,True,True,0.09580109835434653
+Insert Date Appeal to Prefecture,2,cubic,True,True,False,0.09141043375357225
+Insert Date Appeal to Prefecture,2,cubic,True,False,True,2.069697657419791e-06
+Insert Date Appeal to Prefecture,2,cubic,True,False,False,1.974841247682958e-06
+Insert Date Appeal to Prefecture,2,cubic,False,True,True,20357.05393654109
+Insert Date Appeal to Prefecture,2,cubic,False,True,False,20356.974774053197
+Insert Date Appeal to Prefecture,2,cubic,False,False,True,0.4397960729905958
+Insert Date Appeal to Prefecture,2,cubic,False,False,False,0.43979436275534217
+Insert Date Appeal to Prefecture,3,basic,True,True,True,0.18618117095854514
+Insert Date Appeal to Prefecture,3,basic,True,True,False,0.16142927739628524
+Insert Date Appeal to Prefecture,3,basic,True,False,True,0.0051853876702426475
+Insert Date Appeal to Prefecture,3,basic,True,False,False,0.0044960152539445545
+Insert Date Appeal to Prefecture,3,basic,False,True,True,23.27601465092046
+Insert Date Appeal to Prefecture,3,basic,False,True,False,23.182203093986708
+Insert Date Appeal to Prefecture,3,basic,False,False,True,0.6482672697882216
+Insert Date Appeal to Prefecture,3,basic,False,False,False,0.645654495960739
+Insert Date Appeal to Prefecture,3,quadratic,True,True,True,0.08813340787497398
+Insert Date Appeal to Prefecture,3,quadratic,True,True,False,0.08026184565450852
+Insert Date Appeal to Prefecture,3,quadratic,True,False,True,6.836463665882619e-05
+Insert Date Appeal to Prefecture,3,quadratic,True,False,False,6.225870584195747e-05
+Insert Date Appeal to Prefecture,3,quadratic,False,True,True,774.8585995794746
+Insert Date Appeal to Prefecture,3,quadratic,False,True,False,774.7790798462329
+Insert Date Appeal to Prefecture,3,quadratic,False,False,True,0.6010538784267262
+Insert Date Appeal to Prefecture,3,quadratic,False,False,False,0.6009921953737118
+Insert Date Appeal to Prefecture,3,cubic,True,True,True,0.06254849182323564
+Insert Date Appeal to Prefecture,3,cubic,True,True,False,0.05999024968151979
+Insert Date Appeal to Prefecture,3,cubic,True,False,True,1.35130462202909e-06
+Insert Date Appeal to Prefecture,3,cubic,True,False,False,1.2960360723070646e-06
+Insert Date Appeal to Prefecture,3,cubic,False,True,True,26561.106445543366
+Insert Date Appeal to Prefecture,3,cubic,False,True,False,26561.037819109133
+Insert Date Appeal to Prefecture,3,cubic,False,False,True,0.5738291181744543
+Insert Date Appeal to Prefecture,3,cubic,False,False,False,0.5738276355612838
+Insert Date Appeal to Prefecture,4,basic,True,True,True,0.1345269587627898
+Insert Date Appeal to Prefecture,4,basic,True,True,False,0.11957589094947788
+Insert Date Appeal to Prefecture,4,basic,True,False,True,0.0037467507035882463
+Insert Date Appeal to Prefecture,4,basic,True,False,False,0.003330344026710211
+Insert Date Appeal to Prefecture,4,basic,False,True,True,26.58154477347942
+Insert Date Appeal to Prefecture,4,basic,False,True,False,26.504776723137006
+Insert Date Appeal to Prefecture,4,basic,False,False,True,0.7403305813083221
+Insert Date Appeal to Prefecture,4,basic,False,False,False,0.7381924912981203
+Insert Date Appeal to Prefecture,4,quadratic,True,True,True,0.05584103680071133
+Insert Date Appeal to Prefecture,4,quadratic,True,True,False,0.051125409326633404
+Insert Date Appeal to Prefecture,4,quadratic,True,False,True,4.331560850283188e-05
+Insert Date Appeal to Prefecture,4,quadratic,True,False,False,3.965772023257408e-05
+Insert Date Appeal to Prefecture,4,quadratic,False,True,True,898.0180810309379
+Insert Date Appeal to Prefecture,4,quadratic,False,True,False,897.950338012339
+Insert Date Appeal to Prefecture,4,quadratic,False,False,True,0.6965880623818355
+Insert Date Appeal to Prefecture,4,quadratic,False,False,False,0.6965355144665291
+Insert Date Appeal to Prefecture,4,cubic,True,True,True,0.03843669731742834
+Insert Date Appeal to Prefecture,4,cubic,True,True,False,0.03690484757044655
+Insert Date Appeal to Prefecture,4,cubic,True,False,True,8.303907132942132e-07
+Insert Date Appeal to Prefecture,4,cubic,True,False,False,7.972964598116444e-07
+Insert Date Appeal to Prefecture,4,cubic,False,True,True,30931.67673008632
+Insert Date Appeal to Prefecture,4,cubic,False,True,False,30931.616132982188
+Insert Date Appeal to Prefecture,4,cubic,False,False,True,0.6682514080531067
+Insert Date Appeal to Prefecture,4,cubic,False,False,False,0.6682500989064829
+Appeal to Judge,1,basic,True,True,True,0.25190465919800226
+Appeal to Judge,1,basic,True,True,False,0.23872959013412562
+Appeal to Judge,1,basic,True,False,True,0.0009297538462119522
+Appeal to Judge,1,basic,True,False,False,0.0008811260392660751
+Appeal to Judge,1,basic,False,True,True,11.82621438971925
+Appeal to Judge,1,basic,False,True,False,11.792876566752184
+Appeal to Judge,1,basic,False,False,True,0.04364932490719016
+Appeal to Judge,1,basic,False,False,False,0.043526278476740454
+Appeal to Judge,1,quadratic,True,True,True,0.0856781929748138
+Appeal to Judge,1,quadratic,True,True,False,0.0840924405716735
+Appeal to Judge,1,quadratic,True,False,True,1.1671693249120534e-06
+Appeal to Judge,1,quadratic,True,False,False,1.1455670770402408e-06
+Appeal to Judge,1,quadratic,False,True,True,464.22707947259676
+Appeal to Judge,1,quadratic,False,True,False,464.2167901674803
+Appeal to Judge,1,quadratic,False,False,True,0.006324031683455361
+Appeal to Judge,1,quadratic,False,False,False,0.0063238915152178015
+Appeal to Judge,1,cubic,True,True,True,0.03085413449638299
+Appeal to Judge,1,cubic,True,True,False,0.030655096569890072
+Appeal to Judge,1,cubic,True,False,True,1.5513461724473136e-09
+Appeal to Judge,1,cubic,True,False,False,1.5413385436326783e-09
+Appeal to Judge,1,cubic,False,True,True,20920.85751409263
+Appeal to Judge,1,cubic,False,True,False,20920.854221347367
+Appeal to Judge,1,cubic,False,False,True,0.0010519009124241665
+Appeal to Judge,1,cubic,False,False,False,0.0010519007468649036
+Appeal to Judge,2,basic,True,True,True,0.2447323084085736
+Appeal to Judge,2,basic,True,True,False,0.23301985596326222
+Appeal to Judge,2,basic,True,False,True,0.0009032814468760945
+Appeal to Judge,2,basic,True,False,False,0.0008600520054506253
+Appeal to Judge,2,basic,False,True,True,18.389557510923066
+Appeal to Judge,2,basic,False,True,False,18.35567293313403
+Appeal to Judge,2,basic,False,False,True,0.06787394040408526
+Appeal to Judge,2,basic,False,False,False,0.06774887595856477
+Appeal to Judge,2,quadratic,True,True,True,0.0770143660572144
+Appeal to Judge,2,quadratic,True,True,False,0.07557451268977285
+Appeal to Judge,2,quadratic,True,False,True,1.0491445082875718e-06
+Appeal to Judge,2,quadratic,True,False,False,1.0295298009215667e-06
+Appeal to Judge,2,quadratic,False,True,True,696.2006757283641
+Appeal to Judge,2,quadratic,False,True,False,696.1903236632719
+Appeal to Judge,2,quadratic,False,False,True,0.009484141115488507
+Appeal to Judge,2,quadratic,False,False,False,0.00948400009228989
+Appeal to Judge,2,cubic,True,True,True,0.026087657789597315
+Appeal to Judge,2,cubic,True,True,False,0.02590672512929523
+Appeal to Judge,2,cubic,True,False,True,1.3116876788344693e-09
+Appeal to Judge,2,cubic,True,False,False,1.3025903829740638e-09
+Appeal to Judge,2,cubic,False,True,True,30236.009872720013
+Appeal to Judge,2,cubic,False,True,False,30236.00664237969
+Appeal to Judge,2,cubic,False,False,True,0.0015202668605603634
+Appeal to Judge,2,cubic,False,False,False,0.0015202666981388216
+Appeal to Judge,3,basic,True,True,True,0.2036114613554262
+Appeal to Judge,3,basic,True,True,False,0.19554109798147834
+Appeal to Judge,3,basic,True,False,True,0.0007515086855906202
+Appeal to Judge,3,basic,True,False,False,0.0007217218153868489
+Appeal to Judge,3,basic,False,True,True,22.001278426223177
+Appeal to Judge,3,basic,False,True,False,21.951403196188895
+Appeal to Judge,3,basic,False,False,True,0.08120442592640717
+Appeal to Judge,3,basic,False,False,False,0.08102034164982924
+Appeal to Judge,3,quadratic,True,True,True,0.05896544832620003
+Appeal to Judge,3,quadratic,True,True,False,0.05797020341871099
+Appeal to Judge,3,quadratic,True,False,True,8.032693049007079e-07
+Appeal to Judge,3,quadratic,True,False,False,7.89711370419788e-07
+Appeal to Judge,3,quadratic,False,True,True,809.2058089022815
+Appeal to Judge,3,quadratic,False,True,False,809.174909996388
+Appeal to Judge,3,quadratic,False,False,True,0.011023577469345439
+Appeal to Judge,3,quadratic,False,False,False,0.01102315654245751
+Appeal to Judge,3,cubic,True,True,True,0.01877159940977812
+Appeal to Judge,3,cubic,True,True,False,0.018646499720715963
+Appeal to Judge,3,cubic,True,False,True,9.43836194740366e-10
+Appeal to Judge,3,cubic,True,False,False,9.375461811986255e-10
+Appeal to Judge,3,cubic,False,True,True,34112.820956548014
+Appeal to Judge,3,cubic,False,True,False,34112.79565727925
+Appeal to Judge,3,cubic,False,False,True,0.0017151929582897602
+Appeal to Judge,3,cubic,False,False,False,0.0017151916862422887
+Appeal to Judge,4,basic,True,True,True,0.16553298929836774
+Appeal to Judge,4,basic,True,True,False,0.1605044027003192
+Appeal to Judge,4,basic,True,False,True,0.0006109650133709811
+Appeal to Judge,4,basic,True,False,False,0.000592405024264663
+Appeal to Judge,4,basic,False,True,True,23.07035553905418
+Appeal to Judge,4,basic,False,True,False,22.9835441650969
+Appeal to Judge,4,basic,False,False,True,0.08515027814175107
+Appeal to Judge,4,basic,False,False,False,0.08482986640705469
+Appeal to Judge,4,quadratic,True,True,True,0.044495306398856224
+Appeal to Judge,4,quadratic,True,True,False,0.04387836596849658
+Appeal to Judge,4,quadratic,True,False,True,6.061467326531327e-07
+Appeal to Judge,4,quadratic,True,False,False,5.977423310123849e-07
+Appeal to Judge,4,quadratic,False,True,True,825.3866054348525
+Appeal to Judge,4,quadratic,False,True,False,825.3134870231852
+Appeal to Judge,4,quadratic,False,False,True,0.011244003796158976
+Appeal to Judge,4,quadratic,False,False,False,0.011243007725114267
+Appeal to Judge,4,cubic,True,True,True,0.013485730362935157
+Appeal to Judge,4,cubic,True,True,False,0.0134081892341251
+Appeal to Judge,4,cubic,True,False,True,6.780626493881606e-10
+Appeal to Judge,4,cubic,True,False,False,6.741638807028532e-10
+Appeal to Judge,4,cubic,False,True,True,33922.82677595223
+Appeal to Judge,4,cubic,False,True,False,33922.75758815899
+Appeal to Judge,4,cubic,False,False,True,0.0017056400491038252
+Appeal to Judge,4,cubic,False,False,False,0.0017056365703409316
+Notify Result Appeal to Offender,1,basic,True,True,True,0.440179423493478
+Notify Result Appeal to Offender,1,basic,True,True,False,0.4327422640225539
+Notify Result Appeal to Offender,1,basic,True,False,True,0.0026228686802564093
+Notify Result Appeal to Offender,1,basic,True,False,False,0.0025785533588096577
+Notify Result Appeal to Offender,1,basic,False,True,True,26.856270791162803
+Notify Result Appeal to Offender,1,basic,False,True,False,26.837320294329174
+Notify Result Appeal to Offender,1,basic,False,False,True,0.16002672493769948
+Notify Result Appeal to Offender,1,basic,False,False,False,0.15991380583706152
+Notify Result Appeal to Offender,1,quadratic,True,True,True,0.33336394527287605
+Notify Result Appeal to Offender,1,quadratic,True,True,False,0.3328108318629165
+Notify Result Appeal to Offender,1,quadratic,True,False,True,1.1836198695881996e-05
+Notify Result Appeal to Offender,1,quadratic,True,False,False,1.1816560218732706e-05
+Notify Result Appeal to Offender,1,quadratic,False,True,True,2703.114745161528
+Notify Result Appeal to Offender,1,quadratic,False,True,False,2703.1111539482254
+Notify Result Appeal to Offender,1,quadratic,False,False,True,0.09597499572220082
+Notify Result Appeal to Offender,1,quadratic,False,False,False,0.09597486821496794
+Notify Result Appeal to Offender,1,cubic,True,True,True,0.2892760223910269
+Notify Result Appeal to Offender,1,cubic,True,True,False,0.2892348864646731
+Notify Result Appeal to Offender,1,cubic,True,False,True,6.120020360661552e-08
+Notify Result Appeal to Offender,1,cubic,True,False,False,6.119150075233958e-08
+Notify Result Appeal to Offender,1,cubic,False,True,True,353607.9140155022
+Notify Result Appeal to Offender,1,cubic,False,True,False,353607.91333494947
+Notify Result Appeal to Offender,1,cubic,False,False,True,0.07481047394037528
+Notify Result Appeal to Offender,1,cubic,False,False,False,0.07481047379639526
+Notify Result Appeal to Offender,2,basic,True,True,True,0.48144080019285745
+Notify Result Appeal to Offender,2,basic,True,True,False,0.47450385207829326
+Notify Result Appeal to Offender,2,basic,True,False,True,0.0028687301787111807
+Notify Result Appeal to Offender,2,basic,True,False,False,0.00282739543434296
+Notify Result Appeal to Offender,2,basic,False,True,True,56.16271055585684
+Notify Result Appeal to Offender,2,basic,False,True,False,56.1330420091147
+Notify Result Appeal to Offender,2,basic,False,False,True,0.33465311337399567
+Notify Result Appeal to Offender,2,basic,False,False,False,0.33447632932211724
+Notify Result Appeal to Offender,2,quadratic,True,True,True,0.36135691189971775
+Notify Result Appeal to Offender,2,quadratic,True,True,False,0.36085237989760016
+Notify Result Appeal to Offender,2,quadratic,True,False,True,1.2830098365539674e-05
+Notify Result Appeal to Offender,2,quadratic,True,False,False,1.2812184787571285e-05
+Notify Result Appeal to Offender,2,quadratic,False,True,True,7059.734205484418
+Notify Result Appeal to Offender,2,quadratic,False,True,False,7059.722428171715
+Notify Result Appeal to Offender,2,quadratic,False,False,True,0.25065823098484635
+Notify Result Appeal to Offender,2,quadratic,False,False,False,0.2506578128274084
+Notify Result Appeal to Offender,2,cubic,True,True,True,0.3130396514652687
+Notify Result Appeal to Offender,2,cubic,True,True,False,0.31300223870672644
+Notify Result Appeal to Offender,2,cubic,True,False,True,6.622771651886719e-08
+Notify Result Appeal to Offender,2,cubic,True,False,False,6.62198013504362e-08
+Notify Result Appeal to Offender,2,cubic,False,True,True,1017758.2104414229
+Notify Result Appeal to Offender,2,cubic,False,True,False,1017758.2039980508
+Notify Result Appeal to Offender,2,cubic,False,False,True,0.21532033379912735
+Notify Result Appeal to Offender,2,cubic,False,False,False,0.21532033243594603
+Notify Result Appeal to Offender,3,basic,True,True,True,0.43769795015831686
+Notify Result Appeal to Offender,3,basic,True,True,False,0.4327465312603062
+Notify Result Appeal to Offender,3,basic,True,False,True,0.0026080824854814917
+Notify Result Appeal to Offender,3,basic,True,False,False,0.0025785787857234435
+Notify Result Appeal to Offender,3,basic,False,True,True,83.86288286256298
+Notify Result Appeal to Offender,3,basic,False,True,False,83.82570697229224
+Notify Result Appeal to Offender,3,basic,False,False,True,0.4997083397277146
+Notify Result Appeal to Offender,3,basic,False,False,False,0.4994868221531811
+Notify Result Appeal to Offender,3,quadratic,True,True,True,0.316396041734709
+Notify Result Appeal to Offender,3,quadratic,True,True,False,0.3160456964502511
+Notify Result Appeal to Offender,3,quadratic,True,False,True,1.123374758928165e-05
+Notify Result Appeal to Offender,3,quadratic,True,False,False,1.1221308462442019e-05
+Notify Result Appeal to Offender,3,quadratic,False,True,True,11660.07516342327
+Notify Result Appeal to Offender,3,quadratic,False,True,False,11660.053814902518
+Notify Result Appeal to Offender,3,quadratic,False,False,True,0.4139948797708982
+Notify Result Appeal to Offender,3,quadratic,False,False,False,0.4139941217845082
+Notify Result Appeal to Offender,3,cubic,True,True,True,0.26958529151988986
+Notify Result Appeal to Offender,3,cubic,True,True,False,0.2695594087832632
+Notify Result Appeal to Offender,3,cubic,True,False,True,5.7034366671649234e-08
+Notify Result Appeal to Offender,3,cubic,True,False,False,5.7028890833249774e-08
+Notify Result Appeal to Offender,3,cubic,False,True,True,1752740.2274653255
+Notify Result Appeal to Offender,3,cubic,False,True,False,1752740.2121701827
+Notify Result Appeal to Offender,3,cubic,False,False,True,0.3708155895665098
+Notify Result Appeal to Offender,3,cubic,False,False,False,0.37081558633061823
+Notify Result Appeal to Offender,4,basic,True,True,True,0.37500445504958396
+Notify Result Appeal to Offender,4,basic,True,True,False,0.37180500654481363
+Notify Result Appeal to Offender,4,basic,True,False,True,0.0022345148083023746
+Notify Result Appeal to Offender,4,basic,True,False,False,0.0022154504612898443
+Notify Result Appeal to Offender,4,basic,False,True,True,105.07243689833324
+Notify Result Appeal to Offender,4,basic,False,True,False,105.03220320187896
+Notify Result Appeal to Offender,4,basic,False,False,True,0.6260883385044022
+Notify Result Appeal to Offender,4,basic,False,False,False,0.6258486005778009
+Notify Result Appeal to Offender,4,quadratic,True,True,True,0.25677189447917503
+Notify Result Appeal to Offender,4,quadratic,True,True,False,0.2565520083397561
+Notify Result Appeal to Offender,4,quadratic,True,False,True,9.116772241478641e-06
+Notify Result Appeal to Offender,4,quadratic,True,False,False,9.108965110343024e-06
+Notify Result Appeal to Offender,4,quadratic,False,True,True,15412.368320367477
+Notify Result Appeal to Offender,4,quadratic,False,True,False,15412.340339244794
+Notify Result Appeal to Offender,4,quadratic,False,False,True,0.5472213069252693
+Notify Result Appeal to Offender,4,quadratic,False,False,False,0.5472203134461228
+Notify Result Appeal to Offender,4,cubic,True,True,True,0.2130103355623609
+Notify Result Appeal to Offender,4,cubic,True,True,False,0.21299415663990837
+Notify Result Appeal to Offender,4,cubic,True,False,True,4.506517961280696e-08
+Notify Result Appeal to Offender,4,cubic,True,False,False,4.506175674581626e-08
+Notify Result Appeal to Offender,4,cubic,False,True,True,2372007.3387952866
+Notify Result Appeal to Offender,4,cubic,False,True,False,2372007.316214085
+Notify Result Appeal to Offender,4,cubic,False,False,True,0.5018298125464005
+Notify Result Appeal to Offender,4,cubic,False,False,False,0.5018298077690461
+Send Appeal to Prefecture,1,basic,True,True,True,0.3273133680702629
+Send Appeal to Prefecture,1,basic,True,True,False,0.26138710299027834
+Send Appeal to Prefecture,1,basic,True,False,True,0.009013797015222178
+Send Appeal to Prefecture,1,basic,True,False,False,0.007198270888360329
+Send Appeal to Prefecture,1,basic,False,True,True,11.694802503834893
+Send Appeal to Prefecture,1,basic,False,True,False,11.539917213418216
+Send Appeal to Prefecture,1,basic,False,False,True,0.3220600995436609
+Send Appeal to Prefecture,1,basic,False,False,False,0.3177947541448748
+Send Appeal to Prefecture,1,quadratic,True,True,True,0.17263348069841927
+Send Appeal to Prefecture,1,quadratic,True,True,False,0.15089654527529292
+Send Appeal to Prefecture,1,quadratic,True,False,True,0.000130922137914803
+Send Appeal to Prefecture,1,quadratic,True,False,False,0.00011443723564788272
+Send Appeal to Prefecture,1,quadratic,False,True,True,361.5646545559598
+Send Appeal to Prefecture,1,quadratic,False,True,False,361.4441654409178
+Send Appeal to Prefecture,1,quadratic,False,False,True,0.2742041542427575
+Send Appeal to Prefecture,1,quadratic,False,False,False,0.27411277745725254
+Send Appeal to Prefecture,1,cubic,True,True,True,0.12025923455257286
+Send Appeal to Prefecture,1,cubic,True,True,False,0.113090385459518
+Send Appeal to Prefecture,1,cubic,True,False,True,2.5116003075836893e-06
+Send Appeal to Prefecture,1,cubic,True,False,False,2.361879717276203e-06
+Send Appeal to Prefecture,1,cubic,False,True,True,12053.51855613035
+Send Appeal to Prefecture,1,cubic,False,True,False,12053.424406927914
+Send Appeal to Prefecture,1,cubic,False,False,True,0.2517363512721196
+Send Appeal to Prefecture,1,cubic,False,False,False,0.2517343849768353
+Send Appeal to Prefecture,2,basic,True,True,True,0.26171814499609886
+Send Appeal to Prefecture,2,basic,True,True,False,0.21918691912499058
+Send Appeal to Prefecture,2,basic,True,False,True,0.007207387367352833
+Send Appeal to Prefecture,2,basic,True,False,False,0.006036131090620378
+Send Appeal to Prefecture,2,basic,False,True,True,18.149574901549453
+Send Appeal to Prefecture,2,basic,False,True,False,18.027023705137218
+Send Appeal to Prefecture,2,basic,False,False,True,0.49981638403482265
+Send Appeal to Prefecture,2,basic,False,False,False,0.4964414787721834
+Send Appeal to Prefecture,2,quadratic,True,True,True,0.13636905430291046
+Send Appeal to Prefecture,2,quadratic,True,True,False,0.12270982658818963
+Send Appeal to Prefecture,2,quadratic,True,False,True,0.00010341984684851681
+Send Appeal to Prefecture,2,quadratic,True,False,False,9.306093334320187e-05
+Send Appeal to Prefecture,2,quadratic,False,True,True,582.0998971148268
+Send Appeal to Prefecture,2,quadratic,False,True,False,582.0024803263589
+Send Appeal to Prefecture,2,quadratic,False,False,True,0.4414541298822216
+Send Appeal to Prefecture,2,quadratic,False,False,False,0.4413802507357003
+Send Appeal to Prefecture,2,cubic,True,True,True,0.09842285035536397
+Send Appeal to Prefecture,2,cubic,True,True,False,0.09395434245152168
+Send Appeal to Prefecture,2,cubic,True,False,True,2.0555499304939423e-06
+Send Appeal to Prefecture,2,cubic,True,False,False,1.962225655917555e-06
+Send Appeal to Prefecture,2,cubic,False,True,True,19556.264077643173
+Send Appeal to Prefecture,2,cubic,False,True,False,19556.184253521773
+Send Appeal to Prefecture,2,cubic,False,False,True,0.40843033015584446
+Send Appeal to Prefecture,2,cubic,False,False,False,0.40842866303823294
+Send Appeal to Prefecture,3,basic,True,True,True,0.1863617885463831
+Send Appeal to Prefecture,3,basic,True,True,False,0.16130726788871183
+Send Appeal to Prefecture,3,basic,True,False,True,0.00513216842701717
+Send Appeal to Prefecture,3,basic,True,False,False,0.004442198552418404
+Send Appeal to Prefecture,3,basic,False,True,True,22.98934188907089
+Send Appeal to Prefecture,3,basic,False,True,False,22.893633678739402
+Send Appeal to Prefecture,3,basic,False,False,True,0.6330974580211647
+Send Appeal to Prefecture,3,basic,False,False,False,0.6304617747134394
+Send Appeal to Prefecture,3,quadratic,True,True,True,0.08920043962512608
+Send Appeal to Prefecture,3,quadratic,True,True,False,0.08129210491750473
+Send Appeal to Prefecture,3,quadratic,True,False,True,6.764801480810754e-05
+Send Appeal to Prefecture,3,quadratic,True,False,False,6.16504754948826e-05
+Send Appeal to Prefecture,3,quadratic,False,True,True,755.9847452283431
+Send Appeal to Prefecture,3,quadratic,False,True,False,755.9049616373629
+Send Appeal to Prefecture,3,quadratic,False,False,True,0.5733252824182817
+Send Appeal to Prefecture,3,quadratic,False,False,False,0.5732647759727224
+Send Appeal to Prefecture,3,cubic,True,True,True,0.06428449256723216
+Send Appeal to Prefecture,3,cubic,True,True,False,0.061710001314493786
+Send Appeal to Prefecture,3,cubic,True,False,True,1.3425742472536592e-06
+Send Appeal to Prefecture,3,cubic,True,False,False,1.288806292997951e-06
+Send Appeal to Prefecture,3,cubic,False,True,True,25613.073144570208
+Send Appeal to Prefecture,3,cubic,False,True,False,25613.004472968376
+Send Appeal to Prefecture,3,cubic,False,False,True,0.5349260921824971
+Send Appeal to Prefecture,3,cubic,False,False,False,0.5349246579839765
+Send Appeal to Prefecture,4,basic,True,True,True,0.13461441633532453
+Send Appeal to Prefecture,4,basic,True,True,False,0.11949093999094366
+Send Appeal to Prefecture,4,basic,True,False,True,0.0037071111128854028
+Send Appeal to Prefecture,4,basic,True,False,False,0.0032906296635133118
+Send Appeal to Prefecture,4,basic,False,True,True,26.321172653795855
+Send Appeal to Prefecture,4,basic,False,True,False,26.243248631198032
+Send Appeal to Prefecture,4,basic,False,False,True,0.7248518717787359
+Send Appeal to Prefecture,4,basic,False,False,False,0.7227059425536407
+Send Appeal to Prefecture,4,quadratic,True,True,True,0.05649790332444462
+Send Appeal to Prefecture,4,quadratic,True,True,False,0.05177046374435533
+Send Appeal to Prefecture,4,quadratic,True,False,True,4.2846997355408564e-05
+Send Appeal to Prefecture,4,quadratic,True,False,False,3.926179190056655e-05
+Send Appeal to Prefecture,4,quadratic,False,True,True,880.8054143312924
+Send Appeal to Prefecture,4,quadratic,False,True,False,880.7375968806418
+Send Appeal to Prefecture,4,quadratic,False,False,True,0.6679870408952633
+Send Appeal to Prefecture,4,quadratic,False,False,False,0.6679356093560791
+Send Appeal to Prefecture,4,cubic,True,True,True,0.03950847053356745
+Send Appeal to Prefecture,4,cubic,True,True,False,0.03797170792613009
+Send Appeal to Prefecture,4,cubic,True,False,True,8.251298714269604e-07
+Send Appeal to Prefecture,4,cubic,True,False,False,7.930347607946419e-07
+Send Appeal to Prefecture,4,cubic,False,True,True,30068.017630784358
+Send Appeal to Prefecture,4,cubic,False,True,False,30067.95708596152
+Send Appeal to Prefecture,4,cubic,False,False,True,0.6279670963388306
+Send Appeal to Prefecture,4,cubic,False,False,False,0.6279658318671563
+Receive Result Appeal from Prefecture,1,basic,True,True,True,0.43112696989068605
+Receive Result Appeal from Prefecture,1,basic,True,True,False,0.4204103032340048
+Receive Result Appeal from Prefecture,1,basic,True,False,True,0.0028642404929227596
+Receive Result Appeal from Prefecture,1,basic,True,False,False,0.0027930431131925966
+Receive Result Appeal from Prefecture,1,basic,False,True,True,26.522284874280643
+Receive Result Appeal from Prefecture,1,basic,False,True,False,26.4949779221656
+Receive Result Appeal from Prefecture,1,basic,False,False,True,0.17620378126891242
+Receive Result Appeal from Prefecture,1,basic,False,False,False,0.1760223644626151
+Receive Result Appeal from Prefecture,1,quadratic,True,True,True,0.3144287878074522
+Receive Result Appeal from Prefecture,1,quadratic,True,True,False,0.31328031836514797
+Receive Result Appeal from Prefecture,1,quadratic,True,False,True,1.3878127669937073e-05
+Receive Result Appeal from Prefecture,1,quadratic,True,False,False,1.3827437001132661e-05
+Receive Result Appeal from Prefecture,1,quadratic,False,True,True,2671.027967803378
+Receive Result Appeal from Prefecture,1,quadratic,False,True,False,2671.02051110704
+Receive Result Appeal from Prefecture,1,quadratic,False,False,True,0.11789272669857387
+Receive Result Appeal from Prefecture,1,quadratic,False,False,False,0.11789239757799778
+Receive Result Appeal from Prefecture,1,cubic,True,True,True,0.26242214982134804
+Receive Result Appeal from Prefecture,1,cubic,True,True,False,0.26229907217956244
+Receive Result Appeal from Prefecture,1,cubic,True,False,True,7.695083814490887e-08
+Receive Result Appeal from Prefecture,1,cubic,True,False,False,7.691474771695242e-08
+Receive Result Appeal from Prefecture,1,cubic,False,True,True,351340.75419030566
+Receive Result Appeal from Prefecture,1,cubic,False,True,False,351340.7521541092
+Receive Result Appeal from Prefecture,1,cubic,False,False,True,0.10302470857667305
+Receive Result Appeal from Prefecture,1,cubic,False,False,False,0.10302470797959302
+Receive Result Appeal from Prefecture,2,basic,True,True,True,0.46572449322731957
+Receive Result Appeal from Prefecture,2,basic,True,True,False,0.45579780618551646
+Receive Result Appeal from Prefecture,2,basic,True,False,True,0.00309409302875635
+Receive Result Appeal from Prefecture,2,basic,True,False,False,0.0030281439674092647
+Receive Result Appeal from Prefecture,2,basic,False,True,True,54.10582328044142
+Receive Result Appeal from Prefecture,2,basic,False,True,False,54.06796604168536
+Receive Result Appeal from Prefecture,2,basic,False,False,True,0.3594581196858479
+Receive Result Appeal from Prefecture,2,basic,False,False,False,0.35920661086415934
+Receive Result Appeal from Prefecture,2,quadratic,True,True,True,0.3347858305080858
+Receive Result Appeal from Prefecture,2,quadratic,True,True,False,0.3337398999756763
+Receive Result Appeal from Prefecture,2,quadratic,True,False,True,1.4776638393308745e-05
+Receive Result Appeal from Prefecture,2,quadratic,True,False,False,1.4730473544460514e-05
+Receive Result Appeal from Prefecture,2,quadratic,False,True,True,6522.884467001959
+Receive Result Appeal from Prefecture,2,quadratic,False,True,False,6522.868346314492
+Receive Result Appeal from Prefecture,2,quadratic,False,False,True,0.2879043742799339
+Receive Result Appeal from Prefecture,2,quadratic,False,False,False,0.287903662751704
+Receive Result Appeal from Prefecture,2,cubic,True,True,True,0.27803759478081064
+Receive Result Appeal from Prefecture,2,cubic,True,True,False,0.27792568709043997
+Receive Result Appeal from Prefecture,2,cubic,True,False,True,8.152980214796419e-08
+Receive Result Appeal from Prefecture,2,cubic,True,False,False,8.149698711853641e-08
+Receive Result Appeal from Prefecture,2,cubic,False,True,True,900756.7577987975
+Receive Result Appeal from Prefecture,2,cubic,False,True,False,900756.7492514504
+Receive Result Appeal from Prefecture,2,cubic,False,False,True,0.2641316196993881
+Receive Result Appeal from Prefecture,2,cubic,False,False,False,0.26413161719302375
+Receive Result Appeal from Prefecture,3,basic,True,True,True,0.41813144880884484
+Receive Result Appeal from Prefecture,3,basic,True,True,False,0.4111054744880644
+Receive Result Appeal from Prefecture,3,basic,True,False,True,0.002777903287624099
+Receive Result Appeal from Prefecture,3,basic,True,False,False,0.0027312254373450555
+Receive Result Appeal from Prefecture,3,basic,False,True,True,79.55616494535988
+Receive Result Appeal from Prefecture,3,basic,False,True,False,79.51280627472096
+Receive Result Appeal from Prefecture,3,basic,False,False,True,0.5285403257326233
+Receive Result Appeal from Prefecture,3,basic,False,False,False,0.5282522675297351
+Receive Result Appeal from Prefecture,3,quadratic,True,True,True,0.2880310892404802
+Receive Result Appeal from Prefecture,3,quadratic,True,True,False,0.2873062596628681
+Receive Result Appeal from Prefecture,3,quadratic,True,False,True,1.2712996978629969e-05
+Receive Result Appeal from Prefecture,3,quadratic,True,False,False,1.2681004750796149e-05
+Receive Result Appeal from Prefecture,3,quadratic,False,True,True,10426.822871298154
+Receive Result Appeal from Prefecture,3,quadratic,False,True,False,10426.797789860633
+Receive Result Appeal from Prefecture,3,quadratic,False,False,True,0.460214791427777
+Receive Result Appeal from Prefecture,3,quadratic,False,False,False,0.4602136843936708
+Receive Result Appeal from Prefecture,3,cubic,True,True,True,0.23433161476846281
+Receive Result Appeal from Prefecture,3,cubic,True,True,False,0.23425422193987977
+Receive Result Appeal from Prefecture,3,cubic,True,False,True,6.87137658637389e-08
+Receive Result Appeal from Prefecture,3,cubic,True,False,False,6.869107173128887e-08
+Receive Result Appeal from Prefecture,3,cubic,False,True,True,1474074.0281735873
+Receive Result Appeal from Prefecture,3,cubic,False,True,False,1474074.0106567135
+Receive Result Appeal from Prefecture,3,cubic,False,False,True,0.4322471713337522
+Receive Result Appeal from Prefecture,3,cubic,False,False,False,0.43224716619722636
+Receive Result Appeal from Prefecture,4,basic,True,True,True,0.3544429528134823
+Receive Result Appeal from Prefecture,4,basic,True,True,False,0.3499424855216001
+Receive Result Appeal from Prefecture,4,basic,True,False,True,0.002354781604446821
+Receive Result Appeal from Prefecture,4,basic,True,False,False,0.00232488224403856
+Receive Result Appeal from Prefecture,4,basic,False,True,True,98.63627969679573
+Receive Result Appeal from Prefecture,4,basic,False,True,False,98.59182721354597
+Receive Result Appeal from Prefecture,4,basic,False,False,True,0.6553012131216256
+Receive Result Appeal from Prefecture,4,basic,False,False,False,0.6550058880516881
+Receive Result Appeal from Prefecture,4,quadratic,True,True,True,0.23016030906048351
+Receive Result Appeal from Prefecture,4,quadratic,True,True,False,0.2297063818271152
+Receive Result Appeal from Prefecture,4,quadratic,True,False,True,1.0158720440221303e-05
+Receive Result Appeal from Prefecture,4,quadratic,True,False,False,1.0138685187910359e-05
+Receive Result Appeal from Prefecture,4,quadratic,False,True,True,13504.164835174792
+Receive Result Appeal from Prefecture,4,quadratic,False,True,False,13504.134022773263
+Receive Result Appeal from Prefecture,4,quadratic,False,False,True,0.596041237080356
+Receive Result Appeal from Prefecture,4,quadratic,False,False,False,0.5960398770953329
+Receive Result Appeal from Prefecture,4,cubic,True,True,True,0.1815257686638849
+Receive Result Appeal from Prefecture,4,cubic,True,True,False,0.18147740977393628
+Receive Result Appeal from Prefecture,4,cubic,True,False,True,5.3229348410926e-08
+Receive Result Appeal from Prefecture,4,cubic,True,False,False,5.3215167987833534e-08
+Receive Result Appeal from Prefecture,4,cubic,False,True,True,1935096.896494162
+Receive Result Appeal from Prefecture,4,cubic,False,True,False,1935096.8720002712
+Receive Result Appeal from Prefecture,4,cubic,False,False,True,0.5674342969075247
+Receive Result Appeal from Prefecture,4,cubic,False,False,False,0.567434289725107

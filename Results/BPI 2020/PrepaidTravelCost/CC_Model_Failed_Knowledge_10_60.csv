@@ -1,0 +1,12 @@
+Model,Stochastic Type,Sensitive Activities,Background Size,Confidence Privacy,Upper CC,Lower CC
+IMf20_,BillClintonEstimator,"('Payment Handled',)",1,0.0,0,49
+Alpha+_,BillClintonEstimator,"('Payment Handled',)",1,0.0,0,0
+Alpha+_,BillClintonEstimator,"('Payment Handled',)",2,0.0,0,0
+Alpha+_,BillClintonEstimator,"('Payment Handled',)",3,0.0,0,0
+Alpha+_,BillClintonEstimator,"('Payment Handled',)",4,0.0,0,0
+Alpha+_,AlignmentEstimator,"('Payment Handled',)",1,0.0,0,0
+Alpha+_,AlignmentEstimator,"('Payment Handled',)",2,0.0,0,0
+Alpha+_,AlignmentEstimator,"('Payment Handled',)",3,0.0,0,0
+Alpha+_,AlignmentEstimator,"('Payment Handled',)",4,0.0,0,0
+Flower_,BillClintonEstimator,"('Payment Handled',)",1,0.0,0,29
+Flower_,AlignmentEstimator,"('Payment Handled',)",1,0.0,0,29

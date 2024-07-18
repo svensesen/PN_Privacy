@@ -1,0 +1,19 @@
+Model,Stochastic Type,Sensitive Activities,Background Size,Confidence Privacy,Upper CC,Lower CC,Max C
+IMf20_,BillClintonEstimator,"('Send_Reminder',)",1,0.0008673717069407827,0.026021151208223483,30,0.9977011494252878
+IMf20_,BillClintonEstimator,"('Send_Reminder',)",2,0.001081442571333011,0.48664915709985496,450,0.9977011494252878
+IMf20_,AlignmentEstimator,"('Send_Reminder',)",1,6.010391023476755e-13,1.8031173070430264e-11,30,0.00015559358954411073
+IMf20_,AlignmentEstimator,"('Send_Reminder',)",2,4.147526566335593e-13,1.866386954851017e-10,450,0.0001555935895441108
+Flower_,BillClintonEstimator,"('Send_Reminder',)",1,1.635996673276566e-06,5.3987890218126676e-05,33,0.999989454813885
+Flower_,BillClintonEstimator,"('Send_Reminder',)",2,2.595181582978621e-06,0.0014558968680510062,561,0.9999997952762137
+Flower_,BillClintonEstimator,"('Send_Reminder',)",3,3.1855458237067763e-06,0.019167429221243672,6017,0.9999999685393783
+Flower_,AlignmentEstimator,"('Send_Reminder',)",1,0.02132653797113994,0.703775753047618,33,0.12212342546538034
+Flower_,AlignmentEstimator,"('Send_Reminder',)",2,0.009099893716033043,5.105040374694537,561,0.17742473485888408
+Flower_,AlignmentEstimator,"('Send_Reminder',)",3,0.0030774210060916674,18.516842193653563,6017,0.22889778042674386
+Alpha+_,BillClintonEstimator,"('Send_Reminder',)",1,0.0,0.0,0,0.0
+Alpha+_,BillClintonEstimator,"('Send_Reminder',)",2,0.0,0.0,0,0.0
+Alpha+_,BillClintonEstimator,"('Send_Reminder',)",3,0.0,0.0,0,0.0
+Alpha+_,BillClintonEstimator,"('Send_Reminder',)",4,0.0,0.0,0,0.0
+Alpha+_,AlignmentEstimator,"('Send_Reminder',)",1,0.0,0.0,0,0.0
+Alpha+_,AlignmentEstimator,"('Send_Reminder',)",2,0.0,0.0,0,0.0
+Alpha+_,AlignmentEstimator,"('Send_Reminder',)",3,0.0,0.0,0,0.0
+Alpha+_,AlignmentEstimator,"('Send_Reminder',)",4,0.0,0.0,0,0.0

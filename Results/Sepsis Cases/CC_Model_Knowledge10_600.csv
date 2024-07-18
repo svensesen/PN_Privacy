@@ -1,0 +1,19 @@
+Model,Stochastic Type,Sensitive Activities,Background Size,Confidence Privacy,Upper CC,Lower CC
+IMf20_,BillClintonEstimator,"('Release A', 'Release B', 'Release C', 'Release D', 'Release E')",1,0.0,0,24
+IMf20_,BillClintonEstimator,"('Release A', 'Release B', 'Release C', 'Release D', 'Release E')",2,0.0,0,290
+IMf20_,BillClintonEstimator,"('Release A', 'Release B', 'Release C', 'Release D', 'Release E')",3,0.0,0,2102
+IMf20_,AlignmentEstimator,"('Release A', 'Release B', 'Release C', 'Release D', 'Release E')",1,0.0,0,24
+IMf20_,AlignmentEstimator,"('Release A', 'Release B', 'Release C', 'Release D', 'Release E')",2,0.0,0,290
+IMf20_,AlignmentEstimator,"('Release A', 'Release B', 'Release C', 'Release D', 'Release E')",3,0.0,0,2102
+Alpha_,BillClintonEstimator,"('Release A', 'Release B', 'Release C', 'Release D', 'Release E')",1,0.0,0,6
+Alpha_,BillClintonEstimator,"('Release A', 'Release B', 'Release C', 'Release D', 'Release E')",2,0.0,0,7
+Alpha_,BillClintonEstimator,"('Release A', 'Release B', 'Release C', 'Release D', 'Release E')",3,0.0,0,7
+Alpha_,BillClintonEstimator,"('Release A', 'Release B', 'Release C', 'Release D', 'Release E')",4,0.0,0,7
+Alpha_,AlignmentEstimator,"('Release A', 'Release B', 'Release C', 'Release D', 'Release E')",1,0.0,0,3
+Alpha_,AlignmentEstimator,"('Release A', 'Release B', 'Release C', 'Release D', 'Release E')",2,0.0,0,3
+Alpha_,AlignmentEstimator,"('Release A', 'Release B', 'Release C', 'Release D', 'Release E')",3,0.0,0,3
+Alpha_,AlignmentEstimator,"('Release A', 'Release B', 'Release C', 'Release D', 'Release E')",4,0.0,0,3
+Heuristic_,BillClintonEstimator,"('Release A', 'Release B', 'Release C', 'Release D', 'Release E')",1,0.0,0,46
+Heuristic_,AlignmentEstimator,"('Release A', 'Release B', 'Release C', 'Release D', 'Release E')",1,0.0,0,40
+Flower_,BillClintonEstimator,"('Release A', 'Release B', 'Release C', 'Release D', 'Release E')",1,0.0,0,16
+Flower_,AlignmentEstimator,"('Release A', 'Release B', 'Release C', 'Release D', 'Release E')",1,0.0,0,16

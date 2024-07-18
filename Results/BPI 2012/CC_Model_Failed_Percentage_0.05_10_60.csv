@@ -1,0 +1,15 @@
+Model,Stochastic Type,Sensitive Activities,Background Size,Confidence Privacy,Upper CC,Lower CC,Max C
+Alpha+_,BillClintonEstimator,"('W_Beoordelen fraude', 'W_Wijzigen contractgegevens')",1,0.0,0,3,0
+Alpha+_,BillClintonEstimator,"('W_Beoordelen fraude', 'W_Wijzigen contractgegevens')",2,0.0,0,6,0
+Alpha+_,BillClintonEstimator,"('W_Beoordelen fraude', 'W_Wijzigen contractgegevens')",3,0.0,0,7,0
+Alpha+_,BillClintonEstimator,"('W_Beoordelen fraude', 'W_Wijzigen contractgegevens')",4,0.0,0,7,0
+Alpha+_,AlignmentEstimator,"('W_Beoordelen fraude', 'W_Wijzigen contractgegevens')",1,0.0,0,0,0
+Alpha+_,AlignmentEstimator,"('W_Beoordelen fraude', 'W_Wijzigen contractgegevens')",2,0.0,0,0,0
+Alpha+_,AlignmentEstimator,"('W_Beoordelen fraude', 'W_Wijzigen contractgegevens')",3,0.0,0,0,0
+Alpha+_,AlignmentEstimator,"('W_Beoordelen fraude', 'W_Wijzigen contractgegevens')",4,0.0,0,0,0
+Flower_,BillClintonEstimator,"('W_Beoordelen fraude', 'W_Wijzigen contractgegevens')",1,0.0,0,24,0
+Flower_,BillClintonEstimator,"('W_Beoordelen fraude', 'W_Wijzigen contractgegevens')",2,0.0,0,300,0
+Flower_,BillClintonEstimator,"('W_Beoordelen fraude', 'W_Wijzigen contractgegevens')",3,0.0,0,2324,0
+Flower_,AlignmentEstimator,"('W_Beoordelen fraude', 'W_Wijzigen contractgegevens')",1,0.0,0,24,0
+Flower_,AlignmentEstimator,"('W_Beoordelen fraude', 'W_Wijzigen contractgegevens')",2,0.0,0,300,0
+Flower_,AlignmentEstimator,"('W_Beoordelen fraude', 'W_Wijzigen contractgegevens')",3,0.0,0,2324,0

@@ -1,0 +1,5 @@
+Sensitive Activities,Background Size,Confidence Privacy,Upper CC,Lower CC,Max K,Max C
+"['Appeal to Judge', 'Notify Result Appeal to Offender', 'Receive Result Appeal from Prefecture', 'Send Appeal to Prefecture']",1,0.21151560104896433,1.4806092073427504,7,4188,0.9887774594078319
+"['Appeal to Judge', 'Notify Result Appeal to Offender', 'Receive Result Appeal from Prefecture', 'Send Appeal to Prefecture']",2,0.2531004164773854,7.086811661366791,28,282,1.0
+"['Appeal to Judge', 'Notify Result Appeal to Offender', 'Receive Result Appeal from Prefecture', 'Send Appeal to Prefecture']",3,0.24656381491327287,15.53352033953619,63,4,1.0
+"['Appeal to Judge', 'Notify Result Appeal to Offender', 'Receive Result Appeal from Prefecture', 'Send Appeal to Prefecture']",4,0.223172910579175,21.870945236759148,98,4,1.0

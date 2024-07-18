@@ -1,0 +1,19 @@
+Model,Stochastic Type,Sensitive Activities,Background Size,Confidence Privacy,Upper CC,Lower CC,Max C
+IMf20_,BillClintonEstimator,"('Payment_Handled',)",1,0.0,0.0,28,1.0000000000000007
+IMf20_,BillClintonEstimator,"('Payment_Handled',)",2,0.0,0.0,406,1.0000000000000009
+IMf20_,AlignmentEstimator,"('Payment_Handled',)",1,0.0,0.0,25,1.0000000000000002
+IMf20_,AlignmentEstimator,"('Payment_Handled',)",2,0.0,0.0,325,1.0000000000000009
+Flower_,BillClintonEstimator,"('Payment_Handled',)",1,1.718234796711224e-07,4.811057430791427e-06,28,0.9999979889482653
+Flower_,BillClintonEstimator,"('Payment_Handled',)",2,2.10589118528651e-07,8.549918212263231e-05,406,0.9999999810824413
+Flower_,BillClintonEstimator,"('Payment_Handled',)",3,2.180003083655465e-07,0.0008026771354019422,3682,0.9999999995752153
+Flower_,AlignmentEstimator,"('Payment_Handled',)",1,0.008274826955789825,0.23169515476211508,28,0.7360669679704703
+Flower_,AlignmentEstimator,"('Payment_Handled',)",2,0.0025248620140959394,1.0250939777229513,406,0.8639836745491442
+Flower_,AlignmentEstimator,"('Payment_Handled',)",3,0.0006473242264377834,2.3834478017439182,3682,0.9295682290959755
+Alpha+_,BillClintonEstimator,"('Payment_Handled',)",1,0.0,0.0,0,0.0
+Alpha+_,BillClintonEstimator,"('Payment_Handled',)",2,0.0,0.0,0,0.0
+Alpha+_,BillClintonEstimator,"('Payment_Handled',)",3,0.0,0.0,0,0.0
+Alpha+_,BillClintonEstimator,"('Payment_Handled',)",4,0.0,0.0,0,0.0
+Alpha+_,AlignmentEstimator,"('Payment_Handled',)",1,0.0,0.0,0,0.0
+Alpha+_,AlignmentEstimator,"('Payment_Handled',)",2,0.0,0.0,0,0.0
+Alpha+_,AlignmentEstimator,"('Payment_Handled',)",3,0.0,0.0,0,0.0
+Alpha+_,AlignmentEstimator,"('Payment_Handled',)",4,0.0,0.0,0,0.0

@@ -1,0 +1,769 @@
+Sensitive Activity,Background Size,Function,Background Odds,Percentage,Absolute,Confidence Privacy
+A_APPROVED,1,basic,True,True,True,0.43754181709688217
+A_APPROVED,1,basic,True,True,False,0.3954813529684093
+A_APPROVED,1,basic,True,False,True,0.07509122955601723
+A_APPROVED,1,basic,True,False,False,0.06787278358424753
+A_APPROVED,1,basic,False,True,True,1.9275431325114625
+A_APPROVED,1,basic,False,True,False,1.7841586698119292
+A_APPROVED,1,basic,False,False,True,0.3308062868205658
+A_APPROVED,1,basic,False,False,False,0.3061985460684338
+A_APPROVED,1,quadratic,True,True,True,0.2797420789974966
+A_APPROVED,1,quadratic,True,True,False,0.26227116682962576
+A_APPROVED,1,quadratic,True,False,True,0.008239428648157195
+A_APPROVED,1,quadratic,True,False,False,0.007724846305946599
+A_APPROVED,1,quadratic,False,True,True,6.220769136902676
+A_APPROVED,1,quadratic,False,True,False,6.086477387361515
+A_APPROVED,1,quadratic,False,False,True,0.1832244316759607
+A_APPROVED,1,quadratic,False,False,False,0.17926904787261627
+A_APPROVED,1,cubic,True,True,True,0.19149845206566546
+A_APPROVED,1,cubic,True,True,False,0.18237097990829887
+A_APPROVED,1,cubic,True,False,True,0.0009679974568875846
+A_APPROVED,1,cubic,True,False,False,0.0009218593824497115
+A_APPROVED,1,cubic,False,True,True,24.860103626365504
+A_APPROVED,1,cubic,False,True,False,24.72852007453519
+A_APPROVED,1,cubic,False,False,True,0.12566429038304616
+A_APPROVED,1,cubic,False,False,False,0.1249991542309466
+A_APPROVED,2,basic,True,True,True,0.3813012581485309
+A_APPROVED,2,basic,True,True,False,0.3597607071217987
+A_APPROVED,2,basic,True,False,True,0.06543918589452133
+A_APPROVED,2,basic,True,False,False,0.06174238161500422
+A_APPROVED,2,basic,False,True,True,2.648892292428573
+A_APPROVED,2,basic,False,True,False,2.440507060142109
+A_APPROVED,2,basic,False,False,True,0.4546047290283929
+A_APPROVED,2,basic,False,False,False,0.4188415112003651
+A_APPROVED,2,quadratic,True,True,True,0.24839700207887408
+A_APPROVED,2,quadratic,True,True,False,0.24341394616845105
+A_APPROVED,2,quadratic,True,False,True,0.007316201346538763
+A_APPROVED,2,quadratic,True,False,False,0.007169432101915839
+A_APPROVED,2,quadratic,False,True,True,9.701350091363908
+A_APPROVED,2,quadratic,False,True,False,9.494722274225698
+A_APPROVED,2,quadratic,False,False,True,0.2857402867492863
+A_APPROVED,2,quadratic,False,False,False,0.2796543408589295
+A_APPROVED,2,cubic,True,True,True,0.17816728152846392
+A_APPROVED,2,cubic,True,True,False,0.17615373671955525
+A_APPROVED,2,cubic,True,False,True,0.0009006102846251115
+A_APPROVED,2,cubic,True,False,False,0.000890432101807819
+A_APPROVED,2,cubic,False,True,True,40.87607285275643
+A_APPROVED,2,cubic,False,True,False,40.66996846878923
+A_APPROVED,2,cubic,False,False,True,0.20662273842010936
+A_APPROVED,2,cubic,False,False,False,0.20558091005344858
+A_APPROVED,3,basic,True,True,True,0.3046656046945031
+A_APPROVED,3,basic,True,True,False,0.29122272558746287
+A_APPROVED,3,basic,True,False,True,0.05228692199464046
+A_APPROVED,3,basic,True,False,False,0.049979845775918755
+A_APPROVED,3,basic,False,True,True,2.9885564857069187
+A_APPROVED,3,basic,False,True,False,2.7418823133482078
+A_APPROVED,3,basic,False,False,True,0.5128981330249668
+A_APPROVED,3,basic,False,False,False,0.4705637407946936
+A_APPROVED,3,quadratic,True,True,True,0.19664210575071697
+A_APPROVED,3,quadratic,True,True,False,0.19516916168407758
+A_APPROVED,3,quadratic,True,False,True,0.005791830122099442
+A_APPROVED,3,quadratic,True,False,False,0.0057484465253831605
+A_APPROVED,3,quadratic,False,True,True,11.705223396846538
+A_APPROVED,3,quadratic,False,True,False,11.458689676067866
+A_APPROVED,3,quadratic,False,False,True,0.3447616938241178
+A_APPROVED,3,quadratic,False,False,False,0.33750037293524715
+A_APPROVED,3,cubic,True,True,True,0.1437906649513216
+A_APPROVED,3,cubic,True,True,False,0.14349886026116387
+A_APPROVED,3,cubic,True,False,True,0.0007268413738891543
+A_APPROVED,3,cubic,True,False,False,0.0007253663426555672
+A_APPROVED,3,cubic,False,True,True,51.011129814876774
+A_APPROVED,3,cubic,False,True,False,50.7646379265678
+A_APPROVED,3,cubic,False,False,True,0.2578540108346804
+A_APPROVED,3,cubic,False,False,False,0.2566080293739789
+A_APPROVED,4,basic,True,True,True,0.2431963550418014
+A_APPROVED,4,basic,True,True,False,0.2331222438029258
+A_APPROVED,4,basic,True,False,True,0.04173752681469391
+A_APPROVED,4,basic,True,False,False,0.04000860086966976
+A_APPROVED,4,basic,False,True,True,3.197439306051429
+A_APPROVED,4,basic,False,True,False,2.9303352760608274
+A_APPROVED,4,basic,False,False,True,0.5487467472599897
+A_APPROVED,4,basic,False,False,False,0.5029061687195165
+A_APPROVED,4,quadratic,True,True,True,0.15215072293043325
+A_APPROVED,4,quadratic,True,True,False,0.15138150338945175
+A_APPROVED,4,quadratic,True,False,True,0.004481395969614101
+A_APPROVED,4,quadratic,True,False,False,0.0044587396372331835
+A_APPROVED,4,quadratic,False,True,True,13.057624427227932
+A_APPROVED,4,quadratic,False,True,False,12.790520397237286
+A_APPROVED,4,quadratic,False,False,True,0.3845948566913423
+A_APPROVED,4,quadratic,False,False,False,0.37672766486724363
+A_APPROVED,4,cubic,True,True,True,0.1112683024202564
+A_APPROVED,4,cubic,True,True,False,0.11119011943556814
+A_APPROVED,4,cubic,True,False,True,0.000562445453804878
+A_APPROVED,4,cubic,True,False,False,0.0005620502499296791
+A_APPROVED,4,cubic,False,True,True,58.243724624665234
+A_APPROVED,4,cubic,False,True,False,57.97662059467458
+A_APPROVED,4,cubic,False,False,True,0.29441374960566424
+A_APPROVED,4,cubic,False,False,False,0.2930635766984293
+O_DECLINED,1,basic,True,True,True,0.3263723218921046
+O_DECLINED,1,basic,True,True,False,0.28539657132894414
+O_DECLINED,1,basic,True,False,True,0.020000810128942302
+O_DECLINED,1,basic,True,False,False,0.01748972646181808
+O_DECLINED,1,basic,False,True,True,1.0907171730293945
+O_DECLINED,1,basic,False,True,False,0.8209508874981563
+O_DECLINED,1,basic,False,False,True,0.06684153532280694
+O_DECLINED,1,basic,False,False,False,0.05030966698047844
+O_DECLINED,1,quadratic,True,True,True,0.1729171230676765
+O_DECLINED,1,quadratic,True,True,False,0.1657269660166616
+O_DECLINED,1,quadratic,True,False,True,0.0006493914002061963
+O_DECLINED,1,quadratic,True,False,False,0.0006223887178099969
+O_DECLINED,1,quadratic,False,True,True,1.7474044945102618
+O_DECLINED,1,quadratic,False,True,False,1.4856178512297071
+O_DECLINED,1,quadratic,False,False,True,0.006562389145073276
+O_DECLINED,1,quadratic,False,False,False,0.00557924767348689
+O_DECLINED,1,cubic,True,True,True,0.10148560777610206
+O_DECLINED,1,cubic,True,True,False,0.10017549412746185
+O_DECLINED,1,cubic,True,False,True,2.3356472616070297e-05
+O_DECLINED,1,cubic,True,False,False,2.305495564012713e-05
+O_DECLINED,1,cubic,False,True,True,3.344480421695479
+O_DECLINED,1,cubic,False,True,False,3.0835156296633137
+O_DECLINED,1,cubic,False,False,True,0.0007697176683087113
+O_DECLINED,1,cubic,False,False,False,0.0007096577528938574
+O_DECLINED,2,basic,True,True,True,0.2820961301392128
+O_DECLINED,2,basic,True,True,False,0.23241620391287668
+O_DECLINED,2,basic,True,False,True,0.017287468202922644
+O_DECLINED,2,basic,True,False,False,0.014242973602668827
+O_DECLINED,2,basic,False,True,True,1.9113392528794453
+O_DECLINED,2,basic,False,True,False,1.4739106962074995
+O_DECLINED,2,basic,False,False,True,0.11713105225103625
+O_DECLINED,2,basic,False,False,False,0.09032447301584871
+O_DECLINED,2,quadratic,True,True,True,0.15479935315854107
+O_DECLINED,2,quadratic,True,True,False,0.1467198796786931
+O_DECLINED,2,quadratic,True,False,True,0.0005813499953922698
+O_DECLINED,2,quadratic,True,False,False,0.0005510074792612691
+O_DECLINED,2,quadratic,False,True,True,11.971557677884263
+O_DECLINED,2,quadratic,False,True,False,11.535697481541884
+O_DECLINED,2,quadratic,False,False,True,0.044959264098141265
+O_DECLINED,2,quadratic,False,False,False,0.043322388245851585
+O_DECLINED,2,cubic,True,True,True,0.10252252388935597
+O_DECLINED,2,cubic,True,True,False,0.1011497542849649
+O_DECLINED,2,cubic,True,False,True,2.359511436375345e-05
+O_DECLINED,2,cubic,True,False,False,2.3279177391253168e-05
+O_DECLINED,2,cubic,False,True,True,153.21219396736726
+O_DECLINED,2,cubic,False,True,False,152.77649113841915
+O_DECLINED,2,cubic,False,False,True,0.03526112215578137
+O_DECLINED,2,cubic,False,False,False,0.03516084703878634
+O_DECLINED,3,basic,True,True,True,0.2076375081317157
+O_DECLINED,3,basic,True,True,False,0.1572882159471879
+O_DECLINED,3,basic,True,False,True,0.01272448089872663
+O_DECLINED,3,basic,True,False,False,0.009638966087693436
+O_DECLINED,3,basic,False,True,True,2.2671157643007938
+O_DECLINED,3,basic,False,True,False,1.7079544863408562
+O_DECLINED,3,basic,False,False,True,0.13893381546338177
+O_DECLINED,3,basic,False,False,False,0.10466718866397026
+O_DECLINED,3,quadratic,True,True,True,0.10807763511744814
+O_DECLINED,3,quadratic,True,True,False,0.10040123058836231
+O_DECLINED,3,quadratic,True,False,True,0.0004058862740413762
+O_DECLINED,3,quadratic,True,False,False,0.00037705748602284917
+O_DECLINED,3,quadratic,False,True,True,18.10252129221013
+O_DECLINED,3,quadratic,False,True,False,17.543493188286224
+O_DECLINED,3,quadratic,False,False,True,0.0679841385321335
+O_DECLINED,3,quadratic,False,False,False,0.06588470478768099
+O_DECLINED,3,cubic,True,True,True,0.07392128282748708
+O_DECLINED,3,cubic,True,True,False,0.07266778636968281
+O_DECLINED,3,cubic,True,False,True,1.7012662740455833e-05
+O_DECLINED,3,cubic,True,False,False,1.672417596550697e-05
+O_DECLINED,3,cubic,False,True,True,249.64235746307685
+O_DECLINED,3,cubic,False,True,False,249.08334177377543
+O_DECLINED,3,cubic,False,False,True,0.057454106189731055
+O_DECLINED,3,cubic,False,False,False,0.05732545115257636
+O_DECLINED,4,basic,True,True,True,0.14877877330679182
+O_DECLINED,4,basic,True,True,False,0.10147343632547705
+O_DECLINED,4,basic,True,False,True,0.009117488820360219
+O_DECLINED,4,basic,True,False,False,0.006218514245666264
+O_DECLINED,4,basic,False,True,True,2.3507598019027323
+O_DECLINED,4,basic,False,True,False,1.698361930332966
+O_DECLINED,4,basic,False,False,True,0.14405970513685715
+O_DECLINED,4,basic,False,False,False,0.10407933583915434
+O_DECLINED,4,quadratic,True,True,True,0.06992967941981464
+O_DECLINED,4,quadratic,True,True,False,0.06312037215083303
+O_DECLINED,4,quadratic,True,False,True,0.00026262137392045655
+O_DECLINED,4,quadratic,True,False,False,0.00023704897540148426
+O_DECLINED,4,quadratic,False,True,True,20.328592596863956
+O_DECLINED,4,quadratic,False,True,False,19.67619631958059
+O_DECLINED,4,quadratic,False,False,True,0.07634416405096339
+O_DECLINED,4,quadratic,False,False,False,0.07389408551345936
+O_DECLINED,4,cubic,True,True,True,0.04752740329453156
+O_DECLINED,4,cubic,True,True,False,0.046443344446812564
+O_DECLINED,4,cubic,True,False,True,1.0938225802526699e-05
+O_DECLINED,4,cubic,True,False,False,1.0688734358904053e-05
+O_DECLINED,4,cubic,False,True,True,287.60794920720826
+O_DECLINED,4,cubic,False,True,False,286.95555294751466
+O_DECLINED,4,cubic,False,False,True,0.06619172252131104
+O_DECLINED,4,cubic,False,False,False,0.06604157635075321
+W_Wijzigen contractgegevens,1,basic,True,True,True,0.4901374319117116
+W_Wijzigen contractgegevens,1,basic,True,True,False,0.4524232714936399
+W_Wijzigen contractgegevens,1,basic,True,False,True,0.0002621656623658579
+W_Wijzigen contractgegevens,1,basic,True,False,False,0.00024199303892836249
+W_Wijzigen contractgegevens,1,basic,False,True,True,2.0515451954340564
+W_Wijzigen contractgegevens,1,basic,False,True,False,1.8776321519557957
+W_Wijzigen contractgegevens,1,basic,False,False,True,0.0010973344821608006
+W_Wijzigen contractgegevens,1,basic,False,False,False,0.001004311535393182
+W_Wijzigen contractgegevens,1,quadratic,True,True,True,0.3220025825108122
+W_Wijzigen contractgegevens,1,quadratic,True,True,False,0.3050378839618501
+W_Wijzigen contractgegevens,1,quadratic,True,False,True,9.212451829682481e-08
+W_Wijzigen contractgegevens,1,quadratic,True,False,False,8.727094019913519e-08
+W_Wijzigen contractgegevens,1,quadratic,False,True,True,6.839004852768448
+W_Wijzigen contractgegevens,1,quadratic,False,True,False,6.665091809290187
+W_Wijzigen contractgegevens,1,quadratic,False,False,True,1.9566303561238833e-06
+W_Wijzigen contractgegevens,1,quadratic,False,False,False,1.906874061528229e-06
+W_Wijzigen contractgegevens,1,cubic,True,True,True,0.22398439046281543
+W_Wijzigen contractgegevens,1,cubic,True,True,False,0.21491199544929432
+W_Wijzigen contractgegevens,1,cubic,True,False,True,3.427611301268531e-11
+W_Wijzigen contractgegevens,1,cubic,True,False,False,3.288777324429061e-11
+W_Wijzigen contractgegevens,1,cubic,False,True,True,27.969598308190104
+W_Wijzigen contractgegevens,1,cubic,False,True,False,27.795685264711842
+W_Wijzigen contractgegevens,1,cubic,False,False,True,4.2801603743457816e-09
+W_Wijzigen contractgegevens,1,cubic,False,False,False,4.25354663077051e-09
+W_Wijzigen contractgegevens,2,basic,True,True,True,0.47539294137614346
+W_Wijzigen contractgegevens,2,basic,True,True,False,0.45459616869969083
+W_Wijzigen contractgegevens,2,basic,True,False,True,0.00025427910060617454
+W_Wijzigen contractgegevens,2,basic,True,False,False,0.00024315528240985995
+W_Wijzigen contractgegevens,2,basic,False,True,True,2.9099883301738783
+W_Wijzigen contractgegevens,2,basic,False,True,False,2.6254695017219953
+W_Wijzigen contractgegevens,2,basic,False,False,True,0.0015565002148098944
+W_Wijzigen contractgegevens,2,basic,False,False,False,0.0014043162307674746
+W_Wijzigen contractgegevens,2,quadratic,True,True,True,0.31937943280132447
+W_Wijzigen contractgegevens,2,quadratic,True,True,False,0.31451416486165784
+W_Wijzigen contractgegevens,2,quadratic,True,False,True,9.137403859097039e-08
+W_Wijzigen contractgegevens,2,quadratic,True,False,False,8.99820917878365e-08
+W_Wijzigen contractgegevens,2,quadratic,False,True,True,13.047928701622533
+W_Wijzigen contractgegevens,2,quadratic,False,True,False,12.76340987317065
+W_Wijzigen contractgegevens,2,quadratic,False,False,True,3.732995359960896e-06
+W_Wijzigen contractgegevens,2,quadratic,False,False,False,3.6515948947437375e-06
+W_Wijzigen contractgegevens,2,cubic,True,True,True,0.2300092903028801
+W_Wijzigen contractgegevens,2,cubic,True,True,False,0.22801476963059727
+W_Wijzigen contractgegevens,2,cubic,True,False,True,3.519809756429383e-11
+W_Wijzigen contractgegevens,2,cubic,True,False,False,3.4892878009359473e-11
+W_Wijzigen contractgegevens,2,cubic,False,True,True,75.40261044394438
+W_Wijzigen contractgegevens,2,cubic,False,True,False,75.1180916154925
+W_Wijzigen contractgegevens,2,cubic,False,False,True,1.1538788000752134e-08
+W_Wijzigen contractgegevens,2,cubic,False,False,False,1.1495248361681311e-08
+W_Wijzigen contractgegevens,3,basic,True,True,True,0.4205385655546022
+W_Wijzigen contractgegevens,3,basic,True,True,False,0.40707479248651735
+W_Wijzigen contractgegevens,3,basic,True,False,True,0.00022493848543456762
+W_Wijzigen contractgegevens,3,basic,True,False,False,0.00021773695632349677
+W_Wijzigen contractgegevens,3,basic,False,True,True,3.419245008288931
+W_Wijzigen contractgegevens,3,basic,False,True,False,3.0622443447189065
+W_Wijzigen contractgegevens,3,basic,False,False,True,0.0018288924167511544
+W_Wijzigen contractgegevens,3,basic,False,False,False,0.0016379392078423197
+W_Wijzigen contractgegevens,3,quadratic,True,True,True,0.2827288192416559
+W_Wijzigen contractgegevens,3,quadratic,True,True,False,0.2812805903805974
+W_Wijzigen contractgegevens,3,quadratic,True,False,True,8.08883459199986e-08
+W_Wijzigen contractgegevens,3,quadratic,True,False,False,8.047400953434573e-08
+W_Wijzigen contractgegevens,3,quadratic,False,True,True,18.6921401241419
+W_Wijzigen contractgegevens,3,quadratic,False,True,False,18.33513946057189
+W_Wijzigen contractgegevens,3,quadratic,False,False,True,5.347796876180303e-06
+W_Wijzigen contractgegevens,3,quadratic,False,False,False,5.2456594526025745e-06
+W_Wijzigen contractgegevens,3,cubic,True,True,True,0.20537171616853908
+W_Wijzigen contractgegevens,3,cubic,True,True,False,0.2050842359104901
+W_Wijzigen contractgegevens,3,cubic,True,False,True,3.142783360240718e-11
+W_Wijzigen contractgegevens,3,cubic,True,False,False,3.1383840778651166e-11
+W_Wijzigen contractgegevens,3,cubic,False,True,True,130.8183379569292
+W_Wijzigen contractgegevens,3,cubic,False,True,False,130.4613372933592
+W_Wijzigen contractgegevens,3,cubic,False,False,True,2.0019002782641353e-08
+W_Wijzigen contractgegevens,3,cubic,False,False,False,1.996437131897177e-08
+W_Wijzigen contractgegevens,4,basic,True,True,True,0.370843521040433
+W_Wijzigen contractgegevens,4,basic,True,True,False,0.36072274100222224
+W_Wijzigen contractgegevens,4,basic,True,False,True,0.00019835750342195036
+W_Wijzigen contractgegevens,4,basic,True,False,False,0.00019294408092118863
+W_Wijzigen contractgegevens,4,basic,False,True,True,3.7866614727853114
+W_Wijzigen contractgegevens,4,basic,False,True,False,3.3779658206113954
+W_Wijzigen contractgegevens,4,basic,False,False,True,0.0020254168495068454
+W_Wijzigen contractgegevens,4,basic,False,False,False,0.00180681292460305
+W_Wijzigen contractgegevens,4,quadratic,True,True,True,0.2451356503297599
+W_Wijzigen contractgegevens,4,quadratic,True,True,False,0.24438375705429213
+W_Wijzigen contractgegevens,4,quadratic,True,False,True,7.013298939380167e-08
+W_Wijzigen contractgegevens,4,quadratic,True,False,False,6.991787370971978e-08
+W_Wijzigen contractgegevens,4,quadratic,False,True,True,23.844362951386813
+W_Wijzigen contractgegevens,4,quadratic,False,True,False,23.43566729921286
+W_Wijzigen contractgegevens,4,quadratic,False,False,True,6.821841097865501e-06
+W_Wijzigen contractgegevens,4,quadratic,False,False,False,6.704913805565477e-06
+W_Wijzigen contractgegevens,4,cubic,True,True,True,0.17650556550896898
+W_Wijzigen contractgegevens,4,cubic,True,True,False,0.17642920587692443
+W_Wijzigen contractgegevens,4,cubic,True,False,True,2.701047469536781e-11
+W_Wijzigen contractgegevens,4,cubic,True,False,False,2.6998789455284086e-11
+W_Wijzigen contractgegevens,4,cubic,False,True,True,189.49394020389593
+W_Wijzigen contractgegevens,4,cubic,False,True,False,189.08524455172204
+W_Wijzigen contractgegevens,4,cubic,False,False,True,2.899807301851369e-08
+W_Wijzigen contractgegevens,4,cubic,False,False,False,2.8935530721109887e-08
+W_Beoordelen fraude,1,basic,True,True,True,0.07420625648222899
+W_Beoordelen fraude,1,basic,True,True,False,0.03485435079765332
+W_Beoordelen fraude,1,basic,True,False,True,0.0006123844807886244
+W_Beoordelen fraude,1,basic,True,False,False,0.00028763428487403977
+W_Beoordelen fraude,1,basic,False,True,True,0.3436666761338251
+W_Beoordelen fraude,1,basic,False,True,False,0.1807148716700858
+W_Beoordelen fraude,1,basic,False,False,True,0.002836096968170942
+W_Beoordelen fraude,1,basic,False,False,False,0.001491343022875316
+W_Beoordelen fraude,1,quadratic,True,True,True,0.008175484224643162
+W_Beoordelen fraude,1,quadratic,True,True,False,0.0035055144831609387
+W_Beoordelen fraude,1,quadratic,True,False,True,5.567763646105622e-07
+W_Beoordelen fraude,1,quadratic,True,False,False,2.387366370472339e-07
+W_Beoordelen fraude,1,quadratic,False,True,True,0.19963619714318637
+W_Beoordelen fraude,1,quadratic,False,True,False,0.10566171584992348
+W_Beoordelen fraude,1,quadratic,False,False,True,1.3595857203786888e-05
+W_Beoordelen fraude,1,quadratic,False,False,False,7.195897443249287e-06
+W_Beoordelen fraude,1,cubic,True,True,True,0.0010453531273002523
+W_Beoordelen fraude,1,cubic,True,True,False,0.00035385215779324986
+W_Beoordelen fraude,1,cubic,True,False,True,5.875082669646437e-10
+W_Beoordelen fraude,1,cubic,True,False,False,1.988716181714738e-10
+W_Beoordelen fraude,1,cubic,False,True,True,0.14049846235829558
+W_Beoordelen fraude,1,cubic,False,True,False,0.06565600824512534
+W_Beoordelen fraude,1,cubic,False,False,True,7.896279828855446e-08
+W_Beoordelen fraude,1,cubic,False,False,False,3.6899920813869285e-08
+W_Beoordelen fraude,2,basic,True,True,True,0.06651570378083504
+W_Beoordelen fraude,2,basic,True,True,False,0.04326469602650977
+W_Beoordelen fraude,2,basic,True,False,True,0.0005489184693459289
+W_Beoordelen fraude,2,basic,True,False,False,0.00035704035843684947
+W_Beoordelen fraude,2,basic,False,True,True,0.5027619593770855
+W_Beoordelen fraude,2,basic,False,True,False,0.30450920510535573
+W_Beoordelen fraude,2,basic,False,False,True,0.004149025109859024
+W_Beoordelen fraude,2,basic,False,False,False,0.0025129513373101887
+W_Beoordelen fraude,2,quadratic,True,True,True,0.006491934569163824
+W_Beoordelen fraude,2,quadratic,True,True,False,0.004174743722206193
+W_Beoordelen fraude,2,quadratic,True,False,True,4.421213018567629e-07
+W_Beoordelen fraude,2,quadratic,True,False,False,2.8431326744223323e-07
+W_Beoordelen fraude,2,quadratic,False,True,True,0.36744140841877393
+W_Beoordelen fraude,2,quadratic,False,True,False,0.21628178641246187
+W_Beoordelen fraude,2,quadratic,False,False,True,2.50239234723396e-05
+W_Beoordelen fraude,2,quadratic,False,False,False,1.472947454381082e-05
+W_Beoordelen fraude,2,cubic,True,True,True,0.0007158764927219721
+W_Beoordelen fraude,2,cubic,True,True,False,0.0004168697074781558
+W_Beoordelen fraude,2,cubic,True,False,True,4.02336154755685e-10
+W_Beoordelen fraude,2,cubic,True,False,False,2.3428867527576053e-10
+W_Beoordelen fraude,2,cubic,False,True,True,0.31502324994396996
+W_Beoordelen fraude,2,cubic,False,True,False,0.17686484872858776
+W_Beoordelen fraude,2,cubic,False,False,True,1.7704903615311265e-07
+W_Beoordelen fraude,2,cubic,False,False,False,9.940139657098966e-08
+W_Beoordelen fraude,3,basic,True,True,True,0.05811365545343639
+W_Beoordelen fraude,3,basic,True,True,False,0.045066694000841616
+W_Beoordelen fraude,3,basic,True,False,True,0.0004795808656660149
+W_Beoordelen fraude,3,basic,True,False,False,0.0003719112823482004
+W_Beoordelen fraude,3,basic,False,True,True,0.6177570189028417
+W_Beoordelen fraude,3,basic,False,True,False,0.39584320696658476
+W_Beoordelen fraude,3,basic,False,False,True,0.005098017730687471
+W_Beoordelen fraude,3,basic,False,False,False,0.003266681924993607
+W_Beoordelen fraude,3,quadratic,True,True,True,0.005332178210368248
+W_Beoordelen fraude,3,quadratic,True,True,False,0.004169251510616448
+W_Beoordelen fraude,3,quadratic,True,False,True,3.6313822127815245e-07
+W_Beoordelen fraude,3,quadratic,True,False,False,2.8393923044105016e-07
+W_Beoordelen fraude,3,quadratic,False,True,True,0.518408760071172
+W_Beoordelen fraude,3,quadratic,False,True,False,0.3243304134503741
+W_Beoordelen fraude,3,quadratic,False,False,True,3.530527818091393e-05
+W_Beoordelen fraude,3,quadratic,False,False,False,2.2087928197479256e-05
+W_Beoordelen fraude,3,cubic,True,True,True,0.0005410828504418764
+W_Beoordelen fraude,3,cubic,True,True,False,0.00040899631505419835
+W_Beoordelen fraude,3,cubic,True,False,True,3.0409881545807325e-10
+W_Beoordelen fraude,3,cubic,True,False,False,2.2986367953285973e-10
+W_Beoordelen fraude,3,cubic,False,True,True,0.5062618494758582
+W_Beoordelen fraude,3,cubic,False,True,False,0.31953514638498276
+W_Beoordelen fraude,3,cubic,False,False,True,2.8452875305786214e-07
+W_Beoordelen fraude,3,cubic,False,False,False,1.7958480745331434e-07
+W_Beoordelen fraude,4,basic,True,True,True,0.05119761238480661
+W_Beoordelen fraude,4,basic,True,True,False,0.04343696088122405
+W_Beoordelen fraude,4,basic,True,False,True,0.0004225064673003005
+W_Beoordelen fraude,4,basic,True,False,False,0.000358461967996648
+W_Beoordelen fraude,4,basic,False,True,True,0.7106312096221228
+W_Beoordelen fraude,4,basic,False,True,False,0.4635681619875234
+W_Beoordelen fraude,4,basic,False,False,True,0.005864458671903036
+W_Beoordelen fraude,4,basic,False,False,False,0.0038255796970012787
+W_Beoordelen fraude,4,quadratic,True,True,True,0.00451129420030791
+W_Beoordelen fraude,4,quadratic,True,True,False,0.003846753645109073
+W_Beoordelen fraude,4,quadratic,True,False,True,3.072334207391634e-07
+W_Beoordelen fraude,4,quadratic,True,False,False,2.619761045615313e-07
+W_Beoordelen fraude,4,quadratic,False,True,True,0.655525694977625
+W_Beoordelen fraude,4,quadratic,False,True,False,0.42492442662509705
+W_Beoordelen fraude,4,quadratic,False,False,True,4.464337564963892e-05
+W_Beoordelen fraude,4,quadratic,False,False,False,2.893869904089597e-05
+W_Beoordelen fraude,4,cubic,True,True,True,0.000441679800115203
+W_Beoordelen fraude,4,cubic,True,True,False,0.0003694883354193715
+W_Beoordelen fraude,4,cubic,True,False,True,2.482324174885574e-10
+W_Beoordelen fraude,4,cubic,True,False,False,2.0765944630261476e-10
+W_Beoordelen fraude,4,cubic,False,True,True,0.7045596478397347
+W_Beoordelen fraude,4,cubic,False,True,False,0.47800868814127
+W_Beoordelen fraude,4,cubic,False,False,True,3.9597587347787115e-07
+W_Beoordelen fraude,4,cubic,False,False,False,2.686499409909501e-07
+A_ACTIVATED,1,basic,True,True,True,0.43754181709688217
+A_ACTIVATED,1,basic,True,True,False,0.39548135296840925
+A_ACTIVATED,1,basic,True,False,True,0.07509122955601721
+A_ACTIVATED,1,basic,True,False,False,0.06787278358424752
+A_ACTIVATED,1,basic,False,True,True,1.9275431325114625
+A_ACTIVATED,1,basic,False,True,False,1.7841586698119292
+A_ACTIVATED,1,basic,False,False,True,0.3308062868205658
+A_ACTIVATED,1,basic,False,False,False,0.3061985460684338
+A_ACTIVATED,1,quadratic,True,True,True,0.27974207899749665
+A_ACTIVATED,1,quadratic,True,True,False,0.26227116682962576
+A_ACTIVATED,1,quadratic,True,False,True,0.008239428648157195
+A_ACTIVATED,1,quadratic,True,False,False,0.007724846305946599
+A_ACTIVATED,1,quadratic,False,True,True,6.220769136902676
+A_ACTIVATED,1,quadratic,False,True,False,6.086477387361514
+A_ACTIVATED,1,quadratic,False,False,True,0.1832244316759607
+A_ACTIVATED,1,quadratic,False,False,False,0.17926904787261627
+A_ACTIVATED,1,cubic,True,True,True,0.1914984520656655
+A_ACTIVATED,1,cubic,True,True,False,0.18237097990829887
+A_ACTIVATED,1,cubic,True,False,True,0.0009679974568875846
+A_ACTIVATED,1,cubic,True,False,False,0.0009218593824497115
+A_ACTIVATED,1,cubic,False,True,True,24.860103626365504
+A_ACTIVATED,1,cubic,False,True,False,24.72852007453519
+A_ACTIVATED,1,cubic,False,False,True,0.12566429038304616
+A_ACTIVATED,1,cubic,False,False,False,0.1249991542309466
+A_ACTIVATED,2,basic,True,True,True,0.3813012581485308
+A_ACTIVATED,2,basic,True,True,False,0.35976070712179864
+A_ACTIVATED,2,basic,True,False,True,0.06543918589452132
+A_ACTIVATED,2,basic,True,False,False,0.06174238161500422
+A_ACTIVATED,2,basic,False,True,True,2.648892292428574
+A_ACTIVATED,2,basic,False,True,False,2.4405070601421097
+A_ACTIVATED,2,basic,False,False,True,0.45460472902839294
+A_ACTIVATED,2,basic,False,False,False,0.41884151120036556
+A_ACTIVATED,2,quadratic,True,True,True,0.2483970020788742
+A_ACTIVATED,2,quadratic,True,True,False,0.24341394616845105
+A_ACTIVATED,2,quadratic,True,False,True,0.0073162013465387634
+A_ACTIVATED,2,quadratic,True,False,False,0.007169432101915838
+A_ACTIVATED,2,quadratic,False,True,True,9.70135009136391
+A_ACTIVATED,2,quadratic,False,True,False,9.494722274225701
+A_ACTIVATED,2,quadratic,False,False,True,0.2857402867492862
+A_ACTIVATED,2,quadratic,False,False,False,0.2796543408589293
+A_ACTIVATED,2,cubic,True,True,True,0.17816728152846414
+A_ACTIVATED,2,cubic,True,True,False,0.1761537367195554
+A_ACTIVATED,2,cubic,True,False,True,0.0009006102846251117
+A_ACTIVATED,2,cubic,True,False,False,0.0008904321018078188
+A_ACTIVATED,2,cubic,False,True,True,40.87607285275641
+A_ACTIVATED,2,cubic,False,True,False,40.66996846878921
+A_ACTIVATED,2,cubic,False,False,True,0.20662273842010925
+A_ACTIVATED,2,cubic,False,False,False,0.20558091005344845
+A_ACTIVATED,3,basic,True,True,True,0.3046656046945029
+A_ACTIVATED,3,basic,True,True,False,0.2912227255874626
+A_ACTIVATED,3,basic,True,False,True,0.0522869219946404
+A_ACTIVATED,3,basic,True,False,False,0.04997984577591861
+A_ACTIVATED,3,basic,False,True,True,2.9885564857069147
+A_ACTIVATED,3,basic,False,True,False,2.7418823133482095
+A_ACTIVATED,3,basic,False,False,True,0.5128981330249659
+A_ACTIVATED,3,basic,False,False,False,0.4705637407946928
+A_ACTIVATED,3,quadratic,True,True,True,0.19664210575071658
+A_ACTIVATED,3,quadratic,True,True,False,0.19516916168407772
+A_ACTIVATED,3,quadratic,True,False,True,0.005791830122099446
+A_ACTIVATED,3,quadratic,True,False,False,0.005748446525383167
+A_ACTIVATED,3,quadratic,False,True,True,11.705223396846534
+A_ACTIVATED,3,quadratic,False,True,False,11.458689676067864
+A_ACTIVATED,3,quadratic,False,False,True,0.3447616938241139
+A_ACTIVATED,3,quadratic,False,False,False,0.33750037293524754
+A_ACTIVATED,3,cubic,True,True,True,0.14379066495132165
+A_ACTIVATED,3,cubic,True,True,False,0.1434988602611639
+A_ACTIVATED,3,cubic,True,False,True,0.0007268413738891556
+A_ACTIVATED,3,cubic,True,False,False,0.0007253663426555669
+A_ACTIVATED,3,cubic,False,True,True,51.011129814876774
+A_ACTIVATED,3,cubic,False,True,False,50.76463792656778
+A_ACTIVATED,3,cubic,False,False,True,0.2578540108346802
+A_ACTIVATED,3,cubic,False,False,False,0.2566080293739787
+A_ACTIVATED,4,basic,True,True,True,0.24319635504180384
+A_ACTIVATED,4,basic,True,True,False,0.23312224380292626
+A_ACTIVATED,4,basic,True,False,True,0.04173752681469393
+A_ACTIVATED,4,basic,True,False,False,0.04000860086967006
+A_ACTIVATED,4,basic,False,True,True,3.1974393060514186
+A_ACTIVATED,4,basic,False,True,False,2.930335276060818
+A_ACTIVATED,4,basic,False,False,True,0.5487467472599907
+A_ACTIVATED,4,basic,False,False,False,0.5029061687195179
+A_ACTIVATED,4,quadratic,True,True,True,0.15215072293043164
+A_ACTIVATED,4,quadratic,True,True,False,0.15138150338944972
+A_ACTIVATED,4,quadratic,True,False,True,0.004481395969614013
+A_ACTIVATED,4,quadratic,True,False,False,0.0044587396372331575
+A_ACTIVATED,4,quadratic,False,True,True,13.057624427227639
+A_ACTIVATED,4,quadratic,False,True,False,12.790520397237005
+A_ACTIVATED,4,quadratic,False,False,True,0.3845948566913448
+A_ACTIVATED,4,quadratic,False,False,False,0.3767276648672467
+A_ACTIVATED,4,cubic,True,True,True,0.11126830242025723
+A_ACTIVATED,4,cubic,True,True,False,0.11119011943556902
+A_ACTIVATED,4,cubic,True,False,True,0.0005624454538048869
+A_ACTIVATED,4,cubic,True,False,False,0.0005620502499296912
+A_ACTIVATED,4,cubic,False,True,True,58.2437246246648
+A_ACTIVATED,4,cubic,False,True,False,57.97662059467411
+A_ACTIVATED,4,cubic,False,False,True,0.29441374960566485
+A_ACTIVATED,4,cubic,False,False,False,0.29306357669842936
+A_REGISTERED,1,basic,True,True,True,0.43754181709688217
+A_REGISTERED,1,basic,True,True,False,0.39548135296840925
+A_REGISTERED,1,basic,True,False,True,0.07509122955601721
+A_REGISTERED,1,basic,True,False,False,0.06787278358424752
+A_REGISTERED,1,basic,False,True,True,1.9275431325114625
+A_REGISTERED,1,basic,False,True,False,1.7841586698119292
+A_REGISTERED,1,basic,False,False,True,0.3308062868205658
+A_REGISTERED,1,basic,False,False,False,0.3061985460684338
+A_REGISTERED,1,quadratic,True,True,True,0.27974207899749665
+A_REGISTERED,1,quadratic,True,True,False,0.26227116682962576
+A_REGISTERED,1,quadratic,True,False,True,0.008239428648157195
+A_REGISTERED,1,quadratic,True,False,False,0.007724846305946599
+A_REGISTERED,1,quadratic,False,True,True,6.220769136902676
+A_REGISTERED,1,quadratic,False,True,False,6.086477387361514
+A_REGISTERED,1,quadratic,False,False,True,0.1832244316759607
+A_REGISTERED,1,quadratic,False,False,False,0.17926904787261627
+A_REGISTERED,1,cubic,True,True,True,0.1914984520656655
+A_REGISTERED,1,cubic,True,True,False,0.18237097990829887
+A_REGISTERED,1,cubic,True,False,True,0.0009679974568875846
+A_REGISTERED,1,cubic,True,False,False,0.0009218593824497115
+A_REGISTERED,1,cubic,False,True,True,24.860103626365504
+A_REGISTERED,1,cubic,False,True,False,24.72852007453519
+A_REGISTERED,1,cubic,False,False,True,0.12566429038304616
+A_REGISTERED,1,cubic,False,False,False,0.1249991542309466
+A_REGISTERED,2,basic,True,True,True,0.3813012581485308
+A_REGISTERED,2,basic,True,True,False,0.35976070712179864
+A_REGISTERED,2,basic,True,False,True,0.06543918589452132
+A_REGISTERED,2,basic,True,False,False,0.06174238161500422
+A_REGISTERED,2,basic,False,True,True,2.648892292428574
+A_REGISTERED,2,basic,False,True,False,2.4405070601421097
+A_REGISTERED,2,basic,False,False,True,0.45460472902839294
+A_REGISTERED,2,basic,False,False,False,0.41884151120036556
+A_REGISTERED,2,quadratic,True,True,True,0.2483970020788742
+A_REGISTERED,2,quadratic,True,True,False,0.24341394616845105
+A_REGISTERED,2,quadratic,True,False,True,0.0073162013465387634
+A_REGISTERED,2,quadratic,True,False,False,0.007169432101915838
+A_REGISTERED,2,quadratic,False,True,True,9.70135009136391
+A_REGISTERED,2,quadratic,False,True,False,9.494722274225701
+A_REGISTERED,2,quadratic,False,False,True,0.2857402867492862
+A_REGISTERED,2,quadratic,False,False,False,0.2796543408589293
+A_REGISTERED,2,cubic,True,True,True,0.17816728152846414
+A_REGISTERED,2,cubic,True,True,False,0.1761537367195554
+A_REGISTERED,2,cubic,True,False,True,0.0009006102846251117
+A_REGISTERED,2,cubic,True,False,False,0.0008904321018078188
+A_REGISTERED,2,cubic,False,True,True,40.87607285275641
+A_REGISTERED,2,cubic,False,True,False,40.66996846878921
+A_REGISTERED,2,cubic,False,False,True,0.20662273842010925
+A_REGISTERED,2,cubic,False,False,False,0.20558091005344845
+A_REGISTERED,3,basic,True,True,True,0.3046656046945029
+A_REGISTERED,3,basic,True,True,False,0.2912227255874626
+A_REGISTERED,3,basic,True,False,True,0.0522869219946404
+A_REGISTERED,3,basic,True,False,False,0.04997984577591861
+A_REGISTERED,3,basic,False,True,True,2.9885564857069147
+A_REGISTERED,3,basic,False,True,False,2.7418823133482095
+A_REGISTERED,3,basic,False,False,True,0.5128981330249659
+A_REGISTERED,3,basic,False,False,False,0.4705637407946928
+A_REGISTERED,3,quadratic,True,True,True,0.19664210575071658
+A_REGISTERED,3,quadratic,True,True,False,0.19516916168407772
+A_REGISTERED,3,quadratic,True,False,True,0.005791830122099446
+A_REGISTERED,3,quadratic,True,False,False,0.005748446525383167
+A_REGISTERED,3,quadratic,False,True,True,11.705223396846534
+A_REGISTERED,3,quadratic,False,True,False,11.458689676067864
+A_REGISTERED,3,quadratic,False,False,True,0.3447616938241139
+A_REGISTERED,3,quadratic,False,False,False,0.33750037293524754
+A_REGISTERED,3,cubic,True,True,True,0.14379066495132165
+A_REGISTERED,3,cubic,True,True,False,0.1434988602611639
+A_REGISTERED,3,cubic,True,False,True,0.0007268413738891556
+A_REGISTERED,3,cubic,True,False,False,0.0007253663426555669
+A_REGISTERED,3,cubic,False,True,True,51.011129814876774
+A_REGISTERED,3,cubic,False,True,False,50.76463792656778
+A_REGISTERED,3,cubic,False,False,True,0.2578540108346802
+A_REGISTERED,3,cubic,False,False,False,0.2566080293739787
+A_REGISTERED,4,basic,True,True,True,0.24319635504180384
+A_REGISTERED,4,basic,True,True,False,0.23312224380292626
+A_REGISTERED,4,basic,True,False,True,0.04173752681469393
+A_REGISTERED,4,basic,True,False,False,0.04000860086967006
+A_REGISTERED,4,basic,False,True,True,3.1974393060514186
+A_REGISTERED,4,basic,False,True,False,2.930335276060818
+A_REGISTERED,4,basic,False,False,True,0.5487467472599907
+A_REGISTERED,4,basic,False,False,False,0.5029061687195179
+A_REGISTERED,4,quadratic,True,True,True,0.15215072293043164
+A_REGISTERED,4,quadratic,True,True,False,0.15138150338944972
+A_REGISTERED,4,quadratic,True,False,True,0.004481395969614013
+A_REGISTERED,4,quadratic,True,False,False,0.0044587396372331575
+A_REGISTERED,4,quadratic,False,True,True,13.057624427227639
+A_REGISTERED,4,quadratic,False,True,False,12.790520397237005
+A_REGISTERED,4,quadratic,False,False,True,0.3845948566913448
+A_REGISTERED,4,quadratic,False,False,False,0.3767276648672467
+A_REGISTERED,4,cubic,True,True,True,0.11126830242025723
+A_REGISTERED,4,cubic,True,True,False,0.11119011943556902
+A_REGISTERED,4,cubic,True,False,True,0.0005624454538048869
+A_REGISTERED,4,cubic,True,False,False,0.0005620502499296912
+A_REGISTERED,4,cubic,False,True,True,58.2437246246648
+A_REGISTERED,4,cubic,False,True,False,57.97662059467411
+A_REGISTERED,4,cubic,False,False,True,0.29441374960566485
+A_REGISTERED,4,cubic,False,False,False,0.29306357669842936
+W_Nabellen incomplete dossiers,1,basic,True,True,True,0.405972617813317
+W_Nabellen incomplete dossiers,1,basic,True,True,False,0.37773831382741024
+W_Nabellen incomplete dossiers,1,basic,True,False,True,0.0510916865239194
+W_Nabellen incomplete dossiers,1,basic,True,False,False,0.047538397101990114
+W_Nabellen incomplete dossiers,1,basic,False,True,True,1.739950511508355
+W_Nabellen incomplete dossiers,1,basic,False,True,False,1.6716020114976018
+W_Nabellen incomplete dossiers,1,basic,False,False,True,0.21897291147354322
+W_Nabellen incomplete dossiers,1,basic,False,False,False,0.21037124726343315
+W_Nabellen incomplete dossiers,1,quadratic,True,True,True,0.2343389772690634
+W_Nabellen incomplete dossiers,1,quadratic,True,True,False,0.22473768561792085
+W_Nabellen incomplete dossiers,1,quadratic,True,False,True,0.003711517594762305
+W_Nabellen incomplete dossiers,1,quadratic,True,False,False,0.00355945000741108
+W_Nabellen incomplete dossiers,1,quadratic,False,True,True,4.616100228582908
+W_Nabellen incomplete dossiers,1,quadratic,False,True,False,4.573073528596733
+W_Nabellen incomplete dossiers,1,quadratic,False,False,True,0.07311091572231405
+W_Nabellen incomplete dossiers,1,quadratic,False,False,False,0.0724294484055907
+W_Nabellen incomplete dossiers,1,cubic,True,True,True,0.1426798405917258
+W_Nabellen incomplete dossiers,1,cubic,True,True,False,0.13872132033312762
+W_Nabellen incomplete dossiers,1,cubic,True,False,True,0.0002843957524228141
+W_Nabellen incomplete dossiers,1,cubic,True,False,False,0.0002765054552178545
+W_Nabellen incomplete dossiers,1,cubic,False,True,True,14.723573876597364
+W_Nabellen incomplete dossiers,1,cubic,False,True,False,14.694265717210019
+W_Nabellen incomplete dossiers,1,cubic,False,False,True,0.029347676964187927
+W_Nabellen incomplete dossiers,1,cubic,False,False,False,0.02928925864800168
+W_Nabellen incomplete dossiers,2,basic,True,True,True,0.3562094833625065
+W_Nabellen incomplete dossiers,2,basic,True,True,False,0.3472080712399413
+W_Nabellen incomplete dossiers,2,basic,True,False,True,0.04482899206067464
+W_Nabellen incomplete dossiers,2,basic,True,False,False,0.0436961636228459
+W_Nabellen incomplete dossiers,2,basic,False,True,True,2.5187272674274284
+W_Nabellen incomplete dossiers,2,basic,False,True,False,2.4768071961096845
+W_Nabellen incomplete dossiers,2,basic,False,False,True,0.3169820286890016
+W_Nabellen incomplete dossiers,2,basic,False,False,False,0.31170638435032033
+W_Nabellen incomplete dossiers,2,quadratic,True,True,True,0.20267372151647314
+W_Nabellen incomplete dossiers,2,quadratic,True,True,False,0.20041534419136595
+W_Nabellen incomplete dossiers,2,quadratic,True,False,True,0.0032099955891701864
+W_Nabellen incomplete dossiers,2,quadratic,True,False,False,0.0031742268609994393
+W_Nabellen incomplete dossiers,2,quadratic,False,True,True,8.30149248816075
+W_Nabellen incomplete dossiers,2,quadratic,False,True,False,8.276094349752356
+W_Nabellen incomplete dossiers,2,quadratic,False,False,True,0.1314810527538447
+W_Nabellen incomplete dossiers,2,quadratic,False,False,False,0.13107879087374466
+W_Nabellen incomplete dossiers,2,cubic,True,True,True,0.12466978999200232
+W_Nabellen incomplete dossiers,2,cubic,True,True,False,0.1238380672226297
+W_Nabellen incomplete dossiers,2,cubic,True,False,True,0.00024849732507498877
+W_Nabellen incomplete dossiers,2,cubic,True,False,False,0.00024683949856059174
+W_Nabellen incomplete dossiers,2,cubic,False,True,True,31.363883633317844
+W_Nabellen incomplete dossiers,2,cubic,False,True,False,31.346267277296064
+W_Nabellen incomplete dossiers,2,cubic,False,False,True,0.0625158764392136
+W_Nabellen incomplete dossiers,2,cubic,False,False,False,0.0624807627412659
+W_Nabellen incomplete dossiers,3,basic,True,True,True,0.2888701735232884
+W_Nabellen incomplete dossiers,3,basic,True,True,False,0.28602139066992355
+W_Nabellen incomplete dossiers,3,basic,True,False,True,0.03635433451462211
+W_Nabellen incomplete dossiers,3,basic,True,False,False,0.035995814963961786
+W_Nabellen incomplete dossiers,3,basic,False,True,True,3.0082479122005386
+W_Nabellen incomplete dossiers,3,basic,False,True,False,2.9826115616136
+W_Nabellen incomplete dossiers,3,basic,False,False,True,0.3785882411090617
+W_Nabellen incomplete dossiers,3,basic,False,False,False,0.3753619043308319
+W_Nabellen incomplete dossiers,3,quadratic,True,True,True,0.1576663662641146
+W_Nabellen incomplete dossiers,3,quadratic,True,True,False,0.15733276359366727
+W_Nabellen incomplete dossiers,3,quadratic,True,False,True,0.0024971581736469113
+W_Nabellen incomplete dossiers,3,quadratic,True,False,False,0.0024918744935888424
+W_Nabellen incomplete dossiers,3,quadratic,False,True,True,11.180713503363421
+W_Nabellen incomplete dossiers,3,quadratic,False,True,False,11.166752145642937
+W_Nabellen incomplete dossiers,3,quadratic,False,False,True,0.17708285396365506
+W_Nabellen incomplete dossiers,3,quadratic,False,False,False,0.17686173059173357
+W_Nabellen incomplete dossiers,3,cubic,True,True,True,0.0955422081399881
+W_Nabellen incomplete dossiers,3,cubic,True,True,False,0.09545731641467553
+W_Nabellen incomplete dossiers,3,cubic,True,False,True,0.00019043894399812473
+W_Nabellen incomplete dossiers,3,cubic,True,False,False,0.00019026973406633226
+W_Nabellen incomplete dossiers,3,cubic,False,True,True,46.316475726059046
+W_Nabellen incomplete dossiers,3,cubic,False,True,False,46.30720656462105
+W_Nabellen incomplete dossiers,3,cubic,False,False,True,0.09232004261469183
+W_Nabellen incomplete dossiers,3,cubic,False,False,False,0.09230156691321514
+W_Nabellen incomplete dossiers,4,basic,True,True,True,0.23587031847857146
+W_Nabellen incomplete dossiers,4,basic,True,True,False,0.23447186666366182
+W_Nabellen incomplete dossiers,4,basic,True,False,True,0.029684298504943543
+W_Nabellen incomplete dossiers,4,basic,True,False,False,0.02950830323183612
+W_Nabellen incomplete dossiers,4,basic,False,True,True,3.3775795182312645
+W_Nabellen incomplete dossiers,4,basic,False,True,False,3.3606454319085675
+W_Nabellen incomplete dossiers,4,basic,False,False,True,0.4250686533603313
+W_Nabellen incomplete dossiers,4,basic,False,False,False,0.42293749723795926
+W_Nabellen incomplete dossiers,4,quadratic,True,True,True,0.12197470252323016
+W_Nabellen incomplete dossiers,4,quadratic,True,True,False,0.12190836520224563
+W_Nabellen incomplete dossiers,4,quadratic,True,False,True,0.0019318649411491802
+W_Nabellen incomplete dossiers,4,quadratic,True,False,False,0.0019308142745597333
+W_Nabellen incomplete dossiers,4,quadratic,False,True,True,13.585038167521937
+W_Nabellen incomplete dossiers,4,quadratic,False,True,False,13.57662876155195
+W_Nabellen incomplete dossiers,4,quadratic,False,False,True,0.21516313151092162
+W_Nabellen incomplete dossiers,4,quadratic,False,False,False,0.21502994129825112
+W_Nabellen incomplete dossiers,4,cubic,True,True,True,0.07185489010752517
+W_Nabellen incomplete dossiers,4,cubic,True,True,False,0.07185015883996666
+W_Nabellen incomplete dossiers,4,cubic,True,False,True,0.00014322433675730803
+W_Nabellen incomplete dossiers,4,cubic,True,False,False,0.00014321490618609582
+W_Nabellen incomplete dossiers,4,cubic,False,True,True,59.88981854229581
+W_Nabellen incomplete dossiers,4,cubic,False,True,False,59.884610357919954
+W_Nabellen incomplete dossiers,4,cubic,False,False,True,0.11937502828826665
+W_Nabellen incomplete dossiers,4,cubic,False,False,False,0.11936464710541525
+O_ACCEPTED,1,basic,True,True,True,0.43758748219455357
+O_ACCEPTED,1,basic,True,True,False,0.3955224698220972
+O_ACCEPTED,1,basic,True,False,True,0.07499875621321796
+O_ACCEPTED,1,basic,True,False,False,0.0677891724467765
+O_ACCEPTED,1,basic,False,True,True,1.927987295725253
+O_ACCEPTED,1,basic,False,True,False,1.7845903150721947
+O_ACCEPTED,1,basic,False,False,True,0.3304405520219868
+O_ACCEPTED,1,basic,False,False,False,0.30586353455390325
+O_ACCEPTED,1,quadratic,True,True,True,0.2798287045014946
+O_ACCEPTED,1,quadratic,True,True,False,0.2623568074591054
+O_ACCEPTED,1,quadratic,True,False,True,0.008219977034878506
+O_ACCEPTED,1,quadratic,True,False,False,0.0077067395072987245
+O_ACCEPTED,1,quadratic,False,True,True,6.224722439168215
+O_ACCEPTED,1,quadratic,False,True,False,6.09042322926227
+O_ACCEPTED,1,quadratic,False,False,True,0.18285141829751908
+O_ACCEPTED,1,quadratic,False,False,False,0.17890637476384796
+O_ACCEPTED,1,cubic,True,True,True,0.19160343414405515
+O_ACCEPTED,1,cubic,True,True,False,0.18247580203849276
+O_ACCEPTED,1,cubic,True,False,True,0.0009646522958804099
+O_ACCEPTED,1,cubic,True,False,False,0.0009186980503006436
+O_ACCEPTED,1,cubic,False,True,True,24.887198637135146
+O_ACCEPTED,1,cubic,False,True,False,24.755611750671484
+O_ACCEPTED,1,cubic,False,False,True,0.12529782365640918
+O_ACCEPTED,1,cubic,False,False,False,0.12463533244010097
+O_ACCEPTED,2,basic,True,True,True,0.38135467765830994
+O_ACCEPTED,2,basic,True,True,False,0.3598132475592113
+O_ACCEPTED,2,basic,True,False,True,0.06536093390292588
+O_ACCEPTED,2,basic,True,False,False,0.06166891680868896
+O_ACCEPTED,2,basic,False,True,True,2.6496826423437305
+O_ACCEPTED,2,basic,False,True,False,2.441294990620871
+O_ACCEPTED,2,basic,False,False,True,0.45413296911263035
+O_ACCEPTED,2,basic,False,False,False,0.4184171058273564
+O_ACCEPTED,2,quadratic,True,True,True,0.24851252504613797
+O_ACCEPTED,2,quadratic,True,True,False,0.2435292787818163
+O_ACCEPTED,2,quadratic,True,False,True,0.00730006327405919
+O_ACCEPTED,2,quadratic,True,False,False,0.0071536802576176155
+O_ACCEPTED,2,quadratic,False,True,True,9.709244371413032
+O_ACCEPTED,2,quadratic,False,True,False,9.502615112355578
+O_ACCEPTED,2,quadratic,False,False,True,0.2852093601377204
+O_ACCEPTED,2,quadratic,False,False,False,0.2791396191252252
+O_ACCEPTED,2,cubic,True,True,True,0.17830976818358352
+O_ACCEPTED,2,cubic,True,True,False,0.1762961924603177
+O_ACCEPTED,2,cubic,True,False,True,0.0008977236134863623
+O_ACCEPTED,2,cubic,True,False,False,0.0008875860058121847
+O_ACCEPTED,2,cubic,False,True,True,40.930074619061614
+O_ACCEPTED,2,cubic,False,True,False,40.72396959058543
+O_ACCEPTED,2,cubic,False,False,True,0.20606775984061515
+O_ACCEPTED,2,cubic,False,False,False,0.20503009739056452
+O_ACCEPTED,3,basic,True,True,True,0.3047220866285685
+O_ACCEPTED,3,basic,True,True,False,0.29127913726658416
+O_ACCEPTED,3,basic,True,False,True,0.05222676245953091
+O_ACCEPTED,3,basic,True,False,False,0.0499227557797011
+O_ACCEPTED,3,basic,False,True,True,2.9895046538429737
+O_ACCEPTED,3,basic,False,True,False,2.7428302881243463
+O_ACCEPTED,3,basic,False,False,True,0.5123755588423463
+O_ACCEPTED,3,basic,False,False,False,0.47009767985504225
+O_ACCEPTED,3,quadratic,True,True,True,0.19676346882091908
+O_ACCEPTED,3,quadratic,True,True,False,0.19529050954130914
+O_ACCEPTED,3,quadratic,True,False,True,0.005779933112624459
+O_ACCEPTED,3,quadratic,True,False,False,0.0057366648872532195
+O_ACCEPTED,3,quadratic,False,True,True,11.714936077728899
+O_ACCEPTED,3,quadratic,False,True,False,11.468402241712887
+O_ACCEPTED,3,quadratic,False,False,True,0.34412661737311506
+O_ACCEPTED,3,quadratic,False,False,False,0.33688467815182876
+O_ACCEPTED,3,cubic,True,True,True,0.14394013272518827
+O_ACCEPTED,3,cubic,True,True,False,0.1436483255643734
+O_ACCEPTED,3,cubic,True,False,True,0.0007246852339728391
+O_ACCEPTED,3,cubic,True,False,False,0.0007232160930417708
+O_ACCEPTED,3,cubic,False,True,True,51.07906822256052
+O_ACCEPTED,3,cubic,False,True,False,50.83257628274274
+O_ACCEPTED,3,cubic,False,False,True,0.257164182116272
+O_ACCEPTED,3,cubic,False,False,False,0.2559231865322262
+O_ACCEPTED,4,basic,True,True,True,0.24325172894632904
+O_ACCEPTED,4,basic,True,True,False,0.2331776177074538
+O_ACCEPTED,4,basic,True,False,True,0.04169126828353484
+O_ACCEPTED,4,basic,True,False,False,0.039964651678597904
+O_ACCEPTED,4,basic,False,True,True,3.198457490997227
+O_ACCEPTED,4,basic,False,True,False,2.931353461006598
+O_ACCEPTED,4,basic,False,False,True,0.5481882900822588
+O_ACCEPTED,4,basic,False,False,False,0.5024089411658851
+O_ACCEPTED,4,quadratic,True,True,True,0.15226625047472392
+O_ACCEPTED,4,quadratic,True,True,False,0.15149703093374195
+O_ACCEPTED,4,quadratic,True,False,True,0.0044728259179809765
+O_ACCEPTED,4,quadratic,True,False,False,0.004450230069664046
+O_ACCEPTED,4,quadratic,False,True,True,13.068141862458685
+O_ACCEPTED,4,quadratic,False,True,False,12.801037832468054
+O_ACCEPTED,4,quadratic,False,False,True,0.38387708004906923
+O_ACCEPTED,4,quadratic,False,False,False,0.3760308907299258
+O_ACCEPTED,4,cubic,True,True,True,0.1114093495824331
+O_ACCEPTED,4,cubic,True,True,False,0.11133116659774488
+O_ACCEPTED,4,cubic,True,False,True,0.0005609047945165434
+O_ACCEPTED,4,cubic,True,False,False,0.0005605111721578632
+O_ACCEPTED,4,cubic,False,True,True,58.31886650785417
+O_ACCEPTED,4,cubic,False,True,False,58.05176247786349
+O_ACCEPTED,4,cubic,False,False,True,0.2936138839121645
+O_ACCEPTED,4,cubic,False,False,False,0.2922691140915262

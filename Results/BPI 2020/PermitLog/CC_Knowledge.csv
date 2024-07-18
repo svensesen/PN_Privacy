@@ -1,0 +1,5 @@
+Sensitive Activities,Background Size,Confidence Privacy,Upper CC,Lower CC,Max K,Max C
+"['Payment Handled', 'Send Reminder']",1,0.00290746422576485,0.14246574706247767,49,1,1.0
+"['Payment Handled', 'Send Reminder']",2,0.0011740104263093082,1.013170997904933,863,1,1.0
+"['Payment Handled', 'Send Reminder']",3,0.0004391244051632908,3.4418570876698733,7838,1,1.0
+"['Payment Handled', 'Send Reminder']",4,0.0001676462693495521,7.6173435404355985,45437,1,1.0

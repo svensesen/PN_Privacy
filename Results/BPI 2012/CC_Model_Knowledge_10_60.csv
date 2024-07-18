@@ -1,0 +1,11 @@
+Model,Stochastic Type,Sensitive Activities,Background Size,Confidence Privacy,Upper CC,Lower CC,Max C
+Alpha+_,BillClintonEstimator,"('A_DECLINED', 'A_CANCELLED', 'A_APPROVED')",1,0.0,0.0,3,0.0
+Alpha+_,BillClintonEstimator,"('A_DECLINED', 'A_CANCELLED', 'A_APPROVED')",2,0.0,0.0,6,0.0
+Alpha+_,BillClintonEstimator,"('A_DECLINED', 'A_CANCELLED', 'A_APPROVED')",3,0.0,0.0,7,0.0
+Alpha+_,BillClintonEstimator,"('A_DECLINED', 'A_CANCELLED', 'A_APPROVED')",4,0.0,0.0,7,0.0
+Alpha+_,AlignmentEstimator,"('A_DECLINED', 'A_CANCELLED', 'A_APPROVED')",1,0.0,0.0,0,0.0
+Alpha+_,AlignmentEstimator,"('A_DECLINED', 'A_CANCELLED', 'A_APPROVED')",2,0.0,0.0,0,0.0
+Alpha+_,AlignmentEstimator,"('A_DECLINED', 'A_CANCELLED', 'A_APPROVED')",3,0.0,0.0,0,0.0
+Alpha+_,AlignmentEstimator,"('A_DECLINED', 'A_CANCELLED', 'A_APPROVED')",4,0.0,0.0,0,0.0
+Flower_,BillClintonEstimator,"('A_DECLINED', 'A_CANCELLED', 'A_APPROVED')",1,0.021316910734678986,0.4476551254282587,21,0.05823776415803144
+Flower_,AlignmentEstimator,"('A_DECLINED', 'A_CANCELLED', 'A_APPROVED')",1,0.018430101889580552,0.3870321396811916,21,0.05546938286224922

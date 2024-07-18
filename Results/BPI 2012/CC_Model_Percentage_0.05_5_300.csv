@@ -1,0 +1,17 @@
+Model,Stochastic Type,Sensitive Activities,Background Size,Confidence Privacy,Upper CC,Lower CC,Max C
+Heuristic_,BillClintonEstimator,"('W_Beoordelen_fraude', 'W_Wijzigen_contractgegevens')",1,0.0,0.0,0,0.0
+Heuristic_,AlignmentEstimator,"('W_Beoordelen_fraude', 'W_Wijzigen_contractgegevens')",1,0.15786844855583854,1.1050791398908697,7,0.012077294685990343
+Flower_,BillClintonEstimator,"('W_Beoordelen_fraude', 'W_Wijzigen_contractgegevens')",1,1.255402004766058e-07,2.7618844104853276e-06,22,0.9991768788023286
+Flower_,BillClintonEstimator,"('W_Beoordelen_fraude', 'W_Wijzigen_contractgegevens')",2,2.4947555516091646e-07,6.311731545571187e-05,253,0.9992512207013434
+Flower_,BillClintonEstimator,"('W_Beoordelen_fraude', 'W_Wijzigen_contractgegevens')",3,3.7662263498233113e-07,0.0006752843845233197,1793,0.9992993022703921
+Flower_,AlignmentEstimator,"('W_Beoordelen_fraude', 'W_Wijzigen_contractgegevens')",1,0.03763360407119418,0.8279392895662719,22,0.09171055183293238
+Flower_,AlignmentEstimator,"('W_Beoordelen_fraude', 'W_Wijzigen_contractgegevens')",2,0.030961140904411544,7.8331686488161205,253,0.12583201736239688
+Flower_,AlignmentEstimator,"('W_Beoordelen_fraude', 'W_Wijzigen_contractgegevens')",3,0.02034732005945305,36.48274486659932,1793,0.15489523842955485
+Alpha+_,BillClintonEstimator,"('W_Beoordelen_fraude', 'W_Wijzigen_contractgegevens')",1,0.0,0.0,3,0.0
+Alpha+_,BillClintonEstimator,"('W_Beoordelen_fraude', 'W_Wijzigen_contractgegevens')",2,0.0,0.0,6,0.0
+Alpha+_,BillClintonEstimator,"('W_Beoordelen_fraude', 'W_Wijzigen_contractgegevens')",3,0.0,0.0,7,0.0
+Alpha+_,BillClintonEstimator,"('W_Beoordelen_fraude', 'W_Wijzigen_contractgegevens')",4,0.0,0.0,7,0.0
+Alpha+_,AlignmentEstimator,"('W_Beoordelen_fraude', 'W_Wijzigen_contractgegevens')",1,0.0,0.0,0,0.0
+Alpha+_,AlignmentEstimator,"('W_Beoordelen_fraude', 'W_Wijzigen_contractgegevens')",2,0.0,0.0,0,0.0
+Alpha+_,AlignmentEstimator,"('W_Beoordelen_fraude', 'W_Wijzigen_contractgegevens')",3,0.0,0.0,0,0.0
+Alpha+_,AlignmentEstimator,"('W_Beoordelen_fraude', 'W_Wijzigen_contractgegevens')",4,0.0,0.0,0,0.0

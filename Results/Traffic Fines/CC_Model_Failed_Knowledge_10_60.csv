@@ -1,0 +1,27 @@
+Model,Stochastic Type,Sensitive Activities,Background Size,Confidence Privacy,Upper CC,Lower CC,Max C
+IMf20_,BillClintonEstimator,"('Send_for_Credit_Collection', 'Appeal_to_Judge')",1,0.22211186802948366,1.9990068122653528,9,0.9999830548683365
+IMf20_,BillClintonEstimator,"('Send_for_Credit_Collection', 'Appeal_to_Judge')",2,0.3183168821424136,14.324259696408612,45,0.9999830548683365
+IMf20_,BillClintonEstimator,"('Send_for_Credit_Collection', 'Appeal_to_Judge')",3,0.37352427218255063,48.18463111154903,129,0.9999830548683365
+IMf20_,BillClintonEstimator,"('Send_for_Credit_Collection', 'Appeal_to_Judge')",4,0.4018067311688899,102.46071644806692,255,0.9999830548683366
+IMf20_,AlignmentEstimator,"('Send_for_Credit_Collection', 'Appeal_to_Judge')",1,0.4504962387969875,4.054466149172888,9,0.8959537572254336
+IMf20_,AlignmentEstimator,"('Send_for_Credit_Collection', 'Appeal_to_Judge')",2,0.49078383352211874,22.085272508495343,45,0.8959537572254339
+IMf20_,AlignmentEstimator,"('Send_for_Credit_Collection', 'Appeal_to_Judge')",3,0.4443655266684976,57.32315294023619,129,0.8959537572254339
+IMf20_,AlignmentEstimator,"('Send_for_Credit_Collection', 'Appeal_to_Judge')",4,0.3801917443524491,96.94889480987453,255,0.8959537572254339
+Alpha+_,BillClintonEstimator,"('Send_for_Credit_Collection', 'Appeal_to_Judge')",1,1.6434602192104412e-32,9.860761315262646e-32,6,1.0000000000000002
+Alpha+_,BillClintonEstimator,"('Send_for_Credit_Collection', 'Appeal_to_Judge')",2,7.043400939473319e-33,1.479114197289397e-31,21,1.0000000000000002
+Alpha+_,BillClintonEstimator,"('Send_for_Credit_Collection', 'Appeal_to_Judge')",3,7.215191206289742e-33,2.9582283945787943e-31,41,1.0000000000000002
+Alpha+_,BillClintonEstimator,"('Send_for_Credit_Collection', 'Appeal_to_Judge')",4,6.162975822039155e-33,3.4512664603419266e-31,56,1.0000000000000002
+Alpha+_,AlignmentEstimator,"('Send_for_Credit_Collection', 'Appeal_to_Judge')",1,0.0,0.0,0,0.0
+Alpha+_,AlignmentEstimator,"('Send_for_Credit_Collection', 'Appeal_to_Judge')",2,0.0,0.0,0,0.0
+Alpha+_,AlignmentEstimator,"('Send_for_Credit_Collection', 'Appeal_to_Judge')",3,0.0,0.0,0,0.0
+Alpha+_,AlignmentEstimator,"('Send_for_Credit_Collection', 'Appeal_to_Judge')",4,0.0,0.0,0,0.0
+IM_,BillClintonEstimator,"('Send_for_Credit_Collection', 'Appeal_to_Judge')",1,0.12491504082843037,1.1242353674558734,9,0.9999830548683365
+IM_,AlignmentEstimator,"('Send_for_Credit_Collection', 'Appeal_to_Judge')",1,0.02306128431468368,0.20755155883215312,9,0.39245195185209825
+Flower_,BillClintonEstimator,"('Send_for_Credit_Collection', 'Appeal_to_Judge')",1,0.07364600914662253,0.6628140823196028,9,0.21020854149190257
+Flower_,BillClintonEstimator,"('Send_for_Credit_Collection', 'Appeal_to_Judge')",2,0.02271054218019759,1.0219743981088916,45,0.31531281223785385
+Flower_,BillClintonEstimator,"('Send_for_Credit_Collection', 'Appeal_to_Judge')",3,0.009176289157217415,1.1837413012810465,129,0.4204170829838052
+Flower_,BillClintonEstimator,"('Send_for_Credit_Collection', 'Appeal_to_Judge')",4,0.00485499603228075,1.2380239882315913,255,0.5255213537297565
+Flower_,AlignmentEstimator,"('Send_for_Credit_Collection', 'Appeal_to_Judge')",1,0.036650795508311185,0.32985715957480066,9,0.16580411328388403
+Flower_,AlignmentEstimator,"('Send_for_Credit_Collection', 'Appeal_to_Judge')",2,0.009999693260170391,0.4499861967076676,45,0.24870616992582606
+Flower_,AlignmentEstimator,"('Send_for_Credit_Collection', 'Appeal_to_Judge')",3,0.0037591868640147468,0.48493510545790236,129,0.33160822656776817
+Flower_,AlignmentEstimator,"('Send_for_Credit_Collection', 'Appeal_to_Judge')",4,0.001930960406473376,0.49239490365071087,255,0.4145102832097102

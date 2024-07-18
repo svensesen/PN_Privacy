@@ -1,0 +1,193 @@
+Sensitive Activity,Background Size,Function,Background Odds,Percentage,Absolute,Confidence Privacy
+Send for Credit Collection,1,basic,True,True,True,0.17238354353332577
+Send for Credit Collection,1,basic,True,True,False,0.12462791780275322
+Send for Credit Collection,1,basic,True,False,True,0.06765225812683483
+Send for Credit Collection,1,basic,True,False,False,0.048910469596953346
+Send for Credit Collection,1,basic,False,True,True,0.5572167970225628
+Send for Credit Collection,1,basic,False,True,False,0.22118863607686076
+Send for Credit Collection,1,basic,False,False,True,0.2186808195962791
+Send for Credit Collection,1,basic,False,False,False,0.08680591195586741
+Send for Credit Collection,1,quadratic,True,True,True,0.07187958753821302
+Send for Credit Collection,1,quadratic,True,True,False,0.05349002547943531
+Send for Credit Collection,1,quadratic,True,False,True,0.011070788734000074
+Send for Credit Collection,1,quadratic,True,False,False,0.008238455335380066
+Send for Credit Collection,1,quadratic,False,True,True,0.4191237863206377
+Send for Credit Collection,1,quadratic,False,True,False,0.17580530013163753
+Send for Credit Collection,1,quadratic,False,False,True,0.06455283134844385
+Send for Credit Collection,1,quadratic,False,False,False,0.02707727468580882
+Send for Credit Collection,1,cubic,True,True,True,0.031375929302204744
+Send for Credit Collection,1,cubic,True,True,False,0.02355536635860387
+Send for Credit Collection,1,cubic,True,False,True,0.0018965141087051974
+Send for Credit Collection,1,cubic,True,False,False,0.0014238011631315384
+Send for Credit Collection,1,cubic,False,True,True,0.3442996404670474
+Send for Credit Collection,1,cubic,False,True,False,0.1465301145619543
+Send for Credit Collection,1,cubic,False,False,True,0.020811148555271608
+Send for Credit Collection,1,cubic,False,False,False,0.008856994383825562
+Send for Credit Collection,2,basic,True,True,True,0.09740508590780833
+Send for Credit Collection,2,basic,True,True,False,0.07089615312532117
+Send for Credit Collection,2,basic,True,False,True,0.038226816084840666
+Send for Credit Collection,2,basic,True,False,False,0.02782333367283752
+Send for Credit Collection,2,basic,False,True,True,0.599079387079283
+Send for Credit Collection,2,basic,False,True,False,0.12859151003846778
+Send for Credit Collection,2,basic,False,False,True,0.2351098747736233
+Send for Credit Collection,2,basic,False,False,False,0.05046598910620535
+Send for Credit Collection,2,quadratic,True,True,True,0.03878418064701827
+Send for Credit Collection,2,quadratic,True,True,False,0.031444187920591386
+Send for Credit Collection,2,quadratic,True,False,True,0.005973482665522654
+Send for Credit Collection,2,quadratic,True,False,False,0.004842987742465818
+Send for Credit Collection,2,quadratic,False,True,True,0.4520532527544384
+Send for Credit Collection,2,quadratic,False,True,False,0.10644999573784632
+Send for Credit Collection,2,quadratic,False,False,True,0.06962457951085708
+Send for Credit Collection,2,quadratic,False,False,False,0.016395272342407258
+Send for Credit Collection,2,cubic,True,True,True,0.017096781836571026
+Send for Credit Collection,2,cubic,True,True,False,0.014189352061426058
+Send for Credit Collection,2,cubic,True,False,True,0.001033412832308789
+Send for Credit Collection,2,cubic,True,False,False,0.0008576736044592237
+Send for Credit Collection,2,cubic,False,True,True,0.37285393549819096
+Send for Credit Collection,2,cubic,False,True,False,0.09082614363861145
+Send for Credit Collection,2,cubic,False,False,True,0.022537109334603445
+Send for Credit Collection,2,cubic,False,False,False,0.005489974852722767
+Send for Credit Collection,3,basic,True,True,True,0.047621668278237834
+Send for Credit Collection,3,basic,True,True,False,0.032999591483863604
+Send for Credit Collection,3,basic,True,False,True,0.018689216666247583
+Send for Credit Collection,3,basic,True,False,False,0.012950754088164148
+Send for Credit Collection,3,basic,False,True,True,0.6228803124089617
+Send for Credit Collection,3,basic,False,True,False,0.06059550567364046
+Send for Credit Collection,3,basic,False,False,True,0.24445059437514155
+Send for Credit Collection,3,basic,False,False,False,0.02378082447508508
+Send for Credit Collection,3,quadratic,True,True,True,0.017602124842814752
+Send for Credit Collection,3,quadratic,True,True,False,0.014908210116329252
+Send for Credit Collection,3,quadratic,True,False,True,0.0027110534725967735
+Send for Credit Collection,3,quadratic,True,False,False,0.00229614067432178
+Send for Credit Collection,3,quadratic,False,True,True,0.48425211758602255
+Send for Credit Collection,3,quadratic,False,True,False,0.051273951140075866
+Send for Credit Collection,3,quadratic,False,False,True,0.07458380148518444
+Send for Credit Collection,3,quadratic,False,False,False,0.00789713881326112
+Send for Credit Collection,3,cubic,True,True,True,0.00776524796453368
+Send for Credit Collection,3,cubic,True,True,False,0.006816135685639472
+Send for Credit Collection,3,cubic,True,False,True,0.0004693694386064797
+Send for Credit Collection,3,cubic,True,False,False,0.00041200046603100576
+Send for Credit Collection,3,cubic,False,True,True,0.4098724043532268
+Send for Credit Collection,3,cubic,False,True,False,0.04427744025887441
+Send for Credit Collection,3,cubic,False,False,True,0.024774686038389133
+Send for Credit Collection,3,cubic,False,False,False,0.0026763443192232774
+Send for Credit Collection,4,basic,True,True,True,0.0254148785732351
+Send for Credit Collection,4,basic,True,True,False,0.016217762419797395
+Send for Credit Collection,4,basic,True,False,True,0.00997411870215023
+Send for Credit Collection,4,basic,True,False,False,0.0063646925163230944
+Send for Credit Collection,4,basic,False,True,True,0.6574938822844293
+Send for Credit Collection,4,basic,False,True,False,0.029836710657350437
+Send for Credit Collection,4,basic,False,False,True,0.2580347574333381
+Send for Credit Collection,4,basic,False,False,False,0.011709475334323476
+Send for Credit Collection,4,quadratic,True,True,True,0.008685548610324959
+Send for Credit Collection,4,quadratic,True,True,False,0.007347567218282836
+Send for Credit Collection,4,quadratic,True,False,True,0.0013377354683995145
+Send for Credit Collection,4,quadratic,True,False,False,0.0011316615351921672
+Send for Credit Collection,4,quadratic,False,True,True,0.5310065516598089
+Send for Credit Collection,4,quadratic,False,True,False,0.025331141222068074
+Send for Credit Collection,4,quadratic,False,False,True,0.08178485090319126
+Send for Credit Collection,4,quadratic,False,False,False,0.0039014652485526496
+Send for Credit Collection,4,cubic,True,True,True,0.0038068225380186007
+Send for Credit Collection,4,cubic,True,True,False,0.0033660417932182504
+Send for Credit Collection,4,cubic,True,False,True,0.00023010291051943084
+Send for Credit Collection,4,cubic,True,False,False,0.00020345997372199528
+Send for Credit Collection,4,cubic,False,True,True,0.4624378929178604
+Send for Credit Collection,4,cubic,False,True,False,0.02191384566648797
+Send for Credit Collection,4,cubic,False,False,True,0.027952000397228078
+Send for Credit Collection,4,cubic,False,False,False,0.0013245796509224776
+Appeal to Judge,1,basic,True,True,True,0.25190465919800226
+Appeal to Judge,1,basic,True,True,False,0.23872959013412562
+Appeal to Judge,1,basic,True,False,True,0.0009297538462119522
+Appeal to Judge,1,basic,True,False,False,0.0008811260392660751
+Appeal to Judge,1,basic,False,True,True,11.82621438971925
+Appeal to Judge,1,basic,False,True,False,11.792876566752184
+Appeal to Judge,1,basic,False,False,True,0.04364932490719016
+Appeal to Judge,1,basic,False,False,False,0.043526278476740454
+Appeal to Judge,1,quadratic,True,True,True,0.0856781929748138
+Appeal to Judge,1,quadratic,True,True,False,0.0840924405716735
+Appeal to Judge,1,quadratic,True,False,True,1.1671693249120534e-06
+Appeal to Judge,1,quadratic,True,False,False,1.1455670770402408e-06
+Appeal to Judge,1,quadratic,False,True,True,464.22707947259676
+Appeal to Judge,1,quadratic,False,True,False,464.2167901674803
+Appeal to Judge,1,quadratic,False,False,True,0.006324031683455361
+Appeal to Judge,1,quadratic,False,False,False,0.0063238915152178015
+Appeal to Judge,1,cubic,True,True,True,0.03085413449638299
+Appeal to Judge,1,cubic,True,True,False,0.030655096569890072
+Appeal to Judge,1,cubic,True,False,True,1.5513461724473136e-09
+Appeal to Judge,1,cubic,True,False,False,1.5413385436326783e-09
+Appeal to Judge,1,cubic,False,True,True,20920.85751409263
+Appeal to Judge,1,cubic,False,True,False,20920.854221347367
+Appeal to Judge,1,cubic,False,False,True,0.0010519009124241665
+Appeal to Judge,1,cubic,False,False,False,0.0010519007468649036
+Appeal to Judge,2,basic,True,True,True,0.2447323084085736
+Appeal to Judge,2,basic,True,True,False,0.23301985596326222
+Appeal to Judge,2,basic,True,False,True,0.0009032814468760945
+Appeal to Judge,2,basic,True,False,False,0.0008600520054506253
+Appeal to Judge,2,basic,False,True,True,18.389557510923066
+Appeal to Judge,2,basic,False,True,False,18.35567293313403
+Appeal to Judge,2,basic,False,False,True,0.06787394040408526
+Appeal to Judge,2,basic,False,False,False,0.06774887595856477
+Appeal to Judge,2,quadratic,True,True,True,0.0770143660572144
+Appeal to Judge,2,quadratic,True,True,False,0.07557451268977285
+Appeal to Judge,2,quadratic,True,False,True,1.0491445082875718e-06
+Appeal to Judge,2,quadratic,True,False,False,1.0295298009215667e-06
+Appeal to Judge,2,quadratic,False,True,True,696.2006757283641
+Appeal to Judge,2,quadratic,False,True,False,696.1903236632719
+Appeal to Judge,2,quadratic,False,False,True,0.009484141115488507
+Appeal to Judge,2,quadratic,False,False,False,0.00948400009228989
+Appeal to Judge,2,cubic,True,True,True,0.026087657789597315
+Appeal to Judge,2,cubic,True,True,False,0.02590672512929523
+Appeal to Judge,2,cubic,True,False,True,1.3116876788344693e-09
+Appeal to Judge,2,cubic,True,False,False,1.3025903829740638e-09
+Appeal to Judge,2,cubic,False,True,True,30236.009872720013
+Appeal to Judge,2,cubic,False,True,False,30236.00664237969
+Appeal to Judge,2,cubic,False,False,True,0.0015202668605603634
+Appeal to Judge,2,cubic,False,False,False,0.0015202666981388216
+Appeal to Judge,3,basic,True,True,True,0.2036114613554262
+Appeal to Judge,3,basic,True,True,False,0.19554109798147834
+Appeal to Judge,3,basic,True,False,True,0.0007515086855906202
+Appeal to Judge,3,basic,True,False,False,0.0007217218153868489
+Appeal to Judge,3,basic,False,True,True,22.001278426223177
+Appeal to Judge,3,basic,False,True,False,21.951403196188895
+Appeal to Judge,3,basic,False,False,True,0.08120442592640717
+Appeal to Judge,3,basic,False,False,False,0.08102034164982924
+Appeal to Judge,3,quadratic,True,True,True,0.05896544832620003
+Appeal to Judge,3,quadratic,True,True,False,0.05797020341871099
+Appeal to Judge,3,quadratic,True,False,True,8.032693049007079e-07
+Appeal to Judge,3,quadratic,True,False,False,7.89711370419788e-07
+Appeal to Judge,3,quadratic,False,True,True,809.2058089022815
+Appeal to Judge,3,quadratic,False,True,False,809.174909996388
+Appeal to Judge,3,quadratic,False,False,True,0.011023577469345439
+Appeal to Judge,3,quadratic,False,False,False,0.01102315654245751
+Appeal to Judge,3,cubic,True,True,True,0.01877159940977812
+Appeal to Judge,3,cubic,True,True,False,0.018646499720715963
+Appeal to Judge,3,cubic,True,False,True,9.43836194740366e-10
+Appeal to Judge,3,cubic,True,False,False,9.375461811986255e-10
+Appeal to Judge,3,cubic,False,True,True,34112.820956548014
+Appeal to Judge,3,cubic,False,True,False,34112.79565727925
+Appeal to Judge,3,cubic,False,False,True,0.0017151929582897602
+Appeal to Judge,3,cubic,False,False,False,0.0017151916862422887
+Appeal to Judge,4,basic,True,True,True,0.16553298929836774
+Appeal to Judge,4,basic,True,True,False,0.1605044027003192
+Appeal to Judge,4,basic,True,False,True,0.0006109650133709811
+Appeal to Judge,4,basic,True,False,False,0.000592405024264663
+Appeal to Judge,4,basic,False,True,True,23.07035553905418
+Appeal to Judge,4,basic,False,True,False,22.9835441650969
+Appeal to Judge,4,basic,False,False,True,0.08515027814175107
+Appeal to Judge,4,basic,False,False,False,0.08482986640705469
+Appeal to Judge,4,quadratic,True,True,True,0.044495306398856224
+Appeal to Judge,4,quadratic,True,True,False,0.04387836596849658
+Appeal to Judge,4,quadratic,True,False,True,6.061467326531327e-07
+Appeal to Judge,4,quadratic,True,False,False,5.977423310123849e-07
+Appeal to Judge,4,quadratic,False,True,True,825.3866054348525
+Appeal to Judge,4,quadratic,False,True,False,825.3134870231852
+Appeal to Judge,4,quadratic,False,False,True,0.011244003796158976
+Appeal to Judge,4,quadratic,False,False,False,0.011243007725114267
+Appeal to Judge,4,cubic,True,True,True,0.013485730362935157
+Appeal to Judge,4,cubic,True,True,False,0.0134081892341251
+Appeal to Judge,4,cubic,True,False,True,6.780626493881606e-10
+Appeal to Judge,4,cubic,True,False,False,6.741638807028532e-10
+Appeal to Judge,4,cubic,False,True,True,33922.82677595223
+Appeal to Judge,4,cubic,False,True,False,33922.75758815899
+Appeal to Judge,4,cubic,False,False,True,0.0017056400491038252
+Appeal to Judge,4,cubic,False,False,False,0.0017056365703409316
